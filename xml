@@ -1,0 +1,37 @@
+<!-- /images/zc-logo.svg -->
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g filter="url(#glow)">
+    <!-- Z -->
+    <path d="M29 34H73.5L42.5 80H78"
+          stroke="#F5F7FB"
+          stroke-width="6"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+    <!-- serif hints for Z -->
+    <path d="M29 34V41" stroke="#F5F7FB" stroke-width="4.2" stroke-linecap="round"/>
+    <path d="M78 80V73" stroke="#F5F7FB" stroke-width="4.2" stroke-linecap="round"/>
+
+    <!-- C -->
+    <path d="M80 43
+             C72 39, 61 41, 54 49
+             C46 58, 46 71, 54 80
+             C61 88, 72 90, 80 86"
+          stroke="#F5F7FB"
+          stroke-width="6"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <!-- little inner serif bridge -->
+    <path d="M70 58H89" stroke="#F5F7FB" stroke-width="4.2" stroke-linecap="round"/>
+  </g>
+</svg>
