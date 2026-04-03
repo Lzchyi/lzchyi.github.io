@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Zhen Chyi Apps</title>
-  <meta name="description" content="Simple apps. Thoughtful experiences." />
+  <meta name="description" content="Zhen Chyi Apps" />
   <link rel="icon" type="image/svg+xml" href="/images/zc-logo.svg" />
   <style>
     :root {
@@ -120,12 +120,17 @@
 
     .hero {
       padding: 82px 0 42px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 22px;
+      min-height: 260px;
     }
 
     .hero-logo {
       width: 92px;
       height: 92px;
-      margin-bottom: 18px;
       opacity: 0.96;
     }
 
@@ -138,24 +143,7 @@
               drop-shadow(0 0 26px rgba(138,180,255,0.08));
     }
 
-    h1 {
-      margin: 0 0 14px;
-      font-size: clamp(42px, 8vw, 82px);
-      line-height: 0.98;
-      letter-spacing: -0.06em;
-      max-width: 860px;
-    }
-
-    .hero-sub {
-      margin: 0;
-      max-width: 640px;
-      font-size: clamp(17px, 2.3vw, 20px);
-      line-height: 1.6;
-      color: var(--muted);
-    }
-
     .hero-actions {
-      margin-top: 26px;
       display: flex;
       flex-wrap: wrap;
       gap: 14px;
@@ -478,15 +466,12 @@
       </div>
     </div>
   </nav>
-  
+
   <main id="top" class="wrap">
     <section class="hero">
       <div class="hero-logo">
+        <img src="/images/zc-logo.svg" alt="ZC monogram" />
       </div>
-
-
-      <h1>Simple apps.<br />Thoughtful experiences.</h1>
-      <p class="hero-sub">Built to feel right.</p>
 
       <div class="hero-actions">
         <a class="button primary" href="#apps">Explore</a>
