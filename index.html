@@ -10,19 +10,24 @@
     :root {
       --bg: #06070a;
       --bg-top: #0a0d14;
-      --card: rgba(255,255,255,0.06);
-      --card-border: rgba(255,255,255,0.12);
+      --card: rgba(255,255,255,0.055);
+      --card-border: rgba(255,255,255,0.11);
+      --card-border-strong: rgba(255,255,255,0.16);
       --text: #f5f7fb;
       --muted: #a6afbd;
       --line: rgba(255,255,255,0.08);
       --accent: #8ab4ff;
       --accent-soft: rgba(138,180,255,0.14);
-      --shadow: 0 20px 60px rgba(0,0,0,0.45);
+      --shadow: 0 24px 60px rgba(0,0,0,0.42);
+      --shadow-hover: 0 28px 80px rgba(0,0,0,0.5);
       --radius: 28px;
       --max: 1180px;
+      --ease: cubic-bezier(0.22, 1, 0.36, 1);
     }
 
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
 
     html {
       scroll-behavior: smooth;
@@ -33,12 +38,13 @@
       font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", sans-serif;
       color: var(--text);
       background:
-        radial-gradient(circle at top left, rgba(91,122,255,0.14), transparent 28%),
-        radial-gradient(circle at top right, rgba(89,204,255,0.08), transparent 24%),
+        radial-gradient(circle at top left, rgba(91,122,255,0.13), transparent 28%),
+        radial-gradient(circle at top right, rgba(89,204,255,0.07), transparent 24%),
         radial-gradient(circle at 50% 8%, rgba(255,255,255,0.03), transparent 18%),
         linear-gradient(180deg, #0a0d14 0%, #06070a 48%, #040507 100%);
       min-height: 100vh;
       letter-spacing: -0.01em;
+      overflow-x: hidden;
     }
 
     a {
@@ -47,17 +53,19 @@
     }
 
     .wrap {
-      width: min(calc(100% - 32px), var(--max));
+      width: min(calc(100% - 40px), var(--max));
       margin: 0 auto;
     }
 
     .nav {
       position: sticky;
       top: 0;
-      z-index: 20;
+      z-index: 30;
       backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
       background: rgba(6, 7, 10, 0.58);
-      border-bottom: 1px solid rgba(255,255,255,0.06);
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      transition: background 0.35s var(--ease), border-color 0.35s var(--ease);
     }
 
     .nav-inner {
@@ -72,6 +80,11 @@
       display: flex;
       align-items: center;
       gap: 14px;
+      transition: transform 0.35s var(--ease), opacity 0.35s var(--ease);
+    }
+
+    .brand:hover {
+      transform: translateY(-1px);
     }
 
     .brand-mark {
@@ -88,8 +101,9 @@
       height: 100%;
       display: block;
       object-fit: contain;
-      filter: drop-shadow(0 0 16px rgba(255,255,255,0.06))
-              drop-shadow(0 0 18px rgba(138,180,255,0.07));
+      filter:
+        drop-shadow(0 0 16px rgba(255,255,255,0.05))
+        drop-shadow(0 0 18px rgba(138,180,255,0.06));
     }
 
     .brand-name {
@@ -110,78 +124,28 @@
       font-size: 14px;
       padding: 10px 14px;
       border-radius: 999px;
-      transition: 0.25s ease;
+      transition:
+        color 0.28s var(--ease),
+        background 0.28s var(--ease),
+        transform 0.28s var(--ease);
     }
 
     .nav-links a:hover {
       color: var(--text);
       background: rgba(255,255,255,0.05);
-    }
-
-    .hero {
-      padding: 82px 0 42px;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: center;
-      gap: 22px;
-      min-height: 260px;
-    }
-
-    .hero-logo {
-      width: 92px;
-      height: 92px;
-      opacity: 0.96;
-    }
-
-    .hero-logo img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      display: block;
-      filter: drop-shadow(0 0 28px rgba(255,255,255,0.05))
-              drop-shadow(0 0 26px rgba(138,180,255,0.08));
-    }
-
-    .hero-actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 14px;
-    }
-
-    .button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      padding: 14px 18px;
-      border-radius: 999px;
-      border: 1px solid transparent;
-      font-weight: 600;
-      transition: 0.25s ease;
-    }
-
-    .button.primary {
-      background: linear-gradient(180deg, #f5f7fb, #dce5f3);
-      color: #05070b;
-      box-shadow: 0 14px 34px rgba(255,255,255,0.12);
-    }
-
-    .button.secondary {
-      background: rgba(255,255,255,0.04);
-      border-color: var(--line);
-      color: var(--text);
-    }
-
-    .button:hover {
       transform: translateY(-1px);
     }
 
+    .hero {
+      padding: 54px 0 26px;
+      min-height: auto;
+    }
+
     .panel {
-      margin-top: 34px;
       display: grid;
-      grid-template-columns: 1.3fr 0.7fr;
+      grid-template-columns: 2fr 1fr;
       gap: 18px;
+      align-items: start;
     }
 
     .hero-card,
@@ -193,92 +157,81 @@
       border-radius: var(--radius);
       box-shadow: var(--shadow);
       backdrop-filter: blur(12px);
-    }
-
-    .hero-card {
-      padding: 28px;
-      min-height: 340px;
+      -webkit-backdrop-filter: blur(12px);
+      transition:
+        transform 0.45s var(--ease),
+        border-color 0.35s var(--ease),
+        box-shadow 0.45s var(--ease),
+        background 0.35s var(--ease);
       position: relative;
       overflow: hidden;
     }
 
-    .hero-card::before {
+    .hero-card:hover,
+    .side-card:hover,
+    .app-card:hover {
+      transform: translateY(-3px);
+      border-color: var(--card-border-strong);
+      box-shadow: var(--shadow-hover);
+    }
+
+    .hero-card::before,
+    .side-card::before,
+    .app-card::before {
       content: "";
       position: absolute;
-      inset: auto -70px -70px auto;
-      width: 240px;
-      height: 240px;
-      border-radius: 50%;
-      background: radial-gradient(circle, rgba(138,180,255,0.28), transparent 70%);
-      filter: blur(14px);
+      inset: 0;
+      background:
+        linear-gradient(
+          135deg,
+          rgba(255,255,255,0.05) 0%,
+          rgba(255,255,255,0.015) 28%,
+          rgba(255,255,255,0) 56%
+        );
+      pointer-events: none;
+    }
+
+    .hero-card {
+      padding: 24px;
+      min-height: 100%;
     }
 
     .hero-card::after {
       content: "";
       position: absolute;
-      inset: -40px auto auto -40px;
-      width: 200px;
-      height: 200px;
+      inset: auto -90px -90px auto;
+      width: 260px;
+      height: 260px;
       border-radius: 50%;
-      background: radial-gradient(circle, rgba(255,255,255,0.04), transparent 70%);
-      filter: blur(22px);
+      background: radial-gradient(circle, rgba(138,180,255,0.22), transparent 70%);
+      filter: blur(18px);
       pointer-events: none;
-    }
-
-    .mock-grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 14px;
-      margin-top: 18px;
-    }
-
-    .mock {
-      min-height: 120px;
-      border-radius: 22px;
-      border: 1px solid rgba(255,255,255,0.10);
-      background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.03));
-      padding: 14px;
-    }
-
-    .mock.small {
-      min-height: 90px;
-    }
-
-    .mock-title {
-      font-size: 13px;
-      color: var(--muted);
-      margin-bottom: 8px;
-    }
-
-    .mock-line {
-      height: 10px;
-      border-radius: 999px;
-      background: rgba(255,255,255,0.08);
-      margin-bottom: 8px;
     }
 
     .side-stack {
       display: grid;
-      gap: 18px;
+      gap: 12px;
     }
 
     .side-card {
-      padding: 20px;
-      min-height: 150px;
-      position: relative;
-      overflow: hidden;
+      padding: 18px 20px;
+      min-height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
     }
 
-    .side-card::before {
+    .side-card::after {
       content: "";
       position: absolute;
-      right: -30px;
-      bottom: -30px;
-      width: 120px;
-      height: 120px;
+      right: -24px;
+      bottom: -24px;
+      width: 110px;
+      height: 110px;
       border-radius: 50%;
       background: radial-gradient(circle, rgba(138,180,255,0.12), transparent 70%);
       filter: blur(16px);
+      pointer-events: none;
     }
 
     .side-label {
@@ -287,17 +240,80 @@
       margin-bottom: 10px;
       text-transform: uppercase;
       letter-spacing: 0.12em;
+      position: relative;
+      z-index: 1;
     }
 
     .side-title {
-      font-size: 22px;
-      line-height: 1.2;
-      letter-spacing: -0.03em;
-      max-width: 220px;
+      font-size: clamp(20px, 2vw, 26px);
+      line-height: 1.15;
+      letter-spacing: -0.045em;
+      max-width: 320px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .side-desc {
+    margin-top: 8px;
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.5;
+    max-width: 240px;
+}
+
+    .mock-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 18px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .mock {
+      min-height: 122px;
+      border-radius: 22px;
+      border: 1px solid rgba(255,255,255,0.09);
+      background: linear-gradient(180deg, rgba(255,255,255,0.07), rgba(255,255,255,0.028));
+      padding: 16px;
+      transition:
+        transform 0.4s var(--ease),
+        border-color 0.3s var(--ease),
+        background 0.3s var(--ease);
+    }
+
+    .mock:hover {
+      transform: translateY(-2px);
+      border-color: rgba(255,255,255,0.14);
+      background: linear-gradient(180deg, rgba(255,255,255,0.085), rgba(255,255,255,0.036));
+    }
+
+    .mock.small {
+      min-height: 100px;
+    }
+
+    .mock-title {
+      font-size: 13px;
+      color: #c7cfdb;
+      margin-bottom: 14px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+
+    .mock-line {
+      height: 10px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.08);
+      margin-bottom: 10px;
+      transition: width 0.45s var(--ease), opacity 0.35s var(--ease);
+    }
+
+    .mock:hover .mock-line {
+      opacity: 0.95;
     }
 
     section {
-      padding: 34px 0;
+      padding: 28px 0;
     }
 
     .section-head {
@@ -311,7 +327,8 @@
     .section-head h2 {
       margin: 0;
       font-size: clamp(28px, 5vw, 44px);
-      letter-spacing: -0.05em;
+      letter-spacing: -0.06em;
+      line-height: 0.95;
     }
 
     .apps-grid {
@@ -325,13 +342,7 @@
       display: flex;
       flex-direction: column;
       gap: 14px;
-      min-height: 260px;
-      transition: 0.25s ease;
-    }
-
-    .app-card:hover {
-      transform: translateY(-2px);
-      border-color: rgba(255,255,255,0.16);
+      min-height: 200px;
     }
 
     .app-top {
@@ -348,9 +359,17 @@
       display: grid;
       place-items: center;
       font-size: 22px;
-      border: 1px solid rgba(255,255,255,0.12);
-      background: linear-gradient(180deg, rgba(255,255,255,0.12), rgba(255,255,255,0.05));
+      border: 1px solid rgba(255,255,255,0.11);
+      background: linear-gradient(180deg, rgba(255,255,255,0.11), rgba(255,255,255,0.045));
       box-shadow: inset 0 1px 0 rgba(255,255,255,0.04);
+      transition:
+        transform 0.35s var(--ease),
+        border-color 0.35s var(--ease);
+    }
+
+    .app-card:hover .app-icon {
+      transform: translateY(-1px) scale(1.02);
+      border-color: rgba(255,255,255,0.16);
     }
 
     .pill {
@@ -361,12 +380,20 @@
       background: var(--accent-soft);
       border: 1px solid rgba(138,180,255,0.18);
       letter-spacing: 0.02em;
+      transition:
+        transform 0.3s var(--ease),
+        background 0.3s var(--ease);
+    }
+
+    .app-card:hover .pill {
+      transform: translateY(-1px);
     }
 
     .app-card h3 {
       margin: 0;
       font-size: 26px;
-      letter-spacing: -0.04em;
+      letter-spacing: -0.045em;
+      line-height: 1;
     }
 
     .app-desc {
@@ -386,10 +413,14 @@
       font-weight: 600;
       color: var(--text);
       opacity: 0.92;
+      transition:
+        opacity 0.25s var(--ease),
+        transform 0.25s var(--ease);
     }
 
     .text-link:hover {
       opacity: 1;
+      transform: translateY(-1px);
     }
 
     .footer {
@@ -410,16 +441,66 @@
       font-size: 13px;
     }
 
+    .reveal {
+      opacity: 0;
+      transform: translateY(18px);
+      transition:
+        opacity 0.8s var(--ease),
+        transform 0.8s var(--ease);
+      will-change: opacity, transform;
+    }
+
+    .reveal.in-view {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .delay-1 { transition-delay: 0.06s; }
+    .delay-2 { transition-delay: 0.12s; }
+    .delay-3 { transition-delay: 0.18s; }
+    .delay-4 { transition-delay: 0.24s; }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        animation: none !important;
+        transition: none !important;
+      }
+
+      .reveal,
+      .reveal.in-view {
+        opacity: 1 !important;
+        transform: none !important;
+      }
+    }
+
     @media (max-width: 980px) {
       .panel,
       .apps-grid {
         grid-template-columns: 1fr;
       }
+
+      .hero {
+        padding-top: 40px;
+      }
+
+      .side-stack {
+        gap: 14px;
+      }
+
+      .side-card {
+        min-height: auto;
+      }
     }
 
     @media (max-width: 720px) {
-      .hero {
-        padding-top: 46px;
+      .wrap {
+        width: min(calc(100% - 24px), var(--max));
       }
 
       .nav-inner {
@@ -443,9 +524,16 @@
         align-items: flex-start;
       }
 
-      .hero-logo {
-        width: 76px;
-        height: 76px;
+      .hero {
+        padding-top: 28px;
+      }
+
+      .hero-card {
+        padding: 20px;
+      }
+
+      .app-card {
+        min-height: auto;
       }
     }
   </style>
@@ -468,17 +556,9 @@
   </nav>
 
   <main id="top" class="wrap">
-    <section class="hero">
-      <div class="hero-logo">
-        <img src="/images/zc-logo.svg" alt="ZC monogram" />
-      </div>
-
-      <div class="hero-actions">
-        <a class="button primary" href="#apps">Explore</a>
-      </div>
-
+    <section class="hero reveal">
       <div class="panel">
-        <div class="hero-card">
+        <div class="hero-card reveal delay-1">
           <div class="side-label">Collection</div>
           <div class="side-title">A small ecosystem of focused apps.</div>
 
@@ -488,15 +568,18 @@
               <div class="mock-line" style="width: 70%;"></div>
               <div class="mock-line" style="width: 50%;"></div>
             </div>
+
             <div class="mock">
               <div class="mock-title">IsoPack</div>
               <div class="mock-line" style="width: 80%;"></div>
               <div class="mock-line" style="width: 60%;"></div>
             </div>
+
             <div class="mock small">
               <div class="mock-title">CarSense</div>
               <div class="mock-line" style="width: 65%;"></div>
             </div>
+
             <div class="mock small">
               <div class="mock-title">Privacy</div>
               <div class="mock-line" style="width: 75%;"></div>
@@ -504,26 +587,29 @@
           </div>
         </div>
 
-        <div class="side-stack">
+        <div class="side-stack reveal delay-2">
           <div class="side-card">
             <div class="side-label">Principle</div>
             <div class="side-title">Minimal. Intentional.</div>
+            <div class="side-desc">Simple on the surface. Thoughtful underneath.</div>
           </div>
+
           <div class="side-card">
             <div class="side-label">Focus</div>
             <div class="side-title">Feel matters.</div>
+            <div class="side-desc">It should feel right. Not just work.</div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="apps">
+    <section id="apps" class="reveal">
       <div class="section-head">
         <h2>Apps</h2>
       </div>
 
       <div class="apps-grid">
-        <div class="app-card">
+        <div class="app-card reveal delay-1">
           <div class="app-top">
             <div class="app-icon">🌙</div>
             <div class="pill">Atmosphere</div>
@@ -536,7 +622,7 @@
           </div>
         </div>
 
-        <div class="app-card">
+        <div class="app-card reveal delay-2">
           <div class="app-top">
             <div class="app-icon">🧳</div>
             <div class="pill">Utility</div>
@@ -549,7 +635,7 @@
           </div>
         </div>
 
-        <div class="app-card">
+        <div class="app-card reveal delay-3">
           <div class="app-top">
             <div class="app-icon">🚗</div>
             <div class="pill">Lifestyle</div>
@@ -564,23 +650,23 @@
       </div>
     </section>
 
-    <section id="privacy">
+    <section id="privacy" class="reveal">
       <div class="section-head">
         <h2>Privacy</h2>
       </div>
 
       <div class="apps-grid">
-        <div class="app-card">
+        <div class="app-card reveal delay-1">
           <h3>Per-app policies</h3>
           <div class="app-desc">Each app has its own privacy page.</div>
         </div>
 
-        <div class="app-card">
+        <div class="app-card reveal delay-2">
           <h3>Public & simple</h3>
           <div class="app-desc">No login. Easy access.</div>
         </div>
 
-        <div class="app-card">
+        <div class="app-card reveal delay-3">
           <h3>Contact</h3>
           <div class="app-desc">hello@zhenchyi.com</div>
         </div>
@@ -589,10 +675,30 @@
   </main>
 
   <footer class="footer wrap">
-    <div class="footer-card">
+    <div class="footer-card reveal">
       <div class="footer-copy">Zhen Chyi Apps</div>
       <div class="footer-copy">© 2026</div>
     </div>
   </footer>
+
+  <script>
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in-view');
+          }
+        });
+      },
+      {
+        threshold: 0.12,
+        rootMargin: "0px 0px -40px 0px"
+      }
+    );
+
+    document.querySelectorAll('.reveal').forEach((el) => {
+      observer.observe(el);
+    });
+  </script>
 </body>
 </html>
