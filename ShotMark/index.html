@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShotMark — Remember why you saved it.</title>
+  <meta name="description" content="ShotMark helps you save important screenshots together with quick voice notes, so you can remember what mattered without typing everything out." />
+  <link rel="icon" type="image/svg+xml" href="/images/zc-logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg:          #050507;
+      --text:        #f0eef5;
+      --soft:        #c0b8cc;
+      --muted:       #7a7288;
+      --line:        rgba(255,255,255,0.07);
+      --card:        rgba(255,255,255,0.045);
+      --card-hover:  rgba(255,255,255,0.07);
+      --card-border: rgba(255,255,255,0.09);
+      --card-strong: rgba(255,255,255,0.15);
+      /* ShotMark brand — warm purple to peach */
+      --accent:      #c4a4f0;
+      --accent-warm: #f0c09a;
+      --accent-glow: rgba(196,164,240,0.18);
+      --radius-xl:   32px;
+      --radius-lg:   24px;
+      --ease:        cubic-bezier(0.22,1,0.36,1);
+      --max:         1080px;
+    }
+    *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+    html { scroll-behavior:smooth; }
+    body {
+      font-family:'DM Sans',-apple-system,sans-serif;
+      background:var(--bg); color:var(--text);
+      min-height:100vh; overflow-x:hidden;
+      letter-spacing:-0.01em; -webkit-font-smoothing:antialiased;
+    }
+    a { color:inherit; text-decoration:none; }
+
+    /* Ambient warm glow in background */
+    body::before {
+      content:''; position:fixed; inset:0; pointer-events:none; z-index:0;
+      background:
+        radial-gradient(ellipse at 20% 0%, rgba(160,100,220,0.1), transparent 40%),
+        radial-gradient(ellipse at 80% 0%, rgba(240,160,100,0.07), transparent 35%),
+        radial-gradient(ellipse at 50% 100%, rgba(140,80,200,0.05), transparent 45%);
+    }
+
+    /* ── Nav ── */
+    .nav {
+      position:fixed; top:0; left:0; right:0; z-index:100;
+      padding:0 max(24px, calc((100% - var(--max)) / 2));
+      border-bottom:1px solid var(--line);
+      background:rgba(5,5,7,0.72);
+      backdrop-filter:blur(20px); -webkit-backdrop-filter:blur(20px);
+    }
+    .nav-inner {
+      display:flex; align-items:center;
+      justify-content:space-between; padding:18px 0; gap:16px;
+    }
+    .brand { display:flex; align-items:center; gap:10px; }
+    .brand-mark { width:26px; height:26px; }
+    .brand-mark img { width:100%; height:100%; object-fit:contain; }
+    .brand-name { font-family:'DM Serif Display',serif; font-size:16px; letter-spacing:-0.025em; }
+    .nav-links { display:flex; gap:2px; }
+    .nav-links a {
+      font-size:13px; color:var(--muted); padding:7px 13px; border-radius:999px;
+      transition:color .22s var(--ease), background .22s var(--ease);
+    }
+    .nav-links a:hover { color:var(--text); background:rgba(255,255,255,0.06); }
+
+    /* ── Main ── */
+    main {
+      position:relative; z-index:1;
+      padding-top:96px;
+      width:min(calc(100% - 40px), var(--max));
+      margin:0 auto;
+    }
+
+    /* ── HERO ── */
+    .hero-section { padding-top:36px; margin-bottom:20px; }
+
+    .hero-card {
+      position:relative;
+      border-radius:var(--radius-xl);
+      border:1px solid rgba(196,164,240,0.2);
+      background:linear-gradient(150deg, rgba(40,20,65,0.65) 0%, rgba(8,6,14,0.78) 65%);
+      backdrop-filter:blur(24px); -webkit-backdrop-filter:blur(24px);
+      overflow:hidden;
+      padding:56px 60px 60px;
+      min-height:400px;
+      display:flex; flex-direction:column; justify-content:flex-end;
+      transition:border-color .4s var(--ease), transform .4s var(--ease);
+    }
+    .hero-card:hover { border-color:rgba(196,164,240,0.35); transform:translateY(-2px); }
+
+    /* Gradient blobs */
+    .hero-blob1 {
+      position:absolute; top:-80px; right:-60px;
+      width:420px; height:420px; border-radius:50%;
+      background:radial-gradient(circle, rgba(160,100,240,0.2), transparent 65%);
+      animation:breathe 7s ease-in-out infinite; pointer-events:none;
+    }
+    .hero-blob2 {
+      position:absolute; bottom:-60px; left:10%;
+      width:360px; height:360px; border-radius:50%;
+      background:radial-gradient(circle, rgba(240,160,100,0.12), transparent 65%);
+      animation:breathe 9s ease-in-out infinite reverse; pointer-events:none;
+    }
+    @keyframes breathe {
+      0%,100% { transform:scale(1) translate(0,0); }
+      50%      { transform:scale(1.08) translate(-8px,-12px); }
+    }
+
+    /* Floating app icon */
+    .hero-app-icon {
+      position:absolute; top:52px; right:60px;
+      width:88px; height:88px;
+      border-radius:22px; overflow:hidden;
+      box-shadow:0 12px 40px rgba(0,0,0,0.45), 0 0 30px rgba(160,100,240,0.22);
+      z-index:2;
+      animation:float 5s ease-in-out infinite;
+    }
+    .hero-app-icon img { width:100%; height:100%; object-fit:cover; display:block; }
+    @keyframes float {
+      0%,100% { transform:translateY(0) rotate(-1deg); }
+      50%      { transform:translateY(-10px) rotate(1deg); }
+    }
+
+    .hero-eyebrow {
+      display:flex; align-items:center; gap:10px;
+      margin-bottom:18px; position:relative; z-index:1;
+    }
+    .hero-badge {
+      font-size:11px; font-weight:500; letter-spacing:0.1em;
+      text-transform:uppercase; color:var(--accent);
+      background:rgba(196,164,240,0.1); border:1px solid rgba(196,164,240,0.22);
+      padding:5px 12px; border-radius:999px;
+    }
+    .hero-category { font-size:12px; color:var(--muted); }
+
+    .hero-title {
+      font-family:'DM Serif Display',serif;
+      font-size:clamp(42px,6.5vw,76px);
+      line-height:0.93; letter-spacing:-0.045em;
+      position:relative; z-index:1; margin-bottom:16px;
+    }
+    .hero-title em { font-style:italic; color:var(--accent); }
+
+    .hero-tagline {
+      font-size:clamp(14px,1.6vw,17px); font-weight:300;
+      color:var(--soft); max-width:460px; line-height:1.55;
+      position:relative; z-index:1; margin-bottom:34px;
+    }
+
+    .hero-actions {
+      display:flex; gap:12px; align-items:center;
+      position:relative; z-index:1;
+    }
+    .btn-primary {
+      display:inline-flex; align-items:center; gap:8px;
+      font-size:14px; font-weight:500;
+      padding:12px 24px; border-radius:999px;
+      background:linear-gradient(135deg, var(--accent), var(--accent-warm));
+      color:#180e2a;
+      transition:transform .28s var(--ease), box-shadow .28s var(--ease), filter .28s;
+      box-shadow:0 0 24px rgba(196,164,240,0.25);
+    }
+    .btn-primary:hover { transform:translateY(-2px); box-shadow:0 0 40px rgba(196,164,240,0.4); filter:brightness(1.06); }
+    .btn-ghost {
+      display:inline-flex; align-items:center;
+      font-size:13px; color:var(--muted);
+      padding:12px 18px; border-radius:999px;
+      border:1px solid var(--card-border);
+      transition:color .22s, border-color .22s, transform .22s var(--ease);
+    }
+    .btn-ghost:hover { color:var(--text); border-color:var(--card-strong); transform:translateY(-1px); }
+
+    /* ── Sub-row: taglines ── */
+    .sub-row {
+      display:grid; grid-template-columns:1fr 1fr; gap:14px;
+      margin-top:14px; margin-bottom:80px;
+    }
+    .sub-card {
+      background:var(--card); border:1px solid var(--card-border);
+      border-radius:var(--radius-lg); padding:28px 30px;
+      backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px);
+      transition:background .3s var(--ease), border-color .3s var(--ease), transform .3s var(--ease);
+    }
+    .sub-card:hover { background:var(--card-hover); border-color:var(--card-strong); transform:translateY(-2px); }
+    .sub-label { font-size:10.5px; font-weight:500; letter-spacing:0.11em; text-transform:uppercase; color:var(--muted); margin-bottom:10px; }
+    .sub-title { font-family:'DM Serif Display',serif; font-size:clamp(18px,2.2vw,24px); letter-spacing:-0.035em; line-height:1.1; margin-bottom:8px; }
+    .sub-desc { font-size:13px; color:var(--muted); line-height:1.6; font-weight:300; }
+
+    /* ── Features section ── */
+    .section-head { display:flex; align-items:baseline; gap:12px; margin-bottom:22px; }
+    .section-head h2 { font-family:'DM Serif Display',serif; font-size:clamp(24px,3vw,32px); font-weight:400; letter-spacing:-0.04em; }
+    .section-count { font-size:12px; color:var(--muted); }
+
+    #features { margin-bottom:80px; }
+
+    .features-grid {
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:14px;
+    }
+
+    .feature-card {
+      background:var(--card); border:1px solid var(--card-border);
+      border-radius:var(--radius-lg); padding:28px 26px;
+      backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px);
+      position:relative; overflow:hidden;
+      display:flex; flex-direction:column; gap:0;
+      transition:background .3s var(--ease), border-color .3s var(--ease), transform .35s var(--ease);
+    }
+    .feature-card::before {
+      content:''; position:absolute; inset:0;
+      background:linear-gradient(145deg,rgba(255,255,255,0.04) 0%,transparent 55%);
+      pointer-events:none;
+    }
+    .feature-card:hover { background:var(--card-hover); border-color:var(--card-strong); transform:translateY(-3px); }
+    .feature-card:hover .feature-icon { transform:scale(1.1); }
+
+    .feature-icon {
+      font-size:26px; margin-bottom:16px; line-height:1;
+      transition:transform .35s var(--ease);
+      display:inline-block;
+    }
+    .feature-name {
+      font-family:'DM Serif Display',serif;
+      font-size:18px; letter-spacing:-0.03em; margin-bottom:8px; line-height:1.1;
+    }
+    .feature-desc { font-size:13px; color:var(--muted); line-height:1.6; font-weight:300; }
+
+    /* ── Screenshots strip ── */
+    #screenshots { margin-bottom:80px; }
+
+    .screenshots-scroll {
+      display:flex; gap:14px; overflow-x:auto;
+      padding-bottom:8px;
+      scrollbar-width:none; -ms-overflow-style:none;
+    }
+    .screenshots-scroll::-webkit-scrollbar { display:none; }
+
+    .screenshot-item {
+      flex-shrink:0;
+      width:200px;
+      border-radius:var(--radius-lg);
+      overflow:hidden;
+      border:1px solid var(--card-border);
+      box-shadow:0 16px 40px rgba(0,0,0,0.4);
+      transition:transform .35s var(--ease), box-shadow .35s var(--ease);
+    }
+    .screenshot-item:hover { transform:translateY(-4px) scale(1.02); box-shadow:0 24px 56px rgba(0,0,0,0.5); }
+    .screenshot-item img { width:100%; height:auto; display:block; }
+
+    /* ── Privacy strip ── */
+    #privacy { margin-bottom:80px; }
+    .privacy-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
+    .privacy-card {
+      background:var(--card); border:1px solid var(--card-border);
+      border-radius:var(--radius-lg); padding:26px;
+      backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px);
+      transition:background .3s, border-color .3s, transform .3s var(--ease);
+    }
+    .privacy-card:hover { background:var(--card-hover); border-color:var(--card-strong); transform:translateY(-2px); }
+    .privacy-card h3 { font-family:'DM Serif Display',serif; font-size:18px; font-weight:400; letter-spacing:-0.03em; margin-bottom:8px; }
+    .privacy-card p { font-size:13px; color:var(--muted); line-height:1.6; font-weight:300; }
+    .privacy-card a { color:var(--accent); }
+    .privacy-card a:hover { text-decoration:underline; text-underline-offset:3px; }
+
+    /* ── Footer ── */
+    .site-footer {
+      border-top:1px solid var(--line); padding:28px 0 52px;
+      display:flex; align-items:center; justify-content:space-between;
+    }
+    .footer-brand { font-family:'DM Serif Display',serif; font-size:15px; letter-spacing:-0.02em; color:var(--muted); }
+    .footer-copy { font-size:12px; color:var(--muted); opacity:0.55; }
+
+    /* ── Reveal ── */
+    .reveal { opacity:0; transform:translateY(18px); transition:opacity .72s var(--ease), transform .72s var(--ease); }
+    .reveal.in { opacity:1; transform:none; }
+    .d1{transition-delay:.06s} .d2{transition-delay:.13s} .d3{transition-delay:.20s} .d4{transition-delay:.27s} .d5{transition-delay:.34s} .d6{transition-delay:.41s}
+
+    @media(prefers-reduced-motion:reduce){ *,*::before,*::after{animation:none!important;transition:none!important;} .reveal,.reveal.in{opacity:1!important;transform:none!important;} }
+
+    @media(max-width:860px) {
+      .features-grid { grid-template-columns:1fr 1fr; }
+      .privacy-grid  { grid-template-columns:1fr 1fr; }
+    }
+    @media(max-width:600px) {
+      main { width:min(calc(100% - 28px), var(--max)); }
+      .hero-card { padding:36px 28px 40px; min-height:320px; }
+      .hero-app-icon { top:28px; right:28px; width:68px; height:68px; border-radius:17px; }
+      .features-grid, .privacy-grid, .sub-row { grid-template-columns:1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="/">
+        <div class="brand-mark"><img src="/images/zc-logo.svg" alt="ZC"></div>
+        <span class="brand-name">Zhen Chyi</span>
+      </a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#privacy">Privacy</a>
+        <a href="/shotmark/privacy/">Policy</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ── Hero ── -->
+    <section class="hero-section reveal">
+      <div class="hero-card">
+        <div class="hero-blob1"></div>
+        <div class="hero-blob2"></div>
+
+        <div class="hero-app-icon">
+          <img src="/images/shotmark-icon.png" alt="ShotMark">
+        </div>
+
+        <div class="hero-eyebrow">
+          <span class="hero-badge">New</span>
+          <span class="hero-category">Screenshot Journal</span>
+        </div>
+
+        <h1 class="hero-title">Remember why<br>you <em>saved</em> it.</h1>
+
+        <p class="hero-tagline">
+          Save screenshots with quick voice notes. No typing. No forgetting. Just come back and remember.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn-primary" href="#">Download on App Store</a>
+          <a class="btn-ghost" href="/shotmark/privacy/">Privacy</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Sub cards ── -->
+    <div class="sub-row">
+      <div class="sub-card reveal d1">
+        <div class="sub-label">Approach</div>
+        <div class="sub-title">Screenshot first.<br>Organise later.</div>
+        <div class="sub-desc">Built for how you actually work — capture now, add context fast.</div>
+      </div>
+      <div class="sub-card reveal d2">
+        <div class="sub-label">Privacy</div>
+        <div class="sub-title">Everything stays<br>on your device.</div>
+        <div class="sub-desc">No accounts. No tracking. No cloud. Your screenshots are yours.</div>
+      </div>
+    </div>
+
+    <!-- ── Features ── -->
+    <section id="features">
+      <div class="section-head reveal">
+        <h2>Features</h2>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card reveal d1">
+          <span class="feature-icon">📸</span>
+          <div class="feature-name">Simple cards</div>
+          <div class="feature-desc">Save any screenshot into a clean, visual card with one tap.</div>
+        </div>
+
+        <div class="feature-card reveal d2">
+          <span class="feature-icon">🎙️</span>
+          <div class="feature-name">Voice notes</div>
+          <div class="feature-desc">Record a quick thought instead of typing. Faster, more natural.</div>
+        </div>
+
+        <div class="feature-card reveal d3">
+          <span class="feature-icon">📚</span>
+          <div class="feature-name">Visual library</div>
+          <div class="feature-desc">Browse everything in a clean library. Search by title and note.</div>
+        </div>
+
+        <div class="feature-card reveal d4">
+          <span class="feature-icon">▶️</span>
+          <div class="feature-name">Fast playback</div>
+          <div class="feature-desc">Tap to hear your note instantly. Context back in seconds.</div>
+        </div>
+
+        <div class="feature-card reveal d5">
+          <span class="feature-icon">🔔</span>
+          <div class="feature-name">Reminders</div>
+          <div class="feature-desc">Set local reminders on important cards. No push servers.</div>
+        </div>
+
+        <div class="feature-card reveal d6">
+          <span class="feature-icon">🪶</span>
+          <div class="feature-name">Lightweight</div>
+          <div class="feature-desc">No bloat, no accounts, no complexity. Just the essentials.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Screenshots ── -->
+    <section id="screenshots" style="margin-bottom:80px;">
+      <div class="section-head reveal">
+        <h2>In the app</h2>
+      </div>
+      <div class="screenshots-scroll reveal d1">
+        <div class="screenshot-item">
+          <img src="/images/shotmark-screen-1.png" alt="Capture screen">
+        </div>
+        <div class="screenshot-item">
+          <img src="/images/shotmark-screen-2.png" alt="Library screen">
+        </div>
+        <div class="screenshot-item">
+          <img src="/images/shotmark-screen-3.png" alt="Settings screen">
+        </div>
+        <div class="screenshot-item">
+          <img src="/images/shotmark-screen-4.png" alt="Settings detail">
+        </div>
+        <div class="screenshot-item">
+          <img src="/images/shotmark-screen-5.png" alt="Pro screen">
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Privacy ── -->
+    <section id="privacy">
+      <div class="section-head reveal">
+        <h2>Privacy</h2>
+      </div>
+      <div class="privacy-grid">
+        <div class="privacy-card reveal d1">
+          <h3>On-device only</h3>
+          <p>Screenshots, notes, and voice recordings never leave your device.</p>
+        </div>
+        <div class="privacy-card reveal d2">
+          <h3>No tracking</h3>
+          <p>No analytics SDKs, no ads, no account required.</p>
+        </div>
+        <div class="privacy-card reveal d3">
+          <h3>Full policy</h3>
+          <p><a href="/shotmark/privacy/">Read the privacy policy →</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer reveal">
+      <span class="footer-brand">Zhen Chyi Apps</span>
+      <span class="footer-copy">© 2026</span>
+    </footer>
+
+  </main>
+
+  <script>
+    const obs = new IntersectionObserver(
+      es => es.forEach(e => { if(e.isIntersecting){ e.target.classList.add('in'); obs.unobserve(e.target); }}),
+      { threshold:0.08, rootMargin:'0px 0px -20px 0px' }
+    );
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+  </script>
+
+</body>
+</html>
