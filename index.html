@@ -11,18 +11,23 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #050609; --bg2: #080a10;
-      --text: #eef0f5; --soft: #b0b8c8; --muted: #6e7787;
+      --bg: #050507;
+      --text: #f0eef5;
+      --soft: #b8b0c8;
+      --muted: #726a82;
       --line: rgba(255,255,255,0.07);
       --card: rgba(255,255,255,0.042);
       --card-hover: rgba(255,255,255,0.068);
       --card-border: rgba(255,255,255,0.088);
       --card-strong: rgba(255,255,255,0.14);
-      --accent: #8eb8ff;
-      --radius-xl: 32px; --radius-lg: 24px; --radius-md: 16px;
+      --accent: #c4a4f0;
+      --accent-warm: #f0c09a;
+      --radius-xl: 32px;
+      --radius-lg: 24px;
       --ease: cubic-bezier(0.22, 1, 0.36, 1);
       --max: 1080px;
     }
+
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
     body {
@@ -33,10 +38,17 @@
     }
     a { color: inherit; text-decoration: none; }
 
-    /* canvas */
+    body::before {
+      content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 0;
+      background:
+        radial-gradient(ellipse at 15% 0%, rgba(160,100,220,0.1), transparent 40%),
+        radial-gradient(ellipse at 85% 0%, rgba(240,160,100,0.07), transparent 38%),
+        radial-gradient(ellipse at 50% 100%, rgba(130,80,200,0.05), transparent 45%);
+    }
+
     #bg-canvas {
       position: fixed; inset: 0;
-      pointer-events: none; z-index: 0; opacity: 0.5;
+      pointer-events: none; z-index: 0; opacity: 0.45;
     }
 
     /* ── Nav ── */
@@ -44,7 +56,7 @@
       position: fixed; top: 0; left: 0; right: 0; z-index: 100;
       padding: 0 max(24px, calc((100% - var(--max)) / 2));
       border-bottom: 1px solid var(--line);
-      background: rgba(5,6,9,0.72);
+      background: rgba(5,5,7,0.72);
       backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
     }
     .nav-inner {
@@ -70,59 +82,57 @@
       margin: 0 auto;
     }
 
-    /* ── WANDERLY HERO ── */
+    /* ══════════════════════════════════
+       SHOTMARK HERO
+    ══════════════════════════════════ */
     .hero-section { padding-top: 36px; margin-bottom: 20px; }
 
     .hero-card {
       position: relative;
       border-radius: var(--radius-xl);
-      border: 1px solid rgba(100, 150, 255, 0.2);
-      background: linear-gradient(150deg, rgba(18,28,60,0.65) 0%, rgba(8,10,20,0.78) 70%);
+      border: 1px solid rgba(196,164,240,0.2);
+      background: linear-gradient(150deg, rgba(40,20,65,0.68) 0%, rgba(8,6,14,0.8) 65%);
       backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px);
       overflow: hidden;
       padding: 56px 60px 60px;
-      min-height: 400px;
+      min-height: 420px;
       display: flex; flex-direction: column; justify-content: flex-end;
       transition: border-color 0.4s var(--ease), transform 0.4s var(--ease);
     }
-    .hero-card:hover { border-color: rgba(142,184,255,0.35); transform: translateY(-2px); }
+    .hero-card:hover { border-color: rgba(196,164,240,0.36); transform: translateY(-2px); }
 
-    /* Animated blobs */
     .hero-card .blob1 {
-      position: absolute; top: -80px; right: -80px;
-      width: 450px; height: 450px; border-radius: 50%;
-      background: radial-gradient(circle, rgba(80,120,255,0.22), transparent 65%);
+      position: absolute; top: -80px; right: -70px;
+      width: 460px; height: 460px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(160,100,240,0.22), transparent 65%);
       animation: breathe 7s ease-in-out infinite; pointer-events: none;
     }
     .hero-card .blob2 {
-      position: absolute; bottom: -60px; left: 15%;
-      width: 320px; height: 320px; border-radius: 50%;
-      background: radial-gradient(circle, rgba(160,120,255,0.12), transparent 65%);
+      position: absolute; bottom: -60px; left: 12%;
+      width: 340px; height: 340px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(240,160,100,0.14), transparent 65%);
       animation: breathe 9s ease-in-out infinite reverse; pointer-events: none;
     }
     @keyframes breathe {
       0%, 100% { transform: scale(1) translate(0, 0); }
-      50% { transform: scale(1.1) translate(-10px, -14px); }
+      50%       { transform: scale(1.08) translate(-10px, -14px); }
     }
 
-    /* Wanderly rain canvas */
-    #rain-canvas {
-      position: absolute; inset: 0; pointer-events: none; opacity: 0.35;
+    #hero-canvas {
+      position: absolute; inset: 0; pointer-events: none; opacity: 0.3;
     }
 
-    /* Floating app icon */
     .hero-app-icon {
       position: absolute; top: 52px; right: 60px;
       width: 88px; height: 88px;
-      border-radius: 22px;
-      box-shadow: 0 12px 40px rgba(0,0,0,0.4), 0 0 30px rgba(100,150,255,0.2);
-      overflow: hidden; z-index: 2;
+      border-radius: 22px; overflow: hidden; z-index: 2;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.45), 0 0 32px rgba(180,130,255,0.28);
       animation: float 5s ease-in-out infinite;
     }
     .hero-app-icon img { width: 100%; height: 100%; object-fit: cover; display: block; }
     @keyframes float {
       0%, 100% { transform: translateY(0) rotate(-1deg); }
-      50% { transform: translateY(-10px) rotate(1deg); }
+      50%       { transform: translateY(-10px) rotate(1deg); }
     }
 
     .hero-eyebrow {
@@ -132,37 +142,43 @@
     .hero-badge {
       font-size: 11px; font-weight: 500; letter-spacing: 0.1em;
       text-transform: uppercase; color: var(--accent);
-      background: rgba(142,184,255,0.1); border: 1px solid rgba(142,184,255,0.22);
+      background: rgba(196,164,240,0.12); border: 1px solid rgba(196,164,240,0.24);
       padding: 5px 12px; border-radius: 999px;
     }
     .hero-category { font-size: 12px; color: var(--muted); }
 
     .hero-title {
       font-family: 'DM Serif Display', serif;
-      font-size: clamp(48px, 7vw, 82px);
-      line-height: 0.92; letter-spacing: -0.045em;
+      font-size: clamp(44px, 6.5vw, 78px);
+      line-height: 0.93; letter-spacing: -0.045em;
       position: relative; z-index: 1; margin-bottom: 16px;
     }
     .hero-title em { font-style: italic; color: var(--accent); }
 
     .hero-tagline {
       font-size: clamp(14px, 1.6vw, 17px); font-weight: 300;
-      color: var(--soft); max-width: 440px; line-height: 1.55;
+      color: var(--soft); max-width: 460px; line-height: 1.55;
       position: relative; z-index: 1; margin-bottom: 34px;
     }
+
     .hero-actions {
       display: flex; gap: 12px; align-items: center;
       position: relative; z-index: 1;
     }
     .btn-primary {
       display: inline-flex; align-items: center; gap: 8px;
-      background: var(--accent); color: #07101f;
+      background: linear-gradient(135deg, var(--accent), var(--accent-warm));
+      color: #180e2a;
       font-size: 14px; font-weight: 500;
       padding: 12px 24px; border-radius: 999px;
       transition: transform 0.28s var(--ease), box-shadow 0.28s var(--ease), filter 0.28s;
-      box-shadow: 0 0 22px rgba(142,184,255,0.22);
+      box-shadow: 0 0 24px rgba(196,164,240,0.25);
     }
-    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 0 36px rgba(142,184,255,0.38); filter: brightness(1.08); }
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 0 40px rgba(196,164,240,0.42);
+      filter: brightness(1.06);
+    }
     .btn-ghost {
       display: inline-flex; align-items: center;
       font-size: 13px; color: var(--muted);
@@ -172,50 +188,37 @@
     }
     .btn-ghost:hover { color: var(--text); border-color: var(--card-strong); transform: translateY(-1px); }
 
-    /* ── Principles row ── */
+    /* ── Principles ── */
     .principles-row {
       display: grid; grid-template-columns: 1fr 1fr; gap: 14px;
-      margin-bottom: 80px;
+      margin-top: 14px; margin-bottom: 80px;
     }
     .principle-card {
       background: var(--card); border: 1px solid var(--card-border);
-      border-radius: var(--radius-lg);
-      padding: 28px 30px;
+      border-radius: var(--radius-lg); padding: 28px 30px;
       backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
       transition: background 0.3s var(--ease), border-color 0.3s var(--ease), transform 0.3s var(--ease);
     }
     .principle-card:hover { background: var(--card-hover); border-color: var(--card-strong); transform: translateY(-2px); }
-    .p-label {
-      font-size: 10.5px; font-weight: 500; letter-spacing: 0.11em;
-      text-transform: uppercase; color: var(--muted); margin-bottom: 10px;
-    }
-    .p-title {
-      font-family: 'DM Serif Display', serif;
-      font-size: clamp(18px, 2.2vw, 24px);
-      letter-spacing: -0.035em; line-height: 1.1; margin-bottom: 8px;
-    }
+    .p-label { font-size: 10.5px; font-weight: 500; letter-spacing: 0.11em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+    .p-title { font-family: 'DM Serif Display', serif; font-size: clamp(18px, 2.2vw, 24px); letter-spacing: -0.035em; line-height: 1.1; margin-bottom: 8px; }
     .p-desc { font-size: 13px; color: var(--muted); line-height: 1.6; font-weight: 300; }
 
     /* ── Section head ── */
     .section-head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 22px; }
-    .section-head h2 {
-      font-family: 'DM Serif Display', serif;
-      font-size: clamp(24px, 3vw, 32px); font-weight: 400; letter-spacing: -0.04em;
-    }
+    .section-head h2 { font-family: 'DM Serif Display', serif; font-size: clamp(24px, 3vw, 32px); font-weight: 400; letter-spacing: -0.04em; }
     .section-count { font-size: 12px; color: var(--muted); }
 
     /* ── Apps grid ── */
     #apps { margin-bottom: 80px; }
-    .apps-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    .apps-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
 
     .app-card {
       background: var(--card); border: 1px solid var(--card-border);
-      border-radius: var(--radius-lg);
-      padding: 26px 26px 24px;
+      border-radius: var(--radius-lg); padding: 26px 26px 24px;
       backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
       position: relative; overflow: hidden;
-      display: flex; flex-direction: column;
-      min-height: 210px;
+      display: flex; flex-direction: column; min-height: 210px;
       transition: background 0.3s var(--ease), border-color 0.3s var(--ease), transform 0.35s var(--ease);
     }
     .app-card::before {
@@ -225,24 +228,25 @@
     }
     .app-card:hover { background: var(--card-hover); border-color: var(--card-strong); transform: translateY(-3px); }
 
+    /* ShotMark card — subtle warm accent on hover */
+    .app-card.shotmark:hover { border-color: rgba(196,164,240,0.24); }
+    .app-card.shotmark::after {
+      content: ''; position: absolute; inset: 0; pointer-events: none;
+      background: radial-gradient(ellipse at top right, rgba(196,164,240,0.055), transparent 65%);
+    }
+
     .app-top { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 18px; }
     .app-icon-wrap {
       width: 52px; height: 52px; border-radius: 14px; overflow: hidden;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.35);
-      flex-shrink: 0;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.35); flex-shrink: 0;
     }
     .app-icon-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
     .pill {
-      font-size: 10px; font-weight: 500; letter-spacing: 0.1em;
-      text-transform: uppercase; color: var(--muted);
-      background: rgba(255,255,255,0.055); border: 1px solid rgba(255,255,255,0.09);
+      font-size: 10px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--muted); background: rgba(255,255,255,0.055); border: 1px solid rgba(255,255,255,0.09);
       padding: 4px 10px; border-radius: 999px;
     }
-
-    .app-name {
-      font-family: 'DM Serif Display', serif;
-      font-size: 22px; letter-spacing: -0.04em; line-height: 1; margin-bottom: 8px;
-    }
+    .app-name { font-family: 'DM Serif Display', serif; font-size: 22px; letter-spacing: -0.04em; line-height: 1; margin-bottom: 8px; }
     .app-desc { font-size: 13px; color: var(--muted); line-height: 1.5; font-weight: 300; flex: 1; margin-bottom: 22px; }
     .app-links { display: flex; gap: 16px; align-items: center; margin-top: auto; }
     .app-link-open {
@@ -254,19 +258,11 @@
     .app-link-open:hover { gap: 8px; opacity: 0.8; }
     .app-link-privacy { font-size: 12px; color: var(--muted); transition: color 0.2s; }
     .app-link-privacy:hover { color: var(--soft); }
-
-    /* Coming soon state */
     .app-card.coming-soon { opacity: 0.7; }
-    .soon-badge {
-      font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase;
-      color: var(--muted); background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(255,255,255,0.08);
-      padding: 3px 9px; border-radius: 999px;
-    }
 
-    /* ── Privacy section ── */
+    /* ── Privacy ── */
     #privacy { margin-bottom: 80px; }
-    .privacy-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; }
+    .privacy-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
     .privacy-card {
       background: var(--card); border: 1px solid var(--card-border);
       border-radius: var(--radius-lg); padding: 26px;
@@ -281,8 +277,7 @@
 
     /* ── Footer ── */
     .site-footer {
-      border-top: 1px solid var(--line);
-      padding: 28px 0 52px;
+      border-top: 1px solid var(--line); padding: 28px 0 52px;
       display: flex; align-items: center; justify-content: space-between;
     }
     .footer-brand { font-family: 'DM Serif Display', serif; font-size: 15px; letter-spacing: -0.02em; color: var(--muted); }
@@ -291,21 +286,22 @@
     /* ── Reveal ── */
     .reveal { opacity: 0; transform: translateY(18px); transition: opacity 0.72s var(--ease), transform 0.72s var(--ease); }
     .reveal.in { opacity: 1; transform: none; }
-    .d1 { transition-delay: 0.06s; } .d2 { transition-delay: 0.13s; } .d3 { transition-delay: 0.20s; }
+    .d1 { transition-delay: 0.06s; } .d2 { transition-delay: 0.13s; }
+    .d3 { transition-delay: 0.20s; } .d4 { transition-delay: 0.27s; }
 
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after { animation: none !important; transition: none !important; }
       .reveal, .reveal.in { opacity: 1 !important; transform: none !important; }
     }
 
-    @media (max-width: 860px) {
-      .apps-grid, .privacy-grid { grid-template-columns: 1fr 1fr; }
-    }
+    @media (max-width: 980px) { .apps-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 860px) { .privacy-grid { grid-template-columns: 1fr 1fr; } }
     @media (max-width: 600px) {
       main { width: min(calc(100% - 28px), var(--max)); }
-      .hero-card { padding: 36px 28px 40px; min-height: 320px; }
+      .hero-card { padding: 36px 28px 40px; min-height: 340px; }
       .hero-app-icon { top: 28px; right: 28px; width: 68px; height: 68px; border-radius: 17px; }
       .apps-grid, .privacy-grid, .principles-row { grid-template-columns: 1fr; }
+      .hero-title { font-size: clamp(38px, 11vw, 56px); }
     }
   </style>
 </head>
@@ -328,32 +324,37 @@
 
   <main id="top">
 
-    <!-- ── Wanderly Hero ── -->
+    <!-- ══ SHOTMARK HERO ══ -->
     <section class="hero-section reveal">
       <div class="hero-card">
         <div class="blob1"></div>
         <div class="blob2"></div>
-        <canvas id="rain-canvas"></canvas>
+        <canvas id="hero-canvas"></canvas>
 
         <div class="hero-app-icon">
-          <img src="/wanderly/WanderlyLogo.png" alt="Wanderly">
+          <img src="/shotmark/ShotMarkLogo.png" alt="ShotMark">
         </div>
 
         <div class="hero-eyebrow">
-          <span class="hero-badge">Featured</span>
-          <span class="hero-category">Atmosphere</span>
+          <span class="hero-badge">New</span>
+          <span class="hero-category">Screenshot Journal</span>
         </div>
-        <h1 class="hero-title">Wander<em>ly</em></h1>
-        <p class="hero-tagline">Step into the weather of any city on Earth. Ambient sound. Living visuals. Pure atmosphere.</p>
+
+        <h1 class="hero-title">Remember why<br>you <em>saved</em> it.</h1>
+
+        <p class="hero-tagline">
+          Save screenshots with a quick voice note, so you always remember what mattered — without typing a thing.
+        </p>
+
         <div class="hero-actions">
-          <a class="btn-primary" href="/wanderly/">Explore →</a>
-          <a class="btn-ghost" href="/wanderly/privacy/">Privacy</a>
+          <a class="btn-primary" href="/shotmark/">Explore →</a>
+          <a class="btn-ghost" href="/shotmark/privacy/">Privacy</a>
         </div>
       </div>
     </section>
 
-    <!-- ── Principles ── -->
-    <div class="principles-row" style="margin-top:14px;">
+    <!-- ══ PRINCIPLES ══ -->
+    <div class="principles-row">
       <div class="principle-card reveal d1">
         <div class="p-label">Principle</div>
         <div class="p-title">Minimal. Intentional.</div>
@@ -366,18 +367,37 @@
       </div>
     </div>
 
-    <!-- ── Apps ── -->
+    <!-- ══ APPS ══ -->
     <section id="apps">
       <div class="section-head reveal">
         <h2>Apps</h2>
-        <span class="section-count">3 apps</span>
+        <span class="section-count">4 apps</span>
       </div>
+
       <div class="apps-grid">
 
-        <!-- Wanderly -->
-        <div class="app-card reveal d1">
+        <!-- ShotMark -->
+        <div class="app-card shotmark reveal d1">
           <div class="app-top">
-            <div class="app-icon-wrap"><img src="/wanderly/WanderlyLogo.png" alt="Wanderly"></div>
+            <div class="app-icon-wrap">
+              <img src="/shotmark/ShotMarkLogo.png" alt="ShotMark">
+            </div>
+            <div class="pill">Journal</div>
+          </div>
+          <div class="app-name">ShotMark</div>
+          <div class="app-desc">Remember why you saved it.</div>
+          <div class="app-links">
+            <a class="app-link-open" href="/shotmark/">Open</a>
+            <a class="app-link-privacy" href="/shotmark/privacy/">Privacy</a>
+          </div>
+        </div>
+
+        <!-- Wanderly -->
+        <div class="app-card reveal d2">
+          <div class="app-top">
+            <div class="app-icon-wrap">
+              <img src="/wanderly/WanderlyLogo.png" alt="Wanderly">
+            </div>
             <div class="pill">Atmosphere</div>
           </div>
           <div class="app-name">Wanderly</div>
@@ -389,9 +409,11 @@
         </div>
 
         <!-- IsoPack -->
-        <div class="app-card reveal d2">
+        <div class="app-card reveal d3">
           <div class="app-top">
-            <div class="app-icon-wrap"><img src="/isopack/IsoPack.png" alt="IsoPack"></div>
+            <div class="app-icon-wrap">
+              <img src="/isopack/IsoPack.png" alt="IsoPack">
+            </div>
             <div class="pill">Utility</div>
           </div>
           <div class="app-name">IsoPack</div>
@@ -403,7 +425,7 @@
         </div>
 
         <!-- CarSense -->
-        <div class="app-card coming-soon reveal d3">
+        <div class="app-card coming-soon reveal d4">
           <div class="app-top">
             <div class="app-icon-wrap" style="background:#0d0d0d; display:flex; align-items:center; justify-content:center;">
               <img src="/carsense/CarSenseLogo.jpeg" alt="CarSense" style="width:80%; height:80%; object-fit:contain;">
@@ -421,7 +443,7 @@
       </div>
     </section>
 
-    <!-- ── Privacy ── -->
+    <!-- ══ PRIVACY ══ -->
     <section id="privacy">
       <div class="section-head reveal">
         <h2>Privacy</h2>
@@ -450,7 +472,7 @@
   </main>
 
   <script>
-    // Background star particles
+    // ── Warm background particles (ShotMark purple/peach palette) ──
     (function(){
       const c = document.getElementById('bg-canvas');
       const x = c.getContext('2d');
@@ -463,7 +485,8 @@
           r: Math.random()*1.1+0.2,
           vx:(Math.random()-.5)*.1, vy:(Math.random()-.5)*.1,
           o: Math.random()*.35+.08,
-          ph: Math.random()*Math.PI*2
+          ph: Math.random()*Math.PI*2,
+          warm: Math.random() > 0.55
         }));
       }
       function draw(){
@@ -475,7 +498,8 @@
           if(p.y<0)p.y=H; if(p.y>H)p.y=0;
           const a = p.o*(0.6+0.4*Math.sin(t*.7+p.ph));
           x.beginPath(); x.arc(p.x,p.y,p.r,0,Math.PI*2);
-          x.fillStyle=`rgba(160,190,255,${a})`; x.fill();
+          x.fillStyle = p.warm ? `rgba(220,170,255,${a})` : `rgba(240,190,150,${a})`;
+          x.fill();
         });
         requestAnimationFrame(draw);
       }
@@ -483,40 +507,47 @@
       window.addEventListener('resize', init);
     })();
 
-    // Rain animation inside hero
+    // ── Floating dust inside hero card ──
     (function(){
-      const c = document.getElementById('rain-canvas');
+      const c = document.getElementById('hero-canvas');
       if(!c) return;
       const x = c.getContext('2d');
-      let drops;
+      let pts;
       function init(){
-        c.width=c.offsetWidth; c.height=c.offsetHeight;
-        drops = Array.from({length:60},()=>({
-          px:Math.random()*c.width, py:Math.random()*c.height,
-          len:Math.random()*16+5, spd:Math.random()*2.2+1.2,
-          o:Math.random()*.15+.04
+        c.width = c.offsetWidth; c.height = c.offsetHeight;
+        pts = Array.from({length:35}, ()=>({
+          px: Math.random()*c.width, py: Math.random()*c.height,
+          r: Math.random()*1.8+0.4,
+          vx:(Math.random()-.5)*.18, vy:(Math.random()-.5)*.18,
+          o: Math.random()*.2+.06,
+          ph: Math.random()*Math.PI*2,
+          warm: Math.random() > 0.5
         }));
       }
       function draw(){
         x.clearRect(0,0,c.width,c.height);
-        drops.forEach(d=>{
-          x.beginPath(); x.moveTo(d.px,d.py); x.lineTo(d.px-1.2,d.py+d.len);
-          x.strokeStyle=`rgba(180,210,255,${d.o})`; x.lineWidth=0.8; x.stroke();
-          d.py+=d.spd;
-          if(d.py>c.height){ d.py=-d.len; d.px=Math.random()*c.width; }
+        const t = Date.now()*.001;
+        pts.forEach(p=>{
+          p.px+=p.vx; p.py+=p.vy;
+          if(p.px<0)p.px=c.width; if(p.px>c.width)p.px=0;
+          if(p.py<0)p.py=c.height; if(p.py>c.height)p.py=0;
+          const a = p.o*(0.5+0.5*Math.sin(t*0.6+p.ph));
+          x.beginPath(); x.arc(p.px,p.py,p.r,0,Math.PI*2);
+          x.fillStyle = p.warm ? `rgba(240,180,120,${a})` : `rgba(200,160,255,${a})`;
+          x.fill();
         });
         requestAnimationFrame(draw);
       }
-      setTimeout(()=>{ init(); draw(); }, 100);
+      setTimeout(()=>{ init(); draw(); }, 80);
       new ResizeObserver(()=>init()).observe(c);
     })();
 
-    // Reveal on scroll
+    // ── Reveal on scroll ──
     const obs = new IntersectionObserver(
-      es=>es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); obs.unobserve(e.target); }}),
-      { threshold:0.08, rootMargin:'0px 0px -20px 0px' }
+      es => es.forEach(e => { if(e.isIntersecting){ e.target.classList.add('in'); obs.unobserve(e.target); }}),
+      { threshold: 0.08, rootMargin: '0px 0px -20px 0px' }
     );
-    document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
   </script>
 
 </body>
