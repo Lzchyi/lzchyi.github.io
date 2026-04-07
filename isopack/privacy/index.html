@@ -3,100 +3,165 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>IsoPack Privacy Policy</title>
-
+  <title>IsoPack — Privacy Policy</title>
+  <link rel="icon" type="image/svg+xml" href="/images/zc-logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
   <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
-      background: #05070b;
-      color: #f5f5f7;
+    :root {
+      --bg:#050609; --text:#eef0f5; --soft:#b0b8c8; --muted:#6e7787;
+      --line:rgba(255,255,255,0.07); --card:rgba(255,255,255,0.042);
+      --card-border:rgba(255,255,255,0.088); --card-strong:rgba(255,255,255,0.14);
+      --accent:#4ecb8d;
+      --radius-lg:24px; --ease:cubic-bezier(0.22,1,0.36,1); --max:720px;
     }
+    *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+    body {
+      font-family:'DM Sans',-apple-system,sans-serif;
+      background:var(--bg); color:var(--text);
+      min-height:100vh; overflow-x:hidden;
+      letter-spacing:-0.01em; -webkit-font-smoothing:antialiased;
+    }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; text-underline-offset:3px; }
+
+    .nav {
+      position:fixed; top:0; left:0; right:0; z-index:100;
+      padding:0 max(24px,calc((100% - 720px)/2));
+      border-bottom:1px solid var(--line);
+      background:rgba(5,6,9,0.72);
+      backdrop-filter:blur(20px); -webkit-backdrop-filter:blur(20px);
+    }
+    .nav-inner { display:flex; align-items:center; padding:18px 0; }
+    .brand { display:flex; align-items:center; gap:10px; color:var(--text); }
+    .brand-mark { width:26px; height:26px; }
+    .brand-mark img { width:100%; height:100%; object-fit:contain; }
+    .brand-name { font-family:'DM Serif Display',serif; font-size:16px; letter-spacing:-0.025em; }
 
     .wrap {
-      max-width: 800px;
-      margin: auto;
-      padding: 60px 20px;
+      width:min(calc(100% - 40px), var(--max));
+      margin:0 auto; padding-top:108px; padding-bottom:80px;
     }
+    .back-link {
+      display:inline-flex; align-items:center; gap:6px;
+      font-size:13px; color:var(--muted); margin-bottom:48px;
+      padding:8px 14px; border-radius:999px;
+      border:1px solid var(--card-border);
+      transition:color .22s, border-color .22s, transform .22s var(--ease);
+    }
+    .back-link:hover { color:var(--text); border-color:var(--card-strong); transform:translateX(-2px); }
 
-    h1 {
-      font-size: 40px;
-      margin-bottom: 20px;
-      letter-spacing: -0.04em;
-    }
+    .page-app { display:flex; align-items:center; gap:12px; margin-bottom:32px; }
+    .page-app-icon { width:40px; height:40px; border-radius:10px; overflow:hidden; box-shadow:0 4px 14px rgba(0,0,0,0.35); }
+    .page-app-icon img { width:100%; height:100%; object-fit:cover; display:block; }
+    .page-app-label { font-size:13px; color:var(--muted); }
+    .page-app-name { font-family:'DM Serif Display',serif; font-size:18px; letter-spacing:-0.03em; line-height:1; }
 
-    h2 {
-      margin-top: 32px;
-      font-size: 20px;
-    }
+    h1 { font-family:'DM Serif Display',serif; font-size:clamp(32px,5vw,44px); letter-spacing:-0.045em; font-weight:400; margin-bottom:8px; }
+    .updated { font-size:13px; color:var(--muted); margin-bottom:44px; }
 
-    p {
-      color: #a0a7b4;
-      line-height: 1.7;
-      font-size: 15px;
+    .policy-section {
+      margin-bottom:14px;
+      background:var(--card); border:1px solid var(--card-border);
+      border-radius:var(--radius-lg); padding:26px 28px;
+      backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px);
     }
+    .policy-section h2 { font-family:'DM Serif Display',serif; font-size:18px; font-weight:400; letter-spacing:-0.03em; margin-bottom:10px; }
+    .policy-section p { font-size:14px; color:var(--muted); line-height:1.7; font-weight:300; }
 
-    a {
-      color: #8ab4ff;
-      text-decoration: none;
-    }
+    .site-footer { border-top:1px solid var(--line); padding:28px 0 52px; display:flex; align-items:center; justify-content:space-between; margin-top:60px; }
+    .footer-brand { font-family:'DM Serif Display',serif; font-size:15px; letter-spacing:-0.02em; color:var(--muted); }
+    .footer-copy { font-size:12px; color:var(--muted); opacity:0.55; }
+
+    .reveal{opacity:0;transform:translateY(14px);transition:opacity .65s var(--ease),transform .65s var(--ease);}
+    .reveal.in{opacity:1;transform:none;}
+    .d1{transition-delay:.05s}.d2{transition-delay:.10s}.d3{transition-delay:.15s}
+    .d4{transition-delay:.20s}.d5{transition-delay:.25s}.d6{transition-delay:.30s}.d7{transition-delay:.35s}.d8{transition-delay:.40s}.d9{transition-delay:.45s}
+
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}.reveal,.reveal.in{opacity:1!important;transform:none!important;}}
+    @media(max-width:600px){.wrap{width:min(calc(100% - 28px),var(--max));}}
   </style>
 </head>
-
 <body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="/">
+        <div class="brand-mark"><img src="/images/zc-logo.svg" alt="ZC"></div>
+        <span class="brand-name">Zhen Chyi</span>
+      </a>
+    </div>
+  </nav>
+
   <div class="wrap">
 
-    <a href="/">← Back</a>
+    <a class="back-link reveal" href="/isopack/">← IsoPack</a>
 
-    <h1>Privacy Policy</h1>
+    <div class="page-app reveal">
+      <div class="page-app-icon"><img src="/images/isopack-icon.png" alt="IsoPack"></div>
+      <div>
+        <div class="page-app-label">IsoPack</div>
+        <div class="page-app-name">Privacy Policy</div>
+      </div>
+    </div>
 
-    <p>Last updated: 03 April 2026</p>
+    <h1 class="reveal d1">Privacy Policy</h1>
+    <p class="updated reveal d1">Last updated: 03 April 2026</p>
 
-    <h2>Overview</h2>
-    <p>
-      IsoPack is designed to respect your privacy. This app does not require an account and does not collect personal data.
-    </p>
+    <div class="policy-section reveal d2">
+      <h2>Overview</h2>
+      <p>IsoPack is designed to respect your privacy. This app does not require an account and does not collect personal data.</p>
+    </div>
 
-    <h2>Data Storage</h2>
-    <p>
-      All data created in IsoPack — including trips, packing items, lists, and settings — is stored locally on your device.
-      This data is not transmitted to any external servers.
-    </p>
+    <div class="policy-section reveal d3">
+      <h2>Data Storage</h2>
+      <p>All data created in IsoPack — including trips, packing items, lists, and settings — is stored locally on your device. This data is not transmitted to any external servers.</p>
+    </div>
 
-    <h2>Photos</h2>
-    <p>
-      If you choose to add images to your trips or profile, IsoPack may request access to your photo library.
-      This access is used only for selecting images and is never used for tracking or data collection.
-    </p>
+    <div class="policy-section reveal d4">
+      <h2>Photos</h2>
+      <p>If you choose to add images to your trips or profile, IsoPack may request access to your photo library. This access is used only for selecting images and is never used for tracking or data collection.</p>
+    </div>
 
-    <h2>Import & Export</h2>
-    <p>
-      IsoPack allows you to export and import trip data manually.
-      These files are created and stored locally and are only shared when you choose to do so.
-    </p>
+    <div class="policy-section reveal d5">
+      <h2>Import &amp; Export</h2>
+      <p>IsoPack allows you to export and import trip data manually. These files are created and stored locally and are only shared when you choose to do so.</p>
+    </div>
 
-    <h2>Analytics & Tracking</h2>
-    <p>
-      IsoPack does not use analytics tools, tracking systems, or third-party advertising services.
-    </p>
+    <div class="policy-section reveal d6">
+      <h2>Analytics &amp; Tracking</h2>
+      <p>IsoPack does not use analytics tools, tracking systems, or third-party advertising services.</p>
+    </div>
 
-    <h2>Third-Party Services</h2>
-    <p>
-      IsoPack does not integrate with external services that collect or process user data.
-    </p>
+    <div class="policy-section reveal d7">
+      <h2>Third-Party Services</h2>
+      <p>IsoPack does not integrate with external services that collect or process user data.</p>
+    </div>
 
-    <h2>Contact</h2>
-    <p>
-      If you have any questions, you may contact:
-      <br/><br/>
-      hello@zhenchyi.com
-    </p>
+    <div class="policy-section reveal d8">
+      <h2>Contact</h2>
+      <p>If you have any questions, contact: <a href="mailto:hello@zhenchyi.com">hello@zhenchyi.com</a></p>
+    </div>
 
-    <h2>Changes</h2>
-    <p>
-      This policy may be updated in the future. Any changes will be reflected on this page.
-    </p>
+    <div class="policy-section reveal d9">
+      <h2>Changes</h2>
+      <p>This policy may be updated in the future. Any changes will be reflected on this page.</p>
+    </div>
+
+    <footer class="site-footer reveal">
+      <span class="footer-brand">Zhen Chyi Apps</span>
+      <span class="footer-copy">© 2026</span>
+    </footer>
 
   </div>
+
+  <script>
+    const obs = new IntersectionObserver(
+      es=>es.forEach(e=>{ if(e.isIntersecting){e.target.classList.add('in');obs.unobserve(e.target);}}),
+      {threshold:0.05}
+    );
+    document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+  </script>
 </body>
 </html>
