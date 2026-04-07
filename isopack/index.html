@@ -3,103 +3,206 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>IsoPack</title>
-
+  <title>IsoPack — Travel packing, simplified.</title>
+  <meta name="description" content="Pack smarter. Build reusable lists, customise your gear, and prepare for every trip without starting from scratch." />
+  <link rel="icon" type="image/svg+xml" href="/images/zc-logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
   <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
-      background: radial-gradient(circle at top, rgba(138,180,255,0.15), transparent 30%), #05070b;
-      color: #f5f5f7;
+    :root {
+      --bg:#050609; --text:#eef0f5; --soft:#b0b8c8; --muted:#6e7787;
+      --line:rgba(255,255,255,0.07); --card:rgba(255,255,255,0.042);
+      --card-hover:rgba(255,255,255,0.068); --card-border:rgba(255,255,255,0.088);
+      --card-strong:rgba(255,255,255,0.14);
+      --accent:#4ecb8d;     /* IsoPack green */
+      --accent-glow:rgba(78,203,141,0.15);
+      --radius-xl:32px; --radius-lg:24px;
+      --ease:cubic-bezier(0.22,1,0.36,1); --max:800px;
     }
+    *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+    html { scroll-behavior:smooth; }
+    body {
+      font-family:'DM Sans',-apple-system,sans-serif;
+      background:var(--bg); color:var(--text);
+      min-height:100vh; overflow-x:hidden;
+      letter-spacing:-0.01em; -webkit-font-smoothing:antialiased;
+    }
+    a { color:inherit; text-decoration:none; }
+
+    body::before {
+      content:''; position:fixed; inset:0; pointer-events:none; z-index:0;
+      background:
+        radial-gradient(circle at 15% 20%, rgba(40,180,100,0.08), transparent 35%),
+        radial-gradient(circle at 85% 10%, rgba(60,200,120,0.05), transparent 30%);
+    }
+
+    /* ── Nav ── */
+    .nav {
+      position:fixed; top:0; left:0; right:0; z-index:100;
+      padding:0 max(24px,calc((100% - 800px)/2));
+      border-bottom:1px solid var(--line);
+      background:rgba(5,6,9,0.72);
+      backdrop-filter:blur(20px); -webkit-backdrop-filter:blur(20px);
+    }
+    .nav-inner { display:flex; align-items:center; justify-content:space-between; padding:18px 0; }
+    .brand { display:flex; align-items:center; gap:10px; }
+    .brand-mark { width:26px; height:26px; }
+    .brand-mark img { width:100%; height:100%; object-fit:contain; }
+    .brand-name { font-family:'DM Serif Display',serif; font-size:16px; letter-spacing:-0.025em; }
+    .nav-right { display:flex; gap:2px; }
+    .nav-right a {
+      font-size:13px; color:var(--muted); padding:7px 13px; border-radius:999px;
+      transition:color .22s, background .22s;
+    }
+    .nav-right a:hover { color:var(--text); background:rgba(255,255,255,0.06); }
 
     .wrap {
-      max-width: 800px;
-      margin: auto;
-      padding: 60px 20px;
+      position:relative; z-index:1;
+      width:min(calc(100% - 40px), var(--max));
+      margin:0 auto; padding-top:108px; padding-bottom:80px;
     }
 
-    h1 {
-      font-size: 56px;
-      letter-spacing: -0.05em;
-      margin-bottom: 12px;
+    .back-link {
+      display:inline-flex; align-items:center; gap:6px;
+      font-size:13px; color:var(--muted); margin-bottom:48px;
+      padding:8px 14px; border-radius:999px;
+      border:1px solid var(--card-border);
+      transition:color .22s, border-color .22s, transform .22s var(--ease);
+    }
+    .back-link:hover { color:var(--text); border-color:var(--card-strong); transform:translateX(-2px); }
+
+    .app-identity { display:flex; align-items:center; gap:20px; margin-bottom:36px; }
+    .app-icon-lg {
+      width:72px; height:72px; border-radius:18px; overflow:hidden;
+      box-shadow:0 8px 28px rgba(0,0,0,0.4), 0 0 24px rgba(78,203,141,0.18);
+      flex-shrink:0;
+    }
+    .app-icon-lg img { width:100%; height:100%; object-fit:cover; display:block; }
+    .app-meta-tag { font-size:11px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:var(--accent); }
+    .app-meta-name { font-family:'DM Serif Display',serif; font-size:clamp(36px,5vw,52px); letter-spacing:-0.045em; line-height:1; }
+
+    .tagline {
+      font-size:clamp(18px,2.5vw,22px); font-weight:300;
+      color:var(--soft); line-height:1.5; margin-bottom:40px;
+      letter-spacing:-0.02em;
     }
 
-    .sub {
-      font-size: 20px;
-      color: #b8c0cc;
-      margin-bottom: 40px;
+    .features { display:grid; gap:14px; margin-bottom:40px; }
+    .feature-card {
+      background:var(--card); border:1px solid var(--card-border);
+      border-radius:var(--radius-lg); padding:28px 30px;
+      backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px);
+      position:relative; overflow:hidden;
+      transition:background .3s var(--ease), border-color .3s var(--ease), transform .3s var(--ease);
     }
+    .feature-card::before {
+      content:''; position:absolute; inset:0;
+      background:linear-gradient(145deg,rgba(255,255,255,0.04) 0%,transparent 55%);
+      pointer-events:none;
+    }
+    .feature-card:hover { background:var(--card-hover); border-color:var(--card-strong); transform:translateY(-2px); }
+    .feature-title {
+      font-family:'DM Serif Display',serif;
+      font-size:clamp(18px,2.2vw,22px); letter-spacing:-0.04em; margin-bottom:10px;
+    }
+    .feature-title em { font-style:italic; color:var(--accent); }
+    .feature-body { font-size:14px; color:var(--muted); line-height:1.65; font-weight:300; }
 
-    .section {
-      margin-bottom: 50px;
+    .bottom-card {
+      background:var(--card); border:1px solid var(--card-border);
+      border-radius:var(--radius-lg); padding:28px 30px;
+      backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px);
+      display:flex; align-items:center; justify-content:space-between; gap:20px; flex-wrap:wrap;
     }
+    .bottom-note { font-size:14px; color:var(--muted); font-weight:300; line-height:1.55; }
+    .btn-ghost {
+      display:inline-flex; align-items:center;
+      font-size:13px; color:var(--muted);
+      padding:11px 18px; border-radius:999px;
+      border:1px solid var(--card-border); white-space:nowrap;
+      transition:color .22s, border-color .22s, transform .22s var(--ease);
+    }
+    .btn-ghost:hover { color:var(--text); border-color:var(--card-strong); transform:translateY(-1px); }
 
-    .line {
-      font-size: 22px;
-      margin-bottom: 12px;
-      letter-spacing: -0.02em;
+    .site-footer {
+      border-top:1px solid var(--line); padding:28px 0 52px;
+      display:flex; align-items:center; justify-content:space-between; margin-top:80px;
     }
+    .footer-brand { font-family:'DM Serif Display',serif; font-size:15px; letter-spacing:-0.02em; color:var(--muted); }
+    .footer-copy { font-size:12px; color:var(--muted); opacity:0.55; }
 
-    .muted {
-      color: #9aa3af;
-      font-size: 16px;
-      line-height: 1.6;
-    }
+    .reveal{opacity:0;transform:translateY(16px);transition:opacity .7s var(--ease),transform .7s var(--ease);}
+    .reveal.in{opacity:1;transform:none;}
+    .d1{transition-delay:.06s}.d2{transition-delay:.13s}.d3{transition-delay:.20s}.d4{transition-delay:.27s}
 
-    .card {
-      margin-top: 20px;
-      padding: 22px;
-      border-radius: 22px;
-      background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(255,255,255,0.1);
-    }
-
-    a {
-      color: #8ab4ff;
-      text-decoration: none;
-    }
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}.reveal,.reveal.in{opacity:1!important;transform:none!important;}}
+    @media(max-width:600px){.wrap{width:min(calc(100% - 28px),var(--max));}}
   </style>
 </head>
-
 <body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="/">
+        <div class="brand-mark"><img src="/images/zc-logo.svg" alt="ZC"></div>
+        <span class="brand-name">Zhen Chyi</span>
+      </a>
+      <div class="nav-right">
+        <a href="/isopack/privacy/">Privacy</a>
+      </div>
+    </div>
+  </nav>
+
   <div class="wrap">
 
-    <a href="/">← Back</a>
+    <a class="back-link reveal" href="/">← All apps</a>
 
-    <h1>IsoPack</h1>
-    <div class="sub">Travel packing, simplified.</div>
-
-    <div class="section">
-      <div class="line">Pack smarter. Not harder.</div>
-      <div class="muted">
-        IsoPack helps you organise your travel packing with clarity and ease.
-        Build reusable lists, customise your gear, and prepare for every trip without starting from scratch.
+    <div class="app-identity reveal">
+      <div class="app-icon-lg"><img src="/images/isopack-icon.png" alt="IsoPack"></div>
+      <div class="app-meta">
+        <span class="app-meta-tag">Utility</span>
+        <div class="app-meta-name">IsoPack</div>
       </div>
     </div>
 
-    <div class="section">
-      <div class="line">Your essentials, remembered.</div>
-      <div class="muted">
-        Core essentials are always ready. No more forgetting the basics — your packing evolves with you.
+    <p class="tagline reveal d1">Travel packing, simplified.<br>Pack smarter. Not harder.</p>
+
+    <div class="features">
+      <div class="feature-card reveal d1">
+        <div class="feature-title">Your essentials, <em>remembered</em>.</div>
+        <div class="feature-body">IsoPack helps you organise your travel packing with clarity and ease. Build reusable lists, customise your gear, and prepare for every trip without starting from scratch.</div>
+      </div>
+
+      <div class="feature-card reveal d2">
+        <div class="feature-title">Core <em>essentials</em>, always ready.</div>
+        <div class="feature-body">No more forgetting the basics. Your packing evolves with you — your lists adapt to your habits so every trip starts with less friction.</div>
+      </div>
+
+      <div class="feature-card reveal d3">
+        <div class="feature-title">Clean. <em>Focused.</em> Distraction-free.</div>
+        <div class="feature-body">No accounts. No clutter. Just a smooth, intuitive packing experience designed to feel right — from first launch to final zip.</div>
       </div>
     </div>
 
-    <div class="section">
-      <div class="line">Clean. Focused. Distraction-free.</div>
-      <div class="muted">
-        No accounts. No clutter. Just a smooth, intuitive packing experience designed to feel right.
-      </div>
+    <div class="bottom-card reveal d4">
+      <p class="bottom-note">Built for real travel.<br>Minimal by design.</p>
+      <a class="btn-ghost" href="/isopack/privacy/">Privacy Policy →</a>
     </div>
 
-    <div class="card">
-      <div class="muted">
-        Built for real travel. Minimal by design.
-      </div>
-      <br/>
-      <a href="/isopack/privacy/">Privacy Policy →</a>
-    </div>
+    <footer class="site-footer reveal">
+      <span class="footer-brand">Zhen Chyi Apps</span>
+      <span class="footer-copy">© 2026</span>
+    </footer>
 
   </div>
+
+  <script>
+    const obs = new IntersectionObserver(
+      es=>es.forEach(e=>{ if(e.isIntersecting){e.target.classList.add('in');obs.unobserve(e.target);}}),
+      {threshold:0.08}
+    );
+    document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+  </script>
 </body>
 </html>
