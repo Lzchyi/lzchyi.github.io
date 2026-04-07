@@ -2,149 +2,262 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Coming Soon</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CarSense — Coming Soon</title>
+  <meta name="description" content="Driving feel, captured. A focused experience, currently in development." />
+  <link rel="icon" type="image/svg+xml" href="/images/zc-logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #06070a;
-      --text: #f5f7fb;
-      --muted: #a6afbd;
-      --card: rgba(255,255,255,0.06);
-      --border: rgba(255,255,255,0.12);
-      --accent: #8ab4ff;
+      --bg:#050609; --text:#eef0f5; --soft:#b0b8c8; --muted:#6e7787;
+      --line:rgba(255,255,255,0.07); --card:rgba(255,255,255,0.042);
+      --card-hover:rgba(255,255,255,0.068); --card-border:rgba(255,255,255,0.088);
+      --card-strong:rgba(255,255,255,0.14);
+      --accent:#e8e8e8;       /* CarSense — neutral/chrome tone */
+      --radius-xl:32px; --radius-lg:24px;
+      --ease:cubic-bezier(0.22,1,0.36,1); --max:800px;
     }
-
-    * { box-sizing: border-box; }
-
+    *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+    html { scroll-behavior:smooth; }
     body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
-      color: var(--text);
+      font-family:'DM Sans',-apple-system,sans-serif;
+      background:var(--bg); color:var(--text);
+      min-height:100vh; overflow-x:hidden;
+      letter-spacing:-0.01em; -webkit-font-smoothing:antialiased;
+    }
+    a { color:inherit; text-decoration:none; }
 
+    /* Moody vignette */
+    body::before {
+      content:''; position:fixed; inset:0; pointer-events:none; z-index:0;
       background:
-        radial-gradient(circle at 20% 20%, rgba(138,180,255,0.15), transparent 30%),
-        radial-gradient(circle at 80% 10%, rgba(255,255,255,0.05), transparent 25%),
-        linear-gradient(180deg, #0a0d14 0%, #06070a 50%, #040507 100%);
-
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 24px;
+        radial-gradient(circle at 50% 40%, rgba(255,255,255,0.03), transparent 55%),
+        radial-gradient(circle at 80% 80%, rgba(200,200,200,0.04), transparent 35%);
     }
 
-    .container {
-      width: 100%;
-      max-width: 520px;
-      text-align: center;
+    /* ── Nav ── */
+    .nav {
+      position:fixed; top:0; left:0; right:0; z-index:100;
+      padding:0 max(24px,calc((100% - 800px)/2));
+      border-bottom:1px solid var(--line);
+      background:rgba(5,6,9,0.72);
+      backdrop-filter:blur(20px); -webkit-backdrop-filter:blur(20px);
+    }
+    .nav-inner { display:flex; align-items:center; justify-content:space-between; padding:18px 0; }
+    .brand { display:flex; align-items:center; gap:10px; }
+    .brand-mark { width:26px; height:26px; }
+    .brand-mark img { width:100%; height:100%; object-fit:contain; }
+    .brand-name { font-family:'DM Serif Display',serif; font-size:16px; letter-spacing:-0.025em; }
+    .nav-right a {
+      font-size:13px; color:var(--muted); padding:7px 13px; border-radius:999px;
+      transition:color .22s, background .22s;
+    }
+    .nav-right a:hover { color:var(--text); background:rgba(255,255,255,0.06); }
+
+    .wrap {
+      position:relative; z-index:1;
+      width:min(calc(100% - 40px), var(--max));
+      margin:0 auto; padding-top:108px; padding-bottom:80px;
     }
 
-    .logo {
-      width: 64px;
-      height: 64px;
-      margin: 0 auto 20px;
-      opacity: 0.95;
+    .back-link {
+      display:inline-flex; align-items:center; gap:6px;
+      font-size:13px; color:var(--muted); margin-bottom:48px;
+      padding:8px 14px; border-radius:999px;
+      border:1px solid var(--card-border);
+      transition:color .22s, border-color .22s, transform .22s var(--ease);
+    }
+    .back-link:hover { color:var(--text); border-color:var(--card-strong); transform:translateX(-2px); }
+
+    /* ── Hero card with car illustration ── */
+    .hero-card {
+      position:relative;
+      background:var(--card); border:1px solid var(--card-border);
+      border-radius:var(--radius-xl); overflow:hidden;
+      padding:52px 52px 52px;
+      min-height:340px;
+      display:flex; flex-direction:column; justify-content:flex-end;
+      backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px);
+      transition:border-color .3s var(--ease), transform .35s var(--ease);
+      margin-bottom:14px;
+    }
+    .hero-card::before {
+      content:''; position:absolute; inset:0;
+      background:linear-gradient(145deg,rgba(255,255,255,0.035) 0%,transparent 50%);
+      pointer-events:none;
+    }
+    .hero-card:hover { border-color:var(--card-strong); transform:translateY(-2px); }
+
+    /* Car image centered */
+    .car-art {
+      position:absolute; inset:0;
+      display:flex; align-items:center; justify-content:center;
+      pointer-events:none;
+    }
+    .car-art img {
+      width:min(520px, 75%); height:auto;
+      opacity:0.22;
+      filter:brightness(1.3);
+      animation:carfade 4s ease-in-out infinite alternate;
+    }
+    @keyframes carfade {
+      from { opacity:0.18; transform:scale(1); }
+      to   { opacity:0.28; transform:scale(1.015); }
     }
 
-    .logo img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      filter: drop-shadow(0 0 20px rgba(138,180,255,0.12));
+    .app-identity { display:flex; align-items:center; gap:16px; margin-bottom:20px; position:relative; z-index:1; }
+    .app-icon-lg {
+      width:60px; height:60px; border-radius:15px; overflow:hidden;
+      background:#0d0d0d; border:1px solid rgba(255,255,255,0.1);
+      display:flex; align-items:center; justify-content:center;
+      box-shadow:0 6px 20px rgba(0,0,0,0.5);
+    }
+    .app-icon-lg img { width:75%; height:75%; object-fit:contain; display:block; }
+    .app-meta-tag { font-size:11px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted); }
+    .app-meta-name { font-family:'DM Serif Display',serif; font-size:clamp(30px,4vw,44px); letter-spacing:-0.045em; line-height:1; }
+
+    .coming-badge {
+      display:inline-flex; align-items:center; gap:6px;
+      font-size:11px; font-weight:500; letter-spacing:0.1em;
+      text-transform:uppercase; color:var(--muted);
+      background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.09);
+      padding:6px 14px; border-radius:999px; margin-bottom:14px;
+      position:relative; z-index:1; align-self:flex-start;
+    }
+    .coming-badge::before {
+      content:''; width:5px; height:5px; border-radius:50%;
+      background:var(--muted); opacity:0.6;
+      animation:pulse-dot 2s ease-in-out infinite;
+    }
+    @keyframes pulse-dot { 0%,100%{opacity:.4;transform:scale(1);} 50%{opacity:1;transform:scale(1.3);} }
+
+    .hero-title {
+      font-family:'DM Serif Display',serif;
+      font-size:clamp(32px,4.5vw,52px); letter-spacing:-0.045em; line-height:1;
+      position:relative; z-index:1; margin-bottom:12px;
+    }
+    .hero-tagline {
+      font-size:15px; font-weight:300; color:var(--soft);
+      line-height:1.6; max-width:400px;
+      position:relative; z-index:1;
     }
 
-    .card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 24px;
-      padding: 32px 24px;
-      backdrop-filter: blur(14px);
-      box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+    /* ── Info cards ── */
+    .info-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:14px; }
+    .info-card {
+      background:var(--card); border:1px solid var(--card-border);
+      border-radius:var(--radius-lg); padding:26px 28px;
+      backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px);
+      transition:background .3s, border-color .3s, transform .3s var(--ease);
     }
+    .info-card:hover { background:var(--card-hover); border-color:var(--card-strong); transform:translateY(-2px); }
+    .info-label { font-size:10.5px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted); margin-bottom:8px; }
+    .info-title { font-family:'DM Serif Display',serif; font-size:18px; letter-spacing:-0.03em; margin-bottom:8px; }
+    .info-body { font-size:13px; color:var(--muted); line-height:1.6; font-weight:300; }
 
-    h1 {
-      margin: 0 0 10px;
-      font-size: 28px;
-      letter-spacing: -0.04em;
+    .bottom-card {
+      background:var(--card); border:1px solid var(--card-border);
+      border-radius:var(--radius-lg); padding:26px 28px;
+      backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px);
+      display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;
     }
-
-    .subtitle {
-      color: var(--muted);
-      font-size: 15px;
-      margin-bottom: 24px;
-      line-height: 1.6;
+    .bottom-note { font-size:14px; color:var(--muted); font-weight:300; line-height:1.55; }
+    .btn-ghost {
+      display:inline-flex; align-items:center;
+      font-size:13px; color:var(--muted);
+      padding:11px 18px; border-radius:999px;
+      border:1px solid var(--card-border); white-space:nowrap;
+      transition:color .22s, border-color .22s, transform .22s var(--ease);
     }
+    .btn-ghost:hover { color:var(--text); border-color:var(--card-strong); transform:translateY(-1px); }
 
-    .app-name {
-      font-size: 18px;
-      font-weight: 600;
-      margin-bottom: 8px;
-    }
+    .site-footer { border-top:1px solid var(--line); padding:28px 0 52px; display:flex; align-items:center; justify-content:space-between; margin-top:80px; }
+    .footer-brand { font-family:'DM Serif Display',serif; font-size:15px; letter-spacing:-0.02em; color:var(--muted); }
+    .footer-copy { font-size:12px; color:var(--muted); opacity:0.55; }
 
-    .status {
-      font-size: 13px;
-      color: var(--muted);
-      margin-bottom: 24px;
-    }
+    .reveal{opacity:0;transform:translateY(16px);transition:opacity .7s var(--ease),transform .7s var(--ease);}
+    .reveal.in{opacity:1;transform:none;}
+    .d1{transition-delay:.06s}.d2{transition-delay:.13s}.d3{transition-delay:.20s}.d4{transition-delay:.27s}
 
-    .button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      padding: 12px 16px;
-      border-radius: 999px;
-      background: rgba(255,255,255,0.06);
-      border: 1px solid rgba(255,255,255,0.1);
-      color: var(--text);
-      font-size: 14px;
-      transition: 0.2s ease;
-    }
-
-    .button:hover {
-      background: rgba(255,255,255,0.1);
-      transform: translateY(-1px);
-    }
-
-    .footer {
-      margin-top: 18px;
-      font-size: 12px;
-      color: var(--muted);
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}.reveal,.reveal.in{opacity:1!important;transform:none!important;}}
+    @media(max-width:600px){
+      .wrap{width:min(calc(100% - 28px),var(--max));}
+      .hero-card{padding:36px 28px 36px;}
+      .info-grid{grid-template-columns:1fr;}
     }
   </style>
 </head>
-
 <body>
-  <div class="container">
 
-    <div class="logo">
-      <img src="/images/zc-logo.svg" alt="ZC logo">
-    </div>
-
-    <div class="card">
-
-      <div class="app-name">CarSense</div>
-
-      <h1>Coming soon</h1>
-
-      <div class="subtitle">
-        A focused experience, currently in development.
-      </div>
-
-      <div class="status">
-        Built with intention. Launching when it feels right.
-      </div>
-
-      <a href="/" class="button">
-        Back to home
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="/">
+        <div class="brand-mark"><img src="/images/zc-logo.svg" alt="ZC"></div>
+        <span class="brand-name">Zhen Chyi</span>
       </a>
+      <div class="nav-right">
+        <a href="/carsense/privacy/">Privacy</a>
+      </div>
+    </div>
+  </nav>
 
+  <div class="wrap">
+
+    <a class="back-link reveal" href="/">← All apps</a>
+
+    <div class="hero-card reveal">
+      <div class="car-art">
+        <img src="/images/carsense-icon.png" alt="CarSense">
+      </div>
+
+      <div class="coming-badge">Coming soon</div>
+
+      <div class="app-identity">
+        <div class="app-icon-lg">
+          <img src="/images/carsense-icon.png" alt="CarSense">
+        </div>
+        <div>
+          <div class="app-meta-tag">Lifestyle</div>
+          <div class="app-meta-name">CarSense</div>
+        </div>
+      </div>
+
+      <p class="hero-tagline">Driving feel, captured. A focused experience, currently in development.</p>
     </div>
 
-    <div class="footer">
-      Zhen Chyi Apps
+    <div class="info-grid">
+      <div class="info-card reveal d1">
+        <div class="info-label">Purpose</div>
+        <div class="info-title">Built with intention.</div>
+        <div class="info-body">CarSense captures how a drive feels — not just where it went.</div>
+      </div>
+      <div class="info-card reveal d2">
+        <div class="info-label">Timeline</div>
+        <div class="info-title">When it's ready.</div>
+        <div class="info-body">Launching when it feels right. No rushed release.</div>
+      </div>
     </div>
+
+    <div class="bottom-card reveal d3">
+      <p class="bottom-note">In the meantime,<br>explore the other apps.</p>
+      <a class="btn-ghost" href="/">Back to home →</a>
+    </div>
+
+    <footer class="site-footer reveal">
+      <span class="footer-brand">Zhen Chyi Apps</span>
+      <span class="footer-copy">© 2026</span>
+    </footer>
 
   </div>
+
+  <script>
+    const obs = new IntersectionObserver(
+      es=>es.forEach(e=>{ if(e.isIntersecting){e.target.classList.add('in');obs.unobserve(e.target);}}),
+      {threshold:0.08}
+    );
+    document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+  </script>
 </body>
 </html>
