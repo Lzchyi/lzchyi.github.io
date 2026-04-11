@@ -77,10 +77,10 @@ body::before {
   border: 1px solid rgba(255,255,255,0.12);
   background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 32%, #111), color-mix(in srgb, var(--accent-warm) 22%, #0d0d11));
   display: grid; place-items: center;
-  font-size: 11px; font-weight: 700; letter-spacing: 0.12em;
-  color: #fff;
+  overflow: hidden;
   box-shadow: 0 0 24px var(--accent-glow);
 }
+.brand-mark img { width: 100%; height: 100%; object-fit: cover; }
 .brand-name {
   font-family: 'DM Serif Display', Georgia, serif;
   font-size: 17px;
@@ -180,9 +180,10 @@ main, .wrap {
   border: 1px solid rgba(255,255,255,0.12);
   background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 32%, rgba(20,20,24,0.82)), color-mix(in srgb, var(--accent-warm) 22%, rgba(20,20,24,0.72)));
   display: grid; place-items: center;
-  font-size: 28px; font-weight: 700; letter-spacing: -0.04em;
+  overflow: hidden;
   box-shadow: 0 16px 38px rgba(0,0,0,0.36), 0 0 34px var(--accent-glow);
 }
+.hero-mark img { width: 100%; height: 100%; object-fit: cover; }
 .section { padding: 20px 0 0; margin-bottom: 72px; }
 .section-head {
   display: flex; align-items: baseline; gap: 12px; margin-bottom: 18px; flex-wrap: wrap;
@@ -317,10 +318,10 @@ main, .wrap {
 <nav class="nav">
   <div class="nav-inner">
     <a class="brand" href="/">
-      <span class="brand-mark">ZC</span>
+      <span class="brand-mark"><img src="/images/zc-logo.svg" alt="Zhen Chyi Apps logo" /></span>
       <span class="brand-name">Zhen Chyi Apps</span>
     </a>
-    <div class="nav-links"><a href="/">Home</a><a href="/#apps">Apps</a><a href="/#privacy">Privacy</a></div>
+    <div class="nav-links"><a href="/">Home</a><a href="/#apps">Apps</a><a href="/shotmark/roadmap/">Roadmap</a><a href="/#privacy">Privacy</a></div>
   </div>
 </nav>
 <main>
@@ -328,7 +329,7 @@ main, .wrap {
 
   <section class="hero reveal">
     <div class="hero-card">
-      <div class="hero-mark">SM</div>
+      <div class="hero-mark"><img src="/shotmark/shotmarklogo.png" alt="ShotMark logo" /></div>
       <div class="kicker">
         <span class="badge">Available now</span>
         <span class="kicker-text">Screenshot journal</span>
@@ -336,7 +337,8 @@ main, .wrap {
       <h1 class="hero-title">ShotMark<br><em>Remember why you saved it.</em></h1>
       <p class="hero-copy">Save screenshots with quick voice notes, so the context comes back instantly when you need it.</p>
       <div class="hero-actions">
-        <a class="btn-primary" href="/shotmark/privacy/">Privacy policy</a>
+        <a class="btn-primary" href="/shotmark/roadmap/">View roadmap</a>
+        <a class="btn-ghost" href="/shotmark/privacy/">Privacy policy</a>
         <a class="btn-ghost" href="/">Back to studio</a>
       </div>
     </div>
@@ -379,6 +381,22 @@ main, .wrap {
           <div class="feature-icon">04</div>
           <div class="feature-name">Local reminders</div>
           <p>Set on-device reminders without remote push services.</p>
+        </article></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head reveal d1">
+      <h2>Roadmap</h2>
+      <p>Planning now has its own page.</p>
+    </div>
+    <div class="grid-2"><article class="card reveal d1">
+          <div class="label">Next up</div>
+          <h3>Dedicated roadmap page</h3>
+          <p>ShotMark now links into a focused roadmap view so future direction can sit beside the product story without cluttering the main app page.</p>
+        </article><article class="card reveal d2">
+          <div class="label">Continue planning</div>
+          <h3>Refine milestones together</h3>
+          <p>The roadmap page is set up in the same visual language, ready for us to tighten the near-term and longer-term priorities together.</p>
         </article></div>
   </section>
 

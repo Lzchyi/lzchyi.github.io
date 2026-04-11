@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Still13 — A quiet pyramid solitaire.</title>
-  <meta name="description" content="A warm, focused take on pyramid solitaire — minimal, tactile, and designed to feel calm instead of noisy." />
+  <title>Still13 — Roadmap</title>
+  <meta name="description" content="Roadmap for Still13." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
@@ -80,7 +80,7 @@ body::before {
   overflow: hidden;
   box-shadow: 0 0 24px var(--accent-glow);
 }
-.brand-mark img { width: 100%; height: 100%; object-fit: cover; }
+.brand-mark img, .hero-mark img { width: 100%; height: 100%; object-fit: cover; }
 .brand-name {
   font-family: 'DM Serif Display', Georgia, serif;
   font-size: 17px;
@@ -95,12 +95,21 @@ body::before {
   transition: color .22s var(--ease), background .22s var(--ease), transform .22s var(--ease);
 }
 .nav-links a:hover { color: var(--text); background: rgba(255,255,255,0.06); transform: translateY(-1px); }
-main, .wrap {
+main {
   position: relative; z-index: 1;
   width: min(calc(100% - 32px), var(--max));
   margin: 0 auto;
 }
-.hero { padding: 36px 0 20px; }
+.back-link {
+  display: inline-flex; align-items: center; gap: 7px;
+  margin: 32px 0 34px;
+  padding: 8px 14px;
+  border: 1px solid var(--card-border); border-radius: 999px;
+  color: var(--muted); font-size: 13px;
+  transition: color .22s var(--ease), border-color .22s var(--ease), transform .22s var(--ease);
+}
+.back-link:hover { color: var(--text); border-color: var(--card-strong); transform: translateX(-2px); }
+.hero { padding: 0 0 20px; }
 .hero-card {
   position: relative;
   overflow: hidden;
@@ -126,6 +135,15 @@ main, .wrap {
   width: 280px; height: 280px; left: 12%; bottom: -90px;
   background: radial-gradient(circle, color-mix(in srgb, var(--accent-warm) 16%, transparent), transparent 68%);
 }
+.hero-mark {
+  position: absolute; right: 52px; top: 52px;
+  width: 88px; height: 88px; border-radius: 24px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 32%, rgba(20,20,24,0.82)), color-mix(in srgb, var(--accent-warm) 22%, rgba(20,20,24,0.72)));
+  display: grid; place-items: center;
+  overflow: hidden;
+  box-shadow: 0 16px 38px rgba(0,0,0,0.36), 0 0 34px var(--accent-glow);
+}
 .kicker {
   display: inline-flex; align-items: center; gap: 10px;
   margin-bottom: 18px;
@@ -149,7 +167,7 @@ main, .wrap {
 .hero-title em { font-style: italic; color: var(--accent); }
 .hero-copy {
   margin: 0 0 28px;
-  max-width: 620px;
+  max-width: 640px;
   font-size: clamp(15px, 1.7vw, 18px);
   line-height: 1.65;
   color: var(--soft);
@@ -174,16 +192,6 @@ main, .wrap {
   background: rgba(255,255,255,0.02);
 }
 .btn-ghost:hover { color: var(--text); border-color: var(--card-strong); transform: translateY(-1px); }
-.hero-mark {
-  position: absolute; right: 52px; top: 52px;
-  width: 88px; height: 88px; border-radius: 24px;
-  border: 1px solid rgba(255,255,255,0.12);
-  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 32%, rgba(20,20,24,0.82)), color-mix(in srgb, var(--accent-warm) 22%, rgba(20,20,24,0.72)));
-  display: grid; place-items: center;
-  overflow: hidden;
-  box-shadow: 0 16px 38px rgba(0,0,0,0.36), 0 0 34px var(--accent-glow);
-}
-.hero-mark img { width: 100%; height: 100%; object-fit: cover; }
 .section { padding: 20px 0 0; margin-bottom: 72px; }
 .section-head {
   display: flex; align-items: baseline; gap: 12px; margin-bottom: 18px; flex-wrap: wrap;
@@ -195,12 +203,9 @@ main, .wrap {
   letter-spacing: -0.045em;
   font-weight: 400;
 }
-.section-head p {
-  margin: 0; color: var(--muted); font-size: 13px;
-}
+.section-head p { margin: 0; color: var(--muted); font-size: 13px; }
 .grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
 .grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
-.grid-4 { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
 .card {
   background: var(--card);
   border: 1px solid var(--card-border);
@@ -220,72 +225,18 @@ main, .wrap {
   font-family: 'DM Serif Display', Georgia, serif;
   font-size: 22px; font-weight: 400; letter-spacing: -0.04em; line-height: 1.08;
 }
-.card p, .policy p, .lead, .app-desc {
-  margin: 0; font-size: 14px; line-height: 1.65; color: var(--muted); font-weight: 300;
+.card p, .lane-list li {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--muted);
+  font-weight: 300;
 }
-.feature-name { margin: 0 0 8px; font-size: 18px; font-weight: 600; letter-spacing: -0.03em; }
-.feature-icon {
-  width: 42px; height: 42px; border-radius: 14px;
-  margin-bottom: 16px; display: grid; place-items: center;
-  color: #fff; font-size: 14px; font-weight: 700;
-  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 34%, rgba(25,25,30,0.85)), color-mix(in srgb, var(--accent-warm) 25%, rgba(25,25,30,0.75)));
-  border: 1px solid rgba(255,255,255,0.08);
+.lane-list {
+  margin: 16px 0 0;
+  padding-left: 18px;
 }
-.back-link {
-  display: inline-flex; align-items: center; gap: 7px;
-  margin: 32px 0 34px;
-  padding: 8px 14px;
-  border: 1px solid var(--card-border); border-radius: 999px;
-  color: var(--muted); font-size: 13px;
-  transition: color .22s var(--ease), border-color .22s var(--ease), transform .22s var(--ease);
-}
-.back-link:hover { color: var(--text); border-color: var(--card-strong); transform: translateX(-2px); }
-.page-id {
-  display: flex; align-items: center; gap: 14px; margin-bottom: 28px;
-}
-.page-badge {
-  width: 52px; height: 52px; border-radius: 16px;
-  display: grid; place-items: center;
-  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 36%, rgba(20,20,24,0.82)), color-mix(in srgb, var(--accent-warm) 22%, rgba(20,20,24,0.72)));
-  border: 1px solid rgba(255,255,255,0.12);
-  box-shadow: 0 0 28px var(--accent-glow);
-  font-weight: 700;
-}
-.page-id small { display: block; font-size: 13px; color: var(--muted); margin-bottom: 2px; }
-.page-id strong {
-  font-family: 'DM Serif Display', Georgia, serif;
-  font-size: 21px; font-weight: 400; letter-spacing: -0.04em;
-}
-.page-title {
-  margin: 0 0 8px;
-  font-family: 'DM Serif Display', Georgia, serif;
-  font-size: clamp(34px, 5vw, 50px);
-  letter-spacing: -0.05em; font-weight: 400;
-}
-.page-title em { color: var(--accent); font-style: italic; }
-.updated { margin: 0 0 34px; color: var(--muted); font-size: 13px; }
-.meta-strip {
-  display: grid; gap: 12px; margin-bottom: 12px;
-}
-.meta-row {
-  display: flex; align-items: center; justify-content: space-between; gap: 16px;
-  padding: 16px 18px; border-radius: var(--radius-md);
-  border: 1px solid var(--card-border); background: rgba(255,255,255,0.025);
-}
-.meta-label { color: var(--muted); font-size: 13px; }
-.meta-value { color: var(--text); font-size: 13px; font-weight: 600; }
-.tldr {
-  margin-top: 12px;
-  padding: 24px 26px;
-  border-radius: var(--radius-lg);
-  border: 1px solid color-mix(in srgb, var(--accent) 24%, transparent);
-  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 10%, transparent), color-mix(in srgb, var(--accent-warm) 8%, transparent));
-}
-.tldr h2 {
-  margin: 0 0 10px;
-  font-family: 'DM Serif Display', Georgia, serif; font-size: 20px; font-weight: 400; letter-spacing: -0.04em;
-  color: var(--text);
-}
+.lane-list li + li { margin-top: 10px; }
 .footer {
   margin-top: 72px; padding: 28px 0 48px;
   border-top: 1px solid var(--line);
@@ -299,12 +250,11 @@ main, .wrap {
 .reveal { opacity: 0; transform: translateY(14px); transition: opacity .65s var(--ease), transform .65s var(--ease); }
 .reveal.in { opacity: 1; transform: none; }
 .d1 { transition-delay: .04s; } .d2 { transition-delay: .08s; } .d3 { transition-delay: .12s; } .d4 { transition-delay: .16s; } .d5 { transition-delay: .20s; }
-@media (max-width: 1080px) { .grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } .hero-mark { right: 34px; top: 34px; } }
 @media (max-width: 760px) {
   .nav-inner { min-height: 68px; align-items: flex-start; padding: 14px 0; flex-direction: column; }
   .hero-card { padding: 34px 24px 26px; min-height: 0; }
   .hero-mark { position: relative; right: auto; top: auto; width: 72px; height: 72px; margin-bottom: 22px; }
-  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
   .footer { flex-direction: column; align-items: flex-start; }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -312,7 +262,7 @@ main, .wrap {
   .reveal, .reveal.in { opacity: 1 !important; transform: none !important; }
   html { scroll-behavior: auto; }
 }
-</style>
+  </style>
 </head>
 <body>
 <nav class="nav">
@@ -321,92 +271,84 @@ main, .wrap {
       <span class="brand-mark"><img src="/images/zc-logo.svg" alt="Zhen Chyi Apps logo" /></span>
       <span class="brand-name">Zhen Chyi Apps</span>
     </a>
-    <div class="nav-links"><a href="/">Home</a><a href="/#apps">Apps</a><a href="/still13/roadmap/">Roadmap</a><a href="/#privacy">Privacy</a></div>
+    <div class="nav-links"><a href="/">Home</a><a href="/still13/">App</a><a href="/still13/privacy/">Privacy</a><a href="/support/">Support</a></div>
   </div>
 </nav>
 <main>
-  <a class="back-link reveal" href="/">← Back to home</a>
+  <a class="back-link reveal" href="/still13/">← Back to Still13</a>
 
   <section class="hero reveal">
     <div class="hero-card">
       <div class="hero-mark"><img src="/still13/Still13Logo.png" alt="Still13 logo" /></div>
       <div class="kicker">
-        <span class="badge">New</span>
+        <span class="badge">Roadmap</span>
         <span class="kicker-text">Calm card game</span>
       </div>
-      <h1 class="hero-title">Still13<br><em>A quiet pyramid solitaire.</em></h1>
-      <p class="hero-copy">A warm, focused take on pyramid solitaire — minimal, tactile, and designed to feel calm instead of noisy.</p>
+      <h1 class="hero-title">Still13 roadmap<br><em>Gentle progression, clearer polish.</em></h1>
+      <p class="hero-copy">This roadmap page gives Still13 a dedicated place to shape its next steps around calm gameplay, thoughtful feedback, and long-term personality.</p>
       <div class="hero-actions">
-        <a class="btn-primary" href="/still13/roadmap/">View roadmap</a>
+        <a class="btn-primary" href="/still13/">App page</a>
         <a class="btn-ghost" href="/still13/privacy/">Privacy policy</a>
-        <a class="btn-ghost" href="/">Back to studio</a>
       </div>
     </div>
   </section>
 
   <section class="section">
-    <div class="section-head reveal d1">
-      <h2>Why it stands out</h2>
-      <p>One language across every app page.</p>
+    <div class="grid-2">
+      <article class="card reveal d1">
+        <div class="label">Current focus</div>
+        <h3>Keep the game calm</h3>
+        <p>Still13 should stay easy to enter, quick to read, and gentle in tone, even as the game gains more polish and replay value.</p>
+      </article>
+      <article class="card reveal d2">
+        <div class="label">Design principle</div>
+        <h3>Quiet delight over noise</h3>
+        <p>Any additions should reinforce tactile clarity and meditative play rather than drifting toward loud casino-style feedback.</p>
+      </article>
     </div>
-    <div class="grid-2"><article class="card reveal d1">
-          <div class="label">Familiar, but gentler</div>
-          <h3>Familiar, but gentler</h3>
-          <p>Still13 keeps the classic rules while changing the emotional tone of the experience.</p>
-        </article><article class="card reveal d2">
-          <div class="label">Made for calm play</div>
-          <h3>Made for calm play</h3>
-          <p>No cluttered casino energy. Just cards, rhythm, and space to think.</p>
-        </article></div>
   </section>
 
   <section class="section">
     <div class="section-head reveal d1">
-      <h2>Features</h2>
-      <p>Focused, practical, and easy to scan.</p>
+      <h2>Roadmap lanes</h2>
+      <p>Structured now, ready for us to tune together.</p>
     </div>
-    <div class="grid-4"><article class="card reveal d1">
-          <div class="feature-icon">01</div>
-          <div class="feature-name">Classic pyramid play</div>
-          <p>Clear the board by pairing cards that add up to thirteen.</p>
-        </article><article class="card reveal d2">
-          <div class="feature-icon">02</div>
-          <div class="feature-name">Clean visual focus</div>
-          <p>A soft interface that keeps attention on the puzzle, not distractions.</p>
-        </article><article class="card reveal d3">
-          <div class="feature-icon">03</div>
-          <div class="feature-name">Fast sessions</div>
-          <p>Easy to open for a short reset, yet satisfying enough for longer play.</p>
-        </article><article class="card reveal d4">
-          <div class="feature-icon">04</div>
-          <div class="feature-name">Quiet personality</div>
-          <p>Warm tones and restrained motion give the game a more meditative feel.</p>
-        </article></div>
-  </section>
-
-  <section class="section">
-    <div class="section-head reveal d1">
-      <h2>Roadmap</h2>
-      <p>Planning now has its own page.</p>
+    <div class="grid-3">
+      <article class="card reveal d1">
+        <div class="label">Now</div>
+        <h3>Core play polish</h3>
+        <ul class="lane-list">
+          <li>Refine card readability, interaction feedback, and the pace of each round.</li>
+          <li>Improve clarity around valid moves and the rhythm of the core pyramid loop.</li>
+          <li>Keep the first session approachable without losing the game's quiet identity.</li>
+        </ul>
+      </article>
+      <article class="card reveal d2">
+        <div class="label">Next</div>
+        <h3>Replay and progression</h3>
+        <ul class="lane-list">
+          <li>Explore lightweight progression, daily play, or challenge structures that stay calm.</li>
+          <li>Refine how wins, losses, and retry loops feel emotionally supportive instead of punishing.</li>
+          <li>Consider small presentation upgrades that deepen warmth without adding clutter.</li>
+        </ul>
+      </article>
+      <article class="card reveal d3">
+        <div class="label">Later</div>
+        <h3>Longer-term shaping</h3>
+        <ul class="lane-list">
+          <li>Consider alternate modes or themes only if they preserve the focused solitaire identity.</li>
+          <li>Explore richer ambient presentation, sound, or ritual features for repeat players.</li>
+          <li>Decide how much progression the game needs before it stops feeling minimal.</li>
+        </ul>
+      </article>
     </div>
-    <div class="grid-2"><article class="card reveal d1">
-          <div class="label">Next up</div>
-          <h3>Dedicated roadmap page</h3>
-          <p>Still13 now links into a roadmap page with the same restrained visual language, giving the game room to grow without crowding the landing page.</p>
-        </article><article class="card reveal d2">
-          <div class="label">Continue planning</div>
-          <h3>Refine calm play features together</h3>
-          <p>The roadmap setup is ready for a deeper pass across progression, polish, and longer-term ideas for the game.</p>
-        </article></div>
   </section>
 
   <section class="section">
     <div class="card reveal">
-      <div class="label">Summary</div>
-      <h3>Still13 in one sentence</h3>
-      <p>A warm, focused take on pyramid solitaire — minimal, tactile, and designed to feel calm instead of noisy.</p>
-      <div style="height:14px"></div>
-      <p class="lead">Designed in the same visual language as the rest of the studio: warm, minimal, and quietly focused.</p>
+      <div class="label">Planning note</div>
+      <h3>A starting framework, not a locked plan</h3>
+      <p>This roadmap gives Still13 a clean planning surface so we can decide together how far to push progression, polish, and personality while keeping the game calm.</p>
     </div>
   </section>
 

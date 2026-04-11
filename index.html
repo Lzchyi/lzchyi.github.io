@@ -77,10 +77,10 @@ body::before {
   border: 1px solid rgba(255,255,255,0.12);
   background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 32%, #111), color-mix(in srgb, var(--accent-warm) 22%, #0d0d11));
   display: grid; place-items: center;
-  font-size: 11px; font-weight: 700; letter-spacing: 0.12em;
-  color: #fff;
+  overflow: hidden;
   box-shadow: 0 0 24px var(--accent-glow);
 }
+.brand-mark img { width: 100%; height: 100%; object-fit: cover; }
 .brand-name {
   font-family: 'DM Serif Display', Georgia, serif;
   font-size: 17px;
@@ -180,8 +180,48 @@ main, .wrap {
   border: 1px solid rgba(255,255,255,0.12);
   background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 32%, rgba(20,20,24,0.82)), color-mix(in srgb, var(--accent-warm) 22%, rgba(20,20,24,0.72)));
   display: grid; place-items: center;
-  font-size: 28px; font-weight: 700; letter-spacing: -0.04em;
+  overflow: hidden;
   box-shadow: 0 16px 38px rgba(0,0,0,0.36), 0 0 34px var(--accent-glow);
+}
+.hero-mark img { width: 100%; height: 100%; object-fit: cover; }
+.app-card-head {
+  display:flex; align-items:flex-start; justify-content:space-between; gap:14px; margin-bottom:18px;
+}
+.app-logo {
+  width: 54px; height: 54px; border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 32%, rgba(20,20,24,0.82)), color-mix(in srgb, var(--accent-warm) 22%, rgba(20,20,24,0.72)));
+  box-shadow: 0 0 28px var(--accent-glow);
+}
+.app-logo img { width: 100%; height: 100%; object-fit: cover; }
+.link-row {
+  display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-top:22px;
+}
+.link-row a { font-size: 13px; }
+.link-row .primary-link { color: var(--accent); font-weight: 600; }
+.link-row .secondary-link { color: var(--muted); }
+.roadmap-note {
+  margin-top: 26px;
+  padding: 18px 20px;
+  border-radius: var(--radius-md);
+  border: 1px solid color-mix(in srgb, var(--accent) 20%, transparent);
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 10%, transparent), color-mix(in srgb, var(--accent-warm) 8%, transparent));
+}
+.roadmap-note strong {
+  display: block;
+  margin-bottom: 6px;
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+}
+.roadmap-note p {
+  margin: 0;
+  color: var(--soft);
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 300;
 }
 .section { padding: 20px 0 0; margin-bottom: 72px; }
 .section-head {
@@ -317,7 +357,7 @@ main, .wrap {
 <nav class="nav">
   <div class="nav-inner">
     <a class="brand" href="/">
-      <span class="brand-mark">ZC</span>
+      <span class="brand-mark"><img src="/images/zc-logo.svg" alt="Zhen Chyi Apps logo" /></span>
       <span class="brand-name">Zhen Chyi Apps</span>
     </a>
     <div class="nav-links"><a href="/">Home</a><a href="/#apps">Apps</a><a href="/#privacy">Privacy</a><a href="/support/">Support</a></div>
@@ -326,7 +366,7 @@ main, .wrap {
 <main>
   <section class="hero reveal">
     <div class="hero-card">
-      <div class="hero-mark">ZC</div>
+      <div class="hero-mark"><img src="/images/zc-logo.svg" alt="Zhen Chyi Apps logo" /></div>
       <div class="kicker">
         <span class="badge">Studio</span>
         <span class="kicker-text">One calm visual language across every product</span>
@@ -335,7 +375,11 @@ main, .wrap {
       <p class="hero-copy">This refreshed homepage brings ShotMark, Wanderly, IsoPack, CarSense, and the new Still13 into one consistent UI system: warm glow, soft glass cards, restrained typography, and privacy-forward messaging.</p>
       <div class="hero-actions">
         <a class="btn-primary" href="#apps">Explore apps</a>
-        <a class="btn-ghost" href="#privacy">Privacy approach</a>
+        <a class="btn-ghost" href="#roadmaps">Product roadmaps</a>
+      </div>
+      <div class="roadmap-note">
+        <strong>Roadmaps are live for every app.</strong>
+        <p>Each product now has its own roadmap page in the same studio style, so we can shape the next milestones together without losing the visual consistency of the site.</p>
       </div>
     </div>
   </section>
@@ -361,60 +405,85 @@ main, .wrap {
       <p>Now including Still13.</p>
     </div>
     <div class="grid-4"><article class="card reveal d2" style="--accent:#c4a4f0; --accent-warm:#f0c09a; min-height: 240px; display:flex; flex-direction:column;">
-          <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:14px; margin-bottom:18px;">
-            <div class="page-badge" style="width:48px;height:48px;border-radius:14px;">SM</div>
+          <div class="app-card-head">
+            <div class="app-logo"><img src="/shotmark/shotmarklogo.png" alt="ShotMark logo" /></div>
             <span class="badge" style="font-size:10px;">App page ready</span>
           </div>
           <h3 style="margin-bottom:10px;">ShotMark</h3>
           <p class="app-desc" style="flex:1;">Save screenshots with quick voice notes, so the context comes back instantly when you need it.</p>
-          <div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-top:22px;">
-            <a href="/shotmark/" style="color:var(--accent); font-size:13px; font-weight:600;">Open →</a>
-            <a href="/shotmark/privacy/" style="color:var(--muted); font-size:12px;">Privacy</a>
+          <div class="link-row">
+            <a class="primary-link" href="/shotmark/">Open →</a>
+            <a class="secondary-link" href="/shotmark/roadmap/">Roadmap</a>
+            <a class="secondary-link" href="/shotmark/privacy/">Privacy</a>
           </div>
         </article><article class="card reveal d3" style="--accent:#8dc7ff; --accent-warm:#8ff0d2; min-height: 240px; display:flex; flex-direction:column;">
-          <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:14px; margin-bottom:18px;">
-            <div class="page-badge" style="width:48px;height:48px;border-radius:14px;">WA</div>
+          <div class="app-card-head">
+            <div class="app-logo"><img src="/wanderly/WanderlyLogo.png" alt="Wanderly logo" /></div>
             <span class="badge" style="font-size:10px;">App page ready</span>
           </div>
           <h3 style="margin-bottom:10px;">Wanderly</h3>
           <p class="app-desc" style="flex:1;">Feel a place without being there. Wanderly blends live weather, local time, and calming ambient sound into one minimal experience.</p>
-          <div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-top:22px;">
-            <a href="/wanderly/" style="color:var(--accent); font-size:13px; font-weight:600;">Open →</a>
-            <a href="/wanderly/privacy/" style="color:var(--muted); font-size:12px;">Privacy</a>
+          <div class="link-row">
+            <a class="primary-link" href="/wanderly/">Open →</a>
+            <a class="secondary-link" href="/wanderly/roadmap/">Roadmap</a>
+            <a class="secondary-link" href="/wanderly/privacy/">Privacy</a>
           </div>
         </article><article class="card reveal d4" style="--accent:#f2d27b; --accent-warm:#f6a57d; min-height: 240px; display:flex; flex-direction:column;">
-          <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:14px; margin-bottom:18px;">
-            <div class="page-badge" style="width:48px;height:48px;border-radius:14px;">IP</div>
+          <div class="app-card-head">
+            <div class="app-logo"><img src="/isopack/IsoPack.png" alt="IsoPack logo" /></div>
             <span class="badge" style="font-size:10px;">App page ready</span>
           </div>
           <h3 style="margin-bottom:10px;">IsoPack</h3>
           <p class="app-desc" style="flex:1;">Build reusable packing lists, customise your gear, and prepare for every trip without starting from scratch.</p>
-          <div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-top:22px;">
-            <a href="/isopack/" style="color:var(--accent); font-size:13px; font-weight:600;">Open →</a>
-            <a href="/isopack/privacy/" style="color:var(--muted); font-size:12px;">Privacy</a>
+          <div class="link-row">
+            <a class="primary-link" href="/isopack/">Open →</a>
+            <a class="secondary-link" href="/isopack/roadmap/">Roadmap</a>
+            <a class="secondary-link" href="/isopack/privacy/">Privacy</a>
           </div>
         </article><article class="card reveal d5" style="--accent:#d8dde6; --accent-warm:#9da6b8; min-height: 240px; display:flex; flex-direction:column;">
-          <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:14px; margin-bottom:18px;">
-            <div class="page-badge" style="width:48px;height:48px;border-radius:14px;">CS</div>
+          <div class="app-card-head">
+            <div class="app-logo"><img src="/carsense/CarSenseLogo.jpeg" alt="CarSense logo" /></div>
             <span class="badge" style="font-size:10px;">Coming soon</span>
           </div>
           <h3 style="margin-bottom:10px;">CarSense</h3>
           <p class="app-desc" style="flex:1;">A focused app in development for logging how a car actually feels — not just what it is on paper.</p>
-          <div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-top:22px;">
-            <a href="/carsense/" style="color:var(--accent); font-size:13px; font-weight:600;">Open →</a>
-            <a href="/carsense/privacy/" style="color:var(--muted); font-size:12px;">Privacy</a>
+          <div class="link-row">
+            <a class="primary-link" href="/carsense/">Open →</a>
+            <a class="secondary-link" href="/carsense/roadmap/">Roadmap</a>
+            <a class="secondary-link" href="/carsense/privacy/">Privacy</a>
           </div>
         </article><article class="card reveal d1" style="--accent:#d8b27a; --accent-warm:#f2e4c9; min-height: 240px; display:flex; flex-direction:column;">
-          <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:14px; margin-bottom:18px;">
-            <div class="page-badge" style="width:48px;height:48px;border-radius:14px;">13</div>
+          <div class="app-card-head">
+            <div class="app-logo"><img src="/still13/Still13Logo.png" alt="Still13 logo" /></div>
             <span class="badge" style="font-size:10px;">App page ready</span>
           </div>
           <h3 style="margin-bottom:10px;">Still13</h3>
           <p class="app-desc" style="flex:1;">A warm, focused take on pyramid solitaire — minimal, tactile, and designed to feel calm instead of noisy.</p>
-          <div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-top:22px;">
-            <a href="/still13/" style="color:var(--accent); font-size:13px; font-weight:600;">Open →</a>
-            <a href="/still13/privacy/" style="color:var(--muted); font-size:12px;">Privacy</a>
+          <div class="link-row">
+            <a class="primary-link" href="/still13/">Open →</a>
+            <a class="secondary-link" href="/still13/roadmap/">Roadmap</a>
+            <a class="secondary-link" href="/still13/privacy/">Privacy</a>
           </div>
+        </article></div>
+  </section>
+
+  <section class="section" id="roadmaps">
+    <div class="section-head reveal d1">
+      <h2>Roadmaps</h2>
+      <p>One format across the whole studio.</p>
+    </div>
+    <div class="grid-3"><article class="card reveal d1">
+          <div class="label">Built to evolve</div>
+          <h3>Every app now has a roadmap page</h3>
+          <p>Each roadmap uses the same calm shell as the app pages, with room for us to refine priorities and milestones together next.</p>
+        </article><article class="card reveal d2">
+          <div class="label">Quick access</div>
+          <h3>Open roadmap pages directly</h3>
+          <p><a href="/shotmark/roadmap/" style="color:var(--accent);">ShotMark</a>, <a href="/wanderly/roadmap/" style="color:var(--accent);">Wanderly</a>, <a href="/isopack/roadmap/" style="color:var(--accent);">IsoPack</a>, <a href="/carsense/roadmap/" style="color:var(--accent);">CarSense</a>, and <a href="/still13/roadmap/" style="color:var(--accent);">Still13</a> are all live.</p>
+        </article><article class="card reveal d3">
+          <div class="label">Next step</div>
+          <h3>Ready for roadmap planning</h3>
+          <p>The structure is in place, so the next pass can focus purely on the product direction and the milestone details for each app.</p>
         </article></div>
   </section>
 
