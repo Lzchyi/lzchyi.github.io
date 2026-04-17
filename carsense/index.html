@@ -29,6 +29,65 @@
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
   --max: 1080px;
 }
+
+html[data-theme="light"] {
+  --bg: #f8f6fb;
+  --bg-soft: #ede9f4;
+  --text: #160e22;
+  --soft: #3d3448;
+  --muted: #6a6078;
+  --line: rgba(0,0,0,0.09);
+  --card: rgba(0,0,0,0.038);
+  --card-hover: rgba(0,0,0,0.07);
+  --card-border: rgba(0,0,0,0.1);
+  --card-strong: rgba(0,0,0,0.16);
+}
+html[data-theme="light"] .nav {
+  background: rgba(248,246,251,0.85);
+}
+html[data-theme="light"] .hero-card {
+  background: linear-gradient(150deg, color-mix(in srgb, var(--accent) 14%, rgba(255,252,255,0.96)) 0%, rgba(248,245,252,0.98) 65%);
+  border-color: color-mix(in srgb, var(--accent) 24%, rgba(0,0,0,0.08));
+}
+html[data-theme="light"] .brand-mark {
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 38%, #fff), color-mix(in srgb, var(--accent-warm) 28%, #f5f0fa));
+  border-color: rgba(0,0,0,0.12);
+}
+html[data-theme="light"] .hero-mark,
+html[data-theme="light"] .app-logo {
+  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 38%, rgba(255,255,255,0.9)), color-mix(in srgb, var(--accent-warm) 28%, rgba(250,248,252,0.85)));
+  border-color: rgba(0,0,0,0.12);
+  box-shadow: 0 0 24px var(--accent-glow);
+}
+html[data-theme="light"] .hero-mark {
+  box-shadow: 0 16px 38px rgba(0,0,0,0.12), 0 0 34px var(--accent-glow);
+}
+html[data-theme="light"] .page-badge {
+  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 42%, rgba(255,255,255,0.9)), color-mix(in srgb, var(--accent-warm) 28%, rgba(250,248,252,0.85)));
+  border-color: rgba(0,0,0,0.12);
+  box-shadow: 0 0 24px var(--accent-glow);
+}
+html[data-theme="light"] .feature-icon {
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 52%, rgba(255,255,255,0.8)), color-mix(in srgb, var(--accent-warm) 38%, rgba(250,248,252,0.85)));
+  border-color: rgba(0,0,0,0.08);
+}
+html[data-theme="light"] .meta-row { background: rgba(0,0,0,0.025); }
+html[data-theme="light"] .btn-ghost { background: rgba(0,0,0,0.02); }
+html[data-theme="light"] .nav-links a:hover { background: rgba(0,0,0,0.06); }
+#theme-toggle {
+  background: none;
+  border: 1px solid var(--card-border);
+  border-radius: 999px;
+  padding: 6px 10px;
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  transition: color .22s var(--ease), border-color .22s var(--ease), transform .22s var(--ease);
+}
+#theme-toggle:hover { color: var(--text); border-color: var(--card-strong); transform: translateY(-1px); }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
@@ -313,6 +372,23 @@ main, .wrap {
   html { scroll-behavior: auto; }
 }
 </style>
+<script>(function(){var t=localStorage.getItem('zc-theme');if(t==='light')document.documentElement.setAttribute('data-theme','light');})();
+// ── Theme toggle ──────────────────────────────────────────────────────────────
+function toggleTheme(){
+  var light=document.documentElement.getAttribute('data-theme')==='light';
+  var next=light?'dark':'light';
+  document.documentElement.setAttribute('data-theme',next);
+  localStorage.setItem('zc-theme',next);
+  var icon=document.getElementById('theme-icon');
+  if(icon) icon.textContent=next==='light'?'☀️':'🌙';
+}
+// Sync button icon after DOM ready
+(function(){
+  var t=localStorage.getItem('zc-theme')||'dark';
+  var icon=document.getElementById('theme-icon');
+  if(icon) icon.textContent=t==='light'?'☀️':'🌙';
+})();
+</script>
 </head>
 <body>
 <nav class="nav">
@@ -321,7 +397,7 @@ main, .wrap {
       <span class="brand-mark"><img src="/images/zc-logo.svg" alt="Zhen Chyi Apps logo" /></span>
       <span class="brand-name">Zhen Chyi Apps</span>
     </a>
-    <div class="nav-links"><a href="/">Home</a><a href="/#apps">Apps</a><a href="/carsense/roadmap/">Roadmap</a><a href="/#privacy">Privacy</a></div>
+    <div class="nav-links"><a href="/">Home</a><a href="/#apps">Apps</a><a href="/carsense/roadmap/">Roadmap</a><a href="/#privacy">Privacy</a><button id="theme-toggle" title="Toggle light / dark mode" onclick="toggleTheme()"><span id="theme-icon">🌙</span></button></div>
   </div>
 </nav>
 <main>
