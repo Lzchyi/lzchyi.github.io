@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Y.E.S Hub — Privacy Policy</title>
-  <meta name="description" content="Y.E.S Hub privacy policy." />
+  <meta name="description" content="Y.E.S Hub privacy policy for Zhen Chyi Apps." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
@@ -20,15 +20,74 @@
   --card-hover: rgba(255,255,255,0.07);
   --card-border: rgba(255,255,255,0.1);
   --card-strong: rgba(255,255,255,0.16);
-  --accent: #ff8d2b;
-  --accent-warm: #ffc145;
-  --accent-glow: color-mix(in srgb, #ff8d2b 18%, transparent);
+  --accent: #c4a4f0;
+  --accent-warm: #f0c09a;
+  --accent-glow: color-mix(in srgb, #c4a4f0 18%, transparent);
   --radius-xl: 32px;
   --radius-lg: 24px;
   --radius-md: 18px;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
-  --max: 760px;
+  --max: 1080px;
 }
+
+html[data-theme="light"] {
+  --bg: #f8f6fb;
+  --bg-soft: #ede9f4;
+  --text: #160e22;
+  --soft: #3d3448;
+  --muted: #6a6078;
+  --line: rgba(0,0,0,0.09);
+  --card: rgba(0,0,0,0.038);
+  --card-hover: rgba(0,0,0,0.07);
+  --card-border: rgba(0,0,0,0.1);
+  --card-strong: rgba(0,0,0,0.16);
+}
+html[data-theme="light"] .nav {
+  background: rgba(248,246,251,0.85);
+}
+html[data-theme="light"] .hero-card {
+  background: linear-gradient(150deg, color-mix(in srgb, var(--accent) 14%, rgba(255,252,255,0.96)) 0%, rgba(248,245,252,0.98) 65%);
+  border-color: color-mix(in srgb, var(--accent) 24%, rgba(0,0,0,0.08));
+}
+html[data-theme="light"] .brand-mark {
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 38%, #fff), color-mix(in srgb, var(--accent-warm) 28%, #f5f0fa));
+  border-color: rgba(0,0,0,0.12);
+}
+html[data-theme="light"] .hero-mark,
+html[data-theme="light"] .app-logo {
+  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 38%, rgba(255,255,255,0.9)), color-mix(in srgb, var(--accent-warm) 28%, rgba(250,248,252,0.85)));
+  border-color: rgba(0,0,0,0.12);
+  box-shadow: 0 0 24px var(--accent-glow);
+}
+html[data-theme="light"] .hero-mark {
+  box-shadow: 0 16px 38px rgba(0,0,0,0.12), 0 0 34px var(--accent-glow);
+}
+html[data-theme="light"] .page-badge {
+  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 42%, rgba(255,255,255,0.9)), color-mix(in srgb, var(--accent-warm) 28%, rgba(250,248,252,0.85)));
+  border-color: rgba(0,0,0,0.12);
+  box-shadow: 0 0 24px var(--accent-glow);
+}
+html[data-theme="light"] .feature-icon {
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 52%, rgba(255,255,255,0.8)), color-mix(in srgb, var(--accent-warm) 38%, rgba(250,248,252,0.85)));
+  border-color: rgba(0,0,0,0.08);
+}
+html[data-theme="light"] .meta-row { background: rgba(0,0,0,0.025); }
+html[data-theme="light"] .btn-ghost { background: rgba(0,0,0,0.02); }
+html[data-theme="light"] .nav-links a:hover { background: rgba(0,0,0,0.06); }
+#theme-toggle {
+  background: none;
+  border: 1px solid var(--card-border);
+  border-radius: 999px;
+  padding: 6px 10px;
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  transition: color .22s var(--ease), border-color .22s var(--ease), transform .22s var(--ease);
+}
+#theme-toggle:hover { color: var(--text); border-color: var(--card-strong); transform: translateY(-1px); }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
@@ -36,7 +95,7 @@ body {
   font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   background: var(--bg);
   color: var(--text);
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
 }
@@ -77,14 +136,14 @@ body::before {
   border: 1px solid rgba(255,255,255,0.12);
   background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 32%, #111), color-mix(in srgb, var(--accent-warm) 22%, #0d0d11));
   display: grid; place-items: center;
-  font-size: 11px; font-weight: 700; letter-spacing: 0.12em;
-  color: #fff;
+  overflow: hidden;
   box-shadow: 0 0 24px var(--accent-glow);
 }
+.brand-mark img { width: 100%; height: 100%; object-fit: cover; }
 .brand-name {
   font-family: 'DM Serif Display', Georgia, serif;
   font-size: 17px;
-  letter-spacing: -0.03em;
+  letter-spacing: 0;
 }
 .nav-links {
   display: flex; gap: 4px; flex-wrap: wrap; justify-content: flex-end;
@@ -143,7 +202,7 @@ main, .wrap {
   font-family: 'DM Serif Display', Georgia, serif;
   font-size: clamp(40px, 6vw, 72px);
   line-height: 0.95;
-  letter-spacing: -0.05em;
+  letter-spacing: 0;
   max-width: 720px;
 }
 .hero-title em { font-style: italic; color: var(--accent); }
@@ -180,8 +239,48 @@ main, .wrap {
   border: 1px solid rgba(255,255,255,0.12);
   background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 32%, rgba(20,20,24,0.82)), color-mix(in srgb, var(--accent-warm) 22%, rgba(20,20,24,0.72)));
   display: grid; place-items: center;
-  font-size: 28px; font-weight: 700; letter-spacing: -0.04em;
+  overflow: hidden;
   box-shadow: 0 16px 38px rgba(0,0,0,0.36), 0 0 34px var(--accent-glow);
+}
+.hero-mark img { width: 100%; height: 100%; object-fit: cover; }
+.app-card-head {
+  display:flex; align-items:flex-start; justify-content:space-between; gap:14px; margin-bottom:18px;
+}
+.app-logo {
+  width: 54px; height: 54px; border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 32%, rgba(20,20,24,0.82)), color-mix(in srgb, var(--accent-warm) 22%, rgba(20,20,24,0.72)));
+  box-shadow: 0 0 28px var(--accent-glow);
+}
+.app-logo img { width: 100%; height: 100%; object-fit: cover; }
+.link-row {
+  display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-top:22px;
+}
+.link-row a { font-size: 13px; }
+.link-row .primary-link { color: var(--accent); font-weight: 600; }
+.link-row .secondary-link { color: var(--muted); }
+.roadmap-note {
+  margin-top: 26px;
+  padding: 18px 20px;
+  border-radius: var(--radius-md);
+  border: 1px solid color-mix(in srgb, var(--accent) 20%, transparent);
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 10%, transparent), color-mix(in srgb, var(--accent-warm) 8%, transparent));
+}
+.roadmap-note strong {
+  display: block;
+  margin-bottom: 6px;
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.roadmap-note p {
+  margin: 0;
+  color: var(--soft);
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 300;
 }
 .section { padding: 20px 0 0; margin-bottom: 72px; }
 .section-head {
@@ -191,7 +290,7 @@ main, .wrap {
   margin: 0;
   font-family: 'DM Serif Display', Georgia, serif;
   font-size: clamp(24px, 3vw, 34px);
-  letter-spacing: -0.045em;
+  letter-spacing: 0;
   font-weight: 400;
 }
 .section-head p {
@@ -217,12 +316,12 @@ main, .wrap {
 .card h3 {
   margin: 0 0 8px;
   font-family: 'DM Serif Display', Georgia, serif;
-  font-size: 22px; font-weight: 400; letter-spacing: -0.04em; line-height: 1.08;
+  font-size: 22px; font-weight: 400; letter-spacing: 0; line-height: 1.08;
 }
 .card p, .policy p, .lead, .app-desc {
   margin: 0; font-size: 14px; line-height: 1.65; color: var(--muted); font-weight: 300;
 }
-.feature-name { margin: 0 0 8px; font-size: 18px; font-weight: 600; letter-spacing: -0.03em; }
+.feature-name { margin: 0 0 8px; font-size: 18px; font-weight: 600; letter-spacing: 0; }
 .feature-icon {
   width: 42px; height: 42px; border-radius: 14px;
   margin-bottom: 16px; display: grid; place-items: center;
@@ -253,13 +352,13 @@ main, .wrap {
 .page-id small { display: block; font-size: 13px; color: var(--muted); margin-bottom: 2px; }
 .page-id strong {
   font-family: 'DM Serif Display', Georgia, serif;
-  font-size: 21px; font-weight: 400; letter-spacing: -0.04em;
+  font-size: 21px; font-weight: 400; letter-spacing: 0;
 }
 .page-title {
   margin: 0 0 8px;
   font-family: 'DM Serif Display', Georgia, serif;
   font-size: clamp(34px, 5vw, 50px);
-  letter-spacing: -0.05em; font-weight: 400;
+  letter-spacing: 0; font-weight: 400;
 }
 .page-title em { color: var(--accent); font-style: italic; }
 .updated { margin: 0 0 34px; color: var(--muted); font-size: 13px; }
@@ -282,7 +381,7 @@ main, .wrap {
 }
 .tldr h2 {
   margin: 0 0 10px;
-  font-family: 'DM Serif Display', Georgia, serif; font-size: 20px; font-weight: 400; letter-spacing: -0.04em;
+  font-family: 'DM Serif Display', Georgia, serif; font-size: 20px; font-weight: 400; letter-spacing: 0;
   color: var(--text);
 }
 .footer {
@@ -292,12 +391,70 @@ main, .wrap {
 }
 .footer strong {
   font-family: 'DM Serif Display', Georgia, serif;
-  font-size: 15px; font-weight: 400; letter-spacing: -0.03em; color: var(--muted);
+  font-size: 15px; font-weight: 400; letter-spacing: 0; color: var(--muted);
 }
 .footer span { color: var(--muted); font-size: 12px; }
 .reveal { opacity: 0; transform: translateY(14px); transition: opacity .65s var(--ease), transform .65s var(--ease); }
 .reveal.in { opacity: 1; transform: none; }
 .d1 { transition-delay: .04s; } .d2 { transition-delay: .08s; } .d3 { transition-delay: .12s; } .d4 { transition-delay: .16s; } .d5 { transition-delay: .20s; }
+
+.app-groups { display: grid; gap: 42px; }
+.app-group { display: grid; gap: 16px; }
+.app-card { min-height: 310px; display: flex; flex-direction: column; }
+.app-card .card-actions { margin-top: auto; padding-top: 22px; }
+.status-pill {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 28px; padding: 0 11px; border-radius: 999px;
+  font-size: 11px; font-weight: 600; color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 11%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 22%, transparent);
+}
+.status-pill.muted { color: var(--muted); border-color: var(--card-border); background: rgba(255,255,255,0.025); }
+.card-actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.store-badge-link { display: inline-flex; align-items: center; line-height: 0; }
+.store-badge-link img { width: 156px; height: auto; }
+.text-link {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 40px; padding: 0 15px; border-radius: 999px;
+  border: 1px solid var(--card-border); color: var(--muted); font-size: 13px;
+  transition: color .22s var(--ease), border-color .22s var(--ease), transform .22s var(--ease), background .22s var(--ease);
+}
+.text-link:hover { color: var(--text); border-color: var(--card-strong); background: var(--card-hover); transform: translateY(-1px); }
+.text-link.primary { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 26%, transparent); }
+.inline-links { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 18px; }
+.screenshot-gallery { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; align-items: start; }
+.screenshot-frame {
+  border: 1px solid color-mix(in srgb, var(--accent) 20%, var(--card-border));
+  border-radius: 26px; padding: 9px;
+  background: linear-gradient(145deg, rgba(255,255,255,0.075), rgba(255,255,255,0.022));
+  box-shadow: 0 18px 48px rgba(0,0,0,0.22), 0 0 24px var(--accent-glow);
+  overflow: hidden;
+}
+.screenshot-frame img { width: 100%; border-radius: 20px; }
+.screenshot-placeholder {
+  aspect-ratio: 9 / 19.5; border-radius: 26px; padding: 18px;
+  display: grid; place-items: center; text-align: center;
+  color: var(--muted); font-size: 13px; line-height: 1.5;
+  border: 1px dashed color-mix(in srgb, var(--accent) 35%, var(--card-border));
+  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 9%, transparent), rgba(255,255,255,0.018));
+}
+.screenshot-placeholder strong { display: block; margin-bottom: 6px; color: var(--soft); font-size: 14px; }
+.info-list { margin: 18px 0 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+.info-list li { position: relative; padding-left: 18px; color: var(--muted); font-size: 14px; line-height: 1.6; font-weight: 300; }
+.info-list li::before { content: ''; position: absolute; left: 0; top: .75em; width: 6px; height: 6px; border-radius: 999px; background: var(--accent); }
+.feature-list { display: grid; gap: 14px; }
+.privacy-card { border-color: color-mix(in srgb, var(--accent) 24%, var(--card-border)); }
+.compact-roadmaps { display: flex; gap: 10px; flex-wrap: wrap; }
+.compact-roadmaps a { color: var(--accent); font-size: 13px; }
+.split-card { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, .9fr); gap: 18px; align-items: stretch; }
+.hero-meta { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 26px; }
+.hero-meta span { color: var(--muted); border: 1px solid var(--card-border); background: rgba(255,255,255,0.025); border-radius: 999px; padding: 7px 11px; font-size: 12px; }
+.app-store-note { margin-top: 10px; color: var(--muted); font-size: 12px; }
+html[data-theme="light"] .screenshot-frame { background: linear-gradient(145deg, rgba(255,255,255,0.85), rgba(0,0,0,0.025)); box-shadow: 0 18px 44px rgba(0,0,0,0.10), 0 0 20px var(--accent-glow); }
+html[data-theme="light"] .screenshot-placeholder { background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 10%, rgba(255,255,255,0.9)), rgba(0,0,0,0.02)); }
+@media (max-width: 1080px) { .screenshot-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); } .split-card { grid-template-columns: 1fr; } }
+@media (max-width: 760px) { .store-badge-link img { width: 148px; } .screenshot-gallery { grid-template-columns: 1fr; max-width: 360px; margin: 0 auto; } .app-card { min-height: 0; } .card-actions { gap: 8px; } }
+
 @media (max-width: 1080px) { .grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } .hero-mark { right: 34px; top: 34px; } }
 @media (max-width: 760px) {
   .nav-inner { min-height: 68px; align-items: flex-start; padding: 14px 0; flex-direction: column; }
@@ -311,59 +468,76 @@ main, .wrap {
   .reveal, .reveal.in { opacity: 1 !important; transform: none !important; }
   html { scroll-behavior: auto; }
 }
-</style>
+  </style>
+<script>(function(){var t=localStorage.getItem('zc-theme');if(t==='light')document.documentElement.setAttribute('data-theme','light');})();
+function toggleTheme(){
+  var light=document.documentElement.getAttribute('data-theme')==='light';
+  var next=light?'dark':'light';
+  document.documentElement.setAttribute('data-theme',next);
+  localStorage.setItem('zc-theme',next);
+  var icon=document.getElementById('theme-icon');
+  if(icon) icon.textContent=next==='light'?'☀️':'🌙';
+}
+</script>
 </head>
-<body>
+<body style="--accent:#ff8d2b; --accent-warm:#ffc145; --accent-glow: color-mix(in srgb, #ff8d2b 18%, transparent);">
 <nav class="nav">
   <div class="nav-inner">
     <a class="brand" href="/">
-      <span class="brand-mark">ZC</span>
+      <span class="brand-mark"><img src="/images/zc-logo.svg" alt="Zhen Chyi Apps logo" /></span>
       <span class="brand-name">Zhen Chyi Apps</span>
     </a>
-    <div class="nav-links"><a href="/">Home</a><a href="/#apps">Apps</a><a href="/#privacy">Privacy</a></div>
+    <div class="nav-links"><a href="/">Home</a><a href="/yes-hub/">App</a><a href="/support/">Support</a><button id="theme-toggle" title="Toggle light / dark mode" onclick="toggleTheme()"><span id="theme-icon">🌙</span></button></div>
   </div>
 </nav>
 <div class="wrap">
   <a class="back-link reveal" href="/yes-hub/">← Y.E.S Hub</a>
 
-  <div class="page-id reveal">
-    <div class="page-badge">YH</div>
-    <div>
-      <small>Y.E.S Hub</small>
-      <strong>Privacy Policy</strong>
+  <section class="hero reveal">
+    <div class="hero-card">
+      <div class="hero-mark" style="display:grid;place-items:center;font-weight:700;color:#fff;font-size:24px;">YH</div>
+      <div class="kicker">
+        <span class="badge">Privacy</span>
+        <span class="kicker-text">Y.E.S Hub</span>
+      </div>
+      <h1 class="hero-title">Y.E.S Hub privacy<br><em>Plain and practical.</em></h1>
+      <p class="hero-copy">Y.E.S Hub is for internal agency use, with local preferences, optional cached files, and only the account or storage access needed to open shared materials.</p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="mailto:hello@zhenchyi.com">Contact support</a>
+        <a class="btn-ghost" href="/yes-hub/">App page</a>
+      </div>
     </div>
-  </div>
+  </section>
 
-  <h1 class="page-title reveal d1"><em>Internal.</em> Minimal. Respectful.</h1>
-  <p class="updated reveal d1">Last updated: April 26, 2026</p>
+  <p class="updated reveal">Last updated: May 30, 2026</p>
 
-  <section class="card reveal d1">
-          <h3>Overview</h3>
-          <p>Y.E.S Hub is designed for internal agency use and focuses on practical, private access to training and reference materials.</p>
-        </section><section class="card reveal d2">
-          <h3>Accounts and Sign-In</h3>
-          <p>When enabled, Y.E.S Hub may use Google Sign-In so the app can connect to an agency Google Drive location. Authentication is handled through Google's flow rather than custom credential storage inside the app.</p>
-        </section><section class="card reveal d3">
-          <h3>Drive Content and Documents</h3>
-          <p>The app may fetch document metadata and files from a connected shared storage location so users can browse, search, and open internal materials.</p>
-        </section><section class="card reveal d4">
-          <h3>Local Storage and Offline Access</h3>
-          <p>Bookmarks, recent items, profile details, and cached files may be stored on your device to support faster loading and offline access.</p>
-        </section><section class="card reveal d5">
-          <h3>Analytics and Tracking</h3>
-          <p>Y.E.S Hub is intended to stay free of ads and unnecessary third-party tracking, with the product focused on utility rather than marketing behavior.</p>
-        </section><section class="card reveal d1">
-          <h3>Third-Party Services</h3>
-          <p>If Y.E.S Hub connects to Google services or other linked storage providers, those services process data under their own terms and privacy policies.</p>
-        </section>
+  <section class="section">
+    <div class="grid-2">
+      <section class="card reveal d1">
+        <h3>Internal use</h3>
+        <p>Y.E.S Hub is designed for internal agency use and access to training or reference materials.</p>
+      </section>      <section class="card reveal d2">
+        <h3>Local preferences and cache</h3>
+        <p>The app may store preferences and optionally cache materials for faster access.</p>
+      </section>      <section class="card reveal d3">
+        <h3>Linked services</h3>
+        <p>If Google Drive or another storage provider is connected, that provider processes data under its own terms and privacy policy.</p>
+      </section>      <section class="card reveal d4">
+        <h3>No marketing tracking</h3>
+        <p>The product is focused on internal utility rather than advertising or marketing behavior.</p>
+      </section>
+    </div>
+  </section>
 
   <section class="meta-strip reveal">
-    <div class="meta-row"><span class="meta-label">Storage</span><span class="meta-value">Preferences and cached files</span></div><div class="meta-row"><span class="meta-label">Tracking</span><span class="meta-value">None intended</span></div><div class="meta-row"><span class="meta-label">Account</span><span class="meta-value">Google sign-in for connected deployments</span></div>
+    <div class="meta-row"><span class="meta-label">Account</span><span class="meta-value">Not public</span></div>
+    <div class="meta-row"><span class="meta-label">Advertising</span><span class="meta-value">None</span></div>
+    <div class="meta-row"><span class="meta-label">Contact</span><span class="meta-value">hello@zhenchyi.com</span></div>
   </section>
 
   <section class="tldr reveal">
     <h2>TL;DR</h2>
-    <p>Y.E.S Hub is built for internal agency reference use: local preferences, optional cached files, and only the account or storage access needed to open shared materials.</p>
+    <p>Y.E.S Hub is for internal agency use, with local preferences, optional cached files, and only the account or storage access needed to open shared materials.</p>
     <div style="height:10px"></div>
     <p>Questions: <a href="mailto:hello@zhenchyi.com" style="color:var(--accent)">hello@zhenchyi.com</a></p>
   </section>
@@ -374,16 +548,25 @@ main, .wrap {
   </footer>
 </div>
 <script>
-const obs = new IntersectionObserver(
-  entries => entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('in');
-      obs.unobserve(entry.target);
-    }
-  }),
-  { threshold: 0.08, rootMargin: '0px 0px -24px 0px' }
-);
-document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+document.addEventListener('DOMContentLoaded', function () {
+  var icon=document.getElementById('theme-icon');
+  var t=localStorage.getItem('zc-theme')||'dark';
+  if(icon) icon.textContent=t==='light'?'☀️':'🌙';
+  var items=document.querySelectorAll('.reveal');
+  if (!('IntersectionObserver' in window)) {
+    items.forEach(function(el){ el.classList.add('in'); });
+    return;
+  }
+  var obs = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in');
+        obs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -24px 0px' });
+  items.forEach(function(el){ obs.observe(el); });
+});
 </script>
 </body>
 </html>

@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Support — Zhen Chyi Apps</title>
-  <meta name="description" content="Support information for Zhen Chyi Apps, including contact details and help for ShotMark, Wanderly, IsoPack, RankHalo, CarSense, and Still13." />
+  <meta name="description" content="Support for Zhen Chyi Apps, including help for downloads, purchases, privacy, and app issues." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
@@ -95,11 +95,12 @@ body {
   font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   background: var(--bg);
   color: var(--text);
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
 }
 a { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
 body::before {
   content: '';
   position: fixed;
@@ -127,28 +128,32 @@ body::before {
   justify-content: space-between;
   gap: 16px;
 }
-.brand { display: flex; align-items: center; gap: 12px; }
+.brand {
+  display: flex; align-items: center; gap: 12px;
+}
 .brand-mark {
   width: 28px; height: 28px; border-radius: 999px;
   border: 1px solid rgba(255,255,255,0.12);
   background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 32%, #111), color-mix(in srgb, var(--accent-warm) 22%, #0d0d11));
   display: grid; place-items: center;
-  font-size: 11px; font-weight: 700; letter-spacing: 0.12em;
-  color: #fff;
+  overflow: hidden;
   box-shadow: 0 0 24px var(--accent-glow);
 }
+.brand-mark img { width: 100%; height: 100%; object-fit: cover; }
 .brand-name {
   font-family: 'DM Serif Display', Georgia, serif;
   font-size: 17px;
-  letter-spacing: -0.03em;
+  letter-spacing: 0;
 }
-.nav-links { display: flex; gap: 4px; flex-wrap: wrap; justify-content: flex-end; }
+.nav-links {
+  display: flex; gap: 4px; flex-wrap: wrap; justify-content: flex-end;
+}
 .nav-links a {
   font-size: 13px; color: var(--muted);
   padding: 8px 13px; border-radius: 999px;
   transition: color .22s var(--ease), background .22s var(--ease), transform .22s var(--ease);
 }
-.nav-links a:hover, .nav-links a.active { color: var(--text); background: rgba(255,255,255,0.06); transform: translateY(-1px); }
+.nav-links a:hover { color: var(--text); background: rgba(255,255,255,0.06); transform: translateY(-1px); }
 main, .wrap {
   position: relative; z-index: 1;
   width: min(calc(100% - 32px), var(--max));
@@ -162,6 +167,7 @@ main, .wrap {
   border: 1px solid color-mix(in srgb, var(--accent) 24%, rgba(255,255,255,0.08));
   background: linear-gradient(150deg, color-mix(in srgb, var(--accent) 18%, rgba(20,12,30,0.92)) 0%, rgba(7,7,11,0.95) 65%);
   padding: 56px 56px 58px;
+  min-height: 360px;
 }
 .hero-card::before,
 .hero-card::after {
@@ -179,75 +185,36 @@ main, .wrap {
   width: 280px; height: 280px; left: 12%; bottom: -90px;
   background: radial-gradient(circle, color-mix(in srgb, var(--accent-warm) 16%, transparent), transparent 68%);
 }
+.kicker {
+  display: inline-flex; align-items: center; gap: 10px;
+  margin-bottom: 18px;
+}
 .badge {
-  display: inline-flex;
   font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
   color: var(--accent);
   background: color-mix(in srgb, var(--accent) 11%, transparent);
   border: 1px solid color-mix(in srgb, var(--accent) 22%, transparent);
   padding: 6px 11px; border-radius: 999px;
-  margin-bottom: 18px;
 }
-.hero-title, .section-head h2 {
-  font-family: 'DM Serif Display', Georgia, serif;
-  letter-spacing: -0.05em;
-  font-weight: 400;
-}
+.kicker-text { font-size: 12px; color: var(--muted); }
 .hero-title {
   margin: 0 0 16px;
+  font-family: 'DM Serif Display', Georgia, serif;
   font-size: clamp(40px, 6vw, 72px);
   line-height: 0.95;
+  letter-spacing: 0;
   max-width: 720px;
 }
 .hero-title em { font-style: italic; color: var(--accent); }
-.hero-copy, .card p, .info-list li {
-  font-size: 15px;
-  line-height: 1.7;
+.hero-copy {
+  margin: 0 0 28px;
+  max-width: 620px;
+  font-size: clamp(15px, 1.7vw, 18px);
+  line-height: 1.65;
   color: var(--soft);
   font-weight: 300;
 }
-.hero-copy { margin: 0; max-width: 650px; }
-.section { padding: 20px 0 0; margin-bottom: 72px; }
-.section-head {
-  display: flex; align-items: baseline; gap: 12px; margin-bottom: 18px; flex-wrap: wrap;
-}
-.section-head h2 {
-  margin: 0;
-  font-size: clamp(24px, 3vw, 34px);
-}
-.section-head p { margin: 0; color: var(--muted); font-size: 13px; }
-.grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
-.grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
-.card {
-  background: var(--card);
-  border: 1px solid var(--card-border);
-  border-radius: var(--radius-lg);
-  padding: 26px;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  transition: background .28s var(--ease), border-color .28s var(--ease), transform .28s var(--ease);
-}
-.card:hover { background: var(--card-hover); border-color: var(--card-strong); transform: translateY(-2px); }
-.label {
-  margin-bottom: 10px;
-  font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); font-weight: 600;
-}
-.card h3 {
-  margin: 0 0 10px;
-  font-family: 'DM Serif Display', Georgia, serif;
-  font-size: 22px; font-weight: 400; letter-spacing: -0.04em; line-height: 1.08;
-}
-.info-list {
-  margin: 14px 0 0;
-  padding-left: 18px;
-}
-.info-list li { margin-bottom: 8px; color: var(--muted); }
-.cta-row {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin-top: 22px;
-}
+.hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
 .btn-primary, .btn-ghost {
   display: inline-flex; align-items: center; justify-content: center; gap: 8px;
   min-height: 46px; padding: 0 20px; border-radius: 999px;
@@ -266,17 +233,234 @@ main, .wrap {
   background: rgba(255,255,255,0.02);
 }
 .btn-ghost:hover { color: var(--text); border-color: var(--card-strong); transform: translateY(-1px); }
-.footer {
-  display: flex; align-items: center; justify-content: space-between; gap: 16px;
-  padding: 0 0 64px; color: var(--muted); font-size: 13px;
+.hero-mark {
+  position: absolute; right: 52px; top: 52px;
+  width: 88px; height: 88px; border-radius: 24px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 32%, rgba(20,20,24,0.82)), color-mix(in srgb, var(--accent-warm) 22%, rgba(20,20,24,0.72)));
+  display: grid; place-items: center;
+  overflow: hidden;
+  box-shadow: 0 16px 38px rgba(0,0,0,0.36), 0 0 34px var(--accent-glow);
 }
+.hero-mark img { width: 100%; height: 100%; object-fit: cover; }
+.app-card-head {
+  display:flex; align-items:flex-start; justify-content:space-between; gap:14px; margin-bottom:18px;
+}
+.app-logo {
+  width: 54px; height: 54px; border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 32%, rgba(20,20,24,0.82)), color-mix(in srgb, var(--accent-warm) 22%, rgba(20,20,24,0.72)));
+  box-shadow: 0 0 28px var(--accent-glow);
+}
+.app-logo img { width: 100%; height: 100%; object-fit: cover; }
+.link-row {
+  display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-top:22px;
+}
+.link-row a { font-size: 13px; }
+.link-row .primary-link { color: var(--accent); font-weight: 600; }
+.link-row .secondary-link { color: var(--muted); }
+.roadmap-note {
+  margin-top: 26px;
+  padding: 18px 20px;
+  border-radius: var(--radius-md);
+  border: 1px solid color-mix(in srgb, var(--accent) 20%, transparent);
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 10%, transparent), color-mix(in srgb, var(--accent-warm) 8%, transparent));
+}
+.roadmap-note strong {
+  display: block;
+  margin-bottom: 6px;
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.roadmap-note p {
+  margin: 0;
+  color: var(--soft);
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 300;
+}
+.section { padding: 20px 0 0; margin-bottom: 72px; }
+.section-head {
+  display: flex; align-items: baseline; gap: 12px; margin-bottom: 18px; flex-wrap: wrap;
+}
+.section-head h2 {
+  margin: 0;
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-size: clamp(24px, 3vw, 34px);
+  letter-spacing: 0;
+  font-weight: 400;
+}
+.section-head p {
+  margin: 0; color: var(--muted); font-size: 13px;
+}
+.grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.grid-4 { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+.card {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  padding: 26px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: background .28s var(--ease), border-color .28s var(--ease), transform .28s var(--ease);
+}
+.card:hover { background: var(--card-hover); border-color: var(--card-strong); transform: translateY(-2px); }
+.label {
+  margin-bottom: 10px;
+  font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); font-weight: 600;
+}
+.card h3 {
+  margin: 0 0 8px;
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-size: 22px; font-weight: 400; letter-spacing: 0; line-height: 1.08;
+}
+.card p, .policy p, .lead, .app-desc {
+  margin: 0; font-size: 14px; line-height: 1.65; color: var(--muted); font-weight: 300;
+}
+.feature-name { margin: 0 0 8px; font-size: 18px; font-weight: 600; letter-spacing: 0; }
+.feature-icon {
+  width: 42px; height: 42px; border-radius: 14px;
+  margin-bottom: 16px; display: grid; place-items: center;
+  color: #fff; font-size: 14px; font-weight: 700;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 34%, rgba(25,25,30,0.85)), color-mix(in srgb, var(--accent-warm) 25%, rgba(25,25,30,0.75)));
+  border: 1px solid rgba(255,255,255,0.08);
+}
+.back-link {
+  display: inline-flex; align-items: center; gap: 7px;
+  margin: 32px 0 34px;
+  padding: 8px 14px;
+  border: 1px solid var(--card-border); border-radius: 999px;
+  color: var(--muted); font-size: 13px;
+  transition: color .22s var(--ease), border-color .22s var(--ease), transform .22s var(--ease);
+}
+.back-link:hover { color: var(--text); border-color: var(--card-strong); transform: translateX(-2px); }
+.page-id {
+  display: flex; align-items: center; gap: 14px; margin-bottom: 28px;
+}
+.page-badge {
+  width: 52px; height: 52px; border-radius: 16px;
+  display: grid; place-items: center;
+  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 36%, rgba(20,20,24,0.82)), color-mix(in srgb, var(--accent-warm) 22%, rgba(20,20,24,0.72)));
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 0 28px var(--accent-glow);
+  font-weight: 700;
+}
+.page-id small { display: block; font-size: 13px; color: var(--muted); margin-bottom: 2px; }
+.page-id strong {
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-size: 21px; font-weight: 400; letter-spacing: 0;
+}
+.page-title {
+  margin: 0 0 8px;
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-size: clamp(34px, 5vw, 50px);
+  letter-spacing: 0; font-weight: 400;
+}
+.page-title em { color: var(--accent); font-style: italic; }
+.updated { margin: 0 0 34px; color: var(--muted); font-size: 13px; }
+.meta-strip {
+  display: grid; gap: 12px; margin-bottom: 12px;
+}
+.meta-row {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  padding: 16px 18px; border-radius: var(--radius-md);
+  border: 1px solid var(--card-border); background: rgba(255,255,255,0.025);
+}
+.meta-label { color: var(--muted); font-size: 13px; }
+.meta-value { color: var(--text); font-size: 13px; font-weight: 600; }
+.tldr {
+  margin-top: 12px;
+  padding: 24px 26px;
+  border-radius: var(--radius-lg);
+  border: 1px solid color-mix(in srgb, var(--accent) 24%, transparent);
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 10%, transparent), color-mix(in srgb, var(--accent-warm) 8%, transparent));
+}
+.tldr h2 {
+  margin: 0 0 10px;
+  font-family: 'DM Serif Display', Georgia, serif; font-size: 20px; font-weight: 400; letter-spacing: 0;
+  color: var(--text);
+}
+.footer {
+  margin-top: 72px; padding: 28px 0 48px;
+  border-top: 1px solid var(--line);
+  display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+}
+.footer strong {
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-size: 15px; font-weight: 400; letter-spacing: 0; color: var(--muted);
+}
+.footer span { color: var(--muted); font-size: 12px; }
 .reveal { opacity: 0; transform: translateY(14px); transition: opacity .65s var(--ease), transform .65s var(--ease); }
 .reveal.in { opacity: 1; transform: none; }
 .d1 { transition-delay: .04s; } .d2 { transition-delay: .08s; } .d3 { transition-delay: .12s; } .d4 { transition-delay: .16s; } .d5 { transition-delay: .20s; }
+
+.app-groups { display: grid; gap: 42px; }
+.app-group { display: grid; gap: 16px; }
+.app-card { min-height: 310px; display: flex; flex-direction: column; }
+.app-card .card-actions { margin-top: auto; padding-top: 22px; }
+.status-pill {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 28px; padding: 0 11px; border-radius: 999px;
+  font-size: 11px; font-weight: 600; color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 11%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 22%, transparent);
+}
+.status-pill.muted { color: var(--muted); border-color: var(--card-border); background: rgba(255,255,255,0.025); }
+.card-actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.store-badge-link { display: inline-flex; align-items: center; line-height: 0; }
+.store-badge-link img { width: 156px; height: auto; }
+.text-link {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 40px; padding: 0 15px; border-radius: 999px;
+  border: 1px solid var(--card-border); color: var(--muted); font-size: 13px;
+  transition: color .22s var(--ease), border-color .22s var(--ease), transform .22s var(--ease), background .22s var(--ease);
+}
+.text-link:hover { color: var(--text); border-color: var(--card-strong); background: var(--card-hover); transform: translateY(-1px); }
+.text-link.primary { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 26%, transparent); }
+.inline-links { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 18px; }
+.screenshot-gallery { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; align-items: start; }
+.screenshot-frame {
+  border: 1px solid color-mix(in srgb, var(--accent) 20%, var(--card-border));
+  border-radius: 26px; padding: 9px;
+  background: linear-gradient(145deg, rgba(255,255,255,0.075), rgba(255,255,255,0.022));
+  box-shadow: 0 18px 48px rgba(0,0,0,0.22), 0 0 24px var(--accent-glow);
+  overflow: hidden;
+}
+.screenshot-frame img { width: 100%; border-radius: 20px; }
+.screenshot-placeholder {
+  aspect-ratio: 9 / 19.5; border-radius: 26px; padding: 18px;
+  display: grid; place-items: center; text-align: center;
+  color: var(--muted); font-size: 13px; line-height: 1.5;
+  border: 1px dashed color-mix(in srgb, var(--accent) 35%, var(--card-border));
+  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 9%, transparent), rgba(255,255,255,0.018));
+}
+.screenshot-placeholder strong { display: block; margin-bottom: 6px; color: var(--soft); font-size: 14px; }
+.info-list { margin: 18px 0 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+.info-list li { position: relative; padding-left: 18px; color: var(--muted); font-size: 14px; line-height: 1.6; font-weight: 300; }
+.info-list li::before { content: ''; position: absolute; left: 0; top: .75em; width: 6px; height: 6px; border-radius: 999px; background: var(--accent); }
+.feature-list { display: grid; gap: 14px; }
+.privacy-card { border-color: color-mix(in srgb, var(--accent) 24%, var(--card-border)); }
+.compact-roadmaps { display: flex; gap: 10px; flex-wrap: wrap; }
+.compact-roadmaps a { color: var(--accent); font-size: 13px; }
+.split-card { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, .9fr); gap: 18px; align-items: stretch; }
+.hero-meta { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 26px; }
+.hero-meta span { color: var(--muted); border: 1px solid var(--card-border); background: rgba(255,255,255,0.025); border-radius: 999px; padding: 7px 11px; font-size: 12px; }
+.app-store-note { margin-top: 10px; color: var(--muted); font-size: 12px; }
+html[data-theme="light"] .screenshot-frame { background: linear-gradient(145deg, rgba(255,255,255,0.85), rgba(0,0,0,0.025)); box-shadow: 0 18px 44px rgba(0,0,0,0.10), 0 0 20px var(--accent-glow); }
+html[data-theme="light"] .screenshot-placeholder { background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 10%, rgba(255,255,255,0.9)), rgba(0,0,0,0.02)); }
+@media (max-width: 1080px) { .screenshot-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); } .split-card { grid-template-columns: 1fr; } }
+@media (max-width: 760px) { .store-badge-link img { width: 148px; } .screenshot-gallery { grid-template-columns: 1fr; max-width: 360px; margin: 0 auto; } .app-card { min-height: 0; } .card-actions { gap: 8px; } }
+
+@media (max-width: 1080px) { .grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } .hero-mark { right: 34px; top: 34px; } }
 @media (max-width: 760px) {
   .nav-inner { min-height: 68px; align-items: flex-start; padding: 14px 0; flex-direction: column; }
-  .hero-card { padding: 34px 24px 26px; }
-  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  .hero-card { padding: 34px 24px 26px; min-height: 0; }
+  .hero-mark { position: relative; right: auto; top: auto; width: 72px; height: 72px; margin-bottom: 22px; }
+  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
   .footer { flex-direction: column; align-items: flex-start; }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -286,7 +470,6 @@ main, .wrap {
 }
   </style>
 <script>(function(){var t=localStorage.getItem('zc-theme');if(t==='light')document.documentElement.setAttribute('data-theme','light');})();
-// ── Theme toggle ──────────────────────────────────────────────────────────────
 function toggleTheme(){
   var light=document.documentElement.getAttribute('data-theme')==='light';
   var next=light?'dark':'light';
@@ -295,31 +478,29 @@ function toggleTheme(){
   var icon=document.getElementById('theme-icon');
   if(icon) icon.textContent=next==='light'?'☀️':'🌙';
 }
-// Sync button icon after DOM ready
-(function(){
-  var t=localStorage.getItem('zc-theme')||'dark';
-  var icon=document.getElementById('theme-icon');
-  if(icon) icon.textContent=t==='light'?'☀️':'🌙';
-})();
 </script>
 </head>
 <body>
 <nav class="nav">
   <div class="nav-inner">
     <a class="brand" href="/">
-      <span class="brand-mark">ZC</span>
+      <span class="brand-mark"><img src="/images/zc-logo.svg" alt="Zhen Chyi Apps logo" /></span>
       <span class="brand-name">Zhen Chyi Apps</span>
     </a>
-    <div class="nav-links"><a href="/">Home</a><a href="/#apps">Apps</a><a href="/#privacy">Privacy</a><a class="active" href="/support/">Support</a><button id="theme-toggle" title="Toggle light / dark mode" onclick="toggleTheme()"><span id="theme-icon">🌙</span></button></div>
+    <div class="nav-links"><a href="/">Home</a><a href="/#apps">Apps</a><a href="/#privacy">Privacy</a><a href="/support/">Support</a><button id="theme-toggle" title="Toggle light / dark mode" onclick="toggleTheme()"><span id="theme-icon">🌙</span></button></div>
   </div>
 </nav>
 <main>
   <section class="hero reveal">
     <div class="hero-card">
-      <span class="badge">Support</span>
-      <h1 class="hero-title">Help for every app, in one calm <em>place</em>.</h1>
-      <p class="hero-copy">If you have questions, need help with an issue, want to report a bug, or need assistance with an in-app purchase, please contact Zhen Chyi Apps using the support details below.</p>
-      <div class="cta-row">
+      <div class="hero-mark"><img src="/images/zc-logo.svg" alt="Zhen Chyi Apps logo" /></div>
+      <div class="kicker">
+        <span class="badge">Support</span>
+        <span class="kicker-text">Zhen Chyi Apps</span>
+      </div>
+      <h1 class="hero-title">Help for small, focused <em>apps.</em></h1>
+      <p class="hero-copy">For app issues, purchase questions, privacy questions, or feedback, email support with the app name, device model, OS version, and a short description of what happened.</p>
+      <div class="hero-actions">
         <a class="btn-primary" href="mailto:hello@zhenchyi.com">Email support</a>
         <a class="btn-ghost" href="/">Back to home</a>
       </div>
@@ -327,30 +508,25 @@ function toggleTheme(){
   </section>
 
   <section class="section">
-    <div class="section-head reveal d1">
-      <h2>Contact</h2>
-      <p>Simple, direct, and easy to use.</p>
-    </div>
     <div class="grid-2">
       <article class="card reveal d1">
         <div class="label">Primary support</div>
         <h3>Email</h3>
-        <p>For all support enquiries, please contact <a href="mailto:hello@zhenchyi.com" style="color:var(--accent); font-weight:500;">hello@zhenchyi.com</a>.</p>
+        <p>Contact <a href="mailto:hello@zhenchyi.com" style="color:var(--accent); font-weight:500;">hello@zhenchyi.com</a> for all apps on this site.</p>
         <ul class="info-list">
-          <li>Please include your app name and device model if you are reporting a bug.</li>
-          <li>For purchase issues, include your App Store purchase date and a short description of the problem.</li>
-          <li>A response is typically provided within 2 business days.</li>
+          <li>Include the app name and version if available.</li>
+          <li>Include your iPhone, iPad, or Mac model and OS version for bug reports.</li>
+          <li>For purchase issues, include the App Store purchase date and whether Restore Purchases was tried.</li>
         </ul>
       </article>
       <article class="card reveal d2">
-        <div class="label">Supported apps</div>
-        <h3>Apps covered on this page</h3>
-        <p>This support page covers ShotMark, Wanderly, IsoPack, RankHalo, CarSense, and Still13.</p>
+        <div class="label">Response</div>
+        <h3>What support covers</h3>
+        <p>Support covers bug reports, app usage questions, privacy questions, feedback, and purchase or restore-purchase help.</p>
         <ul class="info-list">
-          <li>General questions</li>
-          <li>Bug reports and technical issues</li>
-          <li>In-app purchase and restore-purchase support</li>
-          <li>Feedback and feature suggestions</li>
+          <li>Replies are usually sent within 2 business days.</li>
+          <li>Apple handles App Store billing, refunds, and payment records.</li>
+          <li>Internal tool questions should identify the team or workspace involved.</li>
         </ul>
       </article>
     </div>
@@ -358,44 +534,30 @@ function toggleTheme(){
 
   <section class="section">
     <div class="section-head reveal d1">
-      <h2>What to include</h2>
-      <p>So support can be faster.</p>
-    </div>
-    <div class="grid-3">
-      <article class="card reveal d1">
-        <div class="label">1</div>
-        <h3>App details</h3>
-        <p>Tell us which app you are using and, if possible, the app version shown in the App Store or inside the app.</p>
-      </article>
-      <article class="card reveal d2">
-        <div class="label">2</div>
-        <h3>Device details</h3>
-        <p>Include your iPhone or iPad model and iOS version so the issue can be reproduced more accurately.</p>
-      </article>
-      <article class="card reveal d3">
-        <div class="label">3</div>
-        <h3>Issue summary</h3>
-        <p>Describe what happened, what you expected to happen, and the steps taken before the issue appeared.</p>
-      </article>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="section-head reveal d1">
-      <h2>Purchase help</h2>
-      <p>For unlocks, restores, and billing-related questions.</p>
+      <h2>App pages</h2>
+      <p>Open the app page before emailing if you need privacy, roadmap, or download links.</p>
     </div>
     <div class="grid-2">
       <article class="card reveal d1">
-        <div class="label">In-app purchases</div>
-        <h3>Restore purchases</h3>
-        <p>If you already bought a feature and it does not appear unlocked, first try the app's Restore Purchases button. If the issue remains, email support with your app name and a short description.</p>
+        <div class="label">Available apps</div>
+        <h3>Public App Store apps</h3>
+        <p>Still13, ShotMark, IsoPack, and RankHalo are the live public apps currently highlighted on this site.</p>
+        <div class="inline-links"><a class="text-link" href="/still13/">Still13</a><a class="text-link" href="/shotmark/">ShotMark</a><a class="text-link" href="/isopack/">IsoPack</a><a class="text-link" href="/rankhalo/">RankHalo</a></div>
       </article>
       <article class="card reveal d2">
-        <div class="label">Billing</div>
-        <h3>Apple ID charges</h3>
-        <p>All App Store billing is handled by Apple. If you need help with refunds or billing records, Apple Support may also be required depending on the issue.</p>
+        <div class="label">Other pages</div>
+        <h3>In development and internal</h3>
+        <p>Wanderly and CarSense are still in development. Y.E.S Hub is an internal app documented for support and privacy clarity.</p>
+        <div class="inline-links"><a class="text-link" href="/wanderly/">Wanderly</a><a class="text-link" href="/carsense/">CarSense</a><a class="text-link" href="/yes-hub/">Y.E.S Hub</a></div>
       </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="card reveal">
+      <div class="label">Purchase help</div>
+      <h3>App Store purchases are handled by Apple.</h3>
+      <p>If a one-time Pro unlock does not appear, first use Restore Purchases inside the app. If it still fails, email support with the app name and a short description. Refunds and billing records may require Apple Support.</p>
     </div>
   </section>
 
@@ -405,16 +567,25 @@ function toggleTheme(){
   </footer>
 </main>
 <script>
-const obs = new IntersectionObserver(
-  entries => entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('in');
-      obs.unobserve(entry.target);
-    }
-  }),
-  { threshold: 0.08, rootMargin: '0px 0px -24px 0px' }
-);
-document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+document.addEventListener('DOMContentLoaded', function () {
+  var icon=document.getElementById('theme-icon');
+  var t=localStorage.getItem('zc-theme')||'dark';
+  if(icon) icon.textContent=t==='light'?'☀️':'🌙';
+  var items=document.querySelectorAll('.reveal');
+  if (!('IntersectionObserver' in window)) {
+    items.forEach(function(el){ el.classList.add('in'); });
+    return;
+  }
+  var obs = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in');
+        obs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -24px 0px' });
+  items.forEach(function(el){ obs.observe(el); });
+});
 </script>
 </body>
 </html>
