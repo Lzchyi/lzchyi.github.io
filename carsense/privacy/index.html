@@ -10,19 +10,20 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
   <style>
 :root {
-  --bg: #050507;
-  --bg-soft: #090b10;
-  --text: #f3eff8;
-  --soft: #cfc6da;
-  --muted: #867d93;
-  --line: rgba(255,255,255,0.08);
-  --card: rgba(255,255,255,0.045);
-  --card-hover: rgba(255,255,255,0.07);
-  --card-border: rgba(255,255,255,0.1);
-  --card-strong: rgba(255,255,255,0.16);
-  --accent: #c4a4f0;
+  --bg: #0b0b0d;
+  --bg-soft: #151515;
+  --text: #f5f5f7;
+  --soft: #d2d2d7;
+  --muted: #a1a1a6;
+  --line: rgba(255,255,255,0.10);
+  --card: rgba(255,255,255,0.055);
+  --card-hover: rgba(255,255,255,0.09);
+  --card-border: rgba(255,255,255,0.14);
+  --card-strong: rgba(255,255,255,0.22);
+  --accent: #d6a55d;
   --accent-warm: #f0c09a;
-  --accent-glow: color-mix(in srgb, #c4a4f0 18%, transparent);
+  --accent-readable: #e0b76f;
+  --accent-glow: color-mix(in srgb, #d6a55d 14%, transparent);
   --radius-xl: 32px;
   --radius-lg: 24px;
   --radius-md: 18px;
@@ -31,31 +32,32 @@
 }
 
 html[data-theme="light"] {
-  --bg: #f8f6fb;
-  --bg-soft: #ede9f4;
-  --text: #160e22;
-  --soft: #3d3448;
-  --muted: #6a6078;
+  --bg: #f5f5f7;
+  --bg-soft: #ffffff;
+  --text: #1d1d1f;
+  --soft: #333336;
+  --muted: #6e6e73;
+  --accent-readable: #8a5a18;
   --line: rgba(0,0,0,0.09);
-  --card: rgba(0,0,0,0.038);
-  --card-hover: rgba(0,0,0,0.07);
-  --card-border: rgba(0,0,0,0.1);
-  --card-strong: rgba(0,0,0,0.16);
+  --card: rgba(0,0,0,0.035);
+  --card-hover: rgba(0,0,0,0.055);
+  --card-border: rgba(0,0,0,0.11);
+  --card-strong: rgba(0,0,0,0.20);
 }
 html[data-theme="light"] .nav {
-  background: rgba(248,246,251,0.85);
+  background: rgba(245,245,247,0.88);
 }
 html[data-theme="light"] .hero-card {
-  background: linear-gradient(150deg, color-mix(in srgb, var(--accent) 14%, rgba(255,252,255,0.96)) 0%, rgba(248,245,252,0.98) 65%);
+  background: linear-gradient(150deg, color-mix(in srgb, var(--accent) 5%, #ffffff) 0%, #f5f5f7 65%);
   border-color: color-mix(in srgb, var(--accent) 24%, rgba(0,0,0,0.08));
 }
 html[data-theme="light"] .brand-mark {
-  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 38%, #fff), color-mix(in srgb, var(--accent-warm) 28%, #f5f0fa));
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 14%, #ffffff), color-mix(in srgb, var(--accent-warm) 10%, #f5f5f7));
   border-color: rgba(0,0,0,0.12);
 }
 html[data-theme="light"] .hero-mark,
 html[data-theme="light"] .app-logo {
-  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 38%, rgba(255,255,255,0.9)), color-mix(in srgb, var(--accent-warm) 28%, rgba(250,248,252,0.85)));
+  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 14%, rgba(255,255,255,0.96)), color-mix(in srgb, var(--accent-warm) 10%, rgba(245,245,247,0.92)));
   border-color: rgba(0,0,0,0.12);
   box-shadow: 0 0 24px var(--accent-glow);
 }
@@ -63,12 +65,12 @@ html[data-theme="light"] .hero-mark {
   box-shadow: 0 16px 38px rgba(0,0,0,0.12), 0 0 34px var(--accent-glow);
 }
 html[data-theme="light"] .page-badge {
-  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 42%, rgba(255,255,255,0.9)), color-mix(in srgb, var(--accent-warm) 28%, rgba(250,248,252,0.85)));
+  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 16%, rgba(255,255,255,0.96)), color-mix(in srgb, var(--accent-warm) 10%, rgba(245,245,247,0.92)));
   border-color: rgba(0,0,0,0.12);
   box-shadow: 0 0 24px var(--accent-glow);
 }
 html[data-theme="light"] .feature-icon {
-  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 52%, rgba(255,255,255,0.8)), color-mix(in srgb, var(--accent-warm) 38%, rgba(250,248,252,0.85)));
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 28%, rgba(255,255,255,0.9)), color-mix(in srgb, var(--accent-warm) 18%, rgba(245,245,247,0.92)));
   border-color: rgba(0,0,0,0.08);
 }
 html[data-theme="light"] .meta-row { background: rgba(0,0,0,0.025); }
@@ -108,9 +110,9 @@ body::before {
   pointer-events: none;
   z-index: 0;
   background:
-    radial-gradient(ellipse at 15% 0%, color-mix(in srgb, var(--accent) 16%, transparent), transparent 42%),
-    radial-gradient(ellipse at 85% 0%, color-mix(in srgb, var(--accent-warm) 13%, transparent), transparent 35%),
-    radial-gradient(ellipse at 50% 100%, rgba(120,88,170,0.06), transparent 46%);
+    radial-gradient(ellipse at 15% 0%, color-mix(in srgb, var(--accent) 5%, transparent), transparent 42%),
+    radial-gradient(ellipse at 85% 0%, color-mix(in srgb, var(--accent-warm) 4%, transparent), transparent 35%),
+    radial-gradient(ellipse at 50% 100%, rgba(214,165,93,0.018), transparent 46%);
 }
 .nav {
   position: sticky; top: 0; z-index: 50;
@@ -134,7 +136,7 @@ body::before {
 .brand-mark {
   width: 28px; height: 28px; border-radius: 999px;
   border: 1px solid rgba(255,255,255,0.12);
-  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 32%, #111), color-mix(in srgb, var(--accent-warm) 22%, #0d0d11));
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 18%, #151515), color-mix(in srgb, var(--accent-warm) 12%, #101010));
   display: grid; place-items: center;
   overflow: hidden;
   box-shadow: 0 0 24px var(--accent-glow);
@@ -165,7 +167,7 @@ main, .wrap {
   overflow: hidden;
   border-radius: var(--radius-xl);
   border: 1px solid color-mix(in srgb, var(--accent) 24%, rgba(255,255,255,0.08));
-  background: linear-gradient(150deg, color-mix(in srgb, var(--accent) 18%, rgba(20,12,30,0.92)) 0%, rgba(7,7,11,0.95) 65%);
+  background: linear-gradient(150deg, color-mix(in srgb, var(--accent) 7%, rgba(17,17,19,0.96)) 0%, rgba(9,9,11,0.97) 65%);
   padding: 56px 56px 58px;
   min-height: 360px;
 }
@@ -179,11 +181,11 @@ main, .wrap {
 }
 .hero-card::before {
   width: 360px; height: 360px; right: -80px; top: -90px;
-  background: radial-gradient(circle, color-mix(in srgb, var(--accent) 22%, transparent), transparent 68%);
+  background: radial-gradient(circle, color-mix(in srgb, var(--accent) 9%, transparent), transparent 68%);
 }
 .hero-card::after {
   width: 280px; height: 280px; left: 12%; bottom: -90px;
-  background: radial-gradient(circle, color-mix(in srgb, var(--accent-warm) 16%, transparent), transparent 68%);
+  background: radial-gradient(circle, color-mix(in srgb, var(--accent-warm) 7%, transparent), transparent 68%);
 }
 .kicker {
   display: inline-flex; align-items: center; gap: 10px;
@@ -191,12 +193,12 @@ main, .wrap {
 }
 .badge {
   font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
-  color: var(--accent);
+  color: var(--accent-readable);
   background: color-mix(in srgb, var(--accent) 11%, transparent);
   border: 1px solid color-mix(in srgb, var(--accent) 22%, transparent);
   padding: 6px 11px; border-radius: 999px;
 }
-.kicker-text { font-size: 12px; color: var(--muted); }
+.kicker-text { font-size: 12px; color: var(--soft); }
 .hero-title {
   margin: 0 0 16px;
   font-family: 'DM Serif Display', Georgia, serif;
@@ -205,14 +207,14 @@ main, .wrap {
   letter-spacing: 0;
   max-width: 720px;
 }
-.hero-title em { font-style: italic; color: var(--accent); }
+.hero-title em { font-style: italic; color: var(--accent-readable); }
 .hero-copy {
   margin: 0 0 28px;
   max-width: 620px;
   font-size: clamp(15px, 1.7vw, 18px);
   line-height: 1.65;
   color: var(--soft);
-  font-weight: 300;
+  font-weight: 400;
 }
 .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
 .btn-primary, .btn-ghost {
@@ -237,7 +239,7 @@ main, .wrap {
   position: absolute; right: 52px; top: 52px;
   width: 88px; height: 88px; border-radius: 24px;
   border: 1px solid rgba(255,255,255,0.12);
-  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 32%, rgba(20,20,24,0.82)), color-mix(in srgb, var(--accent-warm) 22%, rgba(20,20,24,0.72)));
+  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 18%, rgba(22,22,24,0.86)), color-mix(in srgb, var(--accent-warm) 10%, rgba(18,18,20,0.78)));
   display: grid; place-items: center;
   overflow: hidden;
   box-shadow: 0 16px 38px rgba(0,0,0,0.36), 0 0 34px var(--accent-glow);
@@ -250,7 +252,7 @@ main, .wrap {
   width: 54px; height: 54px; border-radius: 16px;
   overflow: hidden;
   border: 1px solid rgba(255,255,255,0.12);
-  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 32%, rgba(20,20,24,0.82)), color-mix(in srgb, var(--accent-warm) 22%, rgba(20,20,24,0.72)));
+  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 18%, rgba(22,22,24,0.86)), color-mix(in srgb, var(--accent-warm) 10%, rgba(18,18,20,0.78)));
   box-shadow: 0 0 28px var(--accent-glow);
 }
 .app-logo img { width: 100%; height: 100%; object-fit: cover; }
@@ -258,14 +260,14 @@ main, .wrap {
   display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-top:22px;
 }
 .link-row a { font-size: 13px; }
-.link-row .primary-link { color: var(--accent); font-weight: 600; }
+.link-row .primary-link { color: var(--accent-readable); font-weight: 600; }
 .link-row .secondary-link { color: var(--muted); }
 .roadmap-note {
   margin-top: 26px;
   padding: 18px 20px;
   border-radius: var(--radius-md);
   border: 1px solid color-mix(in srgb, var(--accent) 20%, transparent);
-  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 10%, transparent), color-mix(in srgb, var(--accent-warm) 8%, transparent));
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 6%, transparent), color-mix(in srgb, var(--accent-warm) 4%, transparent));
 }
 .roadmap-note strong {
   display: block;
@@ -280,7 +282,7 @@ main, .wrap {
   color: var(--soft);
   font-size: 14px;
   line-height: 1.7;
-  font-weight: 300;
+  font-weight: 400;
 }
 .section { padding: 20px 0 0; margin-bottom: 72px; }
 .section-head {
@@ -294,7 +296,7 @@ main, .wrap {
   font-weight: 400;
 }
 .section-head p {
-  margin: 0; color: var(--muted); font-size: 13px;
+  margin: 0; color: var(--soft); font-size: 13px;
 }
 .grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
 .grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
@@ -319,14 +321,14 @@ main, .wrap {
   font-size: 22px; font-weight: 400; letter-spacing: 0; line-height: 1.08;
 }
 .card p, .policy p, .lead, .app-desc {
-  margin: 0; font-size: 14px; line-height: 1.65; color: var(--muted); font-weight: 300;
+  margin: 0; font-size: 14px; line-height: 1.65; color: var(--soft); font-weight: 400;
 }
 .feature-name { margin: 0 0 8px; font-size: 18px; font-weight: 600; letter-spacing: 0; }
 .feature-icon {
   width: 42px; height: 42px; border-radius: 14px;
   margin-bottom: 16px; display: grid; place-items: center;
   color: #fff; font-size: 14px; font-weight: 700;
-  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 34%, rgba(25,25,30,0.85)), color-mix(in srgb, var(--accent-warm) 25%, rgba(25,25,30,0.75)));
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 24%, rgba(25,25,27,0.88)), color-mix(in srgb, var(--accent-warm) 14%, rgba(22,22,24,0.82)));
   border: 1px solid rgba(255,255,255,0.08);
 }
 .back-link {
@@ -360,7 +362,7 @@ main, .wrap {
   font-size: clamp(34px, 5vw, 50px);
   letter-spacing: 0; font-weight: 400;
 }
-.page-title em { color: var(--accent); font-style: italic; }
+.page-title em { color: var(--accent-readable); font-style: italic; }
 .updated { margin: 0 0 34px; color: var(--muted); font-size: 13px; }
 .meta-strip {
   display: grid; gap: 12px; margin-bottom: 12px;
@@ -377,7 +379,7 @@ main, .wrap {
   padding: 24px 26px;
   border-radius: var(--radius-lg);
   border: 1px solid color-mix(in srgb, var(--accent) 24%, transparent);
-  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 10%, transparent), color-mix(in srgb, var(--accent-warm) 8%, transparent));
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 6%, transparent), color-mix(in srgb, var(--accent-warm) 4%, transparent));
 }
 .tldr h2 {
   margin: 0 0 10px;
@@ -405,7 +407,7 @@ main, .wrap {
 .status-pill {
   display: inline-flex; align-items: center; justify-content: center;
   min-height: 28px; padding: 0 11px; border-radius: 999px;
-  font-size: 11px; font-weight: 600; color: var(--accent);
+  font-size: 11px; font-weight: 600; color: var(--accent-readable);
   background: color-mix(in srgb, var(--accent) 11%, transparent);
   border: 1px solid color-mix(in srgb, var(--accent) 22%, transparent);
 }
@@ -420,7 +422,7 @@ main, .wrap {
   transition: color .22s var(--ease), border-color .22s var(--ease), transform .22s var(--ease), background .22s var(--ease);
 }
 .text-link:hover { color: var(--text); border-color: var(--card-strong); background: var(--card-hover); transform: translateY(-1px); }
-.text-link.primary { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 26%, transparent); }
+.text-link.primary { color: var(--accent-readable); border-color: color-mix(in srgb, var(--accent-readable) 32%, transparent); }
 .inline-links { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 18px; }
 .screenshot-gallery { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; align-items: start; }
 .screenshot-frame {
@@ -436,16 +438,16 @@ main, .wrap {
   display: grid; place-items: center; text-align: center;
   color: var(--muted); font-size: 13px; line-height: 1.5;
   border: 1px dashed color-mix(in srgb, var(--accent) 35%, var(--card-border));
-  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 9%, transparent), rgba(255,255,255,0.018));
+  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 5%, transparent), rgba(255,255,255,0.018));
 }
 .screenshot-placeholder strong { display: block; margin-bottom: 6px; color: var(--soft); font-size: 14px; }
 .info-list { margin: 18px 0 0; padding: 0; list-style: none; display: grid; gap: 10px; }
-.info-list li { position: relative; padding-left: 18px; color: var(--muted); font-size: 14px; line-height: 1.6; font-weight: 300; }
+.info-list li { position: relative; padding-left: 18px; color: var(--soft); font-size: 14px; line-height: 1.6; font-weight: 400; }
 .info-list li::before { content: ''; position: absolute; left: 0; top: .75em; width: 6px; height: 6px; border-radius: 999px; background: var(--accent); }
 .feature-list { display: grid; gap: 14px; }
 .privacy-card { border-color: color-mix(in srgb, var(--accent) 24%, var(--card-border)); }
 .compact-roadmaps { display: flex; gap: 10px; flex-wrap: wrap; }
-.compact-roadmaps a { color: var(--accent); font-size: 13px; }
+.compact-roadmaps a { color: var(--accent-readable); font-size: 13px; }
 .split-card { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, .9fr); gap: 18px; align-items: stretch; }
 .hero-meta { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 26px; }
 .hero-meta span { color: var(--muted); border: 1px solid var(--card-border); background: rgba(255,255,255,0.025); border-radius: 999px; padding: 7px 11px; font-size: 12px; }
@@ -539,7 +541,7 @@ function toggleTheme(){
     <h2>TL;DR</h2>
     <p>CarSense is still in development, but the privacy direction is local-first with no account requirement and no unnecessary data collection.</p>
     <div style="height:10px"></div>
-    <p>Questions: <a href="mailto:hello@zhenchyi.com" style="color:var(--accent)">hello@zhenchyi.com</a></p>
+    <p>Questions: <a href="mailto:hello@zhenchyi.com" style="color:var(--accent-readable)">hello@zhenchyi.com</a></p>
   </section>
 
   <footer class="footer reveal">
