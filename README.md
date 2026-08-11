@@ -39,6 +39,13 @@ Log and understand how a car actually feels — not just specs.
 
 ---
 
+### 🖋️ InkBrief
+A quieter morning dashboard for Kindle.
+
+Open-source news, weather, astronomy, and Formula 1 pages rendered for a readable e-ink screen, with optional article links and checksummed releases. Visit the [project page](https://www.zhenchyi.com/inkbrief/) or [source repository](https://github.com/Lzchyi/inkbrief).
+
+---
+
 ## Status
 
 All apps are actively evolving.
@@ -63,6 +70,7 @@ not to fill space.
 - MapKit
 - OpenWeather API
 - Lightweight local-first architecture
+- Python, RSS, GitHub Actions, and static HTTPS releases
 
 ---
 

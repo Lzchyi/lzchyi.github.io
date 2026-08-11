@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InkBrief — A quieter morning dashboard for Kindle.</title>
+  <meta name="description" content="InkBrief is an open-source e-ink news, weather, astronomy, and Formula 1 dashboard for a jailbroken Kindle." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+  <style>
+:root {
+  --bg:#0b0b0d; --bg-soft:#151515; --text:#f5f5f7; --soft:#d2d2d7; --muted:#a1a1a6;
+  --line:rgba(255,255,255,.10); --card:rgba(255,255,255,.055); --card-hover:rgba(255,255,255,.09);
+  --card-border:rgba(255,255,255,.14); --card-strong:rgba(255,255,255,.22);
+  --accent:#d6a55d; --accent-warm:#f0c09a; --accent-readable:#e0b76f;
+  --accent-glow:color-mix(in srgb,#d6a55d 14%,transparent); --radius-xl:32px; --radius-lg:24px;
+  --radius-md:18px; --ease:cubic-bezier(.22,1,.36,1); --max:1080px;
+}
+html[data-theme="light"] { --bg:#f5f5f7; --bg-soft:#fff; --text:#1d1d1f; --soft:#333336; --muted:#6e6e73; --accent-readable:#8a5a18; --line:rgba(0,0,0,.09); --card:rgba(0,0,0,.035); --card-hover:rgba(0,0,0,.055); --card-border:rgba(0,0,0,.11); --card-strong:rgba(0,0,0,.20); }
+html[data-theme="light"] .nav { background:rgba(245,245,247,.88); }
+html[data-theme="light"] .hero-card { background:linear-gradient(150deg,color-mix(in srgb,var(--accent) 5%,#fff),#f5f5f7 65%); border-color:color-mix(in srgb,var(--accent) 24%,rgba(0,0,0,.08)); }
+html[data-theme="light"] .brand-mark,html[data-theme="light"] .hero-mark { background:linear-gradient(145deg,color-mix(in srgb,var(--accent) 14%,#fff),color-mix(in srgb,var(--accent-warm) 10%,#f5f5f7)); border-color:rgba(0,0,0,.12); }
+html[data-theme="light"] .preview-frame { background:linear-gradient(145deg,rgba(255,255,255,.85),rgba(0,0,0,.025)); box-shadow:0 18px 44px rgba(0,0,0,.10),0 0 20px var(--accent-glow); }
+html[data-theme="light"] .btn-ghost { background:rgba(0,0,0,.02); }
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { margin:0; font-family:'DM Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; background:var(--bg); color:var(--text); letter-spacing:0; -webkit-font-smoothing:antialiased; overflow-x:hidden; }
+a { color:inherit; text-decoration:none; }
+img { max-width:100%; display:block; }
+body::before { content:''; position:fixed; inset:0; pointer-events:none; z-index:0; background:radial-gradient(ellipse at 15% 0%,color-mix(in srgb,var(--accent) 5%,transparent),transparent 42%),radial-gradient(ellipse at 85% 0%,color-mix(in srgb,var(--accent-warm) 4%,transparent),transparent 35%); }
+.nav { position:sticky; top:0; z-index:50; border-bottom:1px solid var(--line); background:rgba(5,5,7,.72); backdrop-filter:blur(20px); -webkit-backdrop-filter:blur(20px); }
+.nav-inner,main { width:min(calc(100% - 32px),var(--max)); margin:0 auto; }
+.nav-inner { min-height:72px; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+.brand { display:flex; align-items:center; gap:12px; }
+.brand-mark { width:28px; height:28px; border-radius:999px; border:1px solid rgba(255,255,255,.12); background:linear-gradient(135deg,color-mix(in srgb,var(--accent) 18%,#151515),color-mix(in srgb,var(--accent-warm) 12%,#101010)); display:grid; place-items:center; overflow:hidden; box-shadow:0 0 24px var(--accent-glow); }
+.brand-mark img { width:100%; height:100%; object-fit:cover; }
+.brand-name,.hero-title,.section h2,.card h3,.footer strong { font-family:'DM Serif Display',Georgia,serif; font-weight:400; letter-spacing:0; }
+.brand-name { font-size:17px; }
+.nav-links { display:flex; gap:4px; flex-wrap:wrap; justify-content:flex-end; }
+.nav-links a,#theme-toggle { font-size:13px; color:var(--muted); padding:8px 13px; border-radius:999px; }
+.nav-links a:hover { color:var(--text); background:rgba(255,255,255,.06); }
+#theme-toggle { background:none; border:1px solid var(--card-border); cursor:pointer; font-size:15px; line-height:1; }
+main { position:relative; z-index:1; }
+.back-link { display:inline-flex; align-items:center; gap:7px; margin:32px 0 34px; padding:8px 14px; border:1px solid var(--card-border); border-radius:999px; color:var(--muted); font-size:13px; }
+.back-link:hover,.btn-ghost:hover,.text-link:hover { color:var(--text); border-color:var(--card-strong); transform:translateY(-1px); }
+.hero { padding:0 0 20px; }
+.hero-card { position:relative; overflow:hidden; border-radius:var(--radius-xl); border:1px solid color-mix(in srgb,var(--accent) 24%,rgba(255,255,255,.08)); background:linear-gradient(150deg,color-mix(in srgb,var(--accent) 7%,rgba(17,17,19,.96)),rgba(9,9,11,.97) 65%); padding:52px 56px 54px; min-height:360px; }
+.hero-card::after { content:''; position:absolute; width:330px; height:330px; right:-100px; top:-90px; border-radius:999px; background:radial-gradient(circle,color-mix(in srgb,var(--accent) 11%,transparent),transparent 68%); pointer-events:none; }
+.hero-mark { position:absolute; right:52px; top:52px; width:88px; height:88px; border-radius:24px; border:1px solid rgba(255,255,255,.12); background:linear-gradient(145deg,color-mix(in srgb,var(--accent) 18%,rgba(22,22,24,.86)),color-mix(in srgb,var(--accent-warm) 10%,rgba(18,18,20,.78))); display:grid; place-items:center; overflow:hidden; box-shadow:0 16px 38px rgba(0,0,0,.36),0 0 34px var(--accent-glow); }
+.hero-mark img { width:100%; height:100%; object-fit:cover; }
+.kicker { display:inline-flex; align-items:center; gap:10px; margin-bottom:18px; }
+.badge,.status-pill { font-size:11px; font-weight:600; letter-spacing:.12em; text-transform:uppercase; color:var(--accent-readable); background:color-mix(in srgb,var(--accent) 11%,transparent); border:1px solid color-mix(in srgb,var(--accent) 22%,transparent); padding:6px 11px; border-radius:999px; }
+.kicker-text { font-size:12px; color:var(--soft); }
+.hero-title { margin:0 0 16px; font-size:clamp(40px,6vw,72px); line-height:.95; max-width:720px; }
+.hero-title em { color:var(--accent-readable); font-style:italic; }
+.hero-copy { margin:0 0 28px; max-width:640px; font-size:clamp(15px,1.7vw,18px); line-height:1.65; color:var(--soft); }
+.hero-actions,.card-actions,.inline-links { display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+.hero-actions { gap:12px; }
+.btn-primary,.btn-ghost,.text-link { display:inline-flex; align-items:center; justify-content:center; min-height:42px; padding:0 16px; border-radius:999px; font-size:13px; transition:transform .24s var(--ease),border-color .24s var(--ease),background .24s var(--ease); }
+.btn-primary { color:#120d17; font-weight:600; background:linear-gradient(135deg,var(--accent),var(--accent-warm)); box-shadow:0 0 28px var(--accent-glow); }
+.btn-ghost,.text-link { color:var(--muted); border:1px solid var(--card-border); background:rgba(255,255,255,.02); }
+.section { padding:20px 0 0; margin-bottom:58px; }
+.section-head { display:flex; align-items:baseline; gap:12px; margin-bottom:18px; flex-wrap:wrap; }
+.section h2 { margin:0; font-size:clamp(24px,3vw,34px); }
+.section-head p { margin:0; color:var(--soft); font-size:13px; }
+.grid-2 { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+.grid-4 { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px; }
+.card { background:var(--card); border:1px solid var(--card-border); border-radius:var(--radius-lg); padding:26px; backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); transition:background .28s var(--ease),border-color .28s var(--ease),transform .28s var(--ease); }
+.card:hover { background:var(--card-hover); border-color:var(--card-strong); transform:translateY(-2px); }
+.card h3 { margin:0 0 8px; font-size:22px; line-height:1.08; }
+.card p { margin:0; font-size:14px; line-height:1.65; color:var(--soft); }
+.label { margin-bottom:10px; font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); font-weight:600; }
+.feature-icon { width:42px; height:42px; border-radius:14px; margin-bottom:16px; display:grid; place-items:center; color:#fff; font-size:14px; font-weight:700; background:linear-gradient(135deg,color-mix(in srgb,var(--accent) 24%,rgba(25,25,27,.88)),color-mix(in srgb,var(--accent-warm) 14%,rgba(22,22,24,.82))); border:1px solid rgba(255,255,255,.08); }
+.preview-grid { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:14px; align-items:start; }
+.preview-frame { border:1px solid color-mix(in srgb,var(--accent) 20%,var(--card-border)); border-radius:22px; padding:8px; background:linear-gradient(145deg,rgba(255,255,255,.075),rgba(255,255,255,.022)); box-shadow:0 18px 48px rgba(0,0,0,.22),0 0 24px var(--accent-glow); }
+.preview-frame img { width:100%; border-radius:16px; }
+.meta-row { display:flex; justify-content:space-between; gap:16px; padding:16px 18px; border-radius:var(--radius-md); border:1px solid var(--card-border); background:rgba(255,255,255,.025); }
+.meta-strip { display:grid; gap:12px; }
+.meta-label { color:var(--muted); font-size:13px; }.meta-value { color:var(--text); font-size:13px; font-weight:600; }
+.footer { margin-top:72px; padding:28px 0 48px; border-top:1px solid var(--line); display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; }
+.footer strong { font-size:15px; color:var(--muted); }.footer span { color:var(--muted); font-size:12px; }
+.reveal { opacity:0; transform:translateY(14px); transition:opacity .65s var(--ease),transform .65s var(--ease); }.reveal.in { opacity:1; transform:none; }
+.d1{transition-delay:.04s}.d2{transition-delay:.08s}.d3{transition-delay:.12s}.d4{transition-delay:.16s}.d5{transition-delay:.20s}
+@media(max-width:1080px){.grid-4{grid-template-columns:repeat(2,minmax(0,1fr));}.preview-grid{grid-template-columns:repeat(3,minmax(0,1fr));}.hero-mark{right:34px;top:34px;}}
+@media(max-width:760px){.nav-inner{min-height:68px;align-items:flex-start;padding:14px 0;flex-direction:column;}.hero-card{padding:34px 24px 26px;min-height:0;}.hero-mark{position:relative;right:auto;top:auto;width:72px;height:72px;margin-bottom:22px;}.grid-2,.grid-4,.preview-grid{grid-template-columns:1fr;}.footer{flex-direction:column;align-items:flex-start;}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.reveal,.reveal.in{opacity:1!important;transform:none!important}html{scroll-behavior:auto;}}
+  </style>
+  <script>(function(){var t=localStorage.getItem('zc-theme');if(t==='light')document.documentElement.setAttribute('data-theme','light');})();function toggleTheme(){var light=document.documentElement.getAttribute('data-theme')==='light';var next=light?'dark':'light';document.documentElement.setAttribute('data-theme',next);localStorage.setItem('zc-theme',next);var icon=document.getElementById('theme-icon');if(icon)icon.textContent=next==='light'?'☀️':'🌙';}</script>
+</head>
+<body style="--accent:#d6a55d;--accent-warm:#f0c09a;--accent-glow:color-mix(in srgb,#d6a55d 18%,transparent);">
+<nav class="nav"><div class="nav-inner"><a class="brand" href="/"><span class="brand-mark"><img src="/images/zc-logo.svg" alt="Zhen Chyi Apps logo" /></span><span class="brand-name">Zhen Chyi Apps</span></a><div class="nav-links"><a href="/">Home</a><a href="/#apps">Apps</a><a href="/support/">Support</a><button id="theme-toggle" title="Toggle light / dark mode" onclick="toggleTheme()"><span id="theme-icon">🌙</span></button></div></div></nav>
+<main>
+  <a class="back-link reveal" href="/">← Back to home</a>
+  <section class="hero reveal"><div class="hero-card"><div class="hero-mark"><img src="/inkbrief/inkbrief-mark.png" alt="InkBrief track icon" /></div><div class="kicker"><span class="badge">Open source</span><span class="kicker-text">For a jailbroken Kindle</span></div><h1 class="hero-title">InkBrief<br><em>A quieter morning dashboard.</em></h1><p class="hero-copy">News, weather, astronomy, and Formula 1 rendered for an e-ink screen that stays readable. InkBrief is open-source, deterministic by default, and built to keep the Kindle library untouched.</p><div class="hero-actions"><a class="btn-primary" href="https://github.com/Lzchyi/inkbrief">View on GitHub</a><a class="btn-ghost" href="https://lzchyi.github.io/inkbrief/profiles/kt5/current.json">Live release</a><a class="btn-ghost" href="/support/">Support</a></div></div></section>
+  <section class="section"><div class="section-head reveal d1"><h2>The dashboard</h2><p>Five pages, one calm scan.</p></div><div class="preview-grid"><figure class="preview-frame reveal d1"><img src="/inkbrief/screenshots/home.png" alt="InkBrief home dashboard with weather, moon, F1, and headlines." loading="lazy" /></figure><figure class="preview-frame reveal d2"><img src="/inkbrief/screenshots/weather.png" alt="InkBrief weather and astronomy page." loading="lazy" /></figure><figure class="preview-frame reveal d3"><img src="/inkbrief/screenshots/f1.png" alt="InkBrief Formula 1 weekend page." loading="lazy" /></figure><figure class="preview-frame reveal d4"><img src="/inkbrief/screenshots/morning-brief.png" alt="InkBrief morning brief page." loading="lazy" /></figure><figure class="preview-frame reveal d5"><img src="/inkbrief/screenshots/headlines.png" alt="InkBrief categorized headlines page." loading="lazy" /></figure></div></section>
+  <section class="section"><div class="section-head reveal d1"><h2>What it does</h2><p>Designed for repeated morning use.</p></div><div class="grid-2"><article class="card reveal d1"><div class="label">Readable by design</div><h3>Large, quiet, and scannable</h3><p>High-contrast monochrome pages, explicit dates, restrained density, and custom e-ink iconography keep the useful parts visible at a glance.</p></article><article class="card reveal d2"><div class="label">Actual sources</div><h3>Tap past the headline</h3><p>News rows can open the original HTTPS article in Kindle Chromium after you explicitly enable the browser-risk option in KUAL.</p></article></div></section>
+  <section class="section"><div class="section-head reveal d1"><h2>Key details</h2><p>Small surface, serious boundaries.</p></div><div class="grid-4"><article class="card reveal d1"><div class="feature-icon">01</div><h3>Open source</h3><p>MIT-licensed code and documented assets, with internal compatibility names preserved for safe upgrades.</p></article><article class="card reveal d2"><div class="feature-icon">02</div><h3>No AI required</h3><p>Local deterministic ranking and summaries work without a provider key. AI is optional BYOK.</p></article><article class="card reveal d3"><div class="feature-icon">03</div><h3>Verified releases</h3><p>GitHub Actions publishes checksummed page bundles and the Kindle updater validates every file.</p></article><article class="card reveal d4"><div class="feature-icon">04</div><h3>Stock-friendly</h3><p>Manual KUAL launch, visible HOME, failsafe exit, and an installer scoped to its owned paths.</p></article></div></section>
+  <section class="section"><div class="card reveal"><div class="label">For contributors</div><h3>Build the next page with me.</h3><p>Start with the architecture, data-source, privacy, and device-install documentation. The project is intentionally transparent about its firmware target, browser risk, and feed boundaries.</p><div class="card-actions" style="margin-top:18px;"><a class="text-link" href="https://github.com/Lzchyi/inkbrief/blob/main/README.md">Read the README</a><a class="text-link" href="https://github.com/Lzchyi/inkbrief/blob/main/docs/privacy-security.md">Privacy and security</a><a class="text-link" href="https://github.com/Lzchyi/inkbrief/blob/main/LICENSE">MIT license</a></div></div></section>
+  <footer class="footer reveal"><strong>Zhen Chyi Apps</strong><span>© 2026 Zhen Chyi Lee</span></footer>
+</main>
+<script>document.addEventListener('DOMContentLoaded',function(){var icon=document.getElementById('theme-icon');var t=localStorage.getItem('zc-theme')||'dark';if(icon)icon.textContent=t==='light'?'☀️':'🌙';var items=document.querySelectorAll('.reveal');if(!('IntersectionObserver' in window)){items.forEach(function(el){el.classList.add('in');});return;}var obs=new IntersectionObserver(function(entries){entries.forEach(function(entry){if(entry.isIntersecting){entry.target.classList.add('in');obs.unobserve(entry.target);}});},{threshold:.08,rootMargin:'0px 0px -24px 0px'});items.forEach(function(el){obs.observe(el);});});</script>
+</body>
+</html>
