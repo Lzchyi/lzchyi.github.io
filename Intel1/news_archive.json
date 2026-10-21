@@ -1,0 +1,420 @@
+[
+  {
+    "brief_id": "news-2c797df0a7d571fff606",
+    "checked_at": "2026-10-21T16:34:24Z",
+    "coverage_note": "Some sources could not be checked. These reports reflect the linked evidence that was available.",
+    "coverage_status": "partial",
+    "failed_sources": [
+      {
+        "source_id": "autosport_f1",
+        "source_name": "Autosport Formula 1"
+      },
+      {
+        "source_id": "bbc_sport_f1",
+        "source_name": "BBC Sport Formula 1"
+      },
+      {
+        "source_id": "espn_f1",
+        "source_name": "ESPN Formula 1"
+      },
+      {
+        "source_id": "fia_f1_2026_documents",
+        "source_name": "FIA Formula One 2026 Decision Documents"
+      },
+      {
+        "source_id": "formula1_official_latest",
+        "source_name": "Formula 1 Official Latest"
+      },
+      {
+        "source_id": "guardian_formula_one",
+        "source_name": "The Guardian Formula One"
+      },
+      {
+        "source_id": "motorsport_f1",
+        "source_name": "Motorsport.com Formula 1"
+      },
+      {
+        "source_id": "pirelli_formula1_tag",
+        "source_name": "Pirelli Formula 1 Tag"
+      },
+      {
+        "source_id": "racer_f1",
+        "source_name": "RACER Formula 1"
+      },
+      {
+        "source_id": "reuters_formula1",
+        "source_name": "Reuters Formula 1"
+      }
+    ],
+    "headline": "Aston Martin uncover celebratory livery tweak for US Grand Prix | RacingNews365",
+    "is_preview": false,
+    "items": [
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [],
+        "headline": "Aston Martin uncover celebratory livery tweak for US Grand Prix | RacingNews365",
+        "id": "story-ee2ec94074819a928cc4",
+        "published_at": "2026-10-21T16:13:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview Aston Martin will race with a one-off livery at the United States Grand Prix to celebrate five years of partnership with Cognizant, the team has announced.",
+            "evidence_excerpts": [
+              "Article To news overview Aston Martin will race with a one-off livery at the United States Grand Prix to celebrate five years of partnership with Cognizant, the team has announced.",
+              "The design marks a relationship that began in 2021, when Cognizant joined Aston Martin as the marque returned to the F1 grid.",
+              "The livery will take to the race track at the Circuit of the Americas this weekend, and will celebrate the partnership between the two outfits across the last handful of years."
+            ],
+            "published_at": "2026-10-21T16:13:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/aston-martin-uncover-celebratory-livery-tweak-for-us-grand-prix"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview Aston Martin will race with a one-off livery at the United States Grand Prix to celebrate five years of partnership with Cognizant, the team has announced.\u201d\n\n\u201cThe design marks a relationship that began in 2021, when Cognizant joined Aston Martin as the marque returned to the F1 grid.\u201d\n\n\u201cThe livery will take to the race track at the Circuit of the Americas this weekend, and will celebrate the partnership between the two outfits across the last handful of years.\u201d",
+        "teams": [
+          "Aston Martin"
+        ],
+        "topic": "general",
+        "updated_at": "2026-10-21T16:34:24Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [],
+        "headline": "F1 US Grand Prix: All special team liveries revealed | Crash.net",
+        "id": "story-c568e83e618f92bbf3e7",
+        "published_at": "2026-10-21T15:53:40Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Haas US GP special livery \u00a9 Haas A number of teams will run special one-off liveries this weekend at the Formula 1 United States Grand Prix.",
+            "evidence_excerpts": [
+              "Haas US GP special livery \u00a9 Haas A number of teams will run special one-off liveries this weekend at the Formula 1 United States Grand Prix.",
+              "Haas US GP special livery \u00a9 Haas Haas - Godzilla promotion The Haas F1 team is one of two American outfits competing at COTA this year.",
+              "Mercedes US GP livery \u00a9 Mercedes Mercedes - MANUFAKTUR Mercedes has been hot on special liveries lately, running a mint green design at the Bahrain Grand Prix in Malaysia as a nod"
+            ],
+            "published_at": "2026-10-21T15:53:40Z",
+            "source_id": "crash_f1",
+            "source_name": "Crash.net Formula 1",
+            "url": "https://www.crash.net/f1/news/1107935/1/f1-us-grand-prix-all-special-team-liveries-revealed"
+          }
+        ],
+        "summary": "Crash.net Formula 1: \u201cHaas US GP special livery \u00a9 Haas A number of teams will run special one-off liveries this weekend at the Formula 1 United States Grand Prix.\u201d\n\n\u201cHaas US GP special livery \u00a9 Haas Haas - Godzilla promotion The Haas F1 team is one of two American outfits competing at COTA this year.\u201d\n\n\u201cMercedes US GP livery \u00a9 Mercedes Mercedes - MANUFAKTUR Mercedes has been hot on special liveries lately, running a mint green design at the Bahrain Grand Prix in Malaysia as a nod\u201d",
+        "teams": [
+          "Haas",
+          "Mercedes",
+          "Cadillac"
+        ],
+        "topic": "general",
+        "updated_at": "2026-10-21T16:34:24Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "analysis",
+        "confidence_label": "reported",
+        "drivers": [
+          "Max Verstappen",
+          "Charles Leclerc"
+        ],
+        "headline": "F1 FANTASY: Strategist Preview \u2013 The Alpine Mini-League and what you need to know for the US, Mexico and Brazil",
+        "id": "story-7060691ed171306bfa04",
+        "published_at": "2026-10-21T15:32:30Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Fantasy\u2019s global leaderboard. Verstappen\u2019s record at the Circuit of The Americas makes him a standout 2x Boost option Max Verstappen ($28.2m) Verstappen arrives in Austin on back-to-back fantasy scores of 50 or",
+            "evidence_excerpts": [
+              "Fantasy\u2019s global leaderboard. Verstappen\u2019s record at the Circuit of The Americas makes him a standout 2x Boost option Max Verstappen ($28.2m) Verstappen arrives in Austin on back-to-back fantasy scores of 50 or",
+              "The Dutchman has also won four of the last five Grands Prix at the Circuit of The Americas, and finished on the podium in Mexico and Brazil in 2025, which makes him",
+              "the most compelling 2x Boost candidate for the next three rounds."
+            ],
+            "published_at": "2026-10-21T15:32:30Z",
+            "source_id": "formula1_official_latest",
+            "source_name": "Formula 1 Official Latest",
+            "url": "https://www.formula1.com/en/latest/article/f1-fantasy-strategist-preview-the-alpine-mini-league-and-what-you-need-to-know-for-the-us-mexico-and-brazil.5PalKAaeXaGqR6yYGvubuO"
+          }
+        ],
+        "summary": "Formula 1 Official Latest: \u201cFantasy\u2019s global leaderboard. Verstappen\u2019s record at the Circuit of The Americas makes him a standout 2x Boost option Max Verstappen ($28.2m) Verstappen arrives in Austin on back-to-back fantasy scores of 50 or\u201d\n\n\u201cThe Dutchman has also won four of the last five Grands Prix at the Circuit of The Americas, and finished on the podium in Mexico and Brazil in 2025, which makes him\u201d\n\n\u201cthe most compelling 2x Boost candidate for the next three rounds.\u201d",
+        "teams": [],
+        "topic": "general",
+        "updated_at": "2026-10-21T16:34:24Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Lando Norris",
+          "Oscar Piastri"
+        ],
+        "headline": "McLaren confirm 'modest' changes in 'stronger' warning to F1 rivals | RacingNews365",
+        "id": "story-89c5a776809efd9e49f6",
+        "published_at": "2026-10-21T15:25:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images McLaren chief technical officer and chief designer Rob Marshall has confirmed the MCL40 will receive a \"modest\" package of upgrades for the United States Grand",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images McLaren chief technical officer and chief designer Rob Marshall has confirmed the MCL40 will receive a \"modest\" package of upgrades for the United States Grand",
+              "Marshall explained the upgrade for Austin is targeted rather than wholesale, saying: \"We're bringing a modest selection of upgrades for this event, aimed at improving some braking reliability and performance issues.",
+              "\"The last few races have not been great for us, but I think we're getting stronger again and Austin is probably a better circuit for our car.\""
+            ],
+            "published_at": "2026-10-21T15:25:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/mclaren-confirm-modest-changes-in-stronger-warning-to-f1-rivals"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images McLaren chief technical officer and chief designer Rob Marshall has confirmed the MCL40 will receive a \"modest\" package of upgrades for the United States Grand\u201d\n\n\u201cMarshall explained the upgrade for Austin is targeted rather than wholesale, saying: \"We're bringing a modest selection of upgrades for this event, aimed at improving some braking reliability and performance issues.\u201d\n\n\u201c\"The last few races have not been great for us, but I think we're getting stronger again and Austin is probably a better circuit for our car.\"\u201d",
+        "teams": [
+          "McLaren"
+        ],
+        "topic": "technical",
+        "updated_at": "2026-10-21T16:34:24Z",
+        "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [],
+        "headline": "Mercedes make surprise astronaut signing to F1 team | RacingNews365",
+        "id": "story-82a78261a0827a34c149",
+        "published_at": "2026-10-21T14:22:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview Reid Wiseman, the NASA astronaut who commanded the Artemis II mission earlier this year, has been announced as an official ambassador for the Mercedes F1 team.",
+            "evidence_excerpts": [
+              "Article To news overview Reid Wiseman, the NASA astronaut who commanded the Artemis II mission earlier this year, has been announced as an official ambassador for the Mercedes F1 team.",
+              "has developed over recent seasons. As part of his new role, Wiseman will work with Mercedes stakeholders, partners, employees and guests, helping to highlight the innovation and high-performance culture behind the team's",
+              "Wiseman said he has long seen parallels between the two worlds. \"I've always been struck by how much Formula 1 and space exploration have in common."
+            ],
+            "published_at": "2026-10-21T14:22:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/mercedes-make-surprise-astronaut-signing-to-f1-team"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview Reid Wiseman, the NASA astronaut who commanded the Artemis II mission earlier this year, has been announced as an official ambassador for the Mercedes F1 team.\u201d\n\n\u201chas developed over recent seasons. As part of his new role, Wiseman will work with Mercedes stakeholders, partners, employees and guests, helping to highlight the innovation and high-performance culture behind the team's\u201d\n\n\u201cWiseman said he has long seen parallels between the two worlds. \"I've always been struck by how much Formula 1 and space exploration have in common.\u201d",
+        "teams": [
+          "Mercedes"
+        ],
+        "topic": "general",
+        "updated_at": "2026-10-21T16:34:24Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [],
+        "headline": "Mercedes hires moon mission astronaut for F1 team role | Crash.net",
+        "id": "story-29530319c02b0c32f73c",
+        "published_at": "2026-10-21T14:16:11Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Mercedes has hired an astronaut for an F1 team role \u00a9 XPB Images The Mercedes Formula 1 team has announced that former moon mission astronaut Reid Wiseman has joined as an ambassador",
+            "evidence_excerpts": [
+              "Mercedes has hired an astronaut for an F1 team role \u00a9 XPB Images The Mercedes Formula 1 team has announced that former moon mission astronaut Reid Wiseman has joined as an ambassador",
+              "Wiseman joins Mercedes as an ambassador Mercedes has now announced that former astronaut, US Navy Captain and Artemis II commander Wiseman has joined the F1 team as an ambassador.",
+              "The squad says he will \u201cwork closely with stakeholders, partners, employees and guests, helping showcase the innovation, leadership and high-performance culture that underpins success in Formula 1\u201d."
+            ],
+            "published_at": "2026-10-21T14:16:11Z",
+            "source_id": "crash_f1",
+            "source_name": "Crash.net Formula 1",
+            "url": "https://www.crash.net/f1/news/1107931/1/mercedes-hires-moon-mission-astronaut-f1-team-role"
+          }
+        ],
+        "summary": "Crash.net Formula 1: \u201cMercedes has hired an astronaut for an F1 team role \u00a9 XPB Images The Mercedes Formula 1 team has announced that former moon mission astronaut Reid Wiseman has joined as an ambassador\u201d\n\n\u201cWiseman joins Mercedes as an ambassador Mercedes has now announced that former astronaut, US Navy Captain and Artemis II commander Wiseman has joined the F1 team as an ambassador.\u201d\n\n\u201cThe squad says he will \u201cwork closely with stakeholders, partners, employees and guests, helping showcase the innovation, leadership and high-performance culture that underpins success in Formula 1\u201d.\u201d",
+        "teams": [
+          "Mercedes"
+        ],
+        "topic": "general",
+        "updated_at": "2026-10-21T16:34:24Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Felipe Massa",
+          "Lewis Hamilton"
+        ],
+        "headline": "Date set for appeal in \u00a364 million Felipe Massa court case against Bernie Ecclestone, F1, and FIA | RacingNews365",
+        "id": "story-15de63e11883b7335a91",
+        "published_at": "2026-10-21T14:03:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPBimages A date has been set for a UK Supreme Court appeal hearing into the ongoing Felipe Massa \u00a364 million court case against Bernie Ecclestone, the FIA",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPBimages A date has been set for a UK Supreme Court appeal hearing into the ongoing Felipe Massa \u00a364 million court case against Bernie Ecclestone, the FIA",
+              "Lord Justices Reed, Hamblen, and Richards granted this appeal on June 4th this year, with the date now set for the appeal hearing as February 2nd and February 3rd, 2027.",
+              "Should the Supreme Court decide to uphold the appeal, Massa's case will be thrown out and will not proceed to a full trial of the High Court."
+            ],
+            "published_at": "2026-10-21T14:03:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/date-set-for-appeal-in-ps64-million-felipe-massa-court-case-against-bernie-ecclestone-f1-and-fia"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPBimages A date has been set for a UK Supreme Court appeal hearing into the ongoing Felipe Massa \u00a364 million court case against Bernie Ecclestone, the FIA\u201d\n\n\u201cLord Justices Reed, Hamblen, and Richards granted this appeal on June 4th this year, with the date now set for the appeal hearing as February 2nd and February 3rd, 2027.\u201d\n\n\u201cShould the Supreme Court decide to uphold the appeal, Massa's case will be thrown out and will not proceed to a full trial of the High Court.\u201d",
+        "teams": [],
+        "topic": "regulations",
+        "updated_at": "2026-10-21T16:34:24Z",
+        "why_it_matters": "Sporting or technical rule changes can affect team decisions. Check the cited document for scope and implementation dates."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [],
+        "headline": "FIA president disputes Middle East 'risk' as F1 decision looms | RacingNews365",
+        "id": "story-6151b831f148c70b99fa",
+        "published_at": "2026-10-21T13:35:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images FIA president Mohammed Ben Sulayem has voiced confidence that F1 will finish its season in Qatar and Abu Dhabi.",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images FIA president Mohammed Ben Sulayem has voiced confidence that F1 will finish its season in Qatar and Abu Dhabi.",
+              "rounds as originally scheduled. Ben Sulayem has insisted he has no concerns over safety, should they opt to stage the events. \"One thing I would say; I have my children there.",
+              "I can only tell you today that there is nothing, and the two races are going to happen."
+            ],
+            "published_at": "2026-10-21T13:35:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/fia-president-disputes-middle-east-risk-as-f1-decision-looms"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images FIA president Mohammed Ben Sulayem has voiced confidence that F1 will finish its season in Qatar and Abu Dhabi.\u201d\n\n\u201crounds as originally scheduled. Ben Sulayem has insisted he has no concerns over safety, should they opt to stage the events. \"One thing I would say; I have my children there.\u201d\n\n\u201cI can only tell you today that there is nothing, and the two races are going to happen.\u201d",
+        "teams": [],
+        "topic": "calendar",
+        "updated_at": "2026-10-21T16:34:24Z",
+        "why_it_matters": "Calendar and event changes can affect weekend planning. Check official event information for the applicable schedule."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [],
+        "headline": "Qatar Grand Prix issues update after FIA President calendar claim",
+        "id": "story-cd8c0f94168d58377c88",
+        "published_at": "2026-10-21T13:23:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Officials at the Lusail International Circuit have said preparations for the Qatar Grand Prix are nearing completion, with the circuit due to host both Formula 1 and MotoGP in November.",
+            "evidence_excerpts": [
+              "Officials at the Lusail International Circuit have said preparations for the Qatar Grand Prix are nearing completion, with the circuit due to host both Formula 1 and MotoGP in November.",
+              "The circuit\u2019s CEO, Abdulaziz Ali Al-Mohannadi, said: \u201cWe are looking forward to welcoming the world back to Lusail International Circuit in November for two of the most anticipated events on the international",
+              "motorsport calendar, just three weeks apart. \u201cOur preparations are nearing completion, with our teams focused on ensuring that every aspect of the venue is ready to deliver an exceptional experience for fans,"
+            ],
+            "published_at": "2026-10-21T13:23:00Z",
+            "source_id": "planetf1",
+            "source_name": "PlanetF1",
+            "url": "https://www.planetf1.com/news/qatar-grand-prix-f1-return-approaches"
+          }
+        ],
+        "summary": "PlanetF1: \u201cOfficials at the Lusail International Circuit have said preparations for the Qatar Grand Prix are nearing completion, with the circuit due to host both Formula 1 and MotoGP in November.\u201d\n\n\u201cThe circuit\u2019s CEO, Abdulaziz Ali Al-Mohannadi, said: \u201cWe are looking forward to welcoming the world back to Lusail International Circuit in November for two of the most anticipated events on the international\u201d\n\n\u201cmotorsport calendar, just three weeks apart. \u201cOur preparations are nearing completion, with our teams focused on ensuring that every aspect of the venue is ready to deliver an exceptional experience for fans,\u201d",
+        "teams": [],
+        "topic": "calendar",
+        "updated_at": "2026-10-21T16:34:24Z",
+        "why_it_matters": "Calendar and event changes can affect weekend planning. Check official event information for the applicable schedule."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [],
+        "headline": "Qatar issues fresh update on F1, MotoGP amid Middle East war escalation | Crash.net",
+        "id": "story-a319bf35ac63cb87b648",
+        "published_at": "2026-10-21T12:46:12Z",
+        "sources": [
+          {
+            "evidence_excerpt": "MotoGP Qatar 2025 \u00a9 Gold and Goose The Lusail International Circuit has issued a fresh update insisting that preparations for its F1 and MotoGP races are \u201centering their final stages\u201d despite ongoing",
+            "evidence_excerpts": [
+              "MotoGP Qatar 2025 \u00a9 Gold and Goose The Lusail International Circuit has issued a fresh update insisting that preparations for its F1 and MotoGP races are \u201centering their final stages\u201d despite ongoing",
+              "But in a fresh update from Lusail, CEO Abdulaziz Ali Al-Muhannadi said preparations are almost complete for both F1 and MotoGP races.",
+              "\u201cWe are looking forward to welcoming the world back to Lusail International Circuit in November for two of the most anticipated events on the international motorsport calendar, just three weeks apart,\u201d he"
+            ],
+            "published_at": "2026-10-21T12:46:12Z",
+            "source_id": "crash_f1",
+            "source_name": "Crash.net Formula 1",
+            "url": "https://www.crash.net/motogp/news/1107929/1/qatar-issues-fresh-update-f1-motogp-amid-middle-east-war-escalation"
+          }
+        ],
+        "summary": "Crash.net Formula 1: \u201cMotoGP Qatar 2025 \u00a9 Gold and Goose The Lusail International Circuit has issued a fresh update insisting that preparations for its F1 and MotoGP races are \u201centering their final stages\u201d despite ongoing\u201d\n\n\u201cBut in a fresh update from Lusail, CEO Abdulaziz Ali Al-Muhannadi said preparations are almost complete for both F1 and MotoGP races.\u201d\n\n\u201c\u201cWe are looking forward to welcoming the world back to Lusail International Circuit in November for two of the most anticipated events on the international motorsport calendar, just three weeks apart,\u201d he\u201d",
+        "teams": [],
+        "topic": "calendar",
+        "updated_at": "2026-10-21T16:34:24Z",
+        "why_it_matters": "Calendar and event changes can affect weekend planning. Check official event information for the applicable schedule."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Kimi Raikkonen"
+        ],
+        "headline": "Kimi Raikkonen smashes longstanding F1 records on date of greatest triumph | RacingNews365",
+        "id": "story-7abb8944d62b4bab437a",
+        "published_at": "2026-10-21T12:40:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Throwback To news overview \u00a9 XPBimages Eleven years to the day after securing his only F1 drivers' championship, Kimi Raikkonen marked 21 October with another slice of history, winning the 2018 United",
+            "evidence_excerpts": [
+              "Throwback To news overview \u00a9 XPBimages Eleven years to the day after securing his only F1 drivers' championship, Kimi Raikkonen marked 21 October with another slice of history, winning the 2018 United",
+              "In doing so, he became the oldest grand prix winner since Nigel Mansell in 1994 and the record holder for the longest gap between F1 victories.",
+              "The Finn, then 39 years old, had not stood on the top step since the 2013 Australian Grand Prix, a run of 114 races without a win."
+            ],
+            "published_at": "2026-10-21T12:40:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/change-slug-most-f1-races-between-wins-raikkonen-throwback"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cThrowback To news overview \u00a9 XPBimages Eleven years to the day after securing his only F1 drivers' championship, Kimi Raikkonen marked 21 October with another slice of history, winning the 2018 United\u201d\n\n\u201cIn doing so, he became the oldest grand prix winner since Nigel Mansell in 1994 and the record holder for the longest gap between F1 victories.\u201d\n\n\u201cThe Finn, then 39 years old, had not stood on the top step since the 2013 Australian Grand Prix, a run of 114 races without a win.\u201d",
+        "teams": [],
+        "topic": "race",
+        "updated_at": "2026-10-21T16:34:24Z",
+        "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [],
+        "headline": "Qatar circuit boss delivers readiness update as double header nears | RacingNews365",
+        "id": "story-ff942ac71b17ed23c861",
+        "published_at": "2026-10-21T12:20:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPBimages The CEO of Qatar's Lusail International Circuit has made it clear that preparations are in full swing to host MotoGP and Formula 1 next month, despite",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPBimages The CEO of Qatar's Lusail International Circuit has made it clear that preparations are in full swing to host MotoGP and Formula 1 next month, despite",
+              "event infrastructure despite the backdrop of ongoing instability elsewhere in the Middle East. Lusail International Circuit CEO Abdulaziz Ali Al-Muhannadi said preparations for the events are progressing as planned.",
+              "\"We are looking forward to welcoming the world back to Lusail International Circuit in November for two of the most anticipated events on the international motorsport calendar, just three weeks apart,\" said"
+            ],
+            "published_at": "2026-10-21T12:20:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/qatar-circuit-boss-delivers-readiness-update-as-double-header-nears"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPBimages The CEO of Qatar's Lusail International Circuit has made it clear that preparations are in full swing to host MotoGP and Formula 1 next month, despite\u201d\n\n\u201cevent infrastructure despite the backdrop of ongoing instability elsewhere in the Middle East. Lusail International Circuit CEO Abdulaziz Ali Al-Muhannadi said preparations for the events are progressing as planned.\u201d\n\n\u201c\"We are looking forward to welcoming the world back to Lusail International Circuit in November for two of the most anticipated events on the international motorsport calendar, just three weeks apart,\" said\u201d",
+        "teams": [],
+        "topic": "calendar",
+        "updated_at": "2026-10-21T16:34:24Z",
+        "why_it_matters": "Calendar and event changes can affect weekend planning. Check official event information for the applicable schedule."
+      }
+    ],
+    "next_check_at": "2026-10-23T16:34:24Z",
+    "provider": "deepseek",
+    "schema_version": "2.0",
+    "sources_checked": 7,
+    "status": "published",
+    "summary": "12 sourced F1 updates. Open each report for evidence and context.",
+    "updated_at": "2026-10-21T16:34:24Z"
+  }
+]

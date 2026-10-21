@@ -98,13 +98,27 @@
       "sha256": "919a8c0ec796d486221b404f327b13b87b723e4c5536caf9765a4cc033511068",
       "updated_at": "2026-10-21T16:11:23Z",
       "url": "https://www.zhenchyi.com/Intel1/current_standings.json"
+    },
+    {
+      "content_type": "application/json",
+      "name": "news_brief.json",
+      "sha256": "6d2c324486d9b23be46e468f4398a40d02f83a8aca880c7a2165e20046ceeda3",
+      "updated_at": "2026-10-21T16:34:24Z",
+      "url": "https://www.zhenchyi.com/Intel1/news_brief.json"
+    },
+    {
+      "content_type": "application/json",
+      "name": "news_archive.json",
+      "sha256": "41f3ec06ed9839dda4c7d19b9d3473af934eba443ee2792b568a67d2afb957f5",
+      "updated_at": "2026-10-21T16:35:21Z",
+      "url": "https://www.zhenchyi.com/Intel1/news_archive.json"
     }
   ],
   "freshness_timestamp": "2026-10-19T06:12:48Z",
   "last_successful_full_run_at": "2026-10-19T06:12:48Z",
-  "publication_id": "a374da5d1d260d0f38361811132704b876d50a915682ce2c910c6b550dec7ce5",
+  "publication_id": "e1b106551bd05cd9eadbe9987f04e2fc253b31b510486d1537aa762b121b7009",
   "run_id": "67b199fe-6d63-47f1-93d3-94a7384f6833",
   "schema_version": "1.1",
-  "updated_at": "2026-10-21T16:27:31Z",
+  "updated_at": "2026-10-21T16:35:21Z",
   "weekend_id": "2026-r18-united-states-grand-prix"
 }
