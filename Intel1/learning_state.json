@@ -1,0 +1,440 @@
+{
+  "calibration": {},
+  "driver_adjustments": {
+    "Alexander Albon": {
+      "evaluations": 1,
+      "last_session": "race",
+      "last_updated_at": "2026-06-07T19:44:19Z",
+      "score_delta": 0.008
+    },
+    "Andrea Kimi Antonelli": {
+      "evaluations": 5,
+      "last_session": "race",
+      "last_updated_at": "2026-07-05T20:07:56Z",
+      "score_delta": -0.0529
+    },
+    "Arvid LINDBLAD": {
+      "evaluations": 6,
+      "last_session": "qualifying",
+      "last_updated_at": "2026-05-24T13:24:58Z",
+      "score_delta": 0.0323
+    },
+    "Arvid Lindblad": {
+      "evaluations": 1,
+      "last_session": "race",
+      "last_updated_at": "2026-06-07T19:44:19Z",
+      "score_delta": 0.008
+    },
+    "Carlos SAINZ": {
+      "evaluations": 2,
+      "last_session": "race",
+      "last_updated_at": "2026-05-25T03:33:18Z",
+      "score_delta": 0.0148
+    },
+    "Charles LECLERC": {
+      "evaluations": 8,
+      "last_session": "qualifying",
+      "last_updated_at": "2026-06-06T17:12:43Z",
+      "score_delta": 0.0388
+    },
+    "Charles Leclerc": {
+      "evaluations": 1,
+      "last_session": "race",
+      "last_updated_at": "2026-07-05T20:07:56Z",
+      "score_delta": 0.018
+    },
+    "Esteban Ocon": {
+      "evaluations": 1,
+      "last_session": "race",
+      "last_updated_at": "2026-06-07T19:44:19Z",
+      "score_delta": 0.008
+    },
+    "Franco COLAPINTO": {
+      "evaluations": 8,
+      "last_session": "race",
+      "last_updated_at": "2026-05-25T03:33:18Z",
+      "score_delta": 0.0382
+    },
+    "Franco Colapinto": {
+      "evaluations": 2,
+      "last_session": "race",
+      "last_updated_at": "2026-07-05T20:07:56Z",
+      "score_delta": 0.0111
+    },
+    "George RUSSELL": {
+      "evaluations": 6,
+      "last_session": "qualifying",
+      "last_updated_at": "2026-06-06T17:12:43Z",
+      "score_delta": 0.0868
+    },
+    "George Russell": {
+      "evaluations": 7,
+      "last_session": "race",
+      "last_updated_at": "2026-07-19T19:02:20Z",
+      "score_delta": -0.0524
+    },
+    "Isack HADJAR": {
+      "evaluations": 9,
+      "last_session": "qualifying",
+      "last_updated_at": "2026-06-06T17:12:43Z",
+      "score_delta": 0.0405
+    },
+    "Isack Hadjar": {
+      "evaluations": 2,
+      "last_session": "race",
+      "last_updated_at": "2026-07-19T19:02:20Z",
+      "score_delta": 0.0182
+    },
+    "Kimi ANTONELLI": {
+      "evaluations": 8,
+      "last_session": "qualifying",
+      "last_updated_at": "2026-06-06T17:12:43Z",
+      "score_delta": 0.0825
+    },
+    "Lando NORRIS": {
+      "evaluations": 6,
+      "last_session": "qualifying",
+      "last_updated_at": "2026-06-06T17:12:43Z",
+      "score_delta": 0.0332
+    },
+    "Lewis HAMILTON": {
+      "evaluations": 9,
+      "last_session": "qualifying",
+      "last_updated_at": "2026-06-06T17:12:43Z",
+      "score_delta": 0.0405
+    },
+    "Lewis Hamilton": {
+      "evaluations": 1,
+      "last_session": "race",
+      "last_updated_at": "2026-06-14T19:07:17Z",
+      "score_delta": 0.018
+    },
+    "Liam LAWSON": {
+      "evaluations": 3,
+      "last_session": "qualifying",
+      "last_updated_at": "2026-06-06T17:12:43Z",
+      "score_delta": 0.0206
+    },
+    "Liam Lawson": {
+      "evaluations": 1,
+      "last_session": "race",
+      "last_updated_at": "2026-06-07T19:44:19Z",
+      "score_delta": 0.006
+    },
+    "Max VERSTAPPEN": {
+      "evaluations": 9,
+      "last_session": "qualifying",
+      "last_updated_at": "2026-06-06T17:12:43Z",
+      "score_delta": 0.0405
+    },
+    "Max Verstappen": {
+      "evaluations": 2,
+      "last_session": "race",
+      "last_updated_at": "2026-07-26T19:23:56Z",
+      "score_delta": 0.0035
+    },
+    "Nico H\u00fclkenberg": {
+      "evaluations": 1,
+      "last_session": "race",
+      "last_updated_at": "2026-07-26T19:23:56Z",
+      "score_delta": 0.006
+    },
+    "Oliver BEARMAN": {
+      "evaluations": 2,
+      "last_session": "race",
+      "last_updated_at": "2026-05-25T03:33:18Z",
+      "score_delta": 0.0148
+    },
+    "Oscar PIASTRI": {
+      "evaluations": 6,
+      "last_session": "qualifying",
+      "last_updated_at": "2026-06-06T17:12:43Z",
+      "score_delta": 0.0332
+    },
+    "Pierre GASLY": {
+      "evaluations": 3,
+      "last_session": "qualifying",
+      "last_updated_at": "2026-06-06T17:12:43Z",
+      "score_delta": 0.0206
+    },
+    "Pierre Gasly": {
+      "evaluations": 1,
+      "last_session": "race",
+      "last_updated_at": "2026-06-14T19:07:17Z",
+      "score_delta": 0.006
+    },
+    "Sergio P\u00e9rez": {
+      "evaluations": 1,
+      "last_session": "race",
+      "last_updated_at": "2026-06-07T19:44:19Z",
+      "score_delta": 0.008
+    }
+  },
+  "events": [
+    {
+      "actual_winner": "George RUSSELL",
+      "driver_deltas": {
+        "Arvid LINDBLAD": 0.006,
+        "Franco COLAPINTO": 0.006,
+        "Isack HADJAR": 0.006,
+        "Lewis HAMILTON": 0.006,
+        "Max VERSTAPPEN": 0.006
+      },
+      "model_winner": "deepseek",
+      "run_id": "81e522da-0972-47aa-934b-fa9c803fac53",
+      "session": "qualifying",
+      "weekend_id": "2026-r7-canadian-grand-prix"
+    },
+    {
+      "actual_winner": "George RUSSELL",
+      "driver_deltas": {
+        "Andrea Kimi Antonelli": -0.012,
+        "Arvid LINDBLAD": 0.008,
+        "Charles LECLERC": 0.008,
+        "Franco COLAPINTO": 0.008,
+        "George RUSSELL": 0.025,
+        "Isack HADJAR": 0.008,
+        "Kimi ANTONELLI": 0.008,
+        "Lando NORRIS": 0.008,
+        "Lewis HAMILTON": 0.008,
+        "Max VERSTAPPEN": 0.008,
+        "Oscar PIASTRI": 0.008
+      },
+      "model_winner": "chatgpt",
+      "run_id": "522c5a7c-26b4-41a3-bc30-b356e9cc27a2",
+      "session": "qualifying",
+      "weekend_id": "2026-r7-canadian-grand-prix"
+    },
+    {
+      "actual_winner": "George RUSSELL",
+      "driver_deltas": {
+        "Arvid LINDBLAD": 0.008,
+        "Charles LECLERC": 0.008,
+        "Franco COLAPINTO": 0.008,
+        "George RUSSELL": 0.025,
+        "George Russell": -0.012,
+        "Isack HADJAR": 0.008,
+        "Kimi ANTONELLI": 0.008,
+        "Lando NORRIS": 0.008,
+        "Lewis HAMILTON": 0.008,
+        "Max VERSTAPPEN": 0.008,
+        "Oscar PIASTRI": 0.008
+      },
+      "model_winner": "intel1_consensus",
+      "run_id": "99774b32-86fa-4eb4-8ed1-5605cdaf743b",
+      "session": "qualifying",
+      "weekend_id": "2026-r7-canadian-grand-prix"
+    },
+    {
+      "actual_winner": "George RUSSELL",
+      "driver_deltas": {
+        "Arvid LINDBLAD": 0.008,
+        "Charles LECLERC": 0.008,
+        "Franco COLAPINTO": 0.008,
+        "George RUSSELL": 0.025,
+        "George Russell": -0.012,
+        "Isack HADJAR": 0.008,
+        "Kimi ANTONELLI": 0.008,
+        "Lando NORRIS": 0.008,
+        "Lewis HAMILTON": 0.008,
+        "Max VERSTAPPEN": 0.008,
+        "Oscar PIASTRI": 0.008
+      },
+      "model_winner": "chatgpt",
+      "run_id": "6ca5bf3d-c205-4e96-be94-e73b171876da",
+      "session": "qualifying",
+      "weekend_id": "2026-r7-canadian-grand-prix"
+    },
+    {
+      "actual_winner": "George RUSSELL",
+      "driver_deltas": {
+        "Arvid LINDBLAD": 0.008,
+        "Charles LECLERC": 0.008,
+        "Franco COLAPINTO": 0.008,
+        "George RUSSELL": 0.025,
+        "George Russell": -0.012,
+        "Isack HADJAR": 0.008,
+        "Kimi ANTONELLI": 0.008,
+        "Lando NORRIS": 0.008,
+        "Lewis HAMILTON": 0.008,
+        "Max VERSTAPPEN": 0.008,
+        "Oscar PIASTRI": 0.008
+      },
+      "model_winner": "deepseek",
+      "run_id": "30b6ea2f-756d-4d47-bc55-51f184b17d41",
+      "session": "qualifying",
+      "weekend_id": "2026-r7-canadian-grand-prix"
+    },
+    {
+      "actual_winner": "George RUSSELL",
+      "driver_deltas": {
+        "Arvid LINDBLAD": 0.008,
+        "Charles LECLERC": 0.008,
+        "Franco COLAPINTO": 0.008,
+        "George RUSSELL": 0.025,
+        "George Russell": -0.012,
+        "Isack HADJAR": 0.008,
+        "Kimi ANTONELLI": 0.008,
+        "Lando NORRIS": 0.008,
+        "Lewis HAMILTON": 0.008,
+        "Max VERSTAPPEN": 0.008,
+        "Oscar PIASTRI": 0.008
+      },
+      "model_winner": "chatgpt",
+      "run_id": "6e34cce8-edf9-4f92-b477-3f1be8bd7e64",
+      "session": "qualifying",
+      "weekend_id": "2026-r7-canadian-grand-prix"
+    },
+    {
+      "actual_winner": "Kimi ANTONELLI",
+      "driver_deltas": {
+        "Andrea Kimi Antonelli": -0.012,
+        "Carlos SAINZ": 0.008,
+        "Charles LECLERC": 0.008,
+        "Franco COLAPINTO": 0.008,
+        "Isack HADJAR": 0.008,
+        "Kimi ANTONELLI": 0.025,
+        "Lewis HAMILTON": 0.008,
+        "Liam LAWSON": 0.008,
+        "Max VERSTAPPEN": 0.008,
+        "Oliver BEARMAN": 0.008,
+        "Pierre GASLY": 0.008
+      },
+      "model_winner": "chatgpt",
+      "run_id": "1d61c484-06aa-405a-86d9-3bdd8692be49",
+      "session": "race",
+      "weekend_id": "2026-r7-canadian-grand-prix"
+    },
+    {
+      "actual_winner": "Kimi ANTONELLI",
+      "driver_deltas": {
+        "Carlos SAINZ": 0.008,
+        "Charles LECLERC": 0.008,
+        "Franco COLAPINTO": 0.008,
+        "George Russell": -0.012,
+        "Isack HADJAR": 0.008,
+        "Kimi ANTONELLI": 0.025,
+        "Lewis HAMILTON": 0.008,
+        "Liam LAWSON": 0.008,
+        "Max VERSTAPPEN": 0.008,
+        "Oliver BEARMAN": 0.008,
+        "Pierre GASLY": 0.008
+      },
+      "model_winner": "intel1_consensus",
+      "run_id": "908fbc8c-0244-48f7-ad4b-a9845c76df6d",
+      "session": "race",
+      "weekend_id": "2026-r7-canadian-grand-prix"
+    },
+    {
+      "actual_winner": "Kimi ANTONELLI",
+      "driver_deltas": {
+        "Andrea Kimi Antonelli": -0.012,
+        "Charles LECLERC": 0.008,
+        "George RUSSELL": 0.008,
+        "Isack HADJAR": 0.008,
+        "Kimi ANTONELLI": 0.025,
+        "Lando NORRIS": 0.008,
+        "Lewis HAMILTON": 0.008,
+        "Liam LAWSON": 0.008,
+        "Max VERSTAPPEN": 0.008,
+        "Oscar PIASTRI": 0.008,
+        "Pierre GASLY": 0.008
+      },
+      "model_winner": "deepseek",
+      "run_id": "56216a65-dc53-40f1-bf8f-65f8846db1ee",
+      "session": "qualifying",
+      "weekend_id": "2026-r8-monaco-grand-prix"
+    },
+    {
+      "actual_winner": "Andrea Kimi Antonelli",
+      "driver_deltas": {
+        "Alexander Albon": 0.008,
+        "Arvid Lindblad": 0.008,
+        "Esteban Ocon": 0.008,
+        "Isack Hadjar": 0.012,
+        "Liam Lawson": 0.006,
+        "Max Verstappen": -0.01,
+        "Sergio P\u00e9rez": 0.008
+      },
+      "model_winner": "deepseek",
+      "run_id": "89b646eb-1c6d-49cf-9fbd-782dda323600",
+      "session": "race",
+      "weekend_id": "2026-r6-monaco-grand-prix"
+    },
+    {
+      "actual_winner": "Lewis Hamilton",
+      "driver_deltas": {
+        "Andrea Kimi Antonelli": -0.01,
+        "Franco Colapinto": 0.006,
+        "George Russell": -0.012,
+        "Lewis Hamilton": 0.018,
+        "Pierre Gasly": 0.006
+      },
+      "model_winner": "chatgpt",
+      "run_id": "ff6404a3-d98b-4daf-8115-1137954bd438",
+      "session": "race",
+      "weekend_id": "2026-r7-barcelona-catalunya-grand-prix"
+    },
+    {
+      "actual_winner": "George Russell",
+      "driver_deltas": {},
+      "model_winner": "deepseek",
+      "run_id": "cae6a16e-8895-4a57-8451-8d2c85f3a28f",
+      "session": "race",
+      "weekend_id": "2026-r8-austrian-grand-prix"
+    },
+    {
+      "actual_winner": "Charles Leclerc",
+      "driver_deltas": {
+        "Andrea Kimi Antonelli": -0.022,
+        "Charles Leclerc": 0.018,
+        "Franco Colapinto": 0.006
+      },
+      "model_winner": "chatgpt",
+      "run_id": "2196b21e-b36c-4068-851d-67b9c1af20ff",
+      "session": "race",
+      "weekend_id": "2026-r9-british-grand-prix"
+    },
+    {
+      "actual_winner": "Andrea Kimi Antonelli",
+      "driver_deltas": {
+        "George Russell": -0.01,
+        "Isack Hadjar": 0.008
+      },
+      "model_winner": "deepseek",
+      "run_id": "fedf8cb4-7ee5-4ba1-aeb8-7f6cdc447c47",
+      "session": "race",
+      "weekend_id": "2026-r10-belgian-grand-prix"
+    },
+    {
+      "actual_winner": "Lando Norris",
+      "driver_deltas": {
+        "Max Verstappen": 0.012,
+        "Nico H\u00fclkenberg": 0.006
+      },
+      "model_winner": "deepseek",
+      "run_id": "0969c946-cf84-4517-b8eb-515be41a143b",
+      "session": "race",
+      "weekend_id": "2026-r11-hungarian-grand-prix"
+    }
+  ],
+  "learning_notes": [
+    "Latest classified session is sprint; race prediction evaluation waits for the Grand Prix result."
+  ],
+  "model_scores": {
+    "chatgpt": {
+      "average_score": 0.3271,
+      "evaluations": 14
+    },
+    "deepseek": {
+      "average_score": 0.4124,
+      "evaluations": 14
+    },
+    "intel1_consensus": {
+      "average_score": 0.3766,
+      "evaluations": 15
+    }
+  },
+  "schema_version": "1.0",
+  "updated_at": "2026-10-19T06:12:48Z"
+}

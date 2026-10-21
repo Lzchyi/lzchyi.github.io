@@ -1,0 +1,38 @@
+{
+  "caveats": "This is an evidence-bound heuristic outlook, not betting advice. Small percentage gaps should be read as bands, not exact rankings.",
+  "constructor_outlook": "Constructor model leader: Mercedes at 36 percent.",
+  "executive_summary": "Andrea Kimi Antonelli is the model favourite at 25%. The pick is supported by a result learning adjustment: Past official result evaluation adjusted this driver slightly..",
+  "headline": "United States Grand Prix: Model favourite",
+  "podium_outlook": "Current podium band: Andrea Kimi Antonelli, George Russell, Lewis Hamilton.",
+  "race_outlook": "Confidence is medium and race volatility is low. Current podium band: Andrea Kimi Antonelli, George Russell, Lewis Hamilton.",
+  "run_id": "67b199fe-6d63-47f1-93d3-94a7384f6833",
+  "safety_car_note": "Medium interruption risk: about 52 percent chance of at least one Safety Car or major race interruption.",
+  "schema_version": "1.1",
+  "sections": [
+    {
+      "body": "Model confidence is medium; small gaps should be treated as a close group.",
+      "title": "Current model outlook"
+    },
+    {
+      "body": "No major swing since the last run.",
+      "title": "What changed"
+    },
+    {
+      "body": "Haas signs Ferrari junior Rafael Camara for the 2027 season. Ferrari's Larsen will return for the 2027 F1 Academy campaign.",
+      "title": "Key evidence"
+    },
+    {
+      "body": "Practice pace is fuel-load and run-plan sensitive until qualifying and final grid documents are available.",
+      "title": "Main uncertainty"
+    },
+    {
+      "body": "Mercedes explains that its recent upgrade made the car harder to drive, with the Singapore GP providing first clues to unlocking the new package.",
+      "title": "Watch next"
+    }
+  ],
+  "sprint_outlook": null,
+  "stage": "pre_weekend",
+  "updated_at": "2026-10-19T06:12:48Z",
+  "weekend_id": "2026-r18-united-states-grand-prix",
+  "what_changed": "No major swing since the last run."
+}

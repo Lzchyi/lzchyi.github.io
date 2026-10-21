@@ -1,0 +1,14 @@
+{
+  "actual_result_source": "OpenF1",
+  "evaluations": {},
+  "latest_classified_session": "sprint",
+  "learning_notes": [
+    "Latest classified session is sprint; race prediction evaluation waits for the Grand Prix result."
+  ],
+  "model_winner": null,
+  "run_id": "67b199fe-6d63-47f1-93d3-94a7384f6833",
+  "schema_version": "1.0",
+  "status": "awaiting_race_result",
+  "updated_at": "2026-10-19T06:12:48Z",
+  "weekend_id": "2026-r18-united-states-grand-prix"
+}

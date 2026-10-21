@@ -1,0 +1,35 @@
+{
+  "circuit_name": "Circuit of The Americas",
+  "country": "United States",
+  "grand_prix_name": "United States Grand Prix",
+  "is_sprint_weekend": false,
+  "last_pipeline_run_at": "2026-10-19T06:12:48Z",
+  "next_relevant_session": "fp1",
+  "run_id": "67b199fe-6d63-47f1-93d3-94a7384f6833",
+  "schema_version": "1.1",
+  "session_schedule": [
+    {
+      "label": "Practice 1",
+      "session": "fp1"
+    },
+    {
+      "label": "Practice 2",
+      "session": "fp2"
+    },
+    {
+      "label": "Practice 3",
+      "session": "fp3"
+    },
+    {
+      "label": "Qualifying",
+      "session": "qualifying"
+    },
+    {
+      "label": "Grand Prix",
+      "session": "race"
+    }
+  ],
+  "stage": "pre_weekend",
+  "weekend_id": "2026-r18-united-states-grand-prix",
+  "year": 2026
+}

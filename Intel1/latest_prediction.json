@@ -1,0 +1,1532 @@
+{
+  "biggest_downgrades_since_previous_run": [],
+  "biggest_upgrades_since_previous_run": [],
+  "change_digest": [],
+  "comparison_baseline_run_id": null,
+  "confidence": {
+    "level": "medium",
+    "reasons": [
+      "Stage weighting: pre weekend.",
+      "190 source checks and 3 race signals available.",
+      "Forecast remains heuristic until calibrated against historical outcomes."
+    ],
+    "score": 0.5
+  },
+  "data_freshness": {
+    "last_session_data_at": "2026-10-19T06:12:31Z",
+    "last_source_scan_at": "2026-10-19T06:12:31Z"
+  },
+  "evaluation_lock": {
+    "locked_at": null,
+    "reason": "Prediction remains live while decisive weekend evidence is still arriving.",
+    "status": "open"
+  },
+  "evidence_count": 3,
+  "evidence_quality": {
+    "confirmed_signal_share": 0.667,
+    "corroborated_signal_share": 0.667,
+    "grade": "HIGH",
+    "official_signal_share": 0.667,
+    "score": 0.757,
+    "signal_count": 3
+  },
+  "forecast_confidence": {
+    "level": "medium",
+    "reasons": [
+      "Stage weighting: pre weekend.",
+      "190 source checks and 3 race signals available.",
+      "Forecast remains heuristic until calibrated against historical outcomes."
+    ],
+    "score": 0.5
+  },
+  "key_uncertainties": [
+    "Practice pace is fuel-load and run-plan sensitive until qualifying and final grid documents are available.",
+    "Probabilities are rounded heuristic model outlooks, not betting advice.",
+    "The forecast is still prior-heavy at this stage.",
+    "Some editorial signals are single-source and need corroboration."
+  ],
+  "material_change_detected": false,
+  "material_change_summary": "No material source signal changed the model inputs.",
+  "metric_definitions": [
+    {
+      "explanation": "Estimates how much rain, temperature, wind, or changing track conditions could disturb the race outlook.",
+      "key": "weather_impact",
+      "scale": "condition",
+      "source": "OpenF1 weather where available, FIA/F1/Pirelli notes, and extracted weather signals.",
+      "title": "Weather impact",
+      "unit": "Low / Medium / High"
+    },
+    {
+      "explanation": "Estimates how likely tyre wear will affect pace, stint length, and strategy flexibility.",
+      "key": "tyre_degradation_risk",
+      "scale": "risk",
+      "source": "Pirelli notes, long-run/session signals, circuit profile, and extracted tyre signals.",
+      "title": "Tyre degradation risk",
+      "unit": "Low / Medium / High or 0-100 index"
+    },
+    {
+      "explanation": "Shows how strongly the current evidence supports the model's race-pace ranking.",
+      "key": "race_pace_confidence",
+      "scale": "score",
+      "source": "Championship priors, session results, and corroborated pace signals.",
+      "title": "Race pace confidence",
+      "unit": "0-100"
+    },
+    {
+      "explanation": "Captures how likely Safety Cars, tyre offsets, weather, or field spread are to disrupt a normal strategy race.",
+      "key": "strategy_volatility",
+      "scale": "condition",
+      "source": "Circuit profile, Safety Car outlook, weather signals, and strategy-related extracted signals.",
+      "title": "Strategy volatility",
+      "unit": "Low / Medium / High"
+    },
+    {
+      "explanation": "Heuristic probability of at least one Safety Car or major race interruption.",
+      "key": "safety_car_chance",
+      "scale": "probability",
+      "source": "Circuit history/profile and extracted race-control or volatility signals.",
+      "title": "Safety Car chance",
+      "unit": "%"
+    },
+    {
+      "explanation": "Separates how much evidence the model has from how chaotic the race itself may be.",
+      "key": "forecast_confidence",
+      "scale": "confidence",
+      "source": "Weekend stage, source count, structured session data, and extracted signal count.",
+      "title": "Forecast confidence",
+      "unit": "Low / Medium / High"
+    }
+  ],
+  "prediction_delta_vs_previous": [],
+  "race": {
+    "constructor_win_probabilities": [
+      {
+        "delta_vs_previous": null,
+        "driver": null,
+        "probability": 0.3621,
+        "probability_band": "front_pack",
+        "rank": 1,
+        "team": "Mercedes"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": null,
+        "probability": 0.1973,
+        "probability_band": "contender",
+        "rank": 2,
+        "team": "Ferrari"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": null,
+        "probability": 0.1374,
+        "probability_band": "contender",
+        "rank": 3,
+        "team": "Red Bull"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": null,
+        "probability": 0.1303,
+        "probability_band": "contender",
+        "rank": 4,
+        "team": "McLaren"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": null,
+        "probability": 0.0543,
+        "probability_band": "outside_chance",
+        "rank": 5,
+        "team": "RB F1 Team"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": null,
+        "probability": 0.0417,
+        "probability_band": "outside_chance",
+        "rank": 6,
+        "team": "Alpine F1 Team"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": null,
+        "probability": 0.023,
+        "probability_band": "long_shot",
+        "rank": 7,
+        "team": "Haas F1 Team"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": null,
+        "probability": 0.0224,
+        "probability_band": "long_shot",
+        "rank": 8,
+        "team": "Audi"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": null,
+        "probability": 0.0144,
+        "probability_band": "long_shot",
+        "rank": 9,
+        "team": "Williams"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": null,
+        "probability": 0.0109,
+        "probability_band": "long_shot",
+        "rank": 10,
+        "team": "Aston Martin"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": null,
+        "probability": 0.0062,
+        "probability_band": "long_shot",
+        "rank": 11,
+        "team": "Cadillac F1 Team"
+      }
+    ],
+    "driver_podium_probabilities": [
+      {
+        "delta_vs_previous": null,
+        "driver": "Andrea Kimi Antonelli",
+        "positions_to_gain": null,
+        "predicted_finish_position": 1,
+        "probability": 0.5956,
+        "probability_band": "front_pack",
+        "rank": 1,
+        "reasoning_factors": [
+          "strong baseline model share"
+        ],
+        "starting_position": null,
+        "team": "Mercedes"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "George Russell",
+        "positions_to_gain": null,
+        "predicted_finish_position": 2,
+        "probability": 0.2673,
+        "probability_band": "contender",
+        "rank": 2,
+        "reasoning_factors": [],
+        "starting_position": null,
+        "team": "Mercedes"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Lewis Hamilton",
+        "positions_to_gain": null,
+        "predicted_finish_position": 3,
+        "probability": 0.2516,
+        "probability_band": "contender",
+        "rank": 3,
+        "reasoning_factors": [],
+        "starting_position": null,
+        "team": "Ferrari"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Max Verstappen",
+        "positions_to_gain": null,
+        "predicted_finish_position": 4,
+        "probability": 0.2457,
+        "probability_band": "contender",
+        "rank": 4,
+        "reasoning_factors": [],
+        "starting_position": null,
+        "team": "Red Bull"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Charles Leclerc",
+        "positions_to_gain": null,
+        "predicted_finish_position": 5,
+        "probability": 0.2241,
+        "probability_band": "outside_chance",
+        "rank": 5,
+        "reasoning_factors": [],
+        "starting_position": null,
+        "team": "Ferrari"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Lando Norris",
+        "positions_to_gain": null,
+        "predicted_finish_position": 6,
+        "probability": 0.2119,
+        "probability_band": "outside_chance",
+        "rank": 6,
+        "reasoning_factors": [],
+        "starting_position": null,
+        "team": "McLaren"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Oscar Piastri",
+        "positions_to_gain": null,
+        "predicted_finish_position": 7,
+        "probability": 0.1063,
+        "probability_band": "outside_chance",
+        "rank": 7,
+        "reasoning_factors": [],
+        "starting_position": null,
+        "team": "McLaren"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Isack Hadjar",
+        "positions_to_gain": null,
+        "predicted_finish_position": 8,
+        "probability": 0.0892,
+        "probability_band": "long_shot",
+        "rank": 8,
+        "reasoning_factors": [],
+        "starting_position": null,
+        "team": "Red Bull"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Liam Lawson",
+        "positions_to_gain": null,
+        "predicted_finish_position": 9,
+        "probability": 0.077,
+        "probability_band": "long_shot",
+        "rank": 9,
+        "reasoning_factors": [],
+        "starting_position": null,
+        "team": "RB F1 Team"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Pierre Gasly",
+        "positions_to_gain": null,
+        "predicted_finish_position": 10,
+        "probability": 0.0659,
+        "probability_band": "long_shot",
+        "rank": 10,
+        "reasoning_factors": [],
+        "starting_position": null,
+        "team": "Alpine F1 Team"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Arvid Lindblad",
+        "positions_to_gain": null,
+        "predicted_finish_position": 11,
+        "probability": 0.0471,
+        "probability_band": "long_shot",
+        "rank": 11,
+        "reasoning_factors": [],
+        "starting_position": null,
+        "team": "RB F1 Team"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Franco Colapinto",
+        "positions_to_gain": null,
+        "predicted_finish_position": 12,
+        "probability": 0.0441,
+        "probability_band": "long_shot",
+        "rank": 12,
+        "reasoning_factors": [],
+        "starting_position": null,
+        "team": "Alpine F1 Team"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Oliver Bearman",
+        "positions_to_gain": null,
+        "predicted_finish_position": 13,
+        "probability": 0.041,
+        "probability_band": "long_shot",
+        "rank": 13,
+        "reasoning_factors": [],
+        "starting_position": null,
+        "team": "Haas F1 Team"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Nico H\u00fclkenberg",
+        "positions_to_gain": null,
+        "predicted_finish_position": 14,
+        "probability": 0.0389,
+        "probability_band": "long_shot",
+        "rank": 14,
+        "reasoning_factors": [],
+        "starting_position": null,
+        "team": "Audi"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Gabriel Bortoleto",
+        "positions_to_gain": null,
+        "predicted_finish_position": 15,
+        "probability": 0.0257,
+        "probability_band": "long_shot",
+        "rank": 15,
+        "reasoning_factors": [],
+        "starting_position": null,
+        "team": "Audi"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Esteban Ocon",
+        "positions_to_gain": null,
+        "predicted_finish_position": 16,
+        "probability": 0.025,
+        "probability_band": "long_shot",
+        "rank": 16,
+        "reasoning_factors": [],
+        "starting_position": null,
+        "team": "Haas F1 Team"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Fernando Alonso",
+        "positions_to_gain": null,
+        "predicted_finish_position": 17,
+        "probability": 0.0239,
+        "probability_band": "long_shot",
+        "rank": 17,
+        "reasoning_factors": [],
+        "starting_position": null,
+        "team": "Aston Martin"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Carlos Sainz",
+        "positions_to_gain": null,
+        "predicted_finish_position": 18,
+        "probability": 0.0232,
+        "probability_band": "long_shot",
+        "rank": 18,
+        "reasoning_factors": [],
+        "starting_position": null,
+        "team": "Williams"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Alexander Albon",
+        "positions_to_gain": null,
+        "predicted_finish_position": 19,
+        "probability": 0.0227,
+        "probability_band": "long_shot",
+        "rank": 19,
+        "reasoning_factors": [],
+        "starting_position": null,
+        "team": "Williams"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Yuki Tsunoda",
+        "positions_to_gain": null,
+        "predicted_finish_position": 20,
+        "probability": 0.0215,
+        "probability_band": "long_shot",
+        "rank": 20,
+        "reasoning_factors": [],
+        "starting_position": null,
+        "team": "RB F1 Team"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Lance Stroll",
+        "positions_to_gain": null,
+        "predicted_finish_position": 21,
+        "probability": 0.0138,
+        "probability_band": "long_shot",
+        "rank": 21,
+        "reasoning_factors": [],
+        "starting_position": null,
+        "team": "Aston Martin"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Valtteri Bottas",
+        "positions_to_gain": null,
+        "predicted_finish_position": 22,
+        "probability": 0.0133,
+        "probability_band": "long_shot",
+        "rank": 22,
+        "reasoning_factors": [],
+        "starting_position": null,
+        "team": "Cadillac F1 Team"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Sergio P\u00e9rez",
+        "positions_to_gain": null,
+        "predicted_finish_position": 23,
+        "probability": 0.0133,
+        "probability_band": "long_shot",
+        "rank": 23,
+        "reasoning_factors": [],
+        "starting_position": null,
+        "team": "Cadillac F1 Team"
+      }
+    ],
+    "driver_win_probabilities": [
+      {
+        "delta_vs_previous": null,
+        "driver": "Andrea Kimi Antonelli",
+        "probability": 0.2509,
+        "probability_band": "front_pack",
+        "rank": 1,
+        "team": "Mercedes"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "George Russell",
+        "probability": 0.1112,
+        "probability_band": "contender",
+        "rank": 2,
+        "team": "Mercedes"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Lewis Hamilton",
+        "probability": 0.1045,
+        "probability_band": "contender",
+        "rank": 3,
+        "team": "Ferrari"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Max Verstappen",
+        "probability": 0.102,
+        "probability_band": "contender",
+        "rank": 4,
+        "team": "Red Bull"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Charles Leclerc",
+        "probability": 0.0928,
+        "probability_band": "outside_chance",
+        "rank": 5,
+        "team": "Ferrari"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Lando Norris",
+        "probability": 0.0876,
+        "probability_band": "outside_chance",
+        "rank": 6,
+        "team": "McLaren"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Oscar Piastri",
+        "probability": 0.0427,
+        "probability_band": "outside_chance",
+        "rank": 7,
+        "team": "McLaren"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Isack Hadjar",
+        "probability": 0.0354,
+        "probability_band": "long_shot",
+        "rank": 8,
+        "team": "Red Bull"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Liam Lawson",
+        "probability": 0.0302,
+        "probability_band": "long_shot",
+        "rank": 9,
+        "team": "RB F1 Team"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Pierre Gasly",
+        "probability": 0.0255,
+        "probability_band": "long_shot",
+        "rank": 10,
+        "team": "Alpine F1 Team"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Arvid Lindblad",
+        "probability": 0.0175,
+        "probability_band": "long_shot",
+        "rank": 11,
+        "team": "RB F1 Team"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Franco Colapinto",
+        "probability": 0.0162,
+        "probability_band": "long_shot",
+        "rank": 12,
+        "team": "Alpine F1 Team"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Oliver Bearman",
+        "probability": 0.0149,
+        "probability_band": "long_shot",
+        "rank": 13,
+        "team": "Haas F1 Team"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Nico H\u00fclkenberg",
+        "probability": 0.014,
+        "probability_band": "long_shot",
+        "rank": 14,
+        "team": "Audi"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Gabriel Bortoleto",
+        "probability": 0.0084,
+        "probability_band": "long_shot",
+        "rank": 15,
+        "team": "Audi"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Esteban Ocon",
+        "probability": 0.0081,
+        "probability_band": "long_shot",
+        "rank": 16,
+        "team": "Haas F1 Team"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Fernando Alonso",
+        "probability": 0.0076,
+        "probability_band": "long_shot",
+        "rank": 17,
+        "team": "Aston Martin"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Carlos Sainz",
+        "probability": 0.0073,
+        "probability_band": "long_shot",
+        "rank": 18,
+        "team": "Williams"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Alexander Albon",
+        "probability": 0.0071,
+        "probability_band": "long_shot",
+        "rank": 19,
+        "team": "Williams"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Yuki Tsunoda",
+        "probability": 0.0066,
+        "probability_band": "long_shot",
+        "rank": 20,
+        "team": "RB F1 Team"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Lance Stroll",
+        "probability": 0.0033,
+        "probability_band": "long_shot",
+        "rank": 21,
+        "team": "Aston Martin"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Valtteri Bottas",
+        "probability": 0.0031,
+        "probability_band": "long_shot",
+        "rank": 22,
+        "team": "Cadillac F1 Team"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Sergio P\u00e9rez",
+        "probability": 0.0031,
+        "probability_band": "long_shot",
+        "rank": 23,
+        "team": "Cadillac F1 Team"
+      }
+    ],
+    "market_outlook": {
+      "explanation": "Andrea Kimi Antonelli is the model favourite at 25%.",
+      "gap_to_second": 0.1397,
+      "label": "Model favourite",
+      "state": "model_favourite",
+      "thresholds": {
+        "aggressive_podium_gain": 3,
+        "close_gap_below": 0.03,
+        "model_favourite_gap": 0.08,
+        "model_favourite_min": 0.25,
+        "no_clear_favourite_below": 0.15
+      },
+      "top_probability": 0.2509
+    },
+    "performance_comparison": [
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "overall_index": 75.8,
+        "race_pace_index": 82.0,
+        "reliability_index": 78.0,
+        "single_lap_index": 82.0,
+        "speed_index": 79.6,
+        "strategy_index": 64.0,
+        "team": "Mercedes",
+        "tyre_management_index": 62.0
+      },
+      {
+        "driver": "George Russell",
+        "overall_index": 66.5,
+        "race_pace_index": 63.1,
+        "reliability_index": 78.0,
+        "single_lap_index": 63.1,
+        "speed_index": 62.9,
+        "strategy_index": 64.0,
+        "team": "Mercedes",
+        "tyre_management_index": 62.0
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "overall_index": 66.0,
+        "race_pace_index": 62.2,
+        "reliability_index": 78.0,
+        "single_lap_index": 62.2,
+        "speed_index": 62.1,
+        "strategy_index": 64.0,
+        "team": "Ferrari",
+        "tyre_management_index": 62.0
+      },
+      {
+        "driver": "Max Verstappen",
+        "overall_index": 65.9,
+        "race_pace_index": 61.8,
+        "reliability_index": 78.0,
+        "single_lap_index": 61.8,
+        "speed_index": 61.8,
+        "strategy_index": 64.0,
+        "team": "Red Bull",
+        "tyre_management_index": 62.0
+      },
+      {
+        "driver": "Charles Leclerc",
+        "overall_index": 65.3,
+        "race_pace_index": 60.6,
+        "reliability_index": 78.0,
+        "single_lap_index": 60.6,
+        "speed_index": 60.7,
+        "strategy_index": 64.0,
+        "team": "Ferrari",
+        "tyre_management_index": 62.0
+      },
+      {
+        "driver": "Lando Norris",
+        "overall_index": 64.9,
+        "race_pace_index": 59.9,
+        "reliability_index": 78.0,
+        "single_lap_index": 59.9,
+        "speed_index": 60.1,
+        "strategy_index": 64.0,
+        "team": "McLaren",
+        "tyre_management_index": 62.0
+      },
+      {
+        "driver": "Oscar Piastri",
+        "overall_index": 61.9,
+        "race_pace_index": 53.8,
+        "reliability_index": 78.0,
+        "single_lap_index": 53.8,
+        "speed_index": 54.8,
+        "strategy_index": 64.0,
+        "team": "McLaren",
+        "tyre_management_index": 62.0
+      },
+      {
+        "driver": "Isack Hadjar",
+        "overall_index": 61.4,
+        "race_pace_index": 52.8,
+        "reliability_index": 78.0,
+        "single_lap_index": 52.8,
+        "speed_index": 53.9,
+        "strategy_index": 64.0,
+        "team": "Red Bull",
+        "tyre_management_index": 62.0
+      },
+      {
+        "driver": "Liam Lawson",
+        "overall_index": 61.1,
+        "race_pace_index": 52.1,
+        "reliability_index": 78.0,
+        "single_lap_index": 52.1,
+        "speed_index": 53.3,
+        "strategy_index": 64.0,
+        "team": "RB F1 Team",
+        "tyre_management_index": 62.0
+      },
+      {
+        "driver": "Pierre Gasly",
+        "overall_index": 60.8,
+        "race_pace_index": 51.5,
+        "reliability_index": 78.0,
+        "single_lap_index": 51.5,
+        "speed_index": 52.7,
+        "strategy_index": 64.0,
+        "team": "Alpine F1 Team",
+        "tyre_management_index": 62.0
+      },
+      {
+        "driver": "Arvid Lindblad",
+        "overall_index": 60.2,
+        "race_pace_index": 50.4,
+        "reliability_index": 78.0,
+        "single_lap_index": 50.4,
+        "speed_index": 51.8,
+        "strategy_index": 64.0,
+        "team": "RB F1 Team",
+        "tyre_management_index": 62.0
+      },
+      {
+        "driver": "Franco Colapinto",
+        "overall_index": 60.1,
+        "race_pace_index": 50.2,
+        "reliability_index": 78.0,
+        "single_lap_index": 50.2,
+        "speed_index": 51.6,
+        "strategy_index": 64.0,
+        "team": "Alpine F1 Team",
+        "tyre_management_index": 62.0
+      },
+      {
+        "driver": "Oliver Bearman",
+        "overall_index": 60.1,
+        "race_pace_index": 50.0,
+        "reliability_index": 78.0,
+        "single_lap_index": 50.0,
+        "speed_index": 51.5,
+        "strategy_index": 64.0,
+        "team": "Haas F1 Team",
+        "tyre_management_index": 62.0
+      },
+      {
+        "driver": "Nico H\u00fclkenberg",
+        "overall_index": 60.0,
+        "race_pace_index": 49.9,
+        "reliability_index": 78.0,
+        "single_lap_index": 49.9,
+        "speed_index": 51.3,
+        "strategy_index": 64.0,
+        "team": "Audi",
+        "tyre_management_index": 62.0
+      },
+      {
+        "driver": "Gabriel Bortoleto",
+        "overall_index": 59.6,
+        "race_pace_index": 49.1,
+        "reliability_index": 78.0,
+        "single_lap_index": 49.1,
+        "speed_index": 50.7,
+        "strategy_index": 64.0,
+        "team": "Audi",
+        "tyre_management_index": 62.0
+      },
+      {
+        "driver": "Esteban Ocon",
+        "overall_index": 59.6,
+        "race_pace_index": 49.1,
+        "reliability_index": 78.0,
+        "single_lap_index": 49.1,
+        "speed_index": 50.6,
+        "strategy_index": 64.0,
+        "team": "Haas F1 Team",
+        "tyre_management_index": 62.0
+      },
+      {
+        "driver": "Fernando Alonso",
+        "overall_index": 59.6,
+        "race_pace_index": 49.0,
+        "reliability_index": 78.0,
+        "single_lap_index": 49.0,
+        "speed_index": 50.6,
+        "strategy_index": 64.0,
+        "team": "Aston Martin",
+        "tyre_management_index": 62.0
+      },
+      {
+        "driver": "Carlos Sainz",
+        "overall_index": 59.5,
+        "race_pace_index": 49.0,
+        "reliability_index": 78.0,
+        "single_lap_index": 49.0,
+        "speed_index": 50.6,
+        "strategy_index": 64.0,
+        "team": "Williams",
+        "tyre_management_index": 62.0
+      },
+      {
+        "driver": "Alexander Albon",
+        "overall_index": 59.5,
+        "race_pace_index": 49.0,
+        "reliability_index": 78.0,
+        "single_lap_index": 49.0,
+        "speed_index": 50.5,
+        "strategy_index": 64.0,
+        "team": "Williams",
+        "tyre_management_index": 62.0
+      },
+      {
+        "driver": "Yuki Tsunoda",
+        "overall_index": 59.5,
+        "race_pace_index": 48.9,
+        "reliability_index": 78.0,
+        "single_lap_index": 48.9,
+        "speed_index": 50.5,
+        "strategy_index": 64.0,
+        "team": "RB F1 Team",
+        "tyre_management_index": 62.0
+      },
+      {
+        "driver": "Lance Stroll",
+        "overall_index": 59.3,
+        "race_pace_index": 48.4,
+        "reliability_index": 78.0,
+        "single_lap_index": 48.4,
+        "speed_index": 50.1,
+        "strategy_index": 64.0,
+        "team": "Aston Martin",
+        "tyre_management_index": 62.0
+      },
+      {
+        "driver": "Valtteri Bottas",
+        "overall_index": 59.3,
+        "race_pace_index": 48.4,
+        "reliability_index": 78.0,
+        "single_lap_index": 48.4,
+        "speed_index": 50.0,
+        "strategy_index": 64.0,
+        "team": "Cadillac F1 Team",
+        "tyre_management_index": 62.0
+      },
+      {
+        "driver": "Sergio P\u00e9rez",
+        "overall_index": 59.3,
+        "race_pace_index": 48.4,
+        "reliability_index": 78.0,
+        "single_lap_index": 48.4,
+        "speed_index": 50.0,
+        "strategy_index": 64.0,
+        "team": "Cadillac F1 Team",
+        "tyre_management_index": 62.0
+      }
+    ],
+    "predicted_podium": [
+      {
+        "delta_vs_previous": null,
+        "driver": "Andrea Kimi Antonelli",
+        "positions_to_gain": null,
+        "predicted_finish_position": 1,
+        "probability": 0.5956,
+        "probability_band": "front_pack",
+        "rank": 1,
+        "reasoning_factors": [
+          "strong baseline model share"
+        ],
+        "starting_position": null,
+        "team": "Mercedes"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "George Russell",
+        "positions_to_gain": null,
+        "predicted_finish_position": 2,
+        "probability": 0.2673,
+        "probability_band": "contender",
+        "rank": 2,
+        "reasoning_factors": [],
+        "starting_position": null,
+        "team": "Mercedes"
+      },
+      {
+        "delta_vs_previous": null,
+        "driver": "Lewis Hamilton",
+        "positions_to_gain": null,
+        "predicted_finish_position": 3,
+        "probability": 0.2516,
+        "probability_band": "contender",
+        "rank": 3,
+        "reasoning_factors": [],
+        "starting_position": null,
+        "team": "Ferrari"
+      }
+    ],
+    "predicted_winner": {
+      "driver": "Andrea Kimi Antonelli",
+      "positions_to_gain": null,
+      "predicted_finish_position": 1,
+      "probability": 0.2509,
+      "reasoning_factors": [
+        "strong baseline model share"
+      ],
+      "starting_position": null
+    },
+    "predicted_winning_constructor": {
+      "delta_vs_previous": null,
+      "driver": null,
+      "probability": 0.3621,
+      "probability_band": "front_pack",
+      "rank": 1,
+      "team": "Mercedes"
+    }
+  },
+  "race_volatility": {
+    "level": "low",
+    "reasons": [
+      "No major volatility amplifier identified in current inputs."
+    ],
+    "score": 0.4
+  },
+  "run_id": "67b199fe-6d63-47f1-93d3-94a7384f6833",
+  "safety_car": {
+    "expected_count": 0.5,
+    "probability_at_least_one": 0.52,
+    "reasoning_factors": [
+      "Base heuristic from modern F1 race interruption frequency."
+    ],
+    "risk_level": "medium"
+  },
+  "schema_version": "1.1",
+  "score_adjustment_log": [
+    {
+      "delta": -0.0529,
+      "reason": "Past official result evaluation adjusted this driver slightly.",
+      "signal_id": "learning_state",
+      "signal_type": "result_learning",
+      "target_name": "Andrea Kimi Antonelli",
+      "target_type": "driver"
+    },
+    {
+      "delta": -0.0524,
+      "reason": "Past official result evaluation adjusted this driver slightly.",
+      "signal_id": "learning_state",
+      "signal_type": "result_learning",
+      "target_name": "George Russell",
+      "target_type": "driver"
+    },
+    {
+      "delta": 0.018,
+      "reason": "Past official result evaluation adjusted this driver slightly.",
+      "signal_id": "learning_state",
+      "signal_type": "result_learning",
+      "target_name": "Lewis Hamilton",
+      "target_type": "driver"
+    },
+    {
+      "delta": 0.0035,
+      "reason": "Past official result evaluation adjusted this driver slightly.",
+      "signal_id": "learning_state",
+      "signal_type": "result_learning",
+      "target_name": "Max Verstappen",
+      "target_type": "driver"
+    },
+    {
+      "delta": 0.018,
+      "reason": "Past official result evaluation adjusted this driver slightly.",
+      "signal_id": "learning_state",
+      "signal_type": "result_learning",
+      "target_name": "Charles Leclerc",
+      "target_type": "driver"
+    },
+    {
+      "delta": 0.0182,
+      "reason": "Past official result evaluation adjusted this driver slightly.",
+      "signal_id": "learning_state",
+      "signal_type": "result_learning",
+      "target_name": "Isack Hadjar",
+      "target_type": "driver"
+    },
+    {
+      "delta": 0.006,
+      "reason": "Past official result evaluation adjusted this driver slightly.",
+      "signal_id": "learning_state",
+      "signal_type": "result_learning",
+      "target_name": "Liam Lawson",
+      "target_type": "driver"
+    },
+    {
+      "delta": 0.006,
+      "reason": "Past official result evaluation adjusted this driver slightly.",
+      "signal_id": "learning_state",
+      "signal_type": "result_learning",
+      "target_name": "Pierre Gasly",
+      "target_type": "driver"
+    },
+    {
+      "delta": 0.008,
+      "reason": "Past official result evaluation adjusted this driver slightly.",
+      "signal_id": "learning_state",
+      "signal_type": "result_learning",
+      "target_name": "Arvid Lindblad",
+      "target_type": "driver"
+    },
+    {
+      "delta": 0.0111,
+      "reason": "Past official result evaluation adjusted this driver slightly.",
+      "signal_id": "learning_state",
+      "signal_type": "result_learning",
+      "target_name": "Franco Colapinto",
+      "target_type": "driver"
+    },
+    {
+      "delta": 0.006,
+      "reason": "Past official result evaluation adjusted this driver slightly.",
+      "signal_id": "learning_state",
+      "signal_type": "result_learning",
+      "target_name": "Nico H\u00fclkenberg",
+      "target_type": "driver"
+    },
+    {
+      "delta": 0.008,
+      "reason": "Past official result evaluation adjusted this driver slightly.",
+      "signal_id": "learning_state",
+      "signal_type": "result_learning",
+      "target_name": "Esteban Ocon",
+      "target_type": "driver"
+    },
+    {
+      "delta": 0.008,
+      "reason": "Past official result evaluation adjusted this driver slightly.",
+      "signal_id": "learning_state",
+      "signal_type": "result_learning",
+      "target_name": "Alexander Albon",
+      "target_type": "driver"
+    },
+    {
+      "delta": 0.008,
+      "reason": "Past official result evaluation adjusted this driver slightly.",
+      "signal_id": "learning_state",
+      "signal_type": "result_learning",
+      "target_name": "Sergio P\u00e9rez",
+      "target_type": "driver"
+    }
+  ],
+  "session_results": {
+    "fp1": [],
+    "fp2": [],
+    "fp3": [],
+    "qualifying": [],
+    "race": [],
+    "sprint": [
+      {
+        "constructor": "McLaren",
+        "driver": "Lando NORRIS",
+        "is_official": true,
+        "laps": 19,
+        "position": 1,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "29:15.045"
+      },
+      {
+        "constructor": "McLaren",
+        "driver": "Oscar PIASTRI",
+        "is_official": true,
+        "laps": 19,
+        "position": 2,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+3.766s"
+      },
+      {
+        "constructor": "Ferrari",
+        "driver": "Charles LECLERC",
+        "is_official": true,
+        "laps": 19,
+        "position": 3,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+6.251s"
+      },
+      {
+        "constructor": "Mercedes",
+        "driver": "George RUSSELL",
+        "is_official": true,
+        "laps": 19,
+        "position": 4,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+12.951s"
+      },
+      {
+        "constructor": "Red Bull Racing",
+        "driver": "Max VERSTAPPEN",
+        "is_official": true,
+        "laps": 19,
+        "position": 5,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+13.639s"
+      },
+      {
+        "constructor": "Mercedes",
+        "driver": "Kimi ANTONELLI",
+        "is_official": true,
+        "laps": 19,
+        "position": 6,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+13.777s"
+      },
+      {
+        "constructor": "Ferrari",
+        "driver": "Lewis HAMILTON",
+        "is_official": true,
+        "laps": 19,
+        "position": 7,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+21.665s"
+      },
+      {
+        "constructor": "Alpine",
+        "driver": "Pierre GASLY",
+        "is_official": true,
+        "laps": 19,
+        "position": 8,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+30.525s"
+      },
+      {
+        "constructor": "Red Bull Racing",
+        "driver": "Isack HADJAR",
+        "is_official": true,
+        "laps": 19,
+        "position": 9,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+35.346s"
+      },
+      {
+        "constructor": "Alpine",
+        "driver": "Franco COLAPINTO",
+        "is_official": true,
+        "laps": 19,
+        "position": 10,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+36.970s"
+      },
+      {
+        "constructor": "Haas F1 Team",
+        "driver": "Esteban OCON",
+        "is_official": true,
+        "laps": 19,
+        "position": 11,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+56.972s"
+      },
+      {
+        "constructor": "Haas F1 Team",
+        "driver": "Oliver BEARMAN",
+        "is_official": true,
+        "laps": 19,
+        "position": 12,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+57.365s"
+      },
+      {
+        "constructor": "Williams",
+        "driver": "Carlos SAINZ",
+        "is_official": true,
+        "laps": 19,
+        "position": 13,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+58.504s"
+      },
+      {
+        "constructor": "Racing Bulls",
+        "driver": "Liam LAWSON",
+        "is_official": true,
+        "laps": 19,
+        "position": 14,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+59.358s"
+      },
+      {
+        "constructor": "Aston Martin",
+        "driver": "Fernando ALONSO",
+        "is_official": true,
+        "laps": 19,
+        "position": 15,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+76.067s"
+      },
+      {
+        "constructor": "Cadillac",
+        "driver": "Sergio PEREZ",
+        "is_official": true,
+        "laps": 19,
+        "position": 16,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+76.691s"
+      },
+      {
+        "constructor": "Aston Martin",
+        "driver": "Lance STROLL",
+        "is_official": true,
+        "laps": 19,
+        "position": 17,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+77.626s"
+      },
+      {
+        "constructor": "Williams",
+        "driver": "Alexander ALBON",
+        "is_official": true,
+        "laps": 19,
+        "position": 18,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+88.173s"
+      },
+      {
+        "constructor": "Cadillac",
+        "driver": "Valtteri BOTTAS",
+        "is_official": true,
+        "laps": 19,
+        "position": 19,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+89.597s"
+      }
+    ],
+    "sprint_qualifying": [
+      {
+        "constructor": "McLaren",
+        "driver": "Lando NORRIS",
+        "is_official": true,
+        "laps": 15,
+        "position": 1,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "1:27.869"
+      },
+      {
+        "constructor": "Mercedes",
+        "driver": "Kimi ANTONELLI",
+        "is_official": true,
+        "laps": 14,
+        "position": 2,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+0.222s"
+      },
+      {
+        "constructor": "McLaren",
+        "driver": "Oscar PIASTRI",
+        "is_official": true,
+        "laps": 11,
+        "position": 3,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+0.239s"
+      },
+      {
+        "constructor": "Ferrari",
+        "driver": "Charles LECLERC",
+        "is_official": true,
+        "laps": 15,
+        "position": 4,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+0.370s"
+      },
+      {
+        "constructor": "Red Bull Racing",
+        "driver": "Max VERSTAPPEN",
+        "is_official": true,
+        "laps": 12,
+        "position": 5,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+0.592s"
+      },
+      {
+        "constructor": "Mercedes",
+        "driver": "George RUSSELL",
+        "is_official": true,
+        "laps": 15,
+        "position": 6,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+0.624s"
+      },
+      {
+        "constructor": "Ferrari",
+        "driver": "Lewis HAMILTON",
+        "is_official": true,
+        "laps": 15,
+        "position": 7,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+0.749s"
+      },
+      {
+        "constructor": "Alpine",
+        "driver": "Franco COLAPINTO",
+        "is_official": true,
+        "laps": 15,
+        "position": 8,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+1.451s"
+      },
+      {
+        "constructor": "Red Bull Racing",
+        "driver": "Isack HADJAR",
+        "is_official": true,
+        "laps": 15,
+        "position": 9,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+1.553s"
+      },
+      {
+        "constructor": "Alpine",
+        "driver": "Pierre GASLY",
+        "is_official": true,
+        "laps": 15,
+        "position": 10,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+1.605s"
+      },
+      {
+        "constructor": "Audi",
+        "driver": "Gabriel BORTOLETO",
+        "is_official": true,
+        "laps": 12,
+        "position": 11,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+1.661s"
+      },
+      {
+        "constructor": "Audi",
+        "driver": "Nico HULKENBERG",
+        "is_official": true,
+        "laps": 12,
+        "position": 12,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+1.686s"
+      },
+      {
+        "constructor": "Haas F1 Team",
+        "driver": "Oliver BEARMAN",
+        "is_official": true,
+        "laps": 9,
+        "position": 13,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+1.783s"
+      },
+      {
+        "constructor": "Williams",
+        "driver": "Carlos SAINZ",
+        "is_official": true,
+        "laps": 12,
+        "position": 14,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+1.891s"
+      },
+      {
+        "constructor": "Racing Bulls",
+        "driver": "Arvid LINDBLAD",
+        "is_official": true,
+        "laps": 9,
+        "position": 15,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+2.240s"
+      },
+      {
+        "constructor": "Racing Bulls",
+        "driver": "Liam LAWSON",
+        "is_official": true,
+        "laps": 5,
+        "position": 16,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+2.320s"
+      },
+      {
+        "constructor": "Haas F1 Team",
+        "driver": "Esteban OCON",
+        "is_official": true,
+        "laps": 6,
+        "position": 17,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+2.522s"
+      },
+      {
+        "constructor": "Cadillac",
+        "driver": "Sergio PEREZ",
+        "is_official": true,
+        "laps": 3,
+        "position": 18,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+2.532s"
+      },
+      {
+        "constructor": "Williams",
+        "driver": "Alexander ALBON",
+        "is_official": true,
+        "laps": 6,
+        "position": 19,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+1.883s"
+      },
+      {
+        "constructor": "Cadillac",
+        "driver": "Valtteri BOTTAS",
+        "is_official": true,
+        "laps": 6,
+        "position": 20,
+        "source": "OpenF1",
+        "status": "",
+        "time_or_gap": "+3.103s"
+      }
+    ]
+  },
+  "sprint": {
+    "driver_podium_probabilities": [],
+    "driver_win_probabilities": [],
+    "enabled": false,
+    "market_outlook": null,
+    "model_scope": "grand_prix_only",
+    "notes": null,
+    "predicted_podium": [],
+    "predicted_winner": null
+  },
+  "stage": "pre_weekend",
+  "updated_at": "2026-10-19T06:12:31Z",
+  "weekend_id": "2026-r18-united-states-grand-prix",
+  "weekend_phase": "qualifying_and_race_forecast"
+}

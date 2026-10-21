@@ -1,0 +1,3072 @@
+{
+  "constructor_series": {
+    "Alpine F1 Team": [
+      {
+        "driver": "Alpine F1 Team",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T08:06:06Z",
+        "value": 0.0513
+      },
+      {
+        "driver": "Alpine F1 Team",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T08:43:48Z",
+        "value": 0.0513
+      },
+      {
+        "driver": "Alpine F1 Team",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-06T17:10:32Z",
+        "value": 0.0062
+      },
+      {
+        "driver": "Alpine F1 Team",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-07T10:44:02Z",
+        "value": 0.0063
+      },
+      {
+        "driver": "Alpine F1 Team",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-07T10:50:59Z",
+        "value": 0.0063
+      },
+      {
+        "driver": "Alpine F1 Team",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-12T20:27:25Z",
+        "value": 0.0607
+      },
+      {
+        "driver": "Alpine F1 Team",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-13T15:22:37Z",
+        "value": 0.0607
+      },
+      {
+        "driver": "Alpine F1 Team",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-06-26T16:04:09Z",
+        "value": 0.0591
+      },
+      {
+        "driver": "Alpine F1 Team",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-26T16:52:51Z",
+        "value": 0.0591
+      },
+      {
+        "driver": "Alpine F1 Team",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-26T20:12:53Z",
+        "value": 0.0591
+      },
+      {
+        "driver": "Alpine F1 Team",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-06-27T15:06:17Z",
+        "value": 0.0591
+      },
+      {
+        "driver": "Alpine F1 Team",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-27T18:19:00Z",
+        "value": 0.0086
+      },
+      {
+        "driver": "Alpine F1 Team",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-28T12:53:06Z",
+        "value": 0.0086
+      },
+      {
+        "driver": "Alpine F1 Team",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-07-03T16:12:45Z",
+        "value": 0.0547
+      },
+      {
+        "driver": "Alpine F1 Team",
+        "label": "After Sprint Qualifying",
+        "stage": "after_sprint_qualifying",
+        "timestamp": "2026-07-03T20:05:38Z",
+        "value": 0.0547
+      },
+      {
+        "driver": "Alpine F1 Team",
+        "label": "After Sprint",
+        "stage": "after_sprint",
+        "timestamp": "2026-07-04T15:45:49Z",
+        "value": 0.0541
+      },
+      {
+        "driver": "Alpine F1 Team",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-07-17T16:04:06Z",
+        "value": 0.0508
+      },
+      {
+        "driver": "Alpine F1 Team",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-07-17T19:33:06Z",
+        "value": 0.0508
+      },
+      {
+        "driver": "Alpine F1 Team",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-07-18T14:41:05Z",
+        "value": 0.0508
+      },
+      {
+        "driver": "Alpine F1 Team",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-07-24T19:47:47Z",
+        "value": 0.0506
+      },
+      {
+        "driver": "Alpine F1 Team",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-07-25T14:51:00Z",
+        "value": 0.0506
+      }
+    ],
+    "Ferrari": [
+      {
+        "driver": "Ferrari",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T04:40:17Z",
+        "value": 0.0961
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T08:06:06Z",
+        "value": 0.1816
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T08:43:48Z",
+        "value": 0.1816
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T12:32:08Z",
+        "value": 0.0634
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T12:41:49Z",
+        "value": 0.0642
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T13:11:55Z",
+        "value": 0.0649
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T13:22:37Z",
+        "value": 0.0655
+      },
+      {
+        "driver": "Ferrari",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-05-25T03:04:13Z",
+        "value": 0.0741
+      },
+      {
+        "driver": "Ferrari",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-05-25T03:33:18Z",
+        "value": 0.0749
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-06T17:10:32Z",
+        "value": 0.1384
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-07T10:44:02Z",
+        "value": 0.1405
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-07T10:50:59Z",
+        "value": 0.1405
+      },
+      {
+        "driver": "Ferrari",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-07T19:44:19Z",
+        "value": 0.1366
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-12T17:28:13Z",
+        "value": 0.1959
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-12T20:27:25Z",
+        "value": 0.196
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-13T15:22:37Z",
+        "value": 0.196
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-13T18:44:49Z",
+        "value": 0.2205
+      },
+      {
+        "driver": "Ferrari",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-14T19:07:17Z",
+        "value": 0.2553
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-06-26T16:04:09Z",
+        "value": 0.2211
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-26T16:52:51Z",
+        "value": 0.2211
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-26T20:12:53Z",
+        "value": 0.2211
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-06-27T15:06:17Z",
+        "value": 0.2211
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-27T18:19:00Z",
+        "value": 0.3407
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-28T12:53:06Z",
+        "value": 0.3407
+      },
+      {
+        "driver": "Ferrari",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-28T18:59:59Z",
+        "value": 0.292
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-07-03T16:12:45Z",
+        "value": 0.2014
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Sprint Qualifying",
+        "stage": "after_sprint_qualifying",
+        "timestamp": "2026-07-03T20:05:38Z",
+        "value": 0.2014
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Sprint",
+        "stage": "after_sprint",
+        "timestamp": "2026-07-04T15:45:49Z",
+        "value": 0.2058
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-04T19:41:09Z",
+        "value": 0.227
+      },
+      {
+        "driver": "Ferrari",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-05T20:07:56Z",
+        "value": 0.2633
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-07-17T16:04:06Z",
+        "value": 0.237
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-07-17T19:33:06Z",
+        "value": 0.237
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-07-18T14:41:05Z",
+        "value": 0.237
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-18T18:09:38Z",
+        "value": 0.0882
+      },
+      {
+        "driver": "Ferrari",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-19T19:02:20Z",
+        "value": 0.0856
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-07-24T19:47:47Z",
+        "value": 0.2396
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-07-25T14:51:00Z",
+        "value": 0.2396
+      },
+      {
+        "driver": "Ferrari",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-25T18:09:22Z",
+        "value": 0.4234
+      },
+      {
+        "driver": "Ferrari",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-26T19:23:56Z",
+        "value": 0.4026
+      },
+      {
+        "driver": "Ferrari",
+        "label": "Pre Weekend",
+        "stage": "pre_weekend",
+        "timestamp": "2026-08-19T06:45:50Z",
+        "value": 0.2351
+      },
+      {
+        "driver": "Ferrari",
+        "label": "Pre Weekend",
+        "stage": "pre_weekend",
+        "timestamp": "2026-10-19T06:12:31Z",
+        "value": 0.1973
+      }
+    ],
+    "McLaren": [
+      {
+        "driver": "McLaren",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T04:40:17Z",
+        "value": 0.118
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T08:06:06Z",
+        "value": 0.1684
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T08:43:48Z",
+        "value": 0.1684
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T12:32:08Z",
+        "value": 0.1228
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T12:41:49Z",
+        "value": 0.1244
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T13:11:55Z",
+        "value": 0.1258
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T13:22:37Z",
+        "value": 0.1269
+      },
+      {
+        "driver": "McLaren",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-05-25T03:04:13Z",
+        "value": 0.116
+      },
+      {
+        "driver": "McLaren",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-05-25T03:33:18Z",
+        "value": 0.1172
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-06T17:10:32Z",
+        "value": 0.0356
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-07T10:44:02Z",
+        "value": 0.0362
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-07T10:50:59Z",
+        "value": 0.0362
+      },
+      {
+        "driver": "McLaren",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-07T19:44:19Z",
+        "value": 0.033
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-12T17:28:13Z",
+        "value": 0.1435
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-12T20:27:25Z",
+        "value": 0.1424
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-13T15:22:37Z",
+        "value": 0.1424
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-13T18:44:49Z",
+        "value": 0.064
+      },
+      {
+        "driver": "McLaren",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-14T19:07:17Z",
+        "value": 0.0639
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-06-26T16:04:09Z",
+        "value": 0.1466
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-26T16:52:51Z",
+        "value": 0.1466
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-26T20:12:53Z",
+        "value": 0.1466
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-06-27T15:06:17Z",
+        "value": 0.1466
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-27T18:19:00Z",
+        "value": 0.0474
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-28T12:53:06Z",
+        "value": 0.0474
+      },
+      {
+        "driver": "McLaren",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-28T18:59:59Z",
+        "value": 0.0463
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-07-03T16:12:45Z",
+        "value": 0.1512
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Sprint Qualifying",
+        "stage": "after_sprint_qualifying",
+        "timestamp": "2026-07-03T20:05:38Z",
+        "value": 0.1512
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Sprint",
+        "stage": "after_sprint",
+        "timestamp": "2026-07-04T15:45:49Z",
+        "value": 0.1489
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-04T19:41:09Z",
+        "value": 0.0345
+      },
+      {
+        "driver": "McLaren",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-05T20:07:56Z",
+        "value": 0.0333
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-07-17T16:04:06Z",
+        "value": 0.1435
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-07-17T19:33:06Z",
+        "value": 0.1435
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-07-18T14:41:05Z",
+        "value": 0.1435
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-18T18:09:38Z",
+        "value": 0.0953
+      },
+      {
+        "driver": "McLaren",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-19T19:02:20Z",
+        "value": 0.0882
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-07-24T19:47:47Z",
+        "value": 0.1408
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-07-25T14:51:00Z",
+        "value": 0.1408
+      },
+      {
+        "driver": "McLaren",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-25T18:09:22Z",
+        "value": 0.3252
+      },
+      {
+        "driver": "McLaren",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-26T19:23:56Z",
+        "value": 0.3513
+      },
+      {
+        "driver": "McLaren",
+        "label": "Pre Weekend",
+        "stage": "pre_weekend",
+        "timestamp": "2026-08-19T06:45:50Z",
+        "value": 0.1333
+      },
+      {
+        "driver": "McLaren",
+        "label": "Pre Weekend",
+        "stage": "pre_weekend",
+        "timestamp": "2026-10-19T06:12:31Z",
+        "value": 0.1303
+      }
+    ],
+    "Mercedes": [
+      {
+        "driver": "Mercedes",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T04:40:17Z",
+        "value": 0.1668
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T08:06:06Z",
+        "value": 0.3951
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T08:43:48Z",
+        "value": 0.3951
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T12:32:08Z",
+        "value": 0.7815
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T12:41:49Z",
+        "value": 0.7786
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T13:11:55Z",
+        "value": 0.7762
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T13:22:37Z",
+        "value": 0.7742
+      },
+      {
+        "driver": "Mercedes",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-05-25T03:04:13Z",
+        "value": 0.772
+      },
+      {
+        "driver": "Mercedes",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-05-25T03:33:18Z",
+        "value": 0.7696
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-06T17:10:32Z",
+        "value": 0.7222
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-07T10:44:02Z",
+        "value": 0.718
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-07T10:50:59Z",
+        "value": 0.718
+      },
+      {
+        "driver": "Mercedes",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-07T19:44:19Z",
+        "value": 0.7279
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-12T17:28:13Z",
+        "value": 0.3699
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-12T20:27:25Z",
+        "value": 0.37
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-13T15:22:37Z",
+        "value": 0.37
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-13T18:44:49Z",
+        "value": 0.649
+      },
+      {
+        "driver": "Mercedes",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-14T19:07:17Z",
+        "value": 0.6187
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-06-26T16:04:09Z",
+        "value": 0.3519
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-26T16:52:51Z",
+        "value": 0.3519
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-26T20:12:53Z",
+        "value": 0.3519
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-06-27T15:06:17Z",
+        "value": 0.3519
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-27T18:19:00Z",
+        "value": 0.5442
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-28T12:53:06Z",
+        "value": 0.5442
+      },
+      {
+        "driver": "Mercedes",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-28T18:59:59Z",
+        "value": 0.596
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-07-03T16:12:45Z",
+        "value": 0.37
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Sprint Qualifying",
+        "stage": "after_sprint_qualifying",
+        "timestamp": "2026-07-03T20:05:38Z",
+        "value": 0.37
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Sprint",
+        "stage": "after_sprint",
+        "timestamp": "2026-07-04T15:45:49Z",
+        "value": 0.3694
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-04T19:41:09Z",
+        "value": 0.6913
+      },
+      {
+        "driver": "Mercedes",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-05T20:07:56Z",
+        "value": 0.657
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-07-17T16:04:06Z",
+        "value": 0.3546
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-07-17T19:33:06Z",
+        "value": 0.3546
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-07-18T14:41:05Z",
+        "value": 0.3546
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-18T18:09:38Z",
+        "value": 0.7135
+      },
+      {
+        "driver": "Mercedes",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-19T19:02:20Z",
+        "value": 0.725
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-07-24T19:47:47Z",
+        "value": 0.352
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-07-25T14:51:00Z",
+        "value": 0.352
+      },
+      {
+        "driver": "Mercedes",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-25T18:09:22Z",
+        "value": 0.1975
+      },
+      {
+        "driver": "Mercedes",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-26T19:23:56Z",
+        "value": 0.1869
+      },
+      {
+        "driver": "Mercedes",
+        "label": "Pre Weekend",
+        "stage": "pre_weekend",
+        "timestamp": "2026-08-19T06:45:50Z",
+        "value": 0.3414
+      },
+      {
+        "driver": "Mercedes",
+        "label": "Pre Weekend",
+        "stage": "pre_weekend",
+        "timestamp": "2026-10-19T06:12:31Z",
+        "value": 0.3621
+      }
+    ],
+    "RB F1 Team": [
+      {
+        "driver": "RB F1 Team",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T04:40:17Z",
+        "value": 0.0848
+      },
+      {
+        "driver": "RB F1 Team",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T12:32:08Z",
+        "value": 0.0059
+      },
+      {
+        "driver": "RB F1 Team",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T12:41:49Z",
+        "value": 0.0059
+      },
+      {
+        "driver": "RB F1 Team",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T13:11:55Z",
+        "value": 0.006
+      },
+      {
+        "driver": "RB F1 Team",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T13:22:37Z",
+        "value": 0.0061
+      },
+      {
+        "driver": "RB F1 Team",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-05-25T03:04:13Z",
+        "value": 0.0066
+      },
+      {
+        "driver": "RB F1 Team",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-05-25T03:33:18Z",
+        "value": 0.0066
+      },
+      {
+        "driver": "RB F1 Team",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-07T19:44:19Z",
+        "value": 0.0057
+      },
+      {
+        "driver": "RB F1 Team",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-12T17:28:13Z",
+        "value": 0.0561
+      },
+      {
+        "driver": "RB F1 Team",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-13T18:44:49Z",
+        "value": 0.0133
+      },
+      {
+        "driver": "RB F1 Team",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-14T19:07:17Z",
+        "value": 0.012
+      },
+      {
+        "driver": "RB F1 Team",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-28T18:59:59Z",
+        "value": 0.0079
+      },
+      {
+        "driver": "RB F1 Team",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-04T19:41:09Z",
+        "value": 0.006
+      },
+      {
+        "driver": "RB F1 Team",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-05T20:07:56Z",
+        "value": 0.0061
+      },
+      {
+        "driver": "RB F1 Team",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-18T18:09:38Z",
+        "value": 0.0093
+      },
+      {
+        "driver": "RB F1 Team",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-19T19:02:20Z",
+        "value": 0.0088
+      },
+      {
+        "driver": "RB F1 Team",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-25T18:09:22Z",
+        "value": 0.0086
+      },
+      {
+        "driver": "RB F1 Team",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-26T19:23:56Z",
+        "value": 0.0085
+      },
+      {
+        "driver": "RB F1 Team",
+        "label": "Pre Weekend",
+        "stage": "pre_weekend",
+        "timestamp": "2026-08-19T06:45:50Z",
+        "value": 0.05
+      },
+      {
+        "driver": "RB F1 Team",
+        "label": "Pre Weekend",
+        "stage": "pre_weekend",
+        "timestamp": "2026-10-19T06:12:31Z",
+        "value": 0.0543
+      }
+    ],
+    "Red Bull": [
+      {
+        "driver": "Red Bull",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T04:40:17Z",
+        "value": 0.0905
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T08:06:06Z",
+        "value": 0.0583
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T08:43:48Z",
+        "value": 0.0583
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T12:32:08Z",
+        "value": 0.014
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T12:41:49Z",
+        "value": 0.0141
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T13:11:55Z",
+        "value": 0.0143
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T13:22:37Z",
+        "value": 0.0144
+      },
+      {
+        "driver": "Red Bull",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-05-25T03:04:13Z",
+        "value": 0.0172
+      },
+      {
+        "driver": "Red Bull",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-05-25T03:33:18Z",
+        "value": 0.0174
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-06T17:10:32Z",
+        "value": 0.083
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-07T10:44:02Z",
+        "value": 0.0842
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-07T10:50:59Z",
+        "value": 0.0842
+      },
+      {
+        "driver": "Red Bull",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-07T19:44:19Z",
+        "value": 0.0829
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-12T17:28:13Z",
+        "value": 0.0826
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-12T20:27:25Z",
+        "value": 0.0802
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-13T15:22:37Z",
+        "value": 0.0802
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-13T18:44:49Z",
+        "value": 0.0373
+      },
+      {
+        "driver": "Red Bull",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-14T19:07:17Z",
+        "value": 0.0359
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-06-26T16:04:09Z",
+        "value": 0.0808
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-26T16:52:51Z",
+        "value": 0.0808
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-26T20:12:53Z",
+        "value": 0.0808
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-06-27T15:06:17Z",
+        "value": 0.0808
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-27T18:19:00Z",
+        "value": 0.0407
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-28T12:53:06Z",
+        "value": 0.0407
+      },
+      {
+        "driver": "Red Bull",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-28T18:59:59Z",
+        "value": 0.0414
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-07-03T16:12:45Z",
+        "value": 0.0864
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Sprint Qualifying",
+        "stage": "after_sprint_qualifying",
+        "timestamp": "2026-07-03T20:05:38Z",
+        "value": 0.0864
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Sprint",
+        "stage": "after_sprint",
+        "timestamp": "2026-07-04T15:45:49Z",
+        "value": 0.0857
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-04T19:41:09Z",
+        "value": 0.0287
+      },
+      {
+        "driver": "Red Bull",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-05T20:07:56Z",
+        "value": 0.0283
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-07-17T16:04:06Z",
+        "value": 0.083
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-07-17T19:33:06Z",
+        "value": 0.083
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-07-18T14:41:05Z",
+        "value": 0.083
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-18T18:09:38Z",
+        "value": 0.0802
+      },
+      {
+        "driver": "Red Bull",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-19T19:02:20Z",
+        "value": 0.0796
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-07-24T19:47:47Z",
+        "value": 0.0863
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-07-25T14:51:00Z",
+        "value": 0.0863
+      },
+      {
+        "driver": "Red Bull",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-25T18:09:22Z",
+        "value": 0.0288
+      },
+      {
+        "driver": "Red Bull",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-26T19:23:56Z",
+        "value": 0.0348
+      },
+      {
+        "driver": "Red Bull",
+        "label": "Pre Weekend",
+        "stage": "pre_weekend",
+        "timestamp": "2026-08-19T06:45:50Z",
+        "value": 0.1095
+      },
+      {
+        "driver": "Red Bull",
+        "label": "Pre Weekend",
+        "stage": "pre_weekend",
+        "timestamp": "2026-10-19T06:12:31Z",
+        "value": 0.1374
+      }
+    ]
+  },
+  "driver_series": {
+    "Andrea Kimi Antonelli": [
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T04:40:17Z",
+        "value": 0.0904
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T08:06:06Z",
+        "value": 0.2352
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T08:43:48Z",
+        "value": 0.2352
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T12:32:08Z",
+        "value": 0.3481
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T12:41:49Z",
+        "value": 0.3526
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T13:11:55Z",
+        "value": 0.3564
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T13:22:37Z",
+        "value": 0.3597
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-05-25T03:04:13Z",
+        "value": 0.4181
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-05-25T03:33:18Z",
+        "value": 0.4119
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-06T17:10:32Z",
+        "value": 0.6938
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-07T10:44:02Z",
+        "value": 0.6892
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-07T10:50:59Z",
+        "value": 0.6892
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-07T19:44:19Z",
+        "value": 0.7052
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-12T17:28:13Z",
+        "value": 0.2713
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-12T20:27:25Z",
+        "value": 0.2714
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-13T15:22:37Z",
+        "value": 0.2714
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-13T18:44:49Z",
+        "value": 0.3143
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-14T19:07:17Z",
+        "value": 0.2753
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-06-26T16:04:09Z",
+        "value": 0.2468
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-26T16:52:51Z",
+        "value": 0.2468
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-26T20:12:53Z",
+        "value": 0.2468
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-06-27T15:06:17Z",
+        "value": 0.2468
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-27T18:19:00Z",
+        "value": 0.1605
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-28T12:53:06Z",
+        "value": 0.1605
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-28T18:59:59Z",
+        "value": 0.1483
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-07-03T16:12:45Z",
+        "value": 0.2406
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Sprint Qualifying",
+        "stage": "after_sprint_qualifying",
+        "timestamp": "2026-07-03T20:05:38Z",
+        "value": 0.2406
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Sprint",
+        "stage": "after_sprint",
+        "timestamp": "2026-07-04T15:45:49Z",
+        "value": 0.2409
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-04T19:41:09Z",
+        "value": 0.6313
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-05T20:07:56Z",
+        "value": 0.5924
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-07-17T16:04:06Z",
+        "value": 0.2164
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-07-17T19:33:06Z",
+        "value": 0.2164
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-07-18T14:41:05Z",
+        "value": 0.2164
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-18T18:09:38Z",
+        "value": 0.6406
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-19T19:02:20Z",
+        "value": 0.6665
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-07-24T19:47:47Z",
+        "value": 0.2363
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-07-25T14:51:00Z",
+        "value": 0.2363
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-25T18:09:22Z",
+        "value": 0.1589
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-26T19:23:56Z",
+        "value": 0.1513
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "Pre Weekend",
+        "stage": "pre_weekend",
+        "timestamp": "2026-08-19T06:45:50Z",
+        "value": 0.2317
+      },
+      {
+        "driver": "Andrea Kimi Antonelli",
+        "label": "Pre Weekend",
+        "stage": "pre_weekend",
+        "timestamp": "2026-10-19T06:12:31Z",
+        "value": 0.2509
+      }
+    ],
+    "Charles Leclerc": [
+      {
+        "driver": "Charles Leclerc",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T04:40:17Z",
+        "value": 0.0641
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T08:06:06Z",
+        "value": 0.0999
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T08:43:48Z",
+        "value": 0.0999
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-06T17:10:32Z",
+        "value": 0.0497
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-07T10:44:02Z",
+        "value": 0.0505
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-07T10:50:59Z",
+        "value": 0.0505
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-07T19:44:19Z",
+        "value": 0.0406
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-12T17:28:13Z",
+        "value": 0.0877
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-12T20:27:25Z",
+        "value": 0.0877
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-13T15:22:37Z",
+        "value": 0.0877
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-06-26T16:04:09Z",
+        "value": 0.0808
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-26T16:52:51Z",
+        "value": 0.0808
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-26T20:12:53Z",
+        "value": 0.0808
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-06-27T15:06:17Z",
+        "value": 0.0808
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-27T18:19:00Z",
+        "value": 0.166
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-28T12:53:06Z",
+        "value": 0.166
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-28T18:59:59Z",
+        "value": 0.1381
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "After Sprint",
+        "stage": "after_sprint",
+        "timestamp": "2026-07-04T15:45:49Z",
+        "value": 0.0741
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-04T19:41:09Z",
+        "value": 0.1092
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-05T20:07:56Z",
+        "value": 0.1393
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-07-17T16:04:06Z",
+        "value": 0.0986
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-07-17T19:33:06Z",
+        "value": 0.0986
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-07-18T14:41:05Z",
+        "value": 0.0986
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-18T18:09:38Z",
+        "value": 0.052
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-19T19:02:20Z",
+        "value": 0.0512
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-07-24T19:47:47Z",
+        "value": 0.1019
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-07-25T14:51:00Z",
+        "value": 0.1019
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-25T18:09:22Z",
+        "value": 0.1312
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-26T19:23:56Z",
+        "value": 0.1271
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "Pre Weekend",
+        "stage": "pre_weekend",
+        "timestamp": "2026-08-19T06:45:50Z",
+        "value": 0.1016
+      },
+      {
+        "driver": "Charles Leclerc",
+        "label": "Pre Weekend",
+        "stage": "pre_weekend",
+        "timestamp": "2026-10-19T06:12:31Z",
+        "value": 0.0928
+      }
+    ],
+    "George Russell": [
+      {
+        "driver": "George Russell",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T04:40:17Z",
+        "value": 0.0764
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T08:06:06Z",
+        "value": 0.1599
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T08:43:48Z",
+        "value": 0.1599
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T12:32:08Z",
+        "value": 0.4334
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T12:41:49Z",
+        "value": 0.426
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T13:11:55Z",
+        "value": 0.4198
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T13:22:37Z",
+        "value": 0.4145
+      },
+      {
+        "driver": "George Russell",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-05-25T03:04:13Z",
+        "value": 0.3539
+      },
+      {
+        "driver": "George Russell",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-05-25T03:33:18Z",
+        "value": 0.3577
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-06T17:10:32Z",
+        "value": 0.0284
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-07T10:44:02Z",
+        "value": 0.0288
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-07T10:50:59Z",
+        "value": 0.0288
+      },
+      {
+        "driver": "George Russell",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-07T19:44:19Z",
+        "value": 0.0227
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-12T17:28:13Z",
+        "value": 0.0986
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-12T20:27:25Z",
+        "value": 0.0986
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-13T15:22:37Z",
+        "value": 0.0986
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-13T18:44:49Z",
+        "value": 0.3347
+      },
+      {
+        "driver": "George Russell",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-14T19:07:17Z",
+        "value": 0.3434
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-06-26T16:04:09Z",
+        "value": 0.1051
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-26T16:52:51Z",
+        "value": 0.1051
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-26T20:12:53Z",
+        "value": 0.1051
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-06-27T15:06:17Z",
+        "value": 0.1051
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-27T18:19:00Z",
+        "value": 0.3837
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-28T12:53:06Z",
+        "value": 0.3837
+      },
+      {
+        "driver": "George Russell",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-28T18:59:59Z",
+        "value": 0.4477
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-07-03T16:12:45Z",
+        "value": 0.1294
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Sprint Qualifying",
+        "stage": "after_sprint_qualifying",
+        "timestamp": "2026-07-03T20:05:38Z",
+        "value": 0.1294
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Sprint",
+        "stage": "after_sprint",
+        "timestamp": "2026-07-04T15:45:49Z",
+        "value": 0.1285
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-04T19:41:09Z",
+        "value": 0.06
+      },
+      {
+        "driver": "George Russell",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-05T20:07:56Z",
+        "value": 0.0646
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-07-17T16:04:06Z",
+        "value": 0.1382
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-07-17T19:33:06Z",
+        "value": 0.1382
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-07-18T14:41:05Z",
+        "value": 0.1382
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-18T18:09:38Z",
+        "value": 0.0729
+      },
+      {
+        "driver": "George Russell",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-19T19:02:20Z",
+        "value": 0.0585
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-07-24T19:47:47Z",
+        "value": 0.1157
+      },
+      {
+        "driver": "George Russell",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-07-25T14:51:00Z",
+        "value": 0.1157
+      },
+      {
+        "driver": "George Russell",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-26T19:23:56Z",
+        "value": 0.0356
+      },
+      {
+        "driver": "George Russell",
+        "label": "Pre Weekend",
+        "stage": "pre_weekend",
+        "timestamp": "2026-08-19T06:45:50Z",
+        "value": 0.1097
+      },
+      {
+        "driver": "George Russell",
+        "label": "Pre Weekend",
+        "stage": "pre_weekend",
+        "timestamp": "2026-10-19T06:12:31Z",
+        "value": 0.1112
+      }
+    ],
+    "Lando Norris": [
+      {
+        "driver": "Lando Norris",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T04:40:17Z",
+        "value": 0.0615
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T08:06:06Z",
+        "value": 0.0937
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T08:43:48Z",
+        "value": 0.0937
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T12:32:08Z",
+        "value": 0.0867
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T12:41:49Z",
+        "value": 0.0878
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T13:11:55Z",
+        "value": 0.0888
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T13:22:37Z",
+        "value": 0.0896
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-05-25T03:04:13Z",
+        "value": 0.0803
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-05-25T03:33:18Z",
+        "value": 0.0811
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-13T18:44:49Z",
+        "value": 0.0422
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-14T19:07:17Z",
+        "value": 0.0439
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-06-26T16:04:09Z",
+        "value": 0.0764
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-26T16:52:51Z",
+        "value": 0.0764
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-26T20:12:53Z",
+        "value": 0.0764
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-06-27T15:06:17Z",
+        "value": 0.0764
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-07-03T16:12:45Z",
+        "value": 0.0738
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "After Sprint Qualifying",
+        "stage": "after_sprint_qualifying",
+        "timestamp": "2026-07-03T20:05:38Z",
+        "value": 0.0738
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "After Sprint",
+        "stage": "after_sprint",
+        "timestamp": "2026-07-04T15:45:49Z",
+        "value": 0.0782
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-04T19:41:09Z",
+        "value": 0.0181
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-05T20:07:56Z",
+        "value": 0.0179
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-07-17T16:04:06Z",
+        "value": 0.0773
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-07-17T19:33:06Z",
+        "value": 0.0773
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-07-18T14:41:05Z",
+        "value": 0.0773
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-18T18:09:38Z",
+        "value": 0.078
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-19T19:02:20Z",
+        "value": 0.0716
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-07-24T19:47:47Z",
+        "value": 0.0744
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-07-25T14:51:00Z",
+        "value": 0.0744
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-25T18:09:22Z",
+        "value": 0.2806
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-26T19:23:56Z",
+        "value": 0.3215
+      },
+      {
+        "driver": "Lando Norris",
+        "label": "Pre Weekend",
+        "stage": "pre_weekend",
+        "timestamp": "2026-08-19T06:45:50Z",
+        "value": 0.0877
+      }
+    ],
+    "Lewis Hamilton": [
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T08:06:06Z",
+        "value": 0.0817
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T08:43:48Z",
+        "value": 0.0817
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T12:32:08Z",
+        "value": 0.0394
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T12:41:49Z",
+        "value": 0.0399
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T13:11:55Z",
+        "value": 0.0404
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T13:22:37Z",
+        "value": 0.0407
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-05-25T03:04:13Z",
+        "value": 0.0482
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-05-25T03:33:18Z",
+        "value": 0.0487
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-06T17:10:32Z",
+        "value": 0.0887
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-07T10:44:02Z",
+        "value": 0.09
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-07T10:50:59Z",
+        "value": 0.09
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-07T19:44:19Z",
+        "value": 0.096
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-12T17:28:13Z",
+        "value": 0.1082
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-12T20:27:25Z",
+        "value": 0.1083
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-13T15:22:37Z",
+        "value": 0.1083
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-13T18:44:49Z",
+        "value": 0.2068
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-14T19:07:17Z",
+        "value": 0.2433
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-06-26T16:04:09Z",
+        "value": 0.1403
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-26T16:52:51Z",
+        "value": 0.1403
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-26T20:12:53Z",
+        "value": 0.1403
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-06-27T15:06:17Z",
+        "value": 0.1403
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-27T18:19:00Z",
+        "value": 0.1747
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-28T12:53:06Z",
+        "value": 0.1747
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-28T18:59:59Z",
+        "value": 0.1539
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-07-03T16:12:45Z",
+        "value": 0.1304
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Sprint Qualifying",
+        "stage": "after_sprint_qualifying",
+        "timestamp": "2026-07-03T20:05:38Z",
+        "value": 0.1304
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Sprint",
+        "stage": "after_sprint",
+        "timestamp": "2026-07-04T15:45:49Z",
+        "value": 0.1317
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-04T19:41:09Z",
+        "value": 0.1178
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-05T20:07:56Z",
+        "value": 0.124
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-07-17T16:04:06Z",
+        "value": 0.1384
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-07-17T19:33:06Z",
+        "value": 0.1384
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-07-18T14:41:05Z",
+        "value": 0.1384
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-07-24T19:47:47Z",
+        "value": 0.1377
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Fp3",
+        "stage": "after_fp3",
+        "timestamp": "2026-07-25T14:51:00Z",
+        "value": 0.1377
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-25T18:09:22Z",
+        "value": 0.2922
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-26T19:23:56Z",
+        "value": 0.2755
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "Pre Weekend",
+        "stage": "pre_weekend",
+        "timestamp": "2026-08-19T06:45:50Z",
+        "value": 0.1335
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "label": "Pre Weekend",
+        "stage": "pre_weekend",
+        "timestamp": "2026-10-19T06:12:31Z",
+        "value": 0.1045
+      }
+    ],
+    "Max Verstappen": [
+      {
+        "driver": "Max Verstappen",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-06T17:10:32Z",
+        "value": 0.0729
+      },
+      {
+        "driver": "Max Verstappen",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-07T10:44:02Z",
+        "value": 0.0739
+      },
+      {
+        "driver": "Max Verstappen",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-07T10:50:59Z",
+        "value": 0.0739
+      },
+      {
+        "driver": "Max Verstappen",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-07T19:44:19Z",
+        "value": 0.0653
+      },
+      {
+        "driver": "Max Verstappen",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-13T18:44:49Z",
+        "value": 0.0263
+      },
+      {
+        "driver": "Max Verstappen",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-14T19:07:17Z",
+        "value": 0.0256
+      },
+      {
+        "driver": "Max Verstappen",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-27T18:19:00Z",
+        "value": 0.029
+      },
+      {
+        "driver": "Max Verstappen",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-28T12:53:06Z",
+        "value": 0.029
+      },
+      {
+        "driver": "Max Verstappen",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-06-28T18:59:59Z",
+        "value": 0.0297
+      },
+      {
+        "driver": "Max Verstappen",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-18T18:09:38Z",
+        "value": 0.075
+      },
+      {
+        "driver": "Max Verstappen",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-07-19T19:02:20Z",
+        "value": 0.0746
+      },
+      {
+        "driver": "Max Verstappen",
+        "label": "Pre Weekend",
+        "stage": "pre_weekend",
+        "timestamp": "2026-10-19T06:12:31Z",
+        "value": 0.102
+      }
+    ],
+    "Oscar Piastri": [
+      {
+        "driver": "Oscar Piastri",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T04:40:17Z",
+        "value": 0.0565
+      },
+      {
+        "driver": "Oscar Piastri",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T12:32:08Z",
+        "value": 0.0361
+      },
+      {
+        "driver": "Oscar Piastri",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T12:41:49Z",
+        "value": 0.0366
+      },
+      {
+        "driver": "Oscar Piastri",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T13:11:55Z",
+        "value": 0.037
+      },
+      {
+        "driver": "Oscar Piastri",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-05-24T13:22:37Z",
+        "value": 0.0373
+      },
+      {
+        "driver": "Oscar Piastri",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-05-25T03:04:13Z",
+        "value": 0.0357
+      },
+      {
+        "driver": "Oscar Piastri",
+        "label": "Post Race",
+        "stage": "post_race",
+        "timestamp": "2026-05-25T03:33:18Z",
+        "value": 0.0361
+      },
+      {
+        "driver": "Oscar Piastri",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-12T17:28:13Z",
+        "value": 0.0738
+      },
+      {
+        "driver": "Oscar Piastri",
+        "label": "After Fp2",
+        "stage": "after_fp2",
+        "timestamp": "2026-06-12T20:27:25Z",
+        "value": 0.0726
+      },
+      {
+        "driver": "Oscar Piastri",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-06-13T15:22:37Z",
+        "value": 0.0726
+      },
+      {
+        "driver": "Oscar Piastri",
+        "label": "After Fp1",
+        "stage": "after_fp1",
+        "timestamp": "2026-07-03T16:12:45Z",
+        "value": 0.0774
+      },
+      {
+        "driver": "Oscar Piastri",
+        "label": "After Sprint Qualifying",
+        "stage": "after_sprint_qualifying",
+        "timestamp": "2026-07-03T20:05:38Z",
+        "value": 0.0774
+      },
+      {
+        "driver": "Oscar Piastri",
+        "label": "After Qualifying",
+        "stage": "after_qualifying",
+        "timestamp": "2026-07-25T18:09:22Z",
+        "value": 0.0446
+      }
+    ]
+  },
+  "run_id": "67b199fe-6d63-47f1-93d3-94a7384f6833",
+  "schema_version": "1.1",
+  "stage_markers": [
+    {
+      "stage": "after_qualifying",
+      "timestamp": "2026-05-24T04:40:17Z"
+    },
+    {
+      "stage": "after_qualifying",
+      "timestamp": "2026-05-24T08:06:06Z"
+    },
+    {
+      "stage": "after_qualifying",
+      "timestamp": "2026-05-24T08:43:48Z"
+    },
+    {
+      "stage": "after_qualifying",
+      "timestamp": "2026-05-24T12:32:08Z"
+    },
+    {
+      "stage": "after_qualifying",
+      "timestamp": "2026-05-24T12:41:49Z"
+    },
+    {
+      "stage": "after_qualifying",
+      "timestamp": "2026-05-24T13:11:55Z"
+    },
+    {
+      "stage": "after_qualifying",
+      "timestamp": "2026-05-24T13:22:37Z"
+    },
+    {
+      "stage": "post_race",
+      "timestamp": "2026-05-25T03:04:13Z"
+    },
+    {
+      "stage": "post_race",
+      "timestamp": "2026-05-25T03:33:18Z"
+    },
+    {
+      "stage": "after_qualifying",
+      "timestamp": "2026-06-06T17:10:32Z"
+    },
+    {
+      "stage": "after_qualifying",
+      "timestamp": "2026-06-07T10:44:02Z"
+    },
+    {
+      "stage": "after_qualifying",
+      "timestamp": "2026-06-07T10:50:59Z"
+    },
+    {
+      "stage": "post_race",
+      "timestamp": "2026-06-07T19:44:19Z"
+    },
+    {
+      "stage": "after_fp2",
+      "timestamp": "2026-06-12T17:28:13Z"
+    },
+    {
+      "stage": "after_fp2",
+      "timestamp": "2026-06-12T20:27:25Z"
+    },
+    {
+      "stage": "after_qualifying",
+      "timestamp": "2026-06-13T15:22:37Z"
+    },
+    {
+      "stage": "after_qualifying",
+      "timestamp": "2026-06-13T18:44:49Z"
+    },
+    {
+      "stage": "post_race",
+      "timestamp": "2026-06-14T19:07:17Z"
+    },
+    {
+      "stage": "after_fp1",
+      "timestamp": "2026-06-26T16:04:09Z"
+    },
+    {
+      "stage": "after_fp2",
+      "timestamp": "2026-06-26T16:52:51Z"
+    },
+    {
+      "stage": "after_fp2",
+      "timestamp": "2026-06-26T20:12:53Z"
+    },
+    {
+      "stage": "after_fp3",
+      "timestamp": "2026-06-27T15:06:17Z"
+    },
+    {
+      "stage": "after_qualifying",
+      "timestamp": "2026-06-27T18:19:00Z"
+    },
+    {
+      "stage": "after_qualifying",
+      "timestamp": "2026-06-28T12:53:06Z"
+    },
+    {
+      "stage": "post_race",
+      "timestamp": "2026-06-28T18:59:59Z"
+    },
+    {
+      "stage": "after_fp1",
+      "timestamp": "2026-07-03T16:12:45Z"
+    },
+    {
+      "stage": "after_sprint_qualifying",
+      "timestamp": "2026-07-03T20:05:38Z"
+    },
+    {
+      "stage": "after_sprint",
+      "timestamp": "2026-07-04T15:45:49Z"
+    },
+    {
+      "stage": "after_qualifying",
+      "timestamp": "2026-07-04T19:41:09Z"
+    },
+    {
+      "stage": "post_race",
+      "timestamp": "2026-07-05T20:07:56Z"
+    },
+    {
+      "stage": "after_fp1",
+      "timestamp": "2026-07-17T16:04:06Z"
+    },
+    {
+      "stage": "after_fp2",
+      "timestamp": "2026-07-17T19:33:06Z"
+    },
+    {
+      "stage": "after_fp3",
+      "timestamp": "2026-07-18T14:41:05Z"
+    },
+    {
+      "stage": "after_qualifying",
+      "timestamp": "2026-07-18T18:09:38Z"
+    },
+    {
+      "stage": "post_race",
+      "timestamp": "2026-07-19T19:02:20Z"
+    },
+    {
+      "stage": "after_fp2",
+      "timestamp": "2026-07-24T19:47:47Z"
+    },
+    {
+      "stage": "after_fp3",
+      "timestamp": "2026-07-25T14:51:00Z"
+    },
+    {
+      "stage": "after_qualifying",
+      "timestamp": "2026-07-25T18:09:22Z"
+    },
+    {
+      "stage": "post_race",
+      "timestamp": "2026-07-26T19:23:56Z"
+    },
+    {
+      "stage": "pre_weekend",
+      "timestamp": "2026-08-19T06:45:50Z"
+    },
+    {
+      "stage": "pre_weekend",
+      "timestamp": "2026-10-19T06:12:31Z"
+    }
+  ],
+  "updated_at": "2026-10-19T06:12:31Z",
+  "weekend_id": "2026-r18-united-states-grand-prix"
+}

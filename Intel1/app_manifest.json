@@ -1,0 +1,110 @@
+{
+  "active_weekend_id": "2026-r18-united-states-grand-prix",
+  "files": [
+    {
+      "content_type": "application/json",
+      "name": "current_weekend.json",
+      "sha256": "cb8d19e554611c5145a13f0415fb7e057579484c97f655efd24b158454ed153b",
+      "updated_at": "2026-10-19T06:12:48Z",
+      "url": "https://www.zhenchyi.com/Intel1/current_weekend.json"
+    },
+    {
+      "content_type": "application/json",
+      "name": "latest_prediction.json",
+      "sha256": "f060864b805c5d41b0eae7c4cd8db003bed5b9168db6e109eed9ef161fd2916e",
+      "updated_at": "2026-10-19T06:12:31Z",
+      "url": "https://www.zhenchyi.com/Intel1/latest_prediction.json"
+    },
+    {
+      "content_type": "application/json",
+      "name": "latest_summary.json",
+      "sha256": "593ec19dddd90d9c0d507951c9cffa34e21dd53fc099bd49365201f3aad7ab08",
+      "updated_at": "2026-10-19T06:12:48Z",
+      "url": "https://www.zhenchyi.com/Intel1/latest_summary.json"
+    },
+    {
+      "content_type": "application/json",
+      "name": "latest_chart_data.json",
+      "sha256": "004cb64995d1ea65eeebdb2ca7d533d4fd705aec2c04376755d07931dd6f5e08",
+      "updated_at": "2026-10-19T06:12:31Z",
+      "url": "https://www.zhenchyi.com/Intel1/latest_chart_data.json"
+    },
+    {
+      "content_type": "application/json",
+      "name": "prediction_history.json",
+      "sha256": "7ced152b3a4f2ad03e3ea7b0a4e750652c266384889c6c6c22942691490a0213",
+      "updated_at": "2026-10-19T06:12:48Z",
+      "url": "https://www.zhenchyi.com/Intel1/prediction_history.json"
+    },
+    {
+      "content_type": "application/json",
+      "name": "source_log.json",
+      "sha256": "fb8a53ae949e79a9ca098bf6129901e62fb043ac67de3f409c89bc8394fad02f",
+      "updated_at": "2026-10-19T06:12:48Z",
+      "url": "https://www.zhenchyi.com/Intel1/source_log.json"
+    },
+    {
+      "content_type": "application/json",
+      "name": "extracted_signals.json",
+      "sha256": "0be920d4feab91ff3100f7363858411ee5a8801f6217aa1b3253010b5e1dfef7",
+      "updated_at": "2026-10-19T06:12:48Z",
+      "url": "https://www.zhenchyi.com/Intel1/extracted_signals.json"
+    },
+    {
+      "content_type": "application/json",
+      "name": "stored_signals.json",
+      "sha256": "45eead04f808902a51618088aa2cc53e85ba18ce8dbaf37660114869afe57015",
+      "updated_at": "2026-10-19T06:12:48Z",
+      "url": "https://www.zhenchyi.com/Intel1/stored_signals.json"
+    },
+    {
+      "content_type": "application/json",
+      "name": "extraction_errors.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "updated_at": "2026-10-19T06:12:48Z",
+      "url": "https://www.zhenchyi.com/Intel1/extraction_errors.json"
+    },
+    {
+      "content_type": "application/json",
+      "name": "prediction_arena.json",
+      "sha256": "25a5bcb81683a44c0d06317dd5d5bf2ea95e01000a56f95f2f9d5751970c314c",
+      "updated_at": "2026-10-19T06:12:48Z",
+      "url": "https://www.zhenchyi.com/Intel1/prediction_arena.json"
+    },
+    {
+      "content_type": "application/json",
+      "name": "prediction_evaluation.json",
+      "sha256": "e4f2c6936cd3ee7123437d25b73f4676b53eadce3db45cc1c5fff5523aad46d3",
+      "updated_at": "2026-10-19T06:12:48Z",
+      "url": "https://www.zhenchyi.com/Intel1/prediction_evaluation.json"
+    },
+    {
+      "content_type": "application/json",
+      "name": "learning_state.json",
+      "sha256": "b8a1e68c05b2fdf0f391f2c125c97bbbfbcce679a76824a416b0930b8753d753",
+      "updated_at": "2026-10-19T06:12:48Z",
+      "url": "https://www.zhenchyi.com/Intel1/learning_state.json"
+    },
+    {
+      "content_type": "application/json",
+      "name": "historical_race_data.json",
+      "sha256": "5610c6a69d20942946747bda5f45a7b6ebf759f8d70f5b1e30de9ab020b8ac68",
+      "updated_at": "2026-10-19T06:12:19+00:00",
+      "url": "https://www.zhenchyi.com/Intel1/historical_race_data.json"
+    },
+    {
+      "content_type": "application/json",
+      "name": "current_standings.json",
+      "sha256": "919a8c0ec796d486221b404f327b13b87b723e4c5536caf9765a4cc033511068",
+      "updated_at": "2026-10-21T16:11:23Z",
+      "url": "https://www.zhenchyi.com/Intel1/current_standings.json"
+    }
+  ],
+  "freshness_timestamp": "2026-10-19T06:12:48Z",
+  "last_successful_full_run_at": "2026-10-19T06:12:48Z",
+  "publication_id": "a374da5d1d260d0f38361811132704b876d50a915682ce2c910c6b550dec7ce5",
+  "run_id": "67b199fe-6d63-47f1-93d3-94a7384f6833",
+  "schema_version": "1.1",
+  "updated_at": "2026-10-21T16:27:31Z",
+  "weekend_id": "2026-r18-united-states-grand-prix"
+}

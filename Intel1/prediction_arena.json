@@ -1,0 +1,1026 @@
+{
+  "evidenceBoard": {
+    "analystChecklist": [
+      "Separate observed facts from interpretation before making the forecast.",
+      "Make one winner pick even when the probability spread is flat.",
+      "Use confidence and chaos/risk labels to express uncertainty instead of refusing a favourite.",
+      "Let recent representative weekend evidence override stale priors when justified, and explain the conflict.",
+      "Check upgrades/setup claims against observed on-track evidence instead of assuming the claimed gain is real.",
+      "Separate one-lap pace, long-run pace, degradation, strategy, reliability, driver execution, and track position."
+    ],
+    "baselineTop": {
+      "predictedPodium": [
+        {
+          "delta_vs_previous": null,
+          "driver": "Andrea Kimi Antonelli",
+          "positions_to_gain": null,
+          "predicted_finish_position": 1,
+          "probability": 0.5956,
+          "probability_band": "front_pack",
+          "rank": 1,
+          "reasoning_factors": [
+            "strong baseline model share"
+          ],
+          "starting_position": null,
+          "team": "Mercedes"
+        },
+        {
+          "delta_vs_previous": null,
+          "driver": "George Russell",
+          "positions_to_gain": null,
+          "predicted_finish_position": 2,
+          "probability": 0.2673,
+          "probability_band": "contender",
+          "rank": 2,
+          "reasoning_factors": [],
+          "starting_position": null,
+          "team": "Mercedes"
+        },
+        {
+          "delta_vs_previous": null,
+          "driver": "Lewis Hamilton",
+          "positions_to_gain": null,
+          "predicted_finish_position": 3,
+          "probability": 0.2516,
+          "probability_band": "contender",
+          "rank": 3,
+          "reasoning_factors": [],
+          "starting_position": null,
+          "team": "Ferrari"
+        }
+      ],
+      "predictedWinner": {
+        "driver": "Andrea Kimi Antonelli",
+        "positions_to_gain": null,
+        "predicted_finish_position": 1,
+        "probability": 0.2509,
+        "reasoning_factors": [
+          "strong baseline model share"
+        ],
+        "starting_position": null
+      },
+      "raceVolatility": {
+        "level": "low",
+        "reasons": [
+          "No major volatility amplifier identified in current inputs."
+        ],
+        "score": 0.4
+      },
+      "safetyCar": {
+        "expected_count": 0.5,
+        "probability_at_least_one": 0.52,
+        "reasoning_factors": [
+          "Base heuristic from modern F1 race interruption frequency."
+        ],
+        "risk_level": "medium"
+      },
+      "topConstructorProbabilities": [
+        {
+          "delta_vs_previous": null,
+          "driver": null,
+          "probability": 0.3621,
+          "probability_band": "front_pack",
+          "rank": 1,
+          "team": "Mercedes"
+        },
+        {
+          "delta_vs_previous": null,
+          "driver": null,
+          "probability": 0.1973,
+          "probability_band": "contender",
+          "rank": 2,
+          "team": "Ferrari"
+        },
+        {
+          "delta_vs_previous": null,
+          "driver": null,
+          "probability": 0.1374,
+          "probability_band": "contender",
+          "rank": 3,
+          "team": "Red Bull"
+        },
+        {
+          "delta_vs_previous": null,
+          "driver": null,
+          "probability": 0.1303,
+          "probability_band": "contender",
+          "rank": 4,
+          "team": "McLaren"
+        },
+        {
+          "delta_vs_previous": null,
+          "driver": null,
+          "probability": 0.0543,
+          "probability_band": "outside_chance",
+          "rank": 5,
+          "team": "RB F1 Team"
+        },
+        {
+          "delta_vs_previous": null,
+          "driver": null,
+          "probability": 0.0417,
+          "probability_band": "outside_chance",
+          "rank": 6,
+          "team": "Alpine F1 Team"
+        }
+      ],
+      "topWinProbabilities": [
+        {
+          "delta_vs_previous": null,
+          "driver": "Andrea Kimi Antonelli",
+          "probability": 0.2509,
+          "probability_band": "front_pack",
+          "rank": 1,
+          "team": "Mercedes"
+        },
+        {
+          "delta_vs_previous": null,
+          "driver": "George Russell",
+          "probability": 0.1112,
+          "probability_band": "contender",
+          "rank": 2,
+          "team": "Mercedes"
+        },
+        {
+          "delta_vs_previous": null,
+          "driver": "Lewis Hamilton",
+          "probability": 0.1045,
+          "probability_band": "contender",
+          "rank": 3,
+          "team": "Ferrari"
+        },
+        {
+          "delta_vs_previous": null,
+          "driver": "Max Verstappen",
+          "probability": 0.102,
+          "probability_band": "contender",
+          "rank": 4,
+          "team": "Red Bull"
+        },
+        {
+          "delta_vs_previous": null,
+          "driver": "Charles Leclerc",
+          "probability": 0.0928,
+          "probability_band": "outside_chance",
+          "rank": 5,
+          "team": "Ferrari"
+        },
+        {
+          "delta_vs_previous": null,
+          "driver": "Lando Norris",
+          "probability": 0.0876,
+          "probability_band": "outside_chance",
+          "rank": 6,
+          "team": "McLaren"
+        }
+      ]
+    },
+    "eventId": "2026-r18-united-states-grand-prix",
+    "fieldEvidence": [],
+    "highImpactEvidence": [
+      {
+        "confidence": 0.9,
+        "evidenceType": "official",
+        "evidenceUrl": "https://www.formula1.com/en/latest/article/ferrari-junior-rafael-camara-promoted-to-f1-with-haas-for-2027.1RSxvnFaLu8Hd3JD2ppFsz",
+        "signalType": "driver_market",
+        "sourceId": "formula1_official_latest",
+        "sourceQuality": 1.0,
+        "sourceType": "official_f1",
+        "strength": 0.55,
+        "summary": "Haas signs Ferrari junior Rafael Camara for the 2027 season.",
+        "target": "Rafael Camara"
+      },
+      {
+        "confidence": 0.9,
+        "evidenceType": "official",
+        "evidenceUrl": "https://www.formula1.com/en/latest/article/ferraris-larsen-to-return-for-2027-f1-academy-campaign.5eeThwId7hnIzVMd8zkTPB",
+        "signalType": "driver_market",
+        "sourceId": "formula1_official_latest",
+        "sourceQuality": 1.0,
+        "sourceType": "official_f1",
+        "strength": 0.55,
+        "summary": "Ferrari's Larsen will return for the 2027 F1 Academy campaign.",
+        "target": "Larsen"
+      },
+      {
+        "confidence": 0.8,
+        "evidenceType": "reported",
+        "evidenceUrl": "https://www.autosport.com/f1/news/mercedes-explains-why-its-upgrade-made-its-f1-car-harder-to-drive/10866035/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+        "signalType": "team_update",
+        "sourceId": "autosport_f1",
+        "sourceQuality": 0.8,
+        "sourceType": "trusted_news",
+        "strength": 0.55,
+        "summary": "Mercedes explains that its recent upgrade made the car harder to drive, with the Singapore GP providing first clues to unlocking the new package.",
+        "target": "Mercedes"
+      }
+    ],
+    "sessionSnapshot": {
+      "sprint": {
+        "leader": {
+          "constructor": "McLaren",
+          "driver": "Lando NORRIS",
+          "is_official": true,
+          "position": 1,
+          "source": "OpenF1",
+          "status": "",
+          "time_or_gap": "29:15.045"
+        },
+        "officialRows": 19,
+        "topFive": [
+          {
+            "constructor": "McLaren",
+            "driver": "Lando NORRIS",
+            "is_official": true,
+            "position": 1,
+            "source": "OpenF1",
+            "status": "",
+            "time_or_gap": "29:15.045"
+          },
+          {
+            "constructor": "McLaren",
+            "driver": "Oscar PIASTRI",
+            "is_official": true,
+            "position": 2,
+            "source": "OpenF1",
+            "status": "",
+            "time_or_gap": "+3.766s"
+          },
+          {
+            "constructor": "Ferrari",
+            "driver": "Charles LECLERC",
+            "is_official": true,
+            "position": 3,
+            "source": "OpenF1",
+            "status": "",
+            "time_or_gap": "+6.251s"
+          },
+          {
+            "constructor": "Mercedes",
+            "driver": "George RUSSELL",
+            "is_official": true,
+            "position": 4,
+            "source": "OpenF1",
+            "status": "",
+            "time_or_gap": "+12.951s"
+          },
+          {
+            "constructor": "Red Bull Racing",
+            "driver": "Max VERSTAPPEN",
+            "is_official": true,
+            "position": 5,
+            "source": "OpenF1",
+            "status": "",
+            "time_or_gap": "+13.639s"
+          }
+        ]
+      },
+      "sprint_qualifying": {
+        "leader": {
+          "constructor": "McLaren",
+          "driver": "Lando NORRIS",
+          "is_official": true,
+          "position": 1,
+          "source": "OpenF1",
+          "status": "",
+          "time_or_gap": "1:27.869"
+        },
+        "officialRows": 20,
+        "topFive": [
+          {
+            "constructor": "McLaren",
+            "driver": "Lando NORRIS",
+            "is_official": true,
+            "position": 1,
+            "source": "OpenF1",
+            "status": "",
+            "time_or_gap": "1:27.869"
+          },
+          {
+            "constructor": "Mercedes",
+            "driver": "Kimi ANTONELLI",
+            "is_official": true,
+            "position": 2,
+            "source": "OpenF1",
+            "status": "",
+            "time_or_gap": "+0.222s"
+          },
+          {
+            "constructor": "McLaren",
+            "driver": "Oscar PIASTRI",
+            "is_official": true,
+            "position": 3,
+            "source": "OpenF1",
+            "status": "",
+            "time_or_gap": "+0.239s"
+          },
+          {
+            "constructor": "Ferrari",
+            "driver": "Charles LECLERC",
+            "is_official": true,
+            "position": 4,
+            "source": "OpenF1",
+            "status": "",
+            "time_or_gap": "+0.370s"
+          },
+          {
+            "constructor": "Red Bull Racing",
+            "driver": "Max VERSTAPPEN",
+            "is_official": true,
+            "position": 5,
+            "source": "OpenF1",
+            "status": "",
+            "time_or_gap": "+0.592s"
+          }
+        ]
+      }
+    },
+    "sourceMix": {
+      "averageSourceQuality": 0.933,
+      "byEvidenceType": {
+        "official": 2,
+        "reported": 1
+      },
+      "bySourceType": {
+        "official_f1": 2,
+        "trusted_news": 1
+      },
+      "signalCount": 3,
+      "topSources": [
+        {
+          "signals": 2,
+          "sourceId": "formula1_official_latest"
+        },
+        {
+          "signals": 1,
+          "sourceId": "autosport_f1"
+        }
+      ]
+    },
+    "stage": "pre_weekend",
+    "stageWeightingGuide": {
+      "note": "Before live sessions, keep confidence conservative.",
+      "priority": [
+        "official calendar and standings",
+        "historical circuit profile",
+        "verified pre-weekend technical/weather signals",
+        "baseline model and championship priors"
+      ]
+    },
+    "targetEvidence": {
+      "Larsen": [
+        {
+          "confidence": 0.9,
+          "evidenceType": "official",
+          "evidenceUrl": "https://www.formula1.com/en/latest/article/ferraris-larsen-to-return-for-2027-f1-academy-campaign.5eeThwId7hnIzVMd8zkTPB",
+          "signalType": "driver_market",
+          "sourceId": "formula1_official_latest",
+          "sourceQuality": 1.0,
+          "sourceType": "official_f1",
+          "strength": 0.55,
+          "summary": "Ferrari's Larsen will return for the 2027 F1 Academy campaign.",
+          "target": "Larsen"
+        }
+      ],
+      "Mercedes": [
+        {
+          "confidence": 0.8,
+          "evidenceType": "reported",
+          "evidenceUrl": "https://www.autosport.com/f1/news/mercedes-explains-why-its-upgrade-made-its-f1-car-harder-to-drive/10866035/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+          "signalType": "team_update",
+          "sourceId": "autosport_f1",
+          "sourceQuality": 0.8,
+          "sourceType": "trusted_news",
+          "strength": 0.55,
+          "summary": "Mercedes explains that its recent upgrade made the car harder to drive, with the Singapore GP providing first clues to unlocking the new package.",
+          "target": "Mercedes"
+        }
+      ],
+      "Rafael Camara": [
+        {
+          "confidence": 0.9,
+          "evidenceType": "official",
+          "evidenceUrl": "https://www.formula1.com/en/latest/article/ferrari-junior-rafael-camara-promoted-to-f1-with-haas-for-2027.1RSxvnFaLu8Hd3JD2ppFsz",
+          "signalType": "driver_market",
+          "sourceId": "formula1_official_latest",
+          "sourceQuality": 1.0,
+          "sourceType": "official_f1",
+          "strength": 0.55,
+          "summary": "Haas signs Ferrari junior Rafael Camara for the 2027 season.",
+          "target": "Rafael Camara"
+        }
+      ]
+    }
+  },
+  "predictions": {
+    "deepseek": {
+      "analyst_report": {
+        "assumption": "Pre-weekend stage: using baseline model and limited signals; sprint qualifying and sprint results are available but not yet integrated.",
+        "biggest_risks": [
+          {
+            "benefits": [
+              "Ferrari",
+              "Red Bull",
+              "McLaren"
+            ],
+            "risk": "Mercedes upgrade may not deliver expected performance"
+          },
+          {
+            "benefits": [
+              "McLaren"
+            ],
+            "risk": "Sprint qualifying pace from Norris could translate to race pace"
+          }
+        ],
+        "final_answer": "Andrea Kimi Antonelli is the predicted winner with 25.09% probability, ahead of George Russell and Lewis Hamilton. Mercedes leads constructor win probability at 36.21%. Confidence is medium due to pre-weekend stage and limited signals.",
+        "final_call": {
+          "chaos_level": "Low",
+          "dark_horse_podium": [
+            "Oscar Piastri"
+          ],
+          "highest_scoring_team": "Mercedes",
+          "most_likely_upset_winner": "Lando Norris",
+          "podium": [
+            "Andrea Kimi Antonelli",
+            "George Russell",
+            "Lewis Hamilton"
+          ],
+          "rain_impact": "Low",
+          "safety_car_risk": "Medium (52% chance of at least one SC)",
+          "winner_constructor": "Mercedes",
+          "winner_driver": "Andrea Kimi Antonelli"
+        },
+        "narrative": [
+          {
+            "body": "Antonelli leads the baseline win probability at 25.09%, and Mercedes has the strongest constructor probability. However, the recent upgrade made the car harder to drive, which adds uncertainty.",
+            "title": "Why this pick"
+          },
+          {
+            "body": "The predicted podium is Antonelli, Russell, Hamilton, reflecting Mercedes and Ferrari strength in the baseline model. Sprint qualifying showed Norris fastest, but that is not yet weighted.",
+            "title": "Podium read"
+          },
+          {
+            "body": "Low volatility expected with a medium safety car risk. Strategy likely to be straightforward dry running unless weather changes.",
+            "title": "Race shape"
+          }
+        ],
+        "strategy": {
+          "dry": "Standard one-stop strategy with medium tyre degradation expected.",
+          "wet_mixed": "Flexible strategy with early switch to intermediates if rain appears."
+        },
+        "title": "United States Grand Prix prediction"
+      },
+      "confidence": 0.5,
+      "constructor_win_probabilities": [
+        {
+          "probability": 36.44,
+          "team": "Mercedes"
+        },
+        {
+          "probability": 19.85,
+          "team": "Ferrari"
+        },
+        {
+          "probability": 13.83,
+          "team": "Red Bull"
+        },
+        {
+          "probability": 13.11,
+          "team": "McLaren"
+        },
+        {
+          "probability": 5.46,
+          "team": "RB F1 Team"
+        },
+        {
+          "probability": 4.2,
+          "team": "Alpine F1 Team"
+        },
+        {
+          "probability": 2.31,
+          "team": "Haas F1 Team"
+        },
+        {
+          "probability": 2.25,
+          "team": "Audi"
+        },
+        {
+          "probability": 1.45,
+          "team": "Williams"
+        },
+        {
+          "probability": 1.1,
+          "team": "Aston Martin"
+        }
+      ],
+      "dnf_risk": [
+        {
+          "driver": "Pierre Gasly",
+          "probability": 10.0
+        },
+        {
+          "driver": "Isack Hadjar",
+          "probability": 9.0
+        },
+        {
+          "driver": "Liam Lawson",
+          "probability": 9.0
+        },
+        {
+          "driver": "Oscar Piastri",
+          "probability": 8.0
+        },
+        {
+          "driver": "Max Verstappen",
+          "probability": 7.0
+        },
+        {
+          "driver": "Charles Leclerc",
+          "probability": 7.0
+        },
+        {
+          "driver": "Lando Norris",
+          "probability": 7.0
+        },
+        {
+          "driver": "George Russell",
+          "probability": 6.0
+        },
+        {
+          "driver": "Lewis Hamilton",
+          "probability": 6.0
+        },
+        {
+          "driver": "Andrea Kimi Antonelli",
+          "probability": 5.0
+        }
+      ],
+      "key_reasons": [
+        "Pre-weekend stage: forecast relies on baseline model and limited signals.",
+        "Mercedes has the highest constructor win probability (36.21%) and Antonelli leads driver win probability (25.09%).",
+        "Recent Mercedes upgrade reportedly made the car harder to drive, but Singapore provided clues; this is a moderate negative signal.",
+        "No official practice or qualifying data yet; sprint qualifying and sprint results are available but not yet integrated into baseline.",
+        "Sprint qualifying showed Norris fastest, but baseline model still favors Antonelli due to prior strength."
+      ],
+      "modelTemperature": 0.0,
+      "modelUsed": "deepseek-v4-pro",
+      "officialDataAvailability": 1.0,
+      "podium_probabilities": [
+        {
+          "driver": "Andrea Kimi Antonelli",
+          "probability": 59.56
+        },
+        {
+          "driver": "George Russell",
+          "probability": 26.73
+        },
+        {
+          "driver": "Lewis Hamilton",
+          "probability": 25.16
+        },
+        {
+          "driver": "Max Verstappen",
+          "probability": 24.5
+        },
+        {
+          "driver": "Charles Leclerc",
+          "probability": 22.3
+        },
+        {
+          "driver": "Lando Norris",
+          "probability": 21.0
+        },
+        {
+          "driver": "Oscar Piastri",
+          "probability": 10.2
+        },
+        {
+          "driver": "Isack Hadjar",
+          "probability": 8.5
+        },
+        {
+          "driver": "Liam Lawson",
+          "probability": 7.2
+        },
+        {
+          "driver": "Pierre Gasly",
+          "probability": 6.1
+        }
+      ],
+      "predicted_winner": "Andrea Kimi Antonelli",
+      "provider": "deepseek",
+      "providerRequestId": "3c4cbe81-3df7-4212-a663-a1d9fa9777fe",
+      "providerStatus": "ok",
+      "providerUsage": {
+        "input_tokens": 9474,
+        "output_tokens": 1719,
+        "total_tokens": 11193
+      },
+      "safety_car_probability": 52.0,
+      "sessionRecency": 0.9,
+      "sourceQuality": 0.933,
+      "top10_probabilities": [
+        {
+          "driver": "Andrea Kimi Antonelli",
+          "probability": 85.0
+        },
+        {
+          "driver": "George Russell",
+          "probability": 75.0
+        },
+        {
+          "driver": "Lewis Hamilton",
+          "probability": 72.0
+        },
+        {
+          "driver": "Max Verstappen",
+          "probability": 70.0
+        },
+        {
+          "driver": "Charles Leclerc",
+          "probability": 68.0
+        },
+        {
+          "driver": "Lando Norris",
+          "probability": 65.0
+        },
+        {
+          "driver": "Oscar Piastri",
+          "probability": 55.0
+        },
+        {
+          "driver": "Isack Hadjar",
+          "probability": 50.0
+        },
+        {
+          "driver": "Liam Lawson",
+          "probability": 48.0
+        },
+        {
+          "driver": "Pierre Gasly",
+          "probability": 45.0
+        }
+      ],
+      "validation_errors": [],
+      "version": "67b199fe-6d63-47f1-93d3-94a7384f6833:deepseek:v1",
+      "weak_assumptions": [
+        "Baseline model may overweight Mercedes' historical strength despite upgrade concerns.",
+        "Sprint qualifying and sprint results are not yet reflected in the baseline probabilities.",
+        "No weather or tyre data available for the weekend.",
+        "Driver market signals (Haas/Camara, Larsen) are irrelevant to this race outcome."
+      ],
+      "win_probabilities": [
+        {
+          "driver": "Andrea Kimi Antonelli",
+          "probability": 28.42
+        },
+        {
+          "driver": "George Russell",
+          "probability": 12.6
+        },
+        {
+          "driver": "Lewis Hamilton",
+          "probability": 11.84
+        },
+        {
+          "driver": "Max Verstappen",
+          "probability": 11.55
+        },
+        {
+          "driver": "Charles Leclerc",
+          "probability": 10.51
+        },
+        {
+          "driver": "Lando Norris",
+          "probability": 9.92
+        },
+        {
+          "driver": "Oscar Piastri",
+          "probability": 4.84
+        },
+        {
+          "driver": "Isack Hadjar",
+          "probability": 4.01
+        },
+        {
+          "driver": "Liam Lawson",
+          "probability": 3.42
+        },
+        {
+          "driver": "Pierre Gasly",
+          "probability": 2.89
+        }
+      ]
+    },
+    "intel1_consensus": {
+      "analyst_report": {
+        "assumption": "Pre-weekend stage: using baseline model and limited signals; sprint qualifying and sprint results are available but not yet integrated.",
+        "biggest_risks": [
+          {
+            "benefits": [
+              "Ferrari",
+              "Red Bull",
+              "McLaren"
+            ],
+            "risk": "Mercedes upgrade may not deliver expected performance"
+          },
+          {
+            "benefits": [
+              "McLaren"
+            ],
+            "risk": "Sprint qualifying pace from Norris could translate to race pace"
+          }
+        ],
+        "final_answer": "Andrea Kimi Antonelli is the predicted winner with 25.09% probability, ahead of George Russell and Lewis Hamilton. Mercedes leads constructor win probability at 36.21%. Confidence is medium due to pre-weekend stage and limited signals.",
+        "final_call": {
+          "chaos_level": "Low",
+          "dark_horse_podium": [
+            "Oscar Piastri"
+          ],
+          "highest_scoring_team": "Mercedes",
+          "most_likely_upset_winner": "Lando Norris",
+          "podium": [
+            "Andrea Kimi Antonelli",
+            "George Russell",
+            "Lewis Hamilton"
+          ],
+          "rain_impact": "Low",
+          "safety_car_risk": "Medium (52% chance of at least one SC)",
+          "winner_constructor": "Mercedes",
+          "winner_driver": "Andrea Kimi Antonelli"
+        },
+        "narrative": [
+          {
+            "body": "Antonelli leads the baseline win probability at 25.09%, and Mercedes has the strongest constructor probability. However, the recent upgrade made the car harder to drive, which adds uncertainty.",
+            "title": "Why this pick"
+          },
+          {
+            "body": "The predicted podium is Antonelli, Russell, Hamilton, reflecting Mercedes and Ferrari strength in the baseline model. Sprint qualifying showed Norris fastest, but that is not yet weighted.",
+            "title": "Podium read"
+          },
+          {
+            "body": "Low volatility expected with a medium safety car risk. Strategy likely to be straightforward dry running unless weather changes.",
+            "title": "Race shape"
+          }
+        ],
+        "strategy": {
+          "dry": "Standard one-stop strategy with medium tyre degradation expected.",
+          "wet_mixed": "Flexible strategy with early switch to intermediates if rain appears."
+        },
+        "title": "United States Grand Prix prediction"
+      },
+      "confidence": 0.5,
+      "constructor_win_probabilities": [
+        {
+          "probability": 36.44,
+          "team": "Mercedes"
+        },
+        {
+          "probability": 19.85,
+          "team": "Ferrari"
+        },
+        {
+          "probability": 13.83,
+          "team": "Red Bull"
+        },
+        {
+          "probability": 13.11,
+          "team": "McLaren"
+        },
+        {
+          "probability": 5.46,
+          "team": "RB F1 Team"
+        },
+        {
+          "probability": 4.2,
+          "team": "Alpine F1 Team"
+        },
+        {
+          "probability": 2.31,
+          "team": "Haas F1 Team"
+        },
+        {
+          "probability": 2.25,
+          "team": "Audi"
+        },
+        {
+          "probability": 1.45,
+          "team": "Williams"
+        },
+        {
+          "probability": 1.1,
+          "team": "Aston Martin"
+        }
+      ],
+      "disagreement_notes": [],
+      "dnf_risk": [
+        {
+          "driver": "Pierre Gasly",
+          "probability": 10.0
+        },
+        {
+          "driver": "Isack Hadjar",
+          "probability": 9.0
+        },
+        {
+          "driver": "Liam Lawson",
+          "probability": 9.0
+        },
+        {
+          "driver": "Oscar Piastri",
+          "probability": 8.0
+        },
+        {
+          "driver": "Max Verstappen",
+          "probability": 7.0
+        },
+        {
+          "driver": "Charles Leclerc",
+          "probability": 7.0
+        },
+        {
+          "driver": "Lando Norris",
+          "probability": 7.0
+        },
+        {
+          "driver": "George Russell",
+          "probability": 6.0
+        },
+        {
+          "driver": "Lewis Hamilton",
+          "probability": 6.0
+        },
+        {
+          "driver": "Andrea Kimi Antonelli",
+          "probability": 5.0
+        }
+      ],
+      "eventId": "2026-r18-united-states-grand-prix",
+      "key_reasons": [
+        "Pre-weekend stage: forecast relies on baseline model and limited signals.",
+        "Mercedes has the highest constructor win probability (36.21%) and Antonelli leads driver win probability (25.09%).",
+        "Recent Mercedes upgrade reportedly made the car harder to drive, but Singapore provided clues; this is a moderate negative signal.",
+        "No official practice or qualifying data yet; sprint qualifying and sprint results are available but not yet integrated into baseline.",
+        "Sprint qualifying showed Norris fastest, but baseline model still favors Antonelli due to prior strength."
+      ],
+      "modelTemperature": null,
+      "modelUsed": "intel1-consensus-v1",
+      "officialDataAvailability": 1.0,
+      "official_overrides": [],
+      "podium_probabilities": [
+        {
+          "driver": "Andrea Kimi Antonelli",
+          "probability": 59.56
+        },
+        {
+          "driver": "George Russell",
+          "probability": 26.73
+        },
+        {
+          "driver": "Lewis Hamilton",
+          "probability": 25.16
+        },
+        {
+          "driver": "Max Verstappen",
+          "probability": 24.5
+        },
+        {
+          "driver": "Charles Leclerc",
+          "probability": 22.3
+        },
+        {
+          "driver": "Lando Norris",
+          "probability": 21.0
+        },
+        {
+          "driver": "Oscar Piastri",
+          "probability": 10.2
+        },
+        {
+          "driver": "Isack Hadjar",
+          "probability": 8.5
+        },
+        {
+          "driver": "Liam Lawson",
+          "probability": 7.2
+        },
+        {
+          "driver": "Pierre Gasly",
+          "probability": 6.1
+        }
+      ],
+      "predicted_winner": "Andrea Kimi Antonelli",
+      "provider": "intel1_consensus",
+      "providerRequestId": null,
+      "providerStatus": "ok",
+      "providerUsage": null,
+      "provider_weights": {
+        "deepseek": 1.0
+      },
+      "safety_car_probability": 52.0,
+      "sessionRecency": 0.9,
+      "sourceModel": "deepseek-v4-pro",
+      "sourceProvider": "deepseek",
+      "sourceQuality": 0.933,
+      "stage": "pre_weekend",
+      "top10_probabilities": [
+        {
+          "driver": "Andrea Kimi Antonelli",
+          "probability": 85.0
+        },
+        {
+          "driver": "George Russell",
+          "probability": 75.0
+        },
+        {
+          "driver": "Lewis Hamilton",
+          "probability": 72.0
+        },
+        {
+          "driver": "Max Verstappen",
+          "probability": 70.0
+        },
+        {
+          "driver": "Charles Leclerc",
+          "probability": 68.0
+        },
+        {
+          "driver": "Lando Norris",
+          "probability": 65.0
+        },
+        {
+          "driver": "Oscar Piastri",
+          "probability": 55.0
+        },
+        {
+          "driver": "Isack Hadjar",
+          "probability": 50.0
+        },
+        {
+          "driver": "Liam Lawson",
+          "probability": 48.0
+        },
+        {
+          "driver": "Pierre Gasly",
+          "probability": 45.0
+        }
+      ],
+      "validation_errors": [],
+      "version": "67b199fe-6d63-47f1-93d3-94a7384f6833:intel1_consensus:v1",
+      "weak_assumptions": [
+        "Baseline model may overweight Mercedes' historical strength despite upgrade concerns.",
+        "Sprint qualifying and sprint results are not yet reflected in the baseline probabilities.",
+        "No weather or tyre data available for the weekend.",
+        "Driver market signals (Haas/Camara, Larsen) are irrelevant to this race outcome."
+      ],
+      "win_probabilities": [
+        {
+          "driver": "Andrea Kimi Antonelli",
+          "probability": 28.42
+        },
+        {
+          "driver": "George Russell",
+          "probability": 12.6
+        },
+        {
+          "driver": "Lewis Hamilton",
+          "probability": 11.84
+        },
+        {
+          "driver": "Max Verstappen",
+          "probability": 11.55
+        },
+        {
+          "driver": "Charles Leclerc",
+          "probability": 10.51
+        },
+        {
+          "driver": "Lando Norris",
+          "probability": 9.92
+        },
+        {
+          "driver": "Oscar Piastri",
+          "probability": 4.84
+        },
+        {
+          "driver": "Isack Hadjar",
+          "probability": 4.01
+        },
+        {
+          "driver": "Liam Lawson",
+          "probability": 3.42
+        },
+        {
+          "driver": "Pierre Gasly",
+          "probability": 2.89
+        }
+      ]
+    }
+  },
+  "promptVersion": "deepseek-prediction-v6-session-aware-senior-analyst",
+  "run_id": "67b199fe-6d63-47f1-93d3-94a7384f6833",
+  "schema_version": "1.0",
+  "stage": "pre_weekend",
+  "updated_at": "2026-10-19T06:12:48Z",
+  "weekend_id": "2026-r18-united-states-grand-prix"
+}

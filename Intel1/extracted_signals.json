@@ -1,0 +1,134 @@
+[
+  {
+    "can_shift_probability": true,
+    "confidence": 0.8,
+    "contradicting_signal_ids": [],
+    "corroboration_status": "single_source",
+    "direction": "mixed",
+    "drivers": [],
+    "event_category": "deepseek_extracted",
+    "evidence_summary": "Mercedes explains that its recent upgrade made the car harder to drive, with the Singapore GP providing first clues to unlocking the new package.",
+    "evidence_type": "journalist_analysis",
+    "expiry_stage": null,
+    "impact_level": "medium",
+    "is_confirmed": false,
+    "linked_document_type": null,
+    "material_change": false,
+    "model_relevance": [
+      "race_win_probability"
+    ],
+    "prediction_impact_targets": [
+      "Mercedes"
+    ],
+    "raw_evidence_excerpt": null,
+    "requires_corroboration": true,
+    "run_id": "67b199fe-6d63-47f1-93d3-94a7384f6833",
+    "session_context": "pre_weekend",
+    "severity_score": 0.55,
+    "should_surface_in_app": true,
+    "signal_id": "83034ac4-de33-54dc-af26-9199b5260a88",
+    "signal_type": "team_update",
+    "source_content_hash": "715ea2fa141ea68e65a3f82929b47eab6326678bea0d2deb3eba44f89a880446",
+    "source_id": "autosport_f1",
+    "source_item_id": "395a40e123ab6490fb42c08f",
+    "source_name": "Autosport Formula 1",
+    "source_published_at": "2026-10-18T11:00:03Z",
+    "source_reliability_weight": 0.8,
+    "source_tier": "B",
+    "source_url": "https://www.autosport.com/f1/news/mercedes-explains-why-its-upgrade-made-its-f1-car-harder-to-drive/10866035/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+    "teams": [
+      "Mercedes"
+    ],
+    "weekend_id": "2026-r18-united-states-grand-prix"
+  },
+  {
+    "can_shift_probability": true,
+    "confidence": 0.9,
+    "contradicting_signal_ids": [],
+    "corroboration_status": "officially_confirmed",
+    "direction": "mixed",
+    "drivers": [
+      "Rafael Camara"
+    ],
+    "event_category": "deepseek_extracted",
+    "evidence_summary": "Haas signs Ferrari junior Rafael Camara for the 2027 season.",
+    "evidence_type": "official_fact",
+    "expiry_stage": null,
+    "impact_level": "medium",
+    "is_confirmed": true,
+    "linked_document_type": null,
+    "material_change": false,
+    "model_relevance": [
+      "race_win_probability"
+    ],
+    "prediction_impact_targets": [
+      "Rafael Camara",
+      "Haas"
+    ],
+    "raw_evidence_excerpt": null,
+    "requires_corroboration": false,
+    "run_id": "67b199fe-6d63-47f1-93d3-94a7384f6833",
+    "session_context": "pre_weekend",
+    "severity_score": 0.55,
+    "should_surface_in_app": true,
+    "signal_id": "5cf09a43-98ec-5dd8-9241-cddea6dc5d16",
+    "signal_type": "driver_market",
+    "source_content_hash": "9fd57fe7e1af5e20eaa925e0d8dd132ddcd4a0c3fbfcc7c8f208129d400c58a0",
+    "source_id": "formula1_official_latest",
+    "source_item_id": "63096c65459d9bb0884b3ef3",
+    "source_name": "Formula 1 Official Latest",
+    "source_published_at": null,
+    "source_reliability_weight": 1.0,
+    "source_tier": "A",
+    "source_url": "https://www.formula1.com/en/latest/article/ferrari-junior-rafael-camara-promoted-to-f1-with-haas-for-2027.1RSxvnFaLu8Hd3JD2ppFsz",
+    "teams": [
+      "Haas"
+    ],
+    "weekend_id": "2026-r18-united-states-grand-prix"
+  },
+  {
+    "can_shift_probability": true,
+    "confidence": 0.9,
+    "contradicting_signal_ids": [],
+    "corroboration_status": "officially_confirmed",
+    "direction": "mixed",
+    "drivers": [
+      "Larsen"
+    ],
+    "event_category": "deepseek_extracted",
+    "evidence_summary": "Ferrari's Larsen will return for the 2027 F1 Academy campaign.",
+    "evidence_type": "official_fact",
+    "expiry_stage": null,
+    "impact_level": "medium",
+    "is_confirmed": true,
+    "linked_document_type": null,
+    "material_change": false,
+    "model_relevance": [
+      "race_win_probability"
+    ],
+    "prediction_impact_targets": [
+      "Larsen",
+      "Ferrari"
+    ],
+    "raw_evidence_excerpt": null,
+    "requires_corroboration": false,
+    "run_id": "67b199fe-6d63-47f1-93d3-94a7384f6833",
+    "session_context": "pre_weekend",
+    "severity_score": 0.55,
+    "should_surface_in_app": true,
+    "signal_id": "268bc378-4f37-5ab8-a69f-b30c9aeb0130",
+    "signal_type": "driver_market",
+    "source_content_hash": "a91c0e82b2347b5b67650f935da9e67a05b24f39a9c6aba15eb6a9731fe24733",
+    "source_id": "formula1_official_latest",
+    "source_item_id": "7af435241ec8d20706a81346",
+    "source_name": "Formula 1 Official Latest",
+    "source_published_at": null,
+    "source_reliability_weight": 1.0,
+    "source_tier": "A",
+    "source_url": "https://www.formula1.com/en/latest/article/ferraris-larsen-to-return-for-2027-f1-academy-campaign.5eeThwId7hnIzVMd8zkTPB",
+    "teams": [
+      "Ferrari"
+    ],
+    "weekend_id": "2026-r18-united-states-grand-prix"
+  }
+]
