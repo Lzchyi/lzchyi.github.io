@@ -1,5 +1,499 @@
 [
   {
+    "brief_id": "news-6c52a95be7b5b3ac87cf",
+    "checked_at": "2026-10-23T17:03:59Z",
+    "coverage_note": "Some sources could not be checked. These reports reflect the linked evidence that was available.",
+    "coverage_status": "partial",
+    "failed_sources": [
+      {
+        "source_id": "autosport_f1",
+        "source_name": "Autosport Formula 1"
+      },
+      {
+        "source_id": "bbc_sport_f1",
+        "source_name": "BBC Sport Formula 1"
+      },
+      {
+        "source_id": "espn_f1",
+        "source_name": "ESPN Formula 1"
+      },
+      {
+        "source_id": "fia_f1_2026_documents",
+        "source_name": "FIA Formula One 2026 Decision Documents"
+      },
+      {
+        "source_id": "formula1_official_latest",
+        "source_name": "Formula 1 Official Latest"
+      },
+      {
+        "source_id": "guardian_formula_one",
+        "source_name": "The Guardian Formula One"
+      },
+      {
+        "source_id": "motorsport_f1",
+        "source_name": "Motorsport.com Formula 1"
+      },
+      {
+        "source_id": "pirelli_formula1_tag",
+        "source_name": "Pirelli Formula 1 Tag"
+      },
+      {
+        "source_id": "racer_f1",
+        "source_name": "RACER Formula 1"
+      },
+      {
+        "source_id": "reuters_formula1",
+        "source_name": "Reuters Formula 1"
+      }
+    ],
+    "headline": "F1 braced for 'whingy' drivers after 'always fun' reason identified | RacingNews365",
+    "is_preview": false,
+    "items": [
+      {
+        "attribution": "Reported claim",
+        "claim_type": "analysis",
+        "confidence_label": "reported",
+        "drivers": [
+          "Max Verstappen"
+        ],
+        "headline": "F1 braced for 'whingy' drivers after 'always fun' reason identified | RacingNews365",
+        "id": "story-9b1fab6845ecddc50824",
+        "published_at": "2026-10-23T17:00:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPBimages F1 commentator Alex Jacques has explained why the bumps at the Circuit of the Americas cause drivers to 'whinge' at the start of the United States",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPBimages F1 commentator Alex Jacques has explained why the bumps at the Circuit of the Americas cause drivers to 'whinge' at the start of the United States",
+              "Grand Prix weekend. Jacques described how they \"shift year to year\", leaving the track surface unpredictable and fraught with jeopardy during FP1 and FP2 in Austin.",
+              "\"Well, the bumps shift year to year, which is always fun, so you get whingy drivers on a Friday,\" Jacques explained on the F1 Nation podcast when detailing what lay in wait"
+            ],
+            "published_at": "2026-10-23T17:00:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/f1-braced-for-whingy-drivers-after-always-fun-reason-identified"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPBimages F1 commentator Alex Jacques has explained why the bumps at the Circuit of the Americas cause drivers to 'whinge' at the start of the United States\u201d\n\n\u201cGrand Prix weekend. Jacques described how they \"shift year to year\", leaving the track surface unpredictable and fraught with jeopardy during FP1 and FP2 in Austin.\u201d\n\n\u201c\"Well, the bumps shift year to year, which is always fun, so you get whingy drivers on a Friday,\" Jacques explained on the F1 Nation podcast when detailing what lay in wait\u201d",
+        "teams": [],
+        "topic": "race",
+        "updated_at": "2026-10-23T17:03:59Z",
+        "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Lewis Hamilton",
+          "Charles Leclerc"
+        ],
+        "headline": "Ferrari's most significant F1 aero upgrade of 2026 revealed",
+        "id": "story-4e322034719ea6bc60e9",
+        "published_at": "2026-10-23T16:38:51Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Ferrari has revealed a potentially more significant Formula 1 upgrade than its drivers let on ahead of the United States Grand Prix.",
+            "evidence_excerpts": [
+              "Ferrari has revealed a potentially more significant Formula 1 upgrade than its drivers let on ahead of the United States Grand Prix.",
+              "It's like half a tenth.\" However, in the official FIA submission where each team has to declare what it has brought, the Ferrari changes are quite extensive in performance critical areas.",
+              "They include an updated board brace layout, and a redesigned front floor leading edge, as well as a reshaping of both inboard vertical and horizontal board elements."
+            ],
+            "published_at": "2026-10-23T16:38:51Z",
+            "source_id": "the_race_f1",
+            "source_name": "The Race Formula 1",
+            "url": "https://www.the-race.com/formula-1/ferrari-f1-2026-us-gp-biggest-upgrade-revealed/"
+          }
+        ],
+        "summary": "The Race Formula 1: \u201cFerrari has revealed a potentially more significant Formula 1 upgrade than its drivers let on ahead of the United States Grand Prix.\u201d\n\n\u201cIt's like half a tenth.\" However, in the official FIA submission where each team has to declare what it has brought, the Ferrari changes are quite extensive in performance critical areas.\u201d\n\n\u201cThey include an updated board brace layout, and a redesigned front floor leading edge, as well as a reshaping of both inboard vertical and horizontal board elements.\u201d",
+        "teams": [
+          "Ferrari",
+          "McLaren",
+          "Red Bull",
+          "Racing Bulls",
+          "Audi",
+          "Alpine",
+          "Cadillac"
+        ],
+        "topic": "technical",
+        "updated_at": "2026-10-23T17:03:59Z",
+        "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Kimi Antonelli",
+          "George Russell",
+          "Lewis Hamilton",
+          "Max Verstappen"
+        ],
+        "headline": "LIVE: 2026 F1 United States Grand Prix - Austin Free Practice 1 | RacingNews365",
+        "id": "story-a28ae9e39af9173c4001",
+        "published_at": "2026-10-23T16:25:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Kimi Antonelli heads to Texas with a 102-point lead in the championship, which he can win on Sunday to become the youngest F1 champion of all-time.",
+            "evidence_excerpts": [
+              "Kimi Antonelli heads to Texas with a 102-point lead in the championship, which he can win on Sunday to become the youngest F1 champion of all-time.",
+              "For him to do so, the Italian must win the race, with George Russell finishing ninth or lower and Lewis Hamilton finishing fifth or lower.",
+              "Max Verstappen and a resurgent Red Bull will also be lurking as Mercedes has confirmed it will run both its cars on the troubled upgrade introduced in Sepang."
+            ],
+            "published_at": "2026-10-23T16:25:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/live-2026-f1-united-states-grand-prix-austin-free-practice-1"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cKimi Antonelli heads to Texas with a 102-point lead in the championship, which he can win on Sunday to become the youngest F1 champion of all-time.\u201d\n\n\u201cFor him to do so, the Italian must win the race, with George Russell finishing ninth or lower and Lewis Hamilton finishing fifth or lower.\u201d\n\n\u201cMax Verstappen and a resurgent Red Bull will also be lurking as Mercedes has confirmed it will run both its cars on the troubled upgrade introduced in Sepang.\u201d",
+        "teams": [
+          "Mercedes",
+          "Red Bull"
+        ],
+        "topic": "race",
+        "updated_at": "2026-10-23T17:03:59Z",
+        "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Oscar Piastri",
+          "Lando Norris"
+        ],
+        "headline": "Oscar Piastri delivers McLaren verdict after 'serious' Lando Norris rule breach | RacingNews365",
+        "id": "story-0eda92ab0dd1bf49be85",
+        "published_at": "2026-10-23T16:00:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images Oscar Piastri is happy with the way in which McLaren has dealt with Lando Norris crashing into him in the Singapore Grand Prix Sprint.",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images Oscar Piastri is happy with the way in which McLaren has dealt with Lando Norris crashing into him in the Singapore Grand Prix Sprint.",
+              "breach of so-called 'Papaya Rules.' \"I've been happy with how things have been dealt with,\" Piastri told media, including RacingNews365.",
+              "[Article continues below] \u00a9 XPBimages Norris' response As for Norris himself, he also declared that as far as he was concerned, the matter was \"settled.\""
+            ],
+            "published_at": "2026-10-23T16:00:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/oscar-piastri-delivers-mclaren-verdict-after-serious-lando-norris-rule-breach"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Oscar Piastri is happy with the way in which McLaren has dealt with Lando Norris crashing into him in the Singapore Grand Prix Sprint.\u201d\n\n\u201cbreach of so-called 'Papaya Rules.' \"I've been happy with how things have been dealt with,\" Piastri told media, including RacingNews365.\u201d\n\n\u201c[Article continues below] \u00a9 XPBimages Norris' response As for Norris himself, he also declared that as far as he was concerned, the matter was \"settled.\"\u201d",
+        "teams": [
+          "McLaren"
+        ],
+        "topic": "penalty",
+        "updated_at": "2026-10-23T17:03:59Z",
+        "why_it_matters": "Official decisions can affect eligibility, classification or the starting grid. Check the cited decision and subsequent amendments."
+      },
+      {
+        "attribution": "Unconfirmed claim",
+        "claim_type": "unconfirmed",
+        "confidence_label": "unconfirmed",
+        "drivers": [
+          "Max Verstappen"
+        ],
+        "headline": "Max Verstappen admits to F1 grid drop \u2018potential\u2019 ahead of US GP | Crash.net",
+        "id": "story-42eb865e1460f923daa4",
+        "published_at": "2026-10-23T15:42:04Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Max Verstappen could face an engine penalty before the end of the F1 season.",
+            "evidence_excerpts": [
+              "Max Verstappen could face an engine penalty before the end of the F1 season.",
+              "\u00a9 XPB Images Max Verstappen says he will \u201cpotentially\u201d have to take a grid penalty in the coming F1 races.",
+              "Max Verstappen has taken two consecutive dominant F1 wins \u201cThat we have to take a penalty at one point, yeah, potentially,\u201d Max Verstappen said on Thursday ahead of the US GP when"
+            ],
+            "published_at": "2026-10-23T15:42:04Z",
+            "source_id": "crash_f1",
+            "source_name": "Crash.net Formula 1",
+            "url": "https://www.crash.net/f1/news/1108075/1/max-verstappen-admits-f1-grid-drop-potential-ahead-us-gp"
+          }
+        ],
+        "summary": "Crash.net Formula 1: \u201cMax Verstappen could face an engine penalty before the end of the F1 season.\u201d\n\n\u201c\u00a9 XPB Images Max Verstappen says he will \u201cpotentially\u201d have to take a grid penalty in the coming F1 races.\u201d\n\n\u201cMax Verstappen has taken two consecutive dominant F1 wins \u201cThat we have to take a penalty at one point, yeah, potentially,\u201d Max Verstappen said on Thursday ahead of the US GP when\u201d",
+        "teams": [
+          "Red Bull"
+        ],
+        "topic": "penalty",
+        "updated_at": "2026-10-23T17:03:59Z",
+        "why_it_matters": "Official decisions can affect eligibility, classification or the starting grid. Check the cited decision and subsequent amendments."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Lewis Hamilton",
+          "Max Verstappen",
+          "Andrea Kimi Antonelli",
+          "George Russell"
+        ],
+        "headline": "F1 teams\u2019 US GP upgrades revealed after Lewis Hamilton\u2019s Ferrari pessimism | Crash.net",
+        "id": "story-0ec5ee697754c423ec7a",
+        "published_at": "2026-10-23T15:38:06Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Lewis Hamilton downplayed Ferrari's upgrade for Austin Ferrari, Red Bull and McLaren are the headline Formula 1 teams bringing upgrades to this weekend\u2019s United States Grand Prix.",
+            "evidence_excerpts": [
+              "Lewis Hamilton downplayed Ferrari's upgrade for Austin Ferrari, Red Bull and McLaren are the headline Formula 1 teams bringing upgrades to this weekend\u2019s United States Grand Prix.",
+              "Ferrari has brought what is believed to be its final major upgrade package of the 2026 season to the Circuit of the Americas.",
+              "The updates to the SF-26 comprises four total parts, including a revised floor body, floor board, sidepod inlet and diffuser."
+            ],
+            "published_at": "2026-10-23T15:38:06Z",
+            "source_id": "crash_f1",
+            "source_name": "Crash.net Formula 1",
+            "url": "https://www.crash.net/f1/news/1108074/1/f1-teams-united-states-gp-upgrades-revealed-after-lewis-hamiltons-ferrari"
+          }
+        ],
+        "summary": "Crash.net Formula 1: \u201cLewis Hamilton downplayed Ferrari's upgrade for Austin Ferrari, Red Bull and McLaren are the headline Formula 1 teams bringing upgrades to this weekend\u2019s United States Grand Prix.\u201d\n\n\u201cFerrari has brought what is believed to be its final major upgrade package of the 2026 season to the Circuit of the Americas.\u201d\n\n\u201cThe updates to the SF-26 comprises four total parts, including a revised floor body, floor board, sidepod inlet and diffuser.\u201d",
+        "teams": [
+          "Ferrari",
+          "Red Bull",
+          "McLaren",
+          "Mercedes",
+          "Racing Bulls",
+          "Alpine",
+          "Audi",
+          "Cadillac"
+        ],
+        "topic": "technical",
+        "updated_at": "2026-10-23T17:03:59Z",
+        "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Max Verstappen",
+          "Kimi Antonelli",
+          "George Russell"
+        ],
+        "headline": "FIA confirms Red Bull United States Grand Prix upgrades",
+        "id": "story-0b4297f69c5486a10ac8",
+        "published_at": "2026-10-23T15:36:48Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Red Bull bring the upgrades in Texas AUSTIN \u2013 Red Bull , McLaren, and Ferrari have all brought significant upgrades to the United States Grand Prix, while Mercedes has declared no new",
+            "evidence_excerpts": [
+              "Red Bull bring the upgrades in Texas AUSTIN \u2013 Red Bull , McLaren, and Ferrari have all brought significant upgrades to the United States Grand Prix, while Mercedes has declared no new",
+              "For Red Bull, this includes a new front wing and front corner.",
+              "Ferrari make the most changes of the front-running teams, with four noted."
+            ],
+            "published_at": "2026-10-23T15:36:48Z",
+            "source_id": "planetf1",
+            "source_name": "PlanetF1",
+            "url": "https://www.planetf1.com/news/red-bull-continue-push-with-new-front-wing-fia-confirms"
+          }
+        ],
+        "summary": "PlanetF1: \u201cRed Bull bring the upgrades in Texas AUSTIN \u2013 Red Bull , McLaren, and Ferrari have all brought significant upgrades to the United States Grand Prix, while Mercedes has declared no new\u201d\n\n\u201cFor Red Bull, this includes a new front wing and front corner.\u201d\n\n\u201cFerrari make the most changes of the front-running teams, with four noted.\u201d",
+        "teams": [
+          "Red Bull",
+          "McLaren",
+          "Ferrari",
+          "Mercedes",
+          "Racing Bulls",
+          "Haas",
+          "Aston Martin",
+          "Williams"
+        ],
+        "topic": "technical",
+        "updated_at": "2026-10-23T17:03:59Z",
+        "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+      },
+      {
+        "attribution": "Unconfirmed claim",
+        "claim_type": "fact",
+        "confidence_label": "unconfirmed",
+        "drivers": [
+          "Kimi Antonelli",
+          "George Russell",
+          "Lewis Hamilton",
+          "Max Verstappen",
+          "Charles Leclerc",
+          "Lando Norris"
+        ],
+        "headline": "How Kimi Antonelli can become F1 world champion at the US GP | Crash.net",
+        "id": "story-45ff57ff2498888001b0",
+        "published_at": "2026-10-23T15:30:44Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Kimi Antonelli stands on the verge of F1 history Andrea Kimi Antonelli will have his first \u2018match point\u2019 opportunity to win the 2026 Formula 1 world championship at the next race, the",
+            "evidence_excerpts": [
+              "Kimi Antonelli stands on the verge of F1 history Andrea Kimi Antonelli will have his first \u2018match point\u2019 opportunity to win the 2026 Formula 1 world championship at the next race, the",
+              "Antonelli finished third in Singapore There are various permutations that could see Antonelli crowned world champion next time out, but put simply, he would need to win the race with Russell finishing",
+              "ninth or lower and Lewis Hamilton fifth or lower. With six grands prix set to take place, there are 150 points up for grabs."
+            ],
+            "published_at": "2026-10-23T15:30:44Z",
+            "source_id": "crash_f1",
+            "source_name": "Crash.net Formula 1",
+            "url": "https://www.crash.net/f1/news/1107507/1/how-kimi-antonelli-can-become-f1-world-champion-united-states-gp"
+          }
+        ],
+        "summary": "Crash.net Formula 1: \u201cKimi Antonelli stands on the verge of F1 history Andrea Kimi Antonelli will have his first \u2018match point\u2019 opportunity to win the 2026 Formula 1 world championship at the next race, the\u201d\n\n\u201cAntonelli finished third in Singapore There are various permutations that could see Antonelli crowned world champion next time out, but put simply, he would need to win the race with Russell finishing\u201d\n\n\u201cninth or lower and Lewis Hamilton fifth or lower. With six grands prix set to take place, there are 150 points up for grabs.\u201d",
+        "teams": [
+          "Mercedes"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-10-23T17:03:59Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [],
+        "headline": "Mercedes' F1 rivals strike back on fiercely-fought battleground | RacingNews365",
+        "id": "story-d89fffcd0ef6074f2e0a",
+        "published_at": "2026-10-23T15:20:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images Mercedes' F1 rivals have brought a series of upgrades to the United States Grand Prix as the development battle intensifies at the Circuit of the",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images Mercedes' F1 rivals have brought a series of upgrades to the United States Grand Prix as the development battle intensifies at the Circuit of the",
+              "According to the FIA's official car presentation submissions, Ferrari has delivered the most extensive package of the leading four teams, targeting improvements to the floor, sidepods and diffuser.",
+              "McLaren has introduced three updates, comprising revised front and rear corner assemblies and a modified diffuser."
+            ],
+            "published_at": "2026-10-23T15:20:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/mercedes-f1-rivals-strike-back-on-fiercely-fought-battleground"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Mercedes' F1 rivals have brought a series of upgrades to the United States Grand Prix as the development battle intensifies at the Circuit of the\u201d\n\n\u201cAccording to the FIA's official car presentation submissions, Ferrari has delivered the most extensive package of the leading four teams, targeting improvements to the floor, sidepods and diffuser.\u201d\n\n\u201cMcLaren has introduced three updates, comprising revised front and rear corner assemblies and a modified diffuser.\u201d",
+        "teams": [
+          "Mercedes",
+          "McLaren",
+          "Ferrari",
+          "Red Bull",
+          "Racing Bulls",
+          "Audi",
+          "Alpine",
+          "Cadillac",
+          "Williams",
+          "Aston Martin",
+          "Haas"
+        ],
+        "topic": "technical",
+        "updated_at": "2026-10-23T17:03:59Z",
+        "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Max Verstappen",
+          "Andrea Kimi Antonelli",
+          "Lando Norris",
+          "Charles Leclerc",
+          "Lewis Hamilton"
+        ],
+        "headline": "When is the next F1 race? US GP dates and schedule | Crash.net",
+        "id": "story-ea80d002524eef606331",
+        "published_at": "2026-10-23T15:00:23Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Max Verstappen leads at the start of the 2025 United States Grand Prix The 18th round of the 2026 Formula 1 season takes place at the United States Grand Prix on the",
+            "evidence_excerpts": [
+              "Max Verstappen leads at the start of the 2025 United States Grand Prix The 18th round of the 2026 Formula 1 season takes place at the United States Grand Prix on the",
+              "The 2026 United States Grand Prix takes place on the weekend of 23-25 October at the Circuit of the Americas on the outskirts of Austin, Texas.",
+              "Friday Free Practice 1 - 6:30pm - 7:30pm BST Free Practice 2 - 10pm - 11pm BST Saturday Free Practice 3 - 6:30pm - 7:30pm BST Qualifying - 10pm - 11pm BST"
+            ],
+            "published_at": "2026-10-23T15:00:23Z",
+            "source_id": "crash_f1",
+            "source_name": "Crash.net Formula 1",
+            "url": "https://www.crash.net/f1/news/1107273/1/when-next-f1-race-united-states-grand-prix-dates-and-schedule"
+          }
+        ],
+        "summary": "Crash.net Formula 1: \u201cMax Verstappen leads at the start of the 2025 United States Grand Prix The 18th round of the 2026 Formula 1 season takes place at the United States Grand Prix on the\u201d\n\n\u201cThe 2026 United States Grand Prix takes place on the weekend of 23-25 October at the Circuit of the Americas on the outskirts of Austin, Texas.\u201d\n\n\u201cFriday Free Practice 1 - 6:30pm - 7:30pm BST Free Practice 2 - 10pm - 11pm BST Saturday Free Practice 3 - 6:30pm - 7:30pm BST Qualifying - 10pm - 11pm BST\u201d",
+        "teams": [],
+        "topic": "calendar",
+        "updated_at": "2026-10-23T17:03:59Z",
+        "why_it_matters": "Calendar and event changes can affect weekend planning. Check official event information for the applicable schedule."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Kimi Antonelli",
+          "George Russell",
+          "Lewis Hamilton",
+          "Max Verstappen"
+        ],
+        "headline": "How to watch 2026 F1 US GP today: Free live stream details and start time | Crash.net",
+        "id": "story-6bf5fb4f1f0663f0f25c",
+        "published_at": "2026-10-23T14:50:31Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Everything you need to know about how to watch the US Grand Prix for free F1 returns to the USA this weekend for what's sure to be an action packed race at",
+            "evidence_excerpts": [
+              "Everything you need to know about how to watch the US Grand Prix for free F1 returns to the USA this weekend for what's sure to be an action packed race at",
+              "the coveted Circuit of the Americas. All eyes are on championship leader Kimi Antonelli who can clinch the title in Austin this weekend but it won't be a straight forward bath to",
+              "take his first title. The Italian will need to win Sunday's race and his Mercedes teammate, who is running second in the standings, will need to finish 9th or lower."
+            ],
+            "published_at": "2026-10-23T14:50:31Z",
+            "source_id": "crash_f1",
+            "source_name": "Crash.net Formula 1",
+            "url": "https://www.crash.net/f1/news/1108067/1/how-watch-2026-f1-usa-grand-prix-today-free-live-stream-details-and-start-time"
+          }
+        ],
+        "summary": "Crash.net Formula 1: \u201cEverything you need to know about how to watch the US Grand Prix for free F1 returns to the USA this weekend for what's sure to be an action packed race at\u201d\n\n\u201cthe coveted Circuit of the Americas. All eyes are on championship leader Kimi Antonelli who can clinch the title in Austin this weekend but it won't be a straight forward bath to\u201d\n\n\u201ctake his first title. The Italian will need to win Sunday's race and his Mercedes teammate, who is running second in the standings, will need to finish 9th or lower.\u201d",
+        "teams": [
+          "Mercedes",
+          "Ferrari"
+        ],
+        "topic": "calendar",
+        "updated_at": "2026-10-23T17:03:59Z",
+        "why_it_matters": "Calendar and event changes can affect weekend planning. Check official event information for the applicable schedule."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "analysis",
+        "confidence_label": "reported",
+        "drivers": [
+          "Max Verstappen",
+          "Isack Hadjar",
+          "Charles Leclerc"
+        ],
+        "headline": "Max Verstappen brands Isack Hadjar debate 'nonsense' after eye-catching claim | RacingNews365",
+        "id": "story-a5d44bcfab7d77f54f24",
+        "published_at": "2026-10-23T14:30:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images Max Verstappen believes the debate around comments made by Red Bull team-mate Isack Hadjar and the Singapore GP is \"nonsense.\"",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images Max Verstappen believes the debate around comments made by Red Bull team-mate Isack Hadjar and the Singapore GP is \"nonsense.\"",
+              "On Thursday's media day in the United States, Hadjar claimed that if Verstappen had been driving the Ferrari SF-26 if Singapore, he would have won by a greater margin than the 7.3s",
+              "Leclerc dismissed Hadjar's comments , with Verstappen also taking issue with other drivers being asked about the second-year driver's words. \"I mean, we're stressing about something that doesn't matter, right?\""
+            ],
+            "published_at": "2026-10-23T14:30:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/max-verstappen-brands-isack-hadjar-debate-nonsense-after-eye-catching-claim"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Max Verstappen believes the debate around comments made by Red Bull team-mate Isack Hadjar and the Singapore GP is \"nonsense.\"\u201d\n\n\u201cOn Thursday's media day in the United States, Hadjar claimed that if Verstappen had been driving the Ferrari SF-26 if Singapore, he would have won by a greater margin than the 7.3s\u201d\n\n\u201cLeclerc dismissed Hadjar's comments , with Verstappen also taking issue with other drivers being asked about the second-year driver's words. \"I mean, we're stressing about something that doesn't matter, right?\"\u201d",
+        "teams": [
+          "Red Bull",
+          "Ferrari"
+        ],
+        "topic": "general",
+        "updated_at": "2026-10-23T17:03:59Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      }
+    ],
+    "next_check_at": "2026-10-25T17:03:59Z",
+    "provider": "deepseek",
+    "schema_version": "2.0",
+    "sources_checked": 7,
+    "status": "published",
+    "summary": "12 sourced F1 updates. Open each report for evidence and context.",
+    "updated_at": "2026-10-23T17:03:59Z"
+  },
+  {
     "brief_id": "news-2c797df0a7d571fff606",
     "checked_at": "2026-10-21T16:34:24Z",
     "coverage_note": "Some sources could not be checked. These reports reflect the linked evidence that was available.",
