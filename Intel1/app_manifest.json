@@ -95,7 +95,7 @@
     {
       "content_type": "application/json",
       "name": "current_standings.json",
-      "sha256": "65a51fe31a634926d3526eb8401e3973cea3ac0bb5b9c9de5252777292fc78e7",
+      "sha256": "16b528d48ac52c05b9801cd6aa04226b4586a867c57683fe981e4672f5c86b3d",
       "updated_at": "2026-10-26T04:42:00Z",
       "url": "https://www.zhenchyi.com/Intel1/current_standings.json"
     },
@@ -116,9 +116,9 @@
   ],
   "freshness_timestamp": "2026-10-19T06:12:48Z",
   "last_successful_full_run_at": "2026-10-19T06:12:48Z",
-  "publication_id": "7a9b930a134b25cec975929462e1cb85afc8e0baca64e64d3d0209de3b1fbcc3",
+  "publication_id": "6445ff5df93d1155dd228b7e0f65dfd6e16024f7c2d5427d4bd10aea095cb90a",
   "run_id": "67b199fe-6d63-47f1-93d3-94a7384f6833",
   "schema_version": "1.1",
-  "updated_at": "2026-10-26T04:42:19Z",
+  "updated_at": "2026-10-26T12:55:05Z",
   "weekend_id": "2026-r18-united-states-grand-prix"
 }
