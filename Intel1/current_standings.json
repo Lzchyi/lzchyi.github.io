@@ -1,22 +1,22 @@
 {
-  "checked_at": "2026-10-25T16:12:09Z",
+  "checked_at": "2026-10-26T04:42:00Z",
   "constructor_standings": [
     {
       "driver_id": null,
       "id": "mercedes",
-      "points": 578.0,
+      "points": 607.0,
       "position": 1,
       "primary_label": "Mercedes",
       "secondary_label": null,
       "short_name": null,
       "team_id": "mercedes",
       "team_label": "Mercedes",
-      "wins": 11
+      "wins": 12
     },
     {
       "driver_id": null,
       "id": "ferrari",
-      "points": 444.0,
+      "points": 474.0,
       "position": 2,
       "primary_label": "Ferrari",
       "secondary_label": null,
@@ -27,21 +27,9 @@
     },
     {
       "driver_id": null,
-      "id": "mclaren",
-      "points": 339.0,
-      "position": 3,
-      "primary_label": "McLaren",
-      "secondary_label": null,
-      "short_name": null,
-      "team_id": "mclaren",
-      "team_label": "McLaren",
-      "wins": 2
-    },
-    {
-      "driver_id": null,
       "id": "red_bull",
-      "points": 332.0,
-      "position": 4,
+      "points": 355.0,
+      "position": 3,
       "primary_label": "Red Bull",
       "secondary_label": null,
       "short_name": null,
@@ -51,8 +39,20 @@
     },
     {
       "driver_id": null,
+      "id": "mclaren",
+      "points": 355.0,
+      "position": 4,
+      "primary_label": "McLaren",
+      "secondary_label": null,
+      "short_name": null,
+      "team_id": "mclaren",
+      "team_label": "McLaren",
+      "wins": 2
+    },
+    {
+      "driver_id": null,
       "id": "rb",
-      "points": 100.0,
+      "points": 102.0,
       "position": 5,
       "primary_label": "RB F1 Team",
       "secondary_label": null,
@@ -64,7 +64,7 @@
     {
       "driver_id": null,
       "id": "alpine",
-      "points": 68.0,
+      "points": 69.0,
       "position": 6,
       "primary_label": "Alpine F1 Team",
       "secondary_label": null,
@@ -138,19 +138,19 @@
     {
       "driver_id": "antonelli",
       "id": "antonelli",
-      "points": 340.0,
+      "points": 365.0,
       "position": 1,
       "primary_label": "Andrea Kimi Antonelli",
       "secondary_label": "Mercedes",
       "short_name": null,
       "team_id": "mercedes",
       "team_label": "Mercedes",
-      "wins": 8
+      "wins": 9
     },
     {
       "driver_id": "russell",
       "id": "russell",
-      "points": 238.0,
+      "points": 242.0,
       "position": 2,
       "primary_label": "George Russell",
       "secondary_label": "Mercedes",
@@ -162,7 +162,7 @@
     {
       "driver_id": "hamilton",
       "id": "hamilton",
-      "points": 229.0,
+      "points": 241.0,
       "position": 3,
       "primary_label": "Lewis Hamilton",
       "secondary_label": "Ferrari",
@@ -174,7 +174,7 @@
     {
       "driver_id": "max_verstappen",
       "id": "max_verstappen",
-      "points": 221.0,
+      "points": 236.0,
       "position": 4,
       "primary_label": "Max Verstappen",
       "secondary_label": "Red Bull",
@@ -186,7 +186,7 @@
     {
       "driver_id": "leclerc",
       "id": "leclerc",
-      "points": 215.0,
+      "points": 233.0,
       "position": 5,
       "primary_label": "Charles Leclerc",
       "secondary_label": "Ferrari",
@@ -198,7 +198,7 @@
     {
       "driver_id": "norris",
       "id": "norris",
-      "points": 201.0,
+      "points": 211.0,
       "position": 6,
       "primary_label": "Lando Norris",
       "secondary_label": "McLaren",
@@ -210,7 +210,7 @@
     {
       "driver_id": "piastri",
       "id": "piastri",
-      "points": 138.0,
+      "points": 144.0,
       "position": 7,
       "primary_label": "Oscar Piastri",
       "secondary_label": "McLaren",
@@ -222,7 +222,7 @@
     {
       "driver_id": "hadjar",
       "id": "hadjar",
-      "points": 97.0,
+      "points": 105.0,
       "position": 8,
       "primary_label": "Isack Hadjar",
       "secondary_label": "Red Bull",
@@ -234,7 +234,7 @@
     {
       "driver_id": "lawson",
       "id": "lawson",
-      "points": 75.0,
+      "points": 77.0,
       "position": 9,
       "primary_label": "Liam Lawson",
       "secondary_label": "RB F1 Team",
@@ -246,7 +246,7 @@
     {
       "driver_id": "gasly",
       "id": "gasly",
-      "points": 41.0,
+      "points": 42.0,
       "position": 10,
       "primary_label": "Pierre Gasly",
       "secondary_label": "Alpine F1 Team",
@@ -413,8 +413,8 @@
     }
   ],
   "is_reference": false,
-  "round": 17,
+  "round": 18,
   "season": 2026,
   "source": "jolpica",
-  "updated_at": "2026-10-21T16:11:23Z"
+  "updated_at": "2026-10-26T04:42:00Z"
 }
