@@ -1,5 +1,458 @@
 [
   {
+    "brief_id": "news-9123c1025a2b6e77247b",
+    "checked_at": "2026-10-28T12:47:48Z",
+    "coverage_note": "Some sources could not be checked. These reports reflect the linked evidence that was available.",
+    "coverage_status": "partial",
+    "failed_sources": [
+      {
+        "source_id": "autosport_f1",
+        "source_name": "Autosport Formula 1"
+      },
+      {
+        "source_id": "bbc_sport_f1",
+        "source_name": "BBC Sport Formula 1"
+      },
+      {
+        "source_id": "espn_f1",
+        "source_name": "ESPN Formula 1"
+      },
+      {
+        "source_id": "fia_f1_2026_documents",
+        "source_name": "FIA Formula One 2026 Decision Documents"
+      },
+      {
+        "source_id": "formula1_official_latest",
+        "source_name": "Formula 1 Official Latest"
+      },
+      {
+        "source_id": "guardian_formula_one",
+        "source_name": "The Guardian Formula One"
+      },
+      {
+        "source_id": "motorsport_f1",
+        "source_name": "Motorsport.com Formula 1"
+      },
+      {
+        "source_id": "pirelli_formula1_tag",
+        "source_name": "Pirelli Formula 1 Tag"
+      },
+      {
+        "source_id": "racer_f1",
+        "source_name": "RACER Formula 1"
+      },
+      {
+        "source_id": "reuters_formula1",
+        "source_name": "Reuters Formula 1"
+      }
+    ],
+    "headline": "Kimi Antonelli reveals if he will choose driver number '1' as F1 champion | RacingNews365",
+    "is_preview": false,
+    "items": [
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Kimi Antonelli"
+        ],
+        "headline": "Kimi Antonelli reveals if he will choose driver number '1' as F1 champion | RacingNews365",
+        "id": "story-2e5a6e313f6ba9d9fe44",
+        "published_at": "2026-10-28T12:30:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images Kimi Antonelli has revealed he will stick with the number '12' for 2027, even if he enters the year as the reigning champion.",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images Kimi Antonelli has revealed he will stick with the number '12' for 2027, even if he enters the year as the reigning champion.",
+              "He will then be able to choose his number for 2027, but the Italian has no interest in changing. \"First, I have to get the job done in Mexico.",
+              "But I think that once that's done, I'll still be racing with number 12,\" Antonelli told Blick ."
+            ],
+            "published_at": "2026-10-28T12:30:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/kimi-antonelli-reveals-if-he-will-choose-driver-number-1-as-f1-champion"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Kimi Antonelli has revealed he will stick with the number '12' for 2027, even if he enters the year as the reigning champion.\u201d\n\n\u201cHe will then be able to choose his number for 2027, but the Italian has no interest in changing. \"First, I have to get the job done in Mexico.\u201d\n\n\u201cBut I think that once that's done, I'll still be racing with number 12,\" Antonelli told Blick .\u201d",
+        "teams": [
+          "Mercedes"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-10-28T12:47:48Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "analysis",
+        "confidence_label": "reported",
+        "drivers": [
+          "Daniel Ricciardo",
+          "Liam Lawson"
+        ],
+        "headline": "Daniel Ricciardo explains how he converted \u2018humiliation\u2019 into feeling \u2018proud\u2019 following his F1 exit",
+        "id": "story-d61c3dcd03ccaefce07a",
+        "published_at": "2026-10-28T12:29:10Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Oct 28, 2026 12:29pm UTC Former Red Bull and McLaren driver Daniel Ricciardo has opened up on the impact of his sudden retirement from F1 in 2024, explaining that while he initially",
+            "evidence_excerpts": [
+              "Oct 28, 2026 12:29pm UTC Former Red Bull and McLaren driver Daniel Ricciardo has opened up on the impact of his sudden retirement from F1 in 2024, explaining that while he initially",
+              "had feelings of \u201cfailure and humiliation\u201d, he\u2019s now proud of his career.",
+              "Ricciardo is perhaps best remembered for his stint at Red Bull between 2014 and 2018 Despite the disappointment around his retirement, Ricciardo admitted that he now appreciates Racing Bulls\u2019 decision to replace"
+            ],
+            "published_at": "2026-10-28T12:29:10Z",
+            "source_id": "formula1_official_latest",
+            "source_name": "Formula 1 Official Latest",
+            "url": "https://www.formula1.com/en/latest/article/ricciardo-explains-how-he-converted-humiliation-into-feeling-proud-following-his-f1-exit.10kNySRo1gU5H2e59aN8qR"
+          }
+        ],
+        "summary": "Formula 1 Official Latest: \u201cOct 28, 2026 12:29pm UTC Former Red Bull and McLaren driver Daniel Ricciardo has opened up on the impact of his sudden retirement from F1 in 2024, explaining that while he initially\u201d\n\n\u201chad feelings of \u201cfailure and humiliation\u201d, he\u2019s now proud of his career.\u201d\n\n\u201cRicciardo is perhaps best remembered for his stint at Red Bull between 2014 and 2018 Despite the disappointment around his retirement, Ricciardo admitted that he now appreciates Racing Bulls\u2019 decision to replace\u201d",
+        "teams": [
+          "Red Bull",
+          "McLaren",
+          "Racing Bulls"
+        ],
+        "topic": "general",
+        "updated_at": "2026-10-28T12:47:48Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [],
+        "headline": "Social Media: McLaren reveals Mexican GP livery tweak for tobacco sponsor \u2013 RaceFans",
+        "id": "story-f921783893920d08c8b2",
+        "published_at": "2026-10-28T12:06:36Z",
+        "sources": [
+          {
+            "evidence_excerpt": "McLaren has revealed a change to its livery for this weekend\u2019s Mexican Grand Prix to promote a brand of its sponsor British American Tobacco.",
+            "evidence_excerpts": [
+              "McLaren has revealed a change to its livery for this weekend\u2019s Mexican Grand Prix to promote a brand of its sponsor British American Tobacco.",
+              "The team said the change to its sidepod graphics was inspired by designs provided by their fans."
+            ],
+            "published_at": "2026-10-28T12:06:36Z",
+            "source_id": "racefans_f1",
+            "source_name": "RaceFans Formula 1",
+            "url": "https://www.racefans.net/2026/10/28/social-media-mclaren-reveals-mexican-gp-livery-tweak-for-tobacco-sponsor/"
+          }
+        ],
+        "summary": "RaceFans Formula 1: \u201cMcLaren has revealed a change to its livery for this weekend\u2019s Mexican Grand Prix to promote a brand of its sponsor British American Tobacco.\u201d\n\n\u201cThe team said the change to its sidepod graphics was inspired by designs provided by their fans.\u201d",
+        "teams": [
+          "McLaren"
+        ],
+        "topic": "general",
+        "updated_at": "2026-10-28T12:47:48Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "analysis",
+        "confidence_label": "reported",
+        "drivers": [
+          "Charles Leclerc",
+          "Lewis Hamilton",
+          "Kimi Antonelli"
+        ],
+        "headline": "Charles Leclerc 'confident' of late-season step after US GP upgrades | Crash.net",
+        "id": "story-bf41ed83f0d7084dfd50",
+        "published_at": "2026-10-28T12:05:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Charles Leclerc \u00a9 XPB Images Charles Leclerc\u2019s hopes are high after a promising showing at the United States Grand Prix at the Circuit of the Americas.",
+            "evidence_excerpts": [
+              "Charles Leclerc \u00a9 XPB Images Charles Leclerc\u2019s hopes are high after a promising showing at the United States Grand Prix at the Circuit of the Americas.",
+              "\u201cWhether I can convert that into a win is a bit difficult to predict, because it\u2019s such fine margins, and it also depends on what the upgrade plans of the others are",
+              "Whether it\u2019s in Singapore or here in Austin, we were quite close, so I\u2019m confident that we\u2019ll have a shot to win a race before the end of the season.\u201d"
+            ],
+            "published_at": "2026-10-28T12:05:00Z",
+            "source_id": "crash_f1",
+            "source_name": "Crash.net Formula 1",
+            "url": "https://www.crash.net/f1/news/1108567/1/charles-leclerc-confident-late-season-step-after-us-gp-upgrades"
+          }
+        ],
+        "summary": "Crash.net Formula 1: \u201cCharles Leclerc \u00a9 XPB Images Charles Leclerc\u2019s hopes are high after a promising showing at the United States Grand Prix at the Circuit of the Americas.\u201d\n\n\u201c\u201cWhether I can convert that into a win is a bit difficult to predict, because it\u2019s such fine margins, and it also depends on what the upgrade plans of the others are\u201d\n\n\u201cWhether it\u2019s in Singapore or here in Austin, we were quite close, so I\u2019m confident that we\u2019ll have a shot to win a race before the end of the season.\u201d\u201d",
+        "teams": [
+          "Ferrari"
+        ],
+        "topic": "technical",
+        "updated_at": "2026-10-28T12:47:48Z",
+        "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [],
+        "headline": "Former Mercedes engine boss returns to F1 with Audi",
+        "id": "story-0c620bc9dbf84224bb4d",
+        "published_at": "2026-10-28T12:02:26Z",
+        "sources": [
+          {
+            "evidence_excerpt": "A former Mercedes-AMG High Performance Powertrains chief is returning to Formula 1, taking charge of Audi's power unit operation from November 1...",
+            "evidence_excerpts": [
+              "A former Mercedes-AMG High Performance Powertrains chief is returning to Formula 1, taking charge of Audi's power unit operation from November 1...",
+              "The German manufacturer has appointed Andy Cowell\u2019s Mercedes predecessor, Thomas Fuhr, to take over as CEO of its power unit department.",
+              "Fuhr will assume the role on November 1, 2026, strengthening the organisation\u2019s leadership structure as Audi continues to develop its F1 power unit."
+            ],
+            "published_at": "2026-10-28T12:02:26Z",
+            "source_id": "planetf1",
+            "source_name": "PlanetF1",
+            "url": "https://www.planetf1.com/news/mercedes-engine-boss-audi-f1-thomas-fuhr"
+          }
+        ],
+        "summary": "PlanetF1: \u201cA former Mercedes-AMG High Performance Powertrains chief is returning to Formula 1, taking charge of Audi's power unit operation from November 1...\u201d\n\n\u201cThe German manufacturer has appointed Andy Cowell\u2019s Mercedes predecessor, Thomas Fuhr, to take over as CEO of its power unit department.\u201d\n\n\u201cFuhr will assume the role on November 1, 2026, strengthening the organisation\u2019s leadership structure as Audi continues to develop its F1 power unit.\u201d",
+        "teams": [
+          "Audi",
+          "Mercedes"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-10-28T12:47:48Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Lando Norris",
+          "Oscar Piastri"
+        ],
+        "headline": "Mexico City GP: McLaren plan further upgrades after Lando Norris and Oscar Piastri's struggles in Austin | F1 News | Sky Sports",
+        "id": "story-9ef5d21b5789dd036eee",
+        "published_at": "2026-10-28T12:00:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Mexico City GP: McLaren plan further upgrades after Lando Norris and Oscar Piastri's struggles in Austin McLaren have confirmed they will continue to upgrade their car in the closing stages of the",
+            "evidence_excerpts": [
+              "Mexico City GP: McLaren plan further upgrades after Lando Norris and Oscar Piastri's struggles in Austin McLaren have confirmed they will continue to upgrade their car in the closing stages of the",
+              "\"There will be some more stuff coming,\" said team principal Andrea Stella on McLaren's upgrade plans, given most teams are now focusing on designing their 2027 cars.",
+              "\"I think ultimately we will only be able to do so across Brazil and Vegas. So, Mexico there won't be very much, but Brazil and Vegas there will be some upgrades."
+            ],
+            "published_at": "2026-10-28T12:00:00Z",
+            "source_id": "sky_sports_f1",
+            "source_name": "Sky Sports Formula 1",
+            "url": "https://www.skysports.com/f1/news/13604726/mexico-city-gp-mclaren-plan-further-upgrades-after-lando-norris-and-oscar-piastris-struggles-in-austin"
+          }
+        ],
+        "summary": "Sky Sports Formula 1: \u201cMexico City GP: McLaren plan further upgrades after Lando Norris and Oscar Piastri's struggles in Austin McLaren have confirmed they will continue to upgrade their car in the closing stages of the\u201d\n\n\u201c\"There will be some more stuff coming,\" said team principal Andrea Stella on McLaren's upgrade plans, given most teams are now focusing on designing their 2027 cars.\u201d\n\n\u201c\"I think ultimately we will only be able to do so across Brazil and Vegas. So, Mexico there won't be very much, but Brazil and Vegas there will be some upgrades.\u201d",
+        "teams": [
+          "McLaren"
+        ],
+        "topic": "technical",
+        "updated_at": "2026-10-28T12:47:48Z",
+        "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Max Verstappen",
+          "Tom Hart",
+          "Gianpiero Lambiase"
+        ],
+        "headline": "Red Bull give first verdict on new Max Verstappen right-hand man | RacingNews365",
+        "id": "story-4ae39cfa6cf9d96bec49",
+        "published_at": "2026-10-28T11:50:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images Red Bull team principal Laurent Mekies has praised Tom Hart for his debut as Max Verstappen's race engineer in a \"complicated\" United States Grand Prix.",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images Red Bull team principal Laurent Mekies has praised Tom Hart for his debut as Max Verstappen's race engineer in a \"complicated\" United States Grand Prix.",
+              "\"Look, I think he did an excellent job,\" Mekies said of Hart, when speaking to media, including RacingNews365, after the race.",
+              "\"First qualifying, first race, he has managed to channel very well the work of the engineering teams behind him to Max,\" he explained."
+            ],
+            "published_at": "2026-10-28T11:50:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/red-bull-give-first-verdict-on-new-max-verstappen-right-hand-man"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Red Bull team principal Laurent Mekies has praised Tom Hart for his debut as Max Verstappen's race engineer in a \"complicated\" United States Grand Prix.\u201d\n\n\u201c\"Look, I think he did an excellent job,\" Mekies said of Hart, when speaking to media, including RacingNews365, after the race.\u201d\n\n\u201c\"First qualifying, first race, he has managed to channel very well the work of the engineering teams behind him to Max,\" he explained.\u201d",
+        "teams": [
+          "Red Bull"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-10-28T12:47:48Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Gabriele Mini",
+          "Franco Colapinto"
+        ],
+        "headline": "Alpine announce junior driver to make F1 weekend debut in Mexico",
+        "id": "story-7ec4d00864999d33bc67",
+        "published_at": "2026-10-28T11:25:40Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Gabriele Mini will drive for Alpine in FP1 in Mexico Alpine will hand Formula 2 driver Gabriele Mini his maiden FP1 outing at this weekend\u2019s Mexican Grand Prix, with the Italian replacing",
+            "evidence_excerpts": [
+              "Gabriele Mini will drive for Alpine in FP1 in Mexico Alpine will hand Formula 2 driver Gabriele Mini his maiden FP1 outing at this weekend\u2019s Mexican Grand Prix, with the Italian replacing",
+              "Franco Colapinto for the session. Mini\u2019s run will tick off Alpine\u2019s third rookie outing of the season, following reserve driver Paul Aron\u2019s appearances in Hungary and Italy.",
+              "\u201cI\u2019m looking forward to getting behind the wheel of the A526 and taking part in my first ever Free Practice 1 in Formula One."
+            ],
+            "published_at": "2026-10-28T11:25:40Z",
+            "source_id": "planetf1",
+            "source_name": "PlanetF1",
+            "url": "https://www.planetf1.com/news/franco-colapinto-gabriele-mini-mexican-grand-prix-2026-fp1"
+          }
+        ],
+        "summary": "PlanetF1: \u201cGabriele Mini will drive for Alpine in FP1 in Mexico Alpine will hand Formula 2 driver Gabriele Mini his maiden FP1 outing at this weekend\u2019s Mexican Grand Prix, with the Italian replacing\u201d\n\n\u201cFranco Colapinto for the session. Mini\u2019s run will tick off Alpine\u2019s third rookie outing of the season, following reserve driver Paul Aron\u2019s appearances in Hungary and Italy.\u201d\n\n\u201c\u201cI\u2019m looking forward to getting behind the wheel of the A526 and taking part in my first ever Free Practice 1 in Formula One.\u201d",
+        "teams": [
+          "Alpine"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-10-28T12:47:48Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Lando Norris"
+        ],
+        "headline": "Lando Norris\u2019 LN4 Fusion joins Formula 2 grid for 2027 | Crash.net",
+        "id": "story-9505449cf116cc512f50",
+        "published_at": "2026-10-28T11:05:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Lando Norris \u00a9 XPB Images It has been confirmed that Lando Norris\u2019 new race team, LN4 Fusion, has been given a place on the 2027 Formula 2 grid.",
+            "evidence_excerpts": [
+              "Lando Norris \u00a9 XPB Images It has been confirmed that Lando Norris\u2019 new race team, LN4 Fusion, has been given a place on the 2027 Formula 2 grid.",
+              "The new team has been confirmed as the only new entry for the next three-year cycle in the series.",
+              "\u201cI am also pleased to welcome LN4 Fusion to the grid. They will bring considerable expertise, and I am confident they will make a valuable contribution to the Championship.\u201d"
+            ],
+            "published_at": "2026-10-28T11:05:00Z",
+            "source_id": "crash_f1",
+            "source_name": "Crash.net Formula 1",
+            "url": "https://www.crash.net/f1/news/1108565/1/lando-norris-ln4-fusion-joins-formula-2-grid-2027"
+          }
+        ],
+        "summary": "Crash.net Formula 1: \u201cLando Norris \u00a9 XPB Images It has been confirmed that Lando Norris\u2019 new race team, LN4 Fusion, has been given a place on the 2027 Formula 2 grid.\u201d\n\n\u201cThe new team has been confirmed as the only new entry for the next three-year cycle in the series.\u201d\n\n\u201c\u201cI am also pleased to welcome LN4 Fusion to the grid. They will bring considerable expertise, and I am confident they will make a valuable contribution to the Championship.\u201d\u201d",
+        "teams": [
+          "LN4 Fusion"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-10-28T12:47:48Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "analysis",
+        "confidence_label": "reported",
+        "drivers": [
+          "Lewis Hamilton",
+          "Max Verstappen",
+          "Lando Norris",
+          "Kimi Antonelli"
+        ],
+        "headline": "Lewis Hamilton pinpoints where he lost out on 'awesome' Max Verstappen fight | RacingNews365",
+        "id": "story-50eeba2ea53462a07e84",
+        "published_at": "2026-10-28T11:00:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images Lewis Hamilton believes his lack of pace in the first two stints in the United States GP cost him a shot at Max Verstappen's podium.",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images Lewis Hamilton believes his lack of pace in the first two stints in the United States GP cost him a shot at Max Verstappen's podium.",
+              "\"I think probably I would have got to have a little bit of a battle with Max maybe in the last couple of laps,\" Hamilton told media, including RacingNews365 , when directly",
+              "\"I just lost so much ground, and I can't be giving up that time in the future; I really feel happy with how I drove."
+            ],
+            "published_at": "2026-10-28T11:00:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/lewis-hamilton-pinpoints-where-he-lost-out-on-awesome-max-verstappen-fight"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Lewis Hamilton believes his lack of pace in the first two stints in the United States GP cost him a shot at Max Verstappen's podium.\u201d\n\n\u201c\"I think probably I would have got to have a little bit of a battle with Max maybe in the last couple of laps,\" Hamilton told media, including RacingNews365 , when directly\u201d\n\n\u201c\"I just lost so much ground, and I can't be giving up that time in the future; I really feel happy with how I drove.\u201d",
+        "teams": [
+          "Ferrari",
+          "Red Bull"
+        ],
+        "topic": "race",
+        "updated_at": "2026-10-28T12:47:48Z",
+        "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Lando Norris"
+        ],
+        "headline": "Norris's new team gets F2 entry for its first year",
+        "id": "story-7aca89a5a3b928b928cf",
+        "published_at": "2026-10-28T10:56:11Z",
+        "sources": [
+          {
+            "evidence_excerpt": "The LN4 Fusion team co-founded by Formula 1 champion Lando Norris has succeeded in getting on the Formula 2 grid as early as 2027.",
+            "evidence_excerpts": [
+              "The LN4 Fusion team co-founded by Formula 1 champion Lando Norris has succeeded in getting on the Formula 2 grid as early as 2027.",
+              "F1's main feeder series F2 has named LN4 Fusion as one of 11 teams selected for the 2027-29 cycle of the championship.",
+              "It will compete against 10 established F2 teams, having taken over the entry slot that belonged to race-winning squad AIX Racing (which had sold selected assets to LN4 Fusion and had already"
+            ],
+            "published_at": "2026-10-28T10:56:11Z",
+            "source_id": "the_race_f1",
+            "source_name": "The Race Formula 1",
+            "url": "https://www.the-race.com/junior/lando-norris-new-team-f2-2027-entry-ln4-fusion/"
+          }
+        ],
+        "summary": "The Race Formula 1: \u201cThe LN4 Fusion team co-founded by Formula 1 champion Lando Norris has succeeded in getting on the Formula 2 grid as early as 2027.\u201d\n\n\u201cF1's main feeder series F2 has named LN4 Fusion as one of 11 teams selected for the 2027-29 cycle of the championship.\u201d\n\n\u201cIt will compete against 10 established F2 teams, having taken over the entry slot that belonged to race-winning squad AIX Racing (which had sold selected assets to LN4 Fusion and had already\u201d",
+        "teams": [
+          "LN4 Fusion"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-10-28T12:47:48Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Lando Norris"
+        ],
+        "headline": "Lando Norris makes major announcement with ambitions beyond McLaren F1",
+        "id": "story-87aa5e81a35f4088e565",
+        "published_at": "2026-10-28T10:50:14Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Lando Norris has achieved a major milestone. Lando Norris has seen his new LN4 Fusion junior team selected to compete in Formula 2 from next season.",
+            "evidence_excerpts": [
+              "Lando Norris has achieved a major milestone. Lando Norris has seen his new LN4 Fusion junior team selected to compete in Formula 2 from next season.",
+              "Norris co-founded the LN4 Fusion team alongside an investment group, led by Dan Richards, purchasing selected assets from AIX Racing with a view of competing in junior motorsport as soon as 2027.",
+              "AIX had already been competing in Formula 2 this season, but LN4 Fusion has now been confirmed to complete the Formula 2 grid for at least the next three seasons, as the"
+            ],
+            "published_at": "2026-10-28T10:50:14Z",
+            "source_id": "planetf1",
+            "source_name": "PlanetF1",
+            "url": "https://www.planetf1.com/news/lando-norris-ln4-fusion-formula-2-entry"
+          }
+        ],
+        "summary": "PlanetF1: \u201cLando Norris has achieved a major milestone. Lando Norris has seen his new LN4 Fusion junior team selected to compete in Formula 2 from next season.\u201d\n\n\u201cNorris co-founded the LN4 Fusion team alongside an investment group, led by Dan Richards, purchasing selected assets from AIX Racing with a view of competing in junior motorsport as soon as 2027.\u201d\n\n\u201cAIX had already been competing in Formula 2 this season, but LN4 Fusion has now been confirmed to complete the Formula 2 grid for at least the next three seasons, as the\u201d",
+        "teams": [
+          "LN4 Fusion",
+          "McLaren"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-10-28T12:47:48Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      }
+    ],
+    "next_check_at": "2026-10-30T12:47:48Z",
+    "provider": "deepseek",
+    "schema_version": "2.0",
+    "sources_checked": 7,
+    "status": "published",
+    "summary": "12 sourced F1 updates. Open each report for evidence and context.",
+    "updated_at": "2026-10-28T12:47:48Z"
+  },
+  {
     "brief_id": "news-5810b7d4a04e7c7aace5",
     "checked_at": "2026-10-26T04:42:00Z",
     "coverage_note": "Some sources could not be checked. These reports reflect the linked evidence that was available.",
