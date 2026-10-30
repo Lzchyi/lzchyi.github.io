@@ -1,6 +1,6 @@
 {
-  "brief_id": "news-9123c1025a2b6e77247b",
-  "checked_at": "2026-10-28T12:47:48Z",
+  "brief_id": "news-4fb17182f80fcf5ef235",
+  "checked_at": "2026-10-30T22:15:48Z",
   "coverage_note": "Some sources could not be checked. These reports reflect the linked evidence that was available.",
   "coverage_status": "partial",
   "failed_sources": [
@@ -45,201 +45,168 @@
       "source_name": "Reuters Formula 1"
     }
   ],
-  "headline": "Kimi Antonelli reveals if he will choose driver number '1' as F1 champion | RacingNews365",
+  "headline": "Laurent Mekies claps back at Christian Horner\u2019s Red Bull \u201clost its mojo\u201d claim | Crash.net",
   "is_preview": false,
   "items": [
     {
-      "attribution": "Reported claim",
-      "claim_type": "fact",
-      "confidence_label": "reported",
-      "drivers": [
-        "Kimi Antonelli"
-      ],
-      "headline": "Kimi Antonelli reveals if he will choose driver number '1' as F1 champion | RacingNews365",
-      "id": "story-2e5a6e313f6ba9d9fe44",
-      "published_at": "2026-10-28T12:30:00Z",
-      "sources": [
-        {
-          "evidence_excerpt": "Article To news overview \u00a9 XPB Images Kimi Antonelli has revealed he will stick with the number '12' for 2027, even if he enters the year as the reigning champion.",
-          "evidence_excerpts": [
-            "Article To news overview \u00a9 XPB Images Kimi Antonelli has revealed he will stick with the number '12' for 2027, even if he enters the year as the reigning champion.",
-            "He will then be able to choose his number for 2027, but the Italian has no interest in changing. \"First, I have to get the job done in Mexico.",
-            "But I think that once that's done, I'll still be racing with number 12,\" Antonelli told Blick ."
-          ],
-          "published_at": "2026-10-28T12:30:00Z",
-          "source_id": "racingnews365_f1",
-          "source_name": "RacingNews365 Formula 1",
-          "url": "https://racingnews365.com/kimi-antonelli-reveals-if-he-will-choose-driver-number-1-as-f1-champion"
-        }
-      ],
-      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Kimi Antonelli has revealed he will stick with the number '12' for 2027, even if he enters the year as the reigning champion.\u201d\n\n\u201cHe will then be able to choose his number for 2027, but the Italian has no interest in changing. \"First, I have to get the job done in Mexico.\u201d\n\n\u201cBut I think that once that's done, I'll still be racing with number 12,\" Antonelli told Blick .\u201d",
-      "teams": [
-        "Mercedes"
-      ],
-      "topic": "driver_market",
-      "updated_at": "2026-10-28T12:47:48Z",
-      "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
-    },
-    {
-      "attribution": "Reported claim",
-      "claim_type": "analysis",
-      "confidence_label": "reported",
-      "drivers": [
-        "Daniel Ricciardo",
-        "Liam Lawson"
-      ],
-      "headline": "Daniel Ricciardo explains how he converted \u2018humiliation\u2019 into feeling \u2018proud\u2019 following his F1 exit",
-      "id": "story-d61c3dcd03ccaefce07a",
-      "published_at": "2026-10-28T12:29:10Z",
-      "sources": [
-        {
-          "evidence_excerpt": "Oct 28, 2026 12:29pm UTC Former Red Bull and McLaren driver Daniel Ricciardo has opened up on the impact of his sudden retirement from F1 in 2024, explaining that while he initially",
-          "evidence_excerpts": [
-            "Oct 28, 2026 12:29pm UTC Former Red Bull and McLaren driver Daniel Ricciardo has opened up on the impact of his sudden retirement from F1 in 2024, explaining that while he initially",
-            "had feelings of \u201cfailure and humiliation\u201d, he\u2019s now proud of his career.",
-            "Ricciardo is perhaps best remembered for his stint at Red Bull between 2014 and 2018 Despite the disappointment around his retirement, Ricciardo admitted that he now appreciates Racing Bulls\u2019 decision to replace"
-          ],
-          "published_at": "2026-10-28T12:29:10Z",
-          "source_id": "formula1_official_latest",
-          "source_name": "Formula 1 Official Latest",
-          "url": "https://www.formula1.com/en/latest/article/ricciardo-explains-how-he-converted-humiliation-into-feeling-proud-following-his-f1-exit.10kNySRo1gU5H2e59aN8qR"
-        }
-      ],
-      "summary": "Formula 1 Official Latest: \u201cOct 28, 2026 12:29pm UTC Former Red Bull and McLaren driver Daniel Ricciardo has opened up on the impact of his sudden retirement from F1 in 2024, explaining that while he initially\u201d\n\n\u201chad feelings of \u201cfailure and humiliation\u201d, he\u2019s now proud of his career.\u201d\n\n\u201cRicciardo is perhaps best remembered for his stint at Red Bull between 2014 and 2018 Despite the disappointment around his retirement, Ricciardo admitted that he now appreciates Racing Bulls\u2019 decision to replace\u201d",
-      "teams": [
-        "Red Bull",
-        "McLaren",
-        "Racing Bulls"
-      ],
-      "topic": "general",
-      "updated_at": "2026-10-28T12:47:48Z",
-      "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
-    },
-    {
-      "attribution": "Reported claim",
-      "claim_type": "fact",
-      "confidence_label": "reported",
+      "attribution": "Conflicting account",
+      "claim_type": "conflicting",
+      "confidence_label": "conflicting",
       "drivers": [],
-      "headline": "Social Media: McLaren reveals Mexican GP livery tweak for tobacco sponsor \u2013 RaceFans",
-      "id": "story-f921783893920d08c8b2",
-      "published_at": "2026-10-28T12:06:36Z",
+      "headline": "Laurent Mekies claps back at Christian Horner\u2019s Red Bull \u201clost its mojo\u201d claim | Crash.net",
+      "id": "story-00ea755865546545d1e5",
+      "published_at": "2026-10-30T21:57:18Z",
       "sources": [
         {
-          "evidence_excerpt": "McLaren has revealed a change to its livery for this weekend\u2019s Mexican Grand Prix to promote a brand of its sponsor British American Tobacco.",
+          "evidence_excerpt": "Laurent Mekies hit back at Christian Horner's claims Red Bull Formula 1 team principal Laurent Mekies has hit back at Christian Horner\u2019s claim that his former side has \u201clost its mojo\u201d since",
           "evidence_excerpts": [
-            "McLaren has revealed a change to its livery for this weekend\u2019s Mexican Grand Prix to promote a brand of its sponsor British American Tobacco.",
-            "The team said the change to its sidepod graphics was inspired by designs provided by their fans."
+            "Laurent Mekies hit back at Christian Horner's claims Red Bull Formula 1 team principal Laurent Mekies has hit back at Christian Horner\u2019s claim that his former side has \u201clost its mojo\u201d since",
+            "But during a recent interview with The Times, Horner took a swipe at his former team and claimed it had \u201clost its mojo, its presence, it\u2019s vibe\u201d in the aftermath of his",
+            "He obviously has spent a lot of time in this team and I respect his point of view,\u201d the Frenchman said. \"We certainly feel extremely differently about the vibe in the team."
           ],
-          "published_at": "2026-10-28T12:06:36Z",
-          "source_id": "racefans_f1",
-          "source_name": "RaceFans Formula 1",
-          "url": "https://www.racefans.net/2026/10/28/social-media-mclaren-reveals-mexican-gp-livery-tweak-for-tobacco-sponsor/"
-        }
-      ],
-      "summary": "RaceFans Formula 1: \u201cMcLaren has revealed a change to its livery for this weekend\u2019s Mexican Grand Prix to promote a brand of its sponsor British American Tobacco.\u201d\n\n\u201cThe team said the change to its sidepod graphics was inspired by designs provided by their fans.\u201d",
-      "teams": [
-        "McLaren"
-      ],
-      "topic": "general",
-      "updated_at": "2026-10-28T12:47:48Z",
-      "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
-    },
-    {
-      "attribution": "Reported claim",
-      "claim_type": "analysis",
-      "confidence_label": "reported",
-      "drivers": [
-        "Charles Leclerc",
-        "Lewis Hamilton",
-        "Kimi Antonelli"
-      ],
-      "headline": "Charles Leclerc 'confident' of late-season step after US GP upgrades | Crash.net",
-      "id": "story-bf41ed83f0d7084dfd50",
-      "published_at": "2026-10-28T12:05:00Z",
-      "sources": [
-        {
-          "evidence_excerpt": "Charles Leclerc \u00a9 XPB Images Charles Leclerc\u2019s hopes are high after a promising showing at the United States Grand Prix at the Circuit of the Americas.",
-          "evidence_excerpts": [
-            "Charles Leclerc \u00a9 XPB Images Charles Leclerc\u2019s hopes are high after a promising showing at the United States Grand Prix at the Circuit of the Americas.",
-            "\u201cWhether I can convert that into a win is a bit difficult to predict, because it\u2019s such fine margins, and it also depends on what the upgrade plans of the others are",
-            "Whether it\u2019s in Singapore or here in Austin, we were quite close, so I\u2019m confident that we\u2019ll have a shot to win a race before the end of the season.\u201d"
-          ],
-          "published_at": "2026-10-28T12:05:00Z",
+          "published_at": "2026-10-30T21:57:18Z",
           "source_id": "crash_f1",
           "source_name": "Crash.net Formula 1",
-          "url": "https://www.crash.net/f1/news/1108567/1/charles-leclerc-confident-late-season-step-after-us-gp-upgrades"
+          "url": "https://www.crash.net/f1/news/1108791/1/laurent-mekies-claps-back-christian-horners-red-bull-lost-its-mojo-claim"
         }
       ],
-      "summary": "Crash.net Formula 1: \u201cCharles Leclerc \u00a9 XPB Images Charles Leclerc\u2019s hopes are high after a promising showing at the United States Grand Prix at the Circuit of the Americas.\u201d\n\n\u201c\u201cWhether I can convert that into a win is a bit difficult to predict, because it\u2019s such fine margins, and it also depends on what the upgrade plans of the others are\u201d\n\n\u201cWhether it\u2019s in Singapore or here in Austin, we were quite close, so I\u2019m confident that we\u2019ll have a shot to win a race before the end of the season.\u201d\u201d",
+      "summary": "Crash.net Formula 1: \u201cLaurent Mekies hit back at Christian Horner's claims Red Bull Formula 1 team principal Laurent Mekies has hit back at Christian Horner\u2019s claim that his former side has \u201clost its mojo\u201d since\u201d\n\n\u201cBut during a recent interview with The Times, Horner took a swipe at his former team and claimed it had \u201clost its mojo, its presence, it\u2019s vibe\u201d in the aftermath of his\u201d\n\n\u201cHe obviously has spent a lot of time in this team and I respect his point of view,\u201d the Frenchman said. \"We certainly feel extremely differently about the vibe in the team.\u201d",
       "teams": [
-        "Ferrari"
+        "Red Bull"
       ],
-      "topic": "technical",
-      "updated_at": "2026-10-28T12:47:48Z",
-      "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+      "topic": "general",
+      "updated_at": "2026-10-30T22:15:48Z",
+      "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
     },
     {
-      "attribution": "Reported claim",
-      "claim_type": "fact",
-      "confidence_label": "reported",
-      "drivers": [],
-      "headline": "Former Mercedes engine boss returns to F1 with Audi",
-      "id": "story-0c620bc9dbf84224bb4d",
-      "published_at": "2026-10-28T12:02:26Z",
+      "attribution": "Unconfirmed claim",
+      "claim_type": "unconfirmed",
+      "confidence_label": "unconfirmed",
+      "drivers": [
+        "Ollie Bearman"
+      ],
+      "headline": "Haas boss on Ollie Bearman wage demand stories: \u201cI don\u2019t know who smoked up \u20ac6m\u201d | Crash.net",
+      "id": "story-380147f33e596f577d9a",
+      "published_at": "2026-10-30T21:34:33Z",
       "sources": [
         {
-          "evidence_excerpt": "A former Mercedes-AMG High Performance Powertrains chief is returning to Formula 1, taking charge of Audi's power unit operation from November 1...",
+          "evidence_excerpt": "Ollie Bearman still hasn't signed a new deal with Haas Haas Formula 1 team principal Ayao Komatsu says stories claiming excessive wage demands are behind the delay of Ollie Bearman's contract renewal",
           "evidence_excerpts": [
-            "A former Mercedes-AMG High Performance Powertrains chief is returning to Formula 1, taking charge of Audi's power unit operation from November 1...",
-            "The German manufacturer has appointed Andy Cowell\u2019s Mercedes predecessor, Thomas Fuhr, to take over as CEO of its power unit department.",
-            "Fuhr will assume the role on November 1, 2026, strengthening the organisation\u2019s leadership structure as Audi continues to develop its F1 power unit."
+            "Ollie Bearman still hasn't signed a new deal with Haas Haas Formula 1 team principal Ayao Komatsu says stories claiming excessive wage demands are behind the delay of Ollie Bearman's contract renewal",
+            "Komatsu outlined his annoyance at the rumours \u201cI have no idea where that\u2019s come from,\u201d Komatsu said. \u201cI've experienced this sometimes this season as well.",
+            "And even those people claiming that they had some insider information, absolute total nonsense. \u201cAnd this this one, again, I don't know who smoked up this \u20ac6 million number."
           ],
-          "published_at": "2026-10-28T12:02:26Z",
-          "source_id": "planetf1",
-          "source_name": "PlanetF1",
-          "url": "https://www.planetf1.com/news/mercedes-engine-boss-audi-f1-thomas-fuhr"
+          "published_at": "2026-10-30T21:34:33Z",
+          "source_id": "crash_f1",
+          "source_name": "Crash.net Formula 1",
+          "url": "https://www.crash.net/f1/news/1108784/1/haas-boss-ollie-bearman-salary-demand-stories-i-dont-know-who-smoked-eu6m"
         }
       ],
-      "summary": "PlanetF1: \u201cA former Mercedes-AMG High Performance Powertrains chief is returning to Formula 1, taking charge of Audi's power unit operation from November 1...\u201d\n\n\u201cThe German manufacturer has appointed Andy Cowell\u2019s Mercedes predecessor, Thomas Fuhr, to take over as CEO of its power unit department.\u201d\n\n\u201cFuhr will assume the role on November 1, 2026, strengthening the organisation\u2019s leadership structure as Audi continues to develop its F1 power unit.\u201d",
+      "summary": "Crash.net Formula 1: \u201cOllie Bearman still hasn't signed a new deal with Haas Haas Formula 1 team principal Ayao Komatsu says stories claiming excessive wage demands are behind the delay of Ollie Bearman's contract renewal\u201d\n\n\u201cKomatsu outlined his annoyance at the rumours \u201cI have no idea where that\u2019s come from,\u201d Komatsu said. \u201cI've experienced this sometimes this season as well.\u201d\n\n\u201cAnd even those people claiming that they had some insider information, absolute total nonsense. \u201cAnd this this one, again, I don't know who smoked up this \u20ac6 million number.\u201d",
       "teams": [
-        "Audi",
-        "Mercedes"
+        "Haas"
       ],
       "topic": "driver_market",
-      "updated_at": "2026-10-28T12:47:48Z",
+      "updated_at": "2026-10-30T22:15:48Z",
       "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
     },
     {
-      "attribution": "Reported claim",
-      "claim_type": "fact",
-      "confidence_label": "reported",
+      "attribution": "Unconfirmed claim",
+      "claim_type": "unconfirmed",
+      "confidence_label": "unconfirmed",
       "drivers": [
-        "Lando Norris",
-        "Oscar Piastri"
+        "Oliver Bearman"
       ],
-      "headline": "Mexico City GP: McLaren plan further upgrades after Lando Norris and Oscar Piastri's struggles in Austin | F1 News | Sky Sports",
-      "id": "story-9ef5d21b5789dd036eee",
-      "published_at": "2026-10-28T12:00:00Z",
+      "headline": "Oliver Bearman: Haas boss Ayao Komatsu furiously dismisses reports claiming British driver is demanding \u00a35m annual salary | F1 News | Sky Sports",
+      "id": "story-9f4700d8c9f9aa26908a",
+      "published_at": "2026-10-30T21:30:00Z",
       "sources": [
         {
-          "evidence_excerpt": "Mexico City GP: McLaren plan further upgrades after Lando Norris and Oscar Piastri's struggles in Austin McLaren have confirmed they will continue to upgrade their car in the closing stages of the",
+          "evidence_excerpt": "speculation suggesting Oliver Bearman will be leaving the team Haas boss Ayao Komatsu has furiously dismissed reports claiming that contract extension talks with Oliver Bearman are being held up by the British",
           "evidence_excerpts": [
-            "Mexico City GP: McLaren plan further upgrades after Lando Norris and Oscar Piastri's struggles in Austin McLaren have confirmed they will continue to upgrade their car in the closing stages of the",
-            "\"There will be some more stuff coming,\" said team principal Andrea Stella on McLaren's upgrade plans, given most teams are now focusing on designing their 2027 cars.",
-            "\"I think ultimately we will only be able to do so across Brazil and Vegas. So, Mexico there won't be very much, but Brazil and Vegas there will be some upgrades."
+            "speculation suggesting Oliver Bearman will be leaving the team Haas boss Ayao Komatsu has furiously dismissed reports claiming that contract extension talks with Oliver Bearman are being held up by the British",
+            "said: \"I have no idea where that comes from. \"I've experienced this sometimes this season as well. People say there's no smoke without fire but really some people will invent a story.",
+            "\"This one again I don't know who smoked up this six-million euros number."
           ],
-          "published_at": "2026-10-28T12:00:00Z",
+          "published_at": "2026-10-30T21:30:00Z",
           "source_id": "sky_sports_f1",
           "source_name": "Sky Sports Formula 1",
-          "url": "https://www.skysports.com/f1/news/13604726/mexico-city-gp-mclaren-plan-further-upgrades-after-lando-norris-and-oscar-piastris-struggles-in-austin"
+          "url": "https://www.skysports.com/f1/news/13605833/oliver-bearman-haas-boss-ayao-komatsu-furiously-dismisses-reports-claiming-british-driver-is-demanding-lb5m-annual-salary"
         }
       ],
-      "summary": "Sky Sports Formula 1: \u201cMexico City GP: McLaren plan further upgrades after Lando Norris and Oscar Piastri's struggles in Austin McLaren have confirmed they will continue to upgrade their car in the closing stages of the\u201d\n\n\u201c\"There will be some more stuff coming,\" said team principal Andrea Stella on McLaren's upgrade plans, given most teams are now focusing on designing their 2027 cars.\u201d\n\n\u201c\"I think ultimately we will only be able to do so across Brazil and Vegas. So, Mexico there won't be very much, but Brazil and Vegas there will be some upgrades.\u201d",
+      "summary": "Sky Sports Formula 1: \u201cspeculation suggesting Oliver Bearman will be leaving the team Haas boss Ayao Komatsu has furiously dismissed reports claiming that contract extension talks with Oliver Bearman are being held up by the British\u201d\n\n\u201csaid: \"I have no idea where that comes from. \"I've experienced this sometimes this season as well. People say there's no smoke without fire but really some people will invent a story.\u201d\n\n\u201c\"This one again I don't know who smoked up this six-million euros number.\u201d",
       "teams": [
-        "McLaren"
+        "Haas"
+      ],
+      "topic": "driver_market",
+      "updated_at": "2026-10-30T22:15:48Z",
+      "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+    },
+    {
+      "attribution": "Unconfirmed claim",
+      "claim_type": "unconfirmed",
+      "confidence_label": "unconfirmed",
+      "drivers": [
+        "Valtteri Bottas",
+        "Frederik Vesti",
+        "Colton Herta"
+      ],
+      "headline": "Mercedes reserve enters Cadillac F1 seat battle with Valtteri Bottas",
+      "id": "story-ef1860e4520fa3b47954",
+      "published_at": "2026-10-30T21:29:01Z",
+      "sources": [
+        {
+          "evidence_excerpt": "Another name has been linked with Valtteri Bottas' seat at Cadillac for F1 2027.",
+          "evidence_excerpts": [
+            "Another name has been linked with Valtteri Bottas' seat at Cadillac for F1 2027.",
+            "Mercedes \u2019 reserve driver Frederik Vesti is also a contender for the potentially vacant cockpit at Cadillac, should the team opt to part with Valtteri Bottas , PlanetF1.com has learned.",
+            "Mercedes\u2019 reserve, Danish driver Frederik Vesti, is also on the shortlist for the team\u2019s potential vacancy, PlanetF1.com understands, with Vesti having raced with Whelen Cadillac Racing in IMSA over the past two"
+          ],
+          "published_at": "2026-10-30T21:29:01Z",
+          "source_id": "planetf1",
+          "source_name": "PlanetF1",
+          "url": "https://www.planetf1.com/news/frederik-vesti-cadillac-f1-2027-valtteri-bottas"
+        }
+      ],
+      "summary": "PlanetF1: \u201cAnother name has been linked with Valtteri Bottas' seat at Cadillac for F1 2027.\u201d\n\n\u201cMercedes \u2019 reserve driver Frederik Vesti is also a contender for the potentially vacant cockpit at Cadillac, should the team opt to part with Valtteri Bottas , PlanetF1.com has learned.\u201d\n\n\u201cMercedes\u2019 reserve, Danish driver Frederik Vesti, is also on the shortlist for the team\u2019s potential vacancy, PlanetF1.com understands, with Vesti having raced with Whelen Cadillac Racing in IMSA over the past two\u201d",
+      "teams": [
+        "Cadillac",
+        "Mercedes"
+      ],
+      "topic": "driver_market",
+      "updated_at": "2026-10-30T22:15:48Z",
+      "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+    },
+    {
+      "attribution": "Reported claim",
+      "claim_type": "fact",
+      "confidence_label": "reported",
+      "drivers": [
+        "Isack Hadjar"
+      ],
+      "headline": "Red Bull provide power unit-at-altitude update after Isack Hadjar issues | RacingNews365",
+      "id": "story-e24236120f96af91a91c",
+      "published_at": "2026-10-30T21:28:00Z",
+      "sources": [
+        {
+          "evidence_excerpt": "Article To news overview \u00a9 XPB Images Red Bull team principal Laurent Mekies has confirmed Isack Hadjar's power unit issues in first practice for the Mexico City Grand Prix were not altitude-related,",
+          "evidence_excerpts": [
+            "Article To news overview \u00a9 XPB Images Red Bull team principal Laurent Mekies has confirmed Isack Hadjar's power unit issues in first practice for the Mexico City Grand Prix were not altitude-related,",
+            "Dismissing any concerns, speaking to the media, including RacingNews365 , Mekies said: \"There have been no unfortunate issues so far related to the altitude.",
+            "\"In many respects, everybody will not be operating at their optimum this weekend,\" said Mekies."
+          ],
+          "published_at": "2026-10-30T21:28:00Z",
+          "source_id": "racingnews365_f1",
+          "source_name": "RacingNews365 Formula 1",
+          "url": "https://racingnews365.com/red-bull-provide-power-unit-at-altitude-update-after-isack-hadjar-issues"
+        }
+      ],
+      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Red Bull team principal Laurent Mekies has confirmed Isack Hadjar's power unit issues in first practice for the Mexico City Grand Prix were not altitude-related,\u201d\n\n\u201cDismissing any concerns, speaking to the media, including RacingNews365 , Mekies said: \"There have been no unfortunate issues so far related to the altitude.\u201d\n\n\u201c\"In many respects, everybody will not be operating at their optimum this weekend,\" said Mekies.\u201d",
+      "teams": [
+        "Red Bull"
       ],
       "topic": "technical",
-      "updated_at": "2026-10-28T12:47:48Z",
+      "updated_at": "2026-10-30T22:15:48Z",
       "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
     },
     {
@@ -247,98 +214,63 @@
       "claim_type": "fact",
       "confidence_label": "reported",
       "drivers": [
-        "Max Verstappen",
-        "Tom Hart",
-        "Gianpiero Lambiase"
+        "Valtteri Bottas"
       ],
-      "headline": "Red Bull give first verdict on new Max Verstappen right-hand man | RacingNews365",
-      "id": "story-4ae39cfa6cf9d96bec49",
-      "published_at": "2026-10-28T11:50:00Z",
+      "headline": "FIA confirms massive 50-place grid penalty for the Mexican GP",
+      "id": "story-d1f977bd3c292dee5e63",
+      "published_at": "2026-10-30T21:14:48Z",
       "sources": [
         {
-          "evidence_excerpt": "Article To news overview \u00a9 XPB Images Red Bull team principal Laurent Mekies has praised Tom Hart for his debut as Max Verstappen's race engineer in a \"complicated\" United States Grand Prix.",
+          "evidence_excerpt": "The stadium section at the Autodromo Hermanos Rodriguez Valtteri Bottas will drop to the back of the Mexican Grand Prix grid after taking various power unit components beyond the season limit.",
           "evidence_excerpts": [
-            "Article To news overview \u00a9 XPB Images Red Bull team principal Laurent Mekies has praised Tom Hart for his debut as Max Verstappen's race engineer in a \"complicated\" United States Grand Prix.",
-            "\"Look, I think he did an excellent job,\" Mekies said of Hart, when speaking to media, including RacingNews365, after the race.",
-            "\"First qualifying, first race, he has managed to channel very well the work of the engineering teams behind him to Max,\" he explained."
+            "The stadium section at the Autodromo Hermanos Rodriguez Valtteri Bottas will drop to the back of the Mexican Grand Prix grid after taking various power unit components beyond the season limit.",
+            "Bottas\u2019 penalties add up to 50 places in total, meaning that he will start the race in Mexico City from the back.",
+            "Bottas has taken a fifth internal combustion engine and turbocharger, plus a fourth energy store, control electronics and MGU-K for his Ferrari-powered Cadillac."
           ],
-          "published_at": "2026-10-28T11:50:00Z",
-          "source_id": "racingnews365_f1",
-          "source_name": "RacingNews365 Formula 1",
-          "url": "https://racingnews365.com/red-bull-give-first-verdict-on-new-max-verstappen-right-hand-man"
-        }
-      ],
-      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Red Bull team principal Laurent Mekies has praised Tom Hart for his debut as Max Verstappen's race engineer in a \"complicated\" United States Grand Prix.\u201d\n\n\u201c\"Look, I think he did an excellent job,\" Mekies said of Hart, when speaking to media, including RacingNews365, after the race.\u201d\n\n\u201c\"First qualifying, first race, he has managed to channel very well the work of the engineering teams behind him to Max,\" he explained.\u201d",
-      "teams": [
-        "Red Bull"
-      ],
-      "topic": "driver_market",
-      "updated_at": "2026-10-28T12:47:48Z",
-      "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
-    },
-    {
-      "attribution": "Reported claim",
-      "claim_type": "fact",
-      "confidence_label": "reported",
-      "drivers": [
-        "Gabriele Mini",
-        "Franco Colapinto"
-      ],
-      "headline": "Alpine announce junior driver to make F1 weekend debut in Mexico",
-      "id": "story-7ec4d00864999d33bc67",
-      "published_at": "2026-10-28T11:25:40Z",
-      "sources": [
-        {
-          "evidence_excerpt": "Gabriele Mini will drive for Alpine in FP1 in Mexico Alpine will hand Formula 2 driver Gabriele Mini his maiden FP1 outing at this weekend\u2019s Mexican Grand Prix, with the Italian replacing",
-          "evidence_excerpts": [
-            "Gabriele Mini will drive for Alpine in FP1 in Mexico Alpine will hand Formula 2 driver Gabriele Mini his maiden FP1 outing at this weekend\u2019s Mexican Grand Prix, with the Italian replacing",
-            "Franco Colapinto for the session. Mini\u2019s run will tick off Alpine\u2019s third rookie outing of the season, following reserve driver Paul Aron\u2019s appearances in Hungary and Italy.",
-            "\u201cI\u2019m looking forward to getting behind the wheel of the A526 and taking part in my first ever Free Practice 1 in Formula One."
-          ],
-          "published_at": "2026-10-28T11:25:40Z",
+          "published_at": "2026-10-30T21:14:48Z",
           "source_id": "planetf1",
           "source_name": "PlanetF1",
-          "url": "https://www.planetf1.com/news/franco-colapinto-gabriele-mini-mexican-grand-prix-2026-fp1"
+          "url": "https://www.planetf1.com/news/valtteri-bottas-f1-2026-mexican-grand-prix-grid-penalty"
         }
       ],
-      "summary": "PlanetF1: \u201cGabriele Mini will drive for Alpine in FP1 in Mexico Alpine will hand Formula 2 driver Gabriele Mini his maiden FP1 outing at this weekend\u2019s Mexican Grand Prix, with the Italian replacing\u201d\n\n\u201cFranco Colapinto for the session. Mini\u2019s run will tick off Alpine\u2019s third rookie outing of the season, following reserve driver Paul Aron\u2019s appearances in Hungary and Italy.\u201d\n\n\u201c\u201cI\u2019m looking forward to getting behind the wheel of the A526 and taking part in my first ever Free Practice 1 in Formula One.\u201d",
+      "summary": "PlanetF1: \u201cThe stadium section at the Autodromo Hermanos Rodriguez Valtteri Bottas will drop to the back of the Mexican Grand Prix grid after taking various power unit components beyond the season limit.\u201d\n\n\u201cBottas\u2019 penalties add up to 50 places in total, meaning that he will start the race in Mexico City from the back.\u201d\n\n\u201cBottas has taken a fifth internal combustion engine and turbocharger, plus a fourth energy store, control electronics and MGU-K for his Ferrari-powered Cadillac.\u201d",
       "teams": [
-        "Alpine"
+        "Cadillac"
       ],
-      "topic": "driver_market",
-      "updated_at": "2026-10-28T12:47:48Z",
-      "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      "topic": "penalty",
+      "updated_at": "2026-10-30T22:15:48Z",
+      "why_it_matters": "Official decisions can affect eligibility, classification or the starting grid. Check the cited decision and subsequent amendments."
     },
     {
       "attribution": "Reported claim",
       "claim_type": "fact",
       "confidence_label": "reported",
       "drivers": [
-        "Lando Norris"
+        "Oliver Bearman"
       ],
-      "headline": "Lando Norris\u2019 LN4 Fusion joins Formula 2 grid for 2027 | Crash.net",
-      "id": "story-9505449cf116cc512f50",
-      "published_at": "2026-10-28T11:05:00Z",
+      "headline": "Haas reveals reason behind Oliver Bearman 2027 announcement delay",
+      "id": "story-b29bb561a7f0822b840c",
+      "published_at": "2026-10-30T21:03:19Z",
       "sources": [
         {
-          "evidence_excerpt": "Lando Norris \u00a9 XPB Images It has been confirmed that Lando Norris\u2019 new race team, LN4 Fusion, has been given a place on the 2027 Formula 2 grid.",
+          "evidence_excerpt": "Haas boss Ayao Komatsu has expressed certainty that Oliver Bearman will remain with the team in 2027, despite the continued delay over a new contract being agreed.",
           "evidence_excerpts": [
-            "Lando Norris \u00a9 XPB Images It has been confirmed that Lando Norris\u2019 new race team, LN4 Fusion, has been given a place on the 2027 Formula 2 grid.",
-            "The new team has been confirmed as the only new entry for the next three-year cycle in the series.",
-            "\u201cI am also pleased to welcome LN4 Fusion to the grid. They will bring considerable expertise, and I am confident they will make a valuable contribution to the Championship.\u201d"
+            "Haas boss Ayao Komatsu has expressed certainty that Oliver Bearman will remain with the team in 2027, despite the continued delay over a new contract being agreed.",
+            "Komatsu has since revealed that undisclosed contractual details have prompted the hold-up, but he doesn\u2019t envisage that preventing an agreement from being reached.",
+            "\u201cIt\u2019s all on the contractual side,\u201d Komatsu told Sky Sports F1 during the opening practice session at the Autodromo Hermanos Rodriguez. \u201cHonestly, I don\u2019t see any issues."
           ],
-          "published_at": "2026-10-28T11:05:00Z",
-          "source_id": "crash_f1",
-          "source_name": "Crash.net Formula 1",
-          "url": "https://www.crash.net/f1/news/1108565/1/lando-norris-ln4-fusion-joins-formula-2-grid-2027"
+          "published_at": "2026-10-30T21:03:19Z",
+          "source_id": "planetf1",
+          "source_name": "PlanetF1",
+          "url": "https://www.planetf1.com/news/haas-explains-oliver-bearman-2027-announcement-delay"
         }
       ],
-      "summary": "Crash.net Formula 1: \u201cLando Norris \u00a9 XPB Images It has been confirmed that Lando Norris\u2019 new race team, LN4 Fusion, has been given a place on the 2027 Formula 2 grid.\u201d\n\n\u201cThe new team has been confirmed as the only new entry for the next three-year cycle in the series.\u201d\n\n\u201c\u201cI am also pleased to welcome LN4 Fusion to the grid. They will bring considerable expertise, and I am confident they will make a valuable contribution to the Championship.\u201d\u201d",
+      "summary": "PlanetF1: \u201cHaas boss Ayao Komatsu has expressed certainty that Oliver Bearman will remain with the team in 2027, despite the continued delay over a new contract being agreed.\u201d\n\n\u201cKomatsu has since revealed that undisclosed contractual details have prompted the hold-up, but he doesn\u2019t envisage that preventing an agreement from being reached.\u201d\n\n\u201c\u201cIt\u2019s all on the contractual side,\u201d Komatsu told Sky Sports F1 during the opening practice session at the Autodromo Hermanos Rodriguez. \u201cHonestly, I don\u2019t see any issues.\u201d",
       "teams": [
-        "LN4 Fusion"
+        "Haas"
       ],
       "topic": "driver_market",
-      "updated_at": "2026-10-28T12:47:48Z",
+      "updated_at": "2026-10-30T22:15:48Z",
       "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
     },
     {
@@ -346,108 +278,40 @@
       "claim_type": "analysis",
       "confidence_label": "reported",
       "drivers": [
-        "Lewis Hamilton",
-        "Max Verstappen",
-        "Lando Norris",
-        "Kimi Antonelli"
+        "Valtteri Bottas",
+        "Colton Herta"
       ],
-      "headline": "Lewis Hamilton pinpoints where he lost out on 'awesome' Max Verstappen fight | RacingNews365",
-      "id": "story-50eeba2ea53462a07e84",
-      "published_at": "2026-10-28T11:00:00Z",
+      "headline": "Bottas \u2018needs to do\u2019 more weekends like Austin to keep Cadillac seat \u2013 Budkowski \u2013 RaceFans",
+      "id": "story-382dd3dc4cccba4ffc26",
+      "published_at": "2026-10-30T20:50:22Z",
       "sources": [
         {
-          "evidence_excerpt": "Article To news overview \u00a9 XPB Images Lewis Hamilton believes his lack of pace in the first two stints in the United States GP cost him a shot at Max Verstappen's podium.",
+          "evidence_excerpt": "Cadillac team principal Marcin Budkowski explained what Valtteri Bottas needs to do to keep his seat at the team as test driver Colton Herta becomes eligible for a superlicence.",
           "evidence_excerpts": [
-            "Article To news overview \u00a9 XPB Images Lewis Hamilton believes his lack of pace in the first two stints in the United States GP cost him a shot at Max Verstappen's podium.",
-            "\"I think probably I would have got to have a little bit of a battle with Max maybe in the last couple of laps,\" Hamilton told media, including RacingNews365 , when directly",
-            "\"I just lost so much ground, and I can't be giving up that time in the future; I really feel happy with how I drove."
+            "Cadillac team principal Marcin Budkowski explained what Valtteri Bottas needs to do to keep his seat at the team as test driver Colton Herta becomes eligible for a superlicence.",
+            "He said Bottas needs to consistently perform at the level he demonstrated in Austin last weekend. \u201cHe\u2019s done a really good race in Austin,\u201d Budkowski told Sky.",
+            "\u201cHe was strong in qualifying, he was strong at the race. That\u2019s what he needs to do, race in, race out.\u201d"
           ],
-          "published_at": "2026-10-28T11:00:00Z",
-          "source_id": "racingnews365_f1",
-          "source_name": "RacingNews365 Formula 1",
-          "url": "https://racingnews365.com/lewis-hamilton-pinpoints-where-he-lost-out-on-awesome-max-verstappen-fight"
+          "published_at": "2026-10-30T20:50:22Z",
+          "source_id": "racefans_f1",
+          "source_name": "RaceFans Formula 1",
+          "url": "https://www.racefans.net/2026/10/30/bottas-needs-to-do-more-weekends-like-austin-to-keep-cadillac-seat-says-budkowski/"
         }
       ],
-      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Lewis Hamilton believes his lack of pace in the first two stints in the United States GP cost him a shot at Max Verstappen's podium.\u201d\n\n\u201c\"I think probably I would have got to have a little bit of a battle with Max maybe in the last couple of laps,\" Hamilton told media, including RacingNews365 , when directly\u201d\n\n\u201c\"I just lost so much ground, and I can't be giving up that time in the future; I really feel happy with how I drove.\u201d",
+      "summary": "RaceFans Formula 1: \u201cCadillac team principal Marcin Budkowski explained what Valtteri Bottas needs to do to keep his seat at the team as test driver Colton Herta becomes eligible for a superlicence.\u201d\n\n\u201cHe said Bottas needs to consistently perform at the level he demonstrated in Austin last weekend. \u201cHe\u2019s done a really good race in Austin,\u201d Budkowski told Sky.\u201d\n\n\u201c\u201cHe was strong in qualifying, he was strong at the race. That\u2019s what he needs to do, race in, race out.\u201d\u201d",
       "teams": [
-        "Ferrari",
-        "Red Bull"
-      ],
-      "topic": "race",
-      "updated_at": "2026-10-28T12:47:48Z",
-      "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
-    },
-    {
-      "attribution": "Reported claim",
-      "claim_type": "fact",
-      "confidence_label": "reported",
-      "drivers": [
-        "Lando Norris"
-      ],
-      "headline": "Norris's new team gets F2 entry for its first year",
-      "id": "story-7aca89a5a3b928b928cf",
-      "published_at": "2026-10-28T10:56:11Z",
-      "sources": [
-        {
-          "evidence_excerpt": "The LN4 Fusion team co-founded by Formula 1 champion Lando Norris has succeeded in getting on the Formula 2 grid as early as 2027.",
-          "evidence_excerpts": [
-            "The LN4 Fusion team co-founded by Formula 1 champion Lando Norris has succeeded in getting on the Formula 2 grid as early as 2027.",
-            "F1's main feeder series F2 has named LN4 Fusion as one of 11 teams selected for the 2027-29 cycle of the championship.",
-            "It will compete against 10 established F2 teams, having taken over the entry slot that belonged to race-winning squad AIX Racing (which had sold selected assets to LN4 Fusion and had already"
-          ],
-          "published_at": "2026-10-28T10:56:11Z",
-          "source_id": "the_race_f1",
-          "source_name": "The Race Formula 1",
-          "url": "https://www.the-race.com/junior/lando-norris-new-team-f2-2027-entry-ln4-fusion/"
-        }
-      ],
-      "summary": "The Race Formula 1: \u201cThe LN4 Fusion team co-founded by Formula 1 champion Lando Norris has succeeded in getting on the Formula 2 grid as early as 2027.\u201d\n\n\u201cF1's main feeder series F2 has named LN4 Fusion as one of 11 teams selected for the 2027-29 cycle of the championship.\u201d\n\n\u201cIt will compete against 10 established F2 teams, having taken over the entry slot that belonged to race-winning squad AIX Racing (which had sold selected assets to LN4 Fusion and had already\u201d",
-      "teams": [
-        "LN4 Fusion"
+        "Cadillac"
       ],
       "topic": "driver_market",
-      "updated_at": "2026-10-28T12:47:48Z",
-      "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
-    },
-    {
-      "attribution": "Reported claim",
-      "claim_type": "fact",
-      "confidence_label": "reported",
-      "drivers": [
-        "Lando Norris"
-      ],
-      "headline": "Lando Norris makes major announcement with ambitions beyond McLaren F1",
-      "id": "story-87aa5e81a35f4088e565",
-      "published_at": "2026-10-28T10:50:14Z",
-      "sources": [
-        {
-          "evidence_excerpt": "Lando Norris has achieved a major milestone. Lando Norris has seen his new LN4 Fusion junior team selected to compete in Formula 2 from next season.",
-          "evidence_excerpts": [
-            "Lando Norris has achieved a major milestone. Lando Norris has seen his new LN4 Fusion junior team selected to compete in Formula 2 from next season.",
-            "Norris co-founded the LN4 Fusion team alongside an investment group, led by Dan Richards, purchasing selected assets from AIX Racing with a view of competing in junior motorsport as soon as 2027.",
-            "AIX had already been competing in Formula 2 this season, but LN4 Fusion has now been confirmed to complete the Formula 2 grid for at least the next three seasons, as the"
-          ],
-          "published_at": "2026-10-28T10:50:14Z",
-          "source_id": "planetf1",
-          "source_name": "PlanetF1",
-          "url": "https://www.planetf1.com/news/lando-norris-ln4-fusion-formula-2-entry"
-        }
-      ],
-      "summary": "PlanetF1: \u201cLando Norris has achieved a major milestone. Lando Norris has seen his new LN4 Fusion junior team selected to compete in Formula 2 from next season.\u201d\n\n\u201cNorris co-founded the LN4 Fusion team alongside an investment group, led by Dan Richards, purchasing selected assets from AIX Racing with a view of competing in junior motorsport as soon as 2027.\u201d\n\n\u201cAIX had already been competing in Formula 2 this season, but LN4 Fusion has now been confirmed to complete the Formula 2 grid for at least the next three seasons, as the\u201d",
-      "teams": [
-        "LN4 Fusion",
-        "McLaren"
-      ],
-      "topic": "driver_market",
-      "updated_at": "2026-10-28T12:47:48Z",
+      "updated_at": "2026-10-30T22:15:48Z",
       "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
     }
   ],
-  "next_check_at": "2026-10-30T12:47:48Z",
+  "next_check_at": "2026-11-01T22:15:48Z",
   "provider": "deepseek",
   "schema_version": "2.0",
   "sources_checked": 7,
   "status": "published",
-  "summary": "12 sourced F1 updates. Open each report for evidence and context.",
-  "updated_at": "2026-10-28T12:47:48Z"
+  "summary": "8 sourced F1 updates. Open each report for evidence and context.",
+  "updated_at": "2026-10-30T22:15:48Z"
 }

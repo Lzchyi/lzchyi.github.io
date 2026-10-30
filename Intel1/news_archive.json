@@ -1,5 +1,322 @@
 [
   {
+    "brief_id": "news-4fb17182f80fcf5ef235",
+    "checked_at": "2026-10-30T22:15:48Z",
+    "coverage_note": "Some sources could not be checked. These reports reflect the linked evidence that was available.",
+    "coverage_status": "partial",
+    "failed_sources": [
+      {
+        "source_id": "autosport_f1",
+        "source_name": "Autosport Formula 1"
+      },
+      {
+        "source_id": "bbc_sport_f1",
+        "source_name": "BBC Sport Formula 1"
+      },
+      {
+        "source_id": "espn_f1",
+        "source_name": "ESPN Formula 1"
+      },
+      {
+        "source_id": "fia_f1_2026_documents",
+        "source_name": "FIA Formula One 2026 Decision Documents"
+      },
+      {
+        "source_id": "formula1_official_latest",
+        "source_name": "Formula 1 Official Latest"
+      },
+      {
+        "source_id": "guardian_formula_one",
+        "source_name": "The Guardian Formula One"
+      },
+      {
+        "source_id": "motorsport_f1",
+        "source_name": "Motorsport.com Formula 1"
+      },
+      {
+        "source_id": "pirelli_formula1_tag",
+        "source_name": "Pirelli Formula 1 Tag"
+      },
+      {
+        "source_id": "racer_f1",
+        "source_name": "RACER Formula 1"
+      },
+      {
+        "source_id": "reuters_formula1",
+        "source_name": "Reuters Formula 1"
+      }
+    ],
+    "headline": "Laurent Mekies claps back at Christian Horner\u2019s Red Bull \u201clost its mojo\u201d claim | Crash.net",
+    "is_preview": false,
+    "items": [
+      {
+        "attribution": "Conflicting account",
+        "claim_type": "conflicting",
+        "confidence_label": "conflicting",
+        "drivers": [],
+        "headline": "Laurent Mekies claps back at Christian Horner\u2019s Red Bull \u201clost its mojo\u201d claim | Crash.net",
+        "id": "story-00ea755865546545d1e5",
+        "published_at": "2026-10-30T21:57:18Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Laurent Mekies hit back at Christian Horner's claims Red Bull Formula 1 team principal Laurent Mekies has hit back at Christian Horner\u2019s claim that his former side has \u201clost its mojo\u201d since",
+            "evidence_excerpts": [
+              "Laurent Mekies hit back at Christian Horner's claims Red Bull Formula 1 team principal Laurent Mekies has hit back at Christian Horner\u2019s claim that his former side has \u201clost its mojo\u201d since",
+              "But during a recent interview with The Times, Horner took a swipe at his former team and claimed it had \u201clost its mojo, its presence, it\u2019s vibe\u201d in the aftermath of his",
+              "He obviously has spent a lot of time in this team and I respect his point of view,\u201d the Frenchman said. \"We certainly feel extremely differently about the vibe in the team."
+            ],
+            "published_at": "2026-10-30T21:57:18Z",
+            "source_id": "crash_f1",
+            "source_name": "Crash.net Formula 1",
+            "url": "https://www.crash.net/f1/news/1108791/1/laurent-mekies-claps-back-christian-horners-red-bull-lost-its-mojo-claim"
+          }
+        ],
+        "summary": "Crash.net Formula 1: \u201cLaurent Mekies hit back at Christian Horner's claims Red Bull Formula 1 team principal Laurent Mekies has hit back at Christian Horner\u2019s claim that his former side has \u201clost its mojo\u201d since\u201d\n\n\u201cBut during a recent interview with The Times, Horner took a swipe at his former team and claimed it had \u201clost its mojo, its presence, it\u2019s vibe\u201d in the aftermath of his\u201d\n\n\u201cHe obviously has spent a lot of time in this team and I respect his point of view,\u201d the Frenchman said. \"We certainly feel extremely differently about the vibe in the team.\u201d",
+        "teams": [
+          "Red Bull"
+        ],
+        "topic": "general",
+        "updated_at": "2026-10-30T22:15:48Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Unconfirmed claim",
+        "claim_type": "unconfirmed",
+        "confidence_label": "unconfirmed",
+        "drivers": [
+          "Ollie Bearman"
+        ],
+        "headline": "Haas boss on Ollie Bearman wage demand stories: \u201cI don\u2019t know who smoked up \u20ac6m\u201d | Crash.net",
+        "id": "story-380147f33e596f577d9a",
+        "published_at": "2026-10-30T21:34:33Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Ollie Bearman still hasn't signed a new deal with Haas Haas Formula 1 team principal Ayao Komatsu says stories claiming excessive wage demands are behind the delay of Ollie Bearman's contract renewal",
+            "evidence_excerpts": [
+              "Ollie Bearman still hasn't signed a new deal with Haas Haas Formula 1 team principal Ayao Komatsu says stories claiming excessive wage demands are behind the delay of Ollie Bearman's contract renewal",
+              "Komatsu outlined his annoyance at the rumours \u201cI have no idea where that\u2019s come from,\u201d Komatsu said. \u201cI've experienced this sometimes this season as well.",
+              "And even those people claiming that they had some insider information, absolute total nonsense. \u201cAnd this this one, again, I don't know who smoked up this \u20ac6 million number."
+            ],
+            "published_at": "2026-10-30T21:34:33Z",
+            "source_id": "crash_f1",
+            "source_name": "Crash.net Formula 1",
+            "url": "https://www.crash.net/f1/news/1108784/1/haas-boss-ollie-bearman-salary-demand-stories-i-dont-know-who-smoked-eu6m"
+          }
+        ],
+        "summary": "Crash.net Formula 1: \u201cOllie Bearman still hasn't signed a new deal with Haas Haas Formula 1 team principal Ayao Komatsu says stories claiming excessive wage demands are behind the delay of Ollie Bearman's contract renewal\u201d\n\n\u201cKomatsu outlined his annoyance at the rumours \u201cI have no idea where that\u2019s come from,\u201d Komatsu said. \u201cI've experienced this sometimes this season as well.\u201d\n\n\u201cAnd even those people claiming that they had some insider information, absolute total nonsense. \u201cAnd this this one, again, I don't know who smoked up this \u20ac6 million number.\u201d",
+        "teams": [
+          "Haas"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-10-30T22:15:48Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Unconfirmed claim",
+        "claim_type": "unconfirmed",
+        "confidence_label": "unconfirmed",
+        "drivers": [
+          "Oliver Bearman"
+        ],
+        "headline": "Oliver Bearman: Haas boss Ayao Komatsu furiously dismisses reports claiming British driver is demanding \u00a35m annual salary | F1 News | Sky Sports",
+        "id": "story-9f4700d8c9f9aa26908a",
+        "published_at": "2026-10-30T21:30:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "speculation suggesting Oliver Bearman will be leaving the team Haas boss Ayao Komatsu has furiously dismissed reports claiming that contract extension talks with Oliver Bearman are being held up by the British",
+            "evidence_excerpts": [
+              "speculation suggesting Oliver Bearman will be leaving the team Haas boss Ayao Komatsu has furiously dismissed reports claiming that contract extension talks with Oliver Bearman are being held up by the British",
+              "said: \"I have no idea where that comes from. \"I've experienced this sometimes this season as well. People say there's no smoke without fire but really some people will invent a story.",
+              "\"This one again I don't know who smoked up this six-million euros number."
+            ],
+            "published_at": "2026-10-30T21:30:00Z",
+            "source_id": "sky_sports_f1",
+            "source_name": "Sky Sports Formula 1",
+            "url": "https://www.skysports.com/f1/news/13605833/oliver-bearman-haas-boss-ayao-komatsu-furiously-dismisses-reports-claiming-british-driver-is-demanding-lb5m-annual-salary"
+          }
+        ],
+        "summary": "Sky Sports Formula 1: \u201cspeculation suggesting Oliver Bearman will be leaving the team Haas boss Ayao Komatsu has furiously dismissed reports claiming that contract extension talks with Oliver Bearman are being held up by the British\u201d\n\n\u201csaid: \"I have no idea where that comes from. \"I've experienced this sometimes this season as well. People say there's no smoke without fire but really some people will invent a story.\u201d\n\n\u201c\"This one again I don't know who smoked up this six-million euros number.\u201d",
+        "teams": [
+          "Haas"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-10-30T22:15:48Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Unconfirmed claim",
+        "claim_type": "unconfirmed",
+        "confidence_label": "unconfirmed",
+        "drivers": [
+          "Valtteri Bottas",
+          "Frederik Vesti",
+          "Colton Herta"
+        ],
+        "headline": "Mercedes reserve enters Cadillac F1 seat battle with Valtteri Bottas",
+        "id": "story-ef1860e4520fa3b47954",
+        "published_at": "2026-10-30T21:29:01Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Another name has been linked with Valtteri Bottas' seat at Cadillac for F1 2027.",
+            "evidence_excerpts": [
+              "Another name has been linked with Valtteri Bottas' seat at Cadillac for F1 2027.",
+              "Mercedes \u2019 reserve driver Frederik Vesti is also a contender for the potentially vacant cockpit at Cadillac, should the team opt to part with Valtteri Bottas , PlanetF1.com has learned.",
+              "Mercedes\u2019 reserve, Danish driver Frederik Vesti, is also on the shortlist for the team\u2019s potential vacancy, PlanetF1.com understands, with Vesti having raced with Whelen Cadillac Racing in IMSA over the past two"
+            ],
+            "published_at": "2026-10-30T21:29:01Z",
+            "source_id": "planetf1",
+            "source_name": "PlanetF1",
+            "url": "https://www.planetf1.com/news/frederik-vesti-cadillac-f1-2027-valtteri-bottas"
+          }
+        ],
+        "summary": "PlanetF1: \u201cAnother name has been linked with Valtteri Bottas' seat at Cadillac for F1 2027.\u201d\n\n\u201cMercedes \u2019 reserve driver Frederik Vesti is also a contender for the potentially vacant cockpit at Cadillac, should the team opt to part with Valtteri Bottas , PlanetF1.com has learned.\u201d\n\n\u201cMercedes\u2019 reserve, Danish driver Frederik Vesti, is also on the shortlist for the team\u2019s potential vacancy, PlanetF1.com understands, with Vesti having raced with Whelen Cadillac Racing in IMSA over the past two\u201d",
+        "teams": [
+          "Cadillac",
+          "Mercedes"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-10-30T22:15:48Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Isack Hadjar"
+        ],
+        "headline": "Red Bull provide power unit-at-altitude update after Isack Hadjar issues | RacingNews365",
+        "id": "story-e24236120f96af91a91c",
+        "published_at": "2026-10-30T21:28:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images Red Bull team principal Laurent Mekies has confirmed Isack Hadjar's power unit issues in first practice for the Mexico City Grand Prix were not altitude-related,",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images Red Bull team principal Laurent Mekies has confirmed Isack Hadjar's power unit issues in first practice for the Mexico City Grand Prix were not altitude-related,",
+              "Dismissing any concerns, speaking to the media, including RacingNews365 , Mekies said: \"There have been no unfortunate issues so far related to the altitude.",
+              "\"In many respects, everybody will not be operating at their optimum this weekend,\" said Mekies."
+            ],
+            "published_at": "2026-10-30T21:28:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/red-bull-provide-power-unit-at-altitude-update-after-isack-hadjar-issues"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Red Bull team principal Laurent Mekies has confirmed Isack Hadjar's power unit issues in first practice for the Mexico City Grand Prix were not altitude-related,\u201d\n\n\u201cDismissing any concerns, speaking to the media, including RacingNews365 , Mekies said: \"There have been no unfortunate issues so far related to the altitude.\u201d\n\n\u201c\"In many respects, everybody will not be operating at their optimum this weekend,\" said Mekies.\u201d",
+        "teams": [
+          "Red Bull"
+        ],
+        "topic": "technical",
+        "updated_at": "2026-10-30T22:15:48Z",
+        "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Valtteri Bottas"
+        ],
+        "headline": "FIA confirms massive 50-place grid penalty for the Mexican GP",
+        "id": "story-d1f977bd3c292dee5e63",
+        "published_at": "2026-10-30T21:14:48Z",
+        "sources": [
+          {
+            "evidence_excerpt": "The stadium section at the Autodromo Hermanos Rodriguez Valtteri Bottas will drop to the back of the Mexican Grand Prix grid after taking various power unit components beyond the season limit.",
+            "evidence_excerpts": [
+              "The stadium section at the Autodromo Hermanos Rodriguez Valtteri Bottas will drop to the back of the Mexican Grand Prix grid after taking various power unit components beyond the season limit.",
+              "Bottas\u2019 penalties add up to 50 places in total, meaning that he will start the race in Mexico City from the back.",
+              "Bottas has taken a fifth internal combustion engine and turbocharger, plus a fourth energy store, control electronics and MGU-K for his Ferrari-powered Cadillac."
+            ],
+            "published_at": "2026-10-30T21:14:48Z",
+            "source_id": "planetf1",
+            "source_name": "PlanetF1",
+            "url": "https://www.planetf1.com/news/valtteri-bottas-f1-2026-mexican-grand-prix-grid-penalty"
+          }
+        ],
+        "summary": "PlanetF1: \u201cThe stadium section at the Autodromo Hermanos Rodriguez Valtteri Bottas will drop to the back of the Mexican Grand Prix grid after taking various power unit components beyond the season limit.\u201d\n\n\u201cBottas\u2019 penalties add up to 50 places in total, meaning that he will start the race in Mexico City from the back.\u201d\n\n\u201cBottas has taken a fifth internal combustion engine and turbocharger, plus a fourth energy store, control electronics and MGU-K for his Ferrari-powered Cadillac.\u201d",
+        "teams": [
+          "Cadillac"
+        ],
+        "topic": "penalty",
+        "updated_at": "2026-10-30T22:15:48Z",
+        "why_it_matters": "Official decisions can affect eligibility, classification or the starting grid. Check the cited decision and subsequent amendments."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Oliver Bearman"
+        ],
+        "headline": "Haas reveals reason behind Oliver Bearman 2027 announcement delay",
+        "id": "story-b29bb561a7f0822b840c",
+        "published_at": "2026-10-30T21:03:19Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Haas boss Ayao Komatsu has expressed certainty that Oliver Bearman will remain with the team in 2027, despite the continued delay over a new contract being agreed.",
+            "evidence_excerpts": [
+              "Haas boss Ayao Komatsu has expressed certainty that Oliver Bearman will remain with the team in 2027, despite the continued delay over a new contract being agreed.",
+              "Komatsu has since revealed that undisclosed contractual details have prompted the hold-up, but he doesn\u2019t envisage that preventing an agreement from being reached.",
+              "\u201cIt\u2019s all on the contractual side,\u201d Komatsu told Sky Sports F1 during the opening practice session at the Autodromo Hermanos Rodriguez. \u201cHonestly, I don\u2019t see any issues."
+            ],
+            "published_at": "2026-10-30T21:03:19Z",
+            "source_id": "planetf1",
+            "source_name": "PlanetF1",
+            "url": "https://www.planetf1.com/news/haas-explains-oliver-bearman-2027-announcement-delay"
+          }
+        ],
+        "summary": "PlanetF1: \u201cHaas boss Ayao Komatsu has expressed certainty that Oliver Bearman will remain with the team in 2027, despite the continued delay over a new contract being agreed.\u201d\n\n\u201cKomatsu has since revealed that undisclosed contractual details have prompted the hold-up, but he doesn\u2019t envisage that preventing an agreement from being reached.\u201d\n\n\u201c\u201cIt\u2019s all on the contractual side,\u201d Komatsu told Sky Sports F1 during the opening practice session at the Autodromo Hermanos Rodriguez. \u201cHonestly, I don\u2019t see any issues.\u201d",
+        "teams": [
+          "Haas"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-10-30T22:15:48Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "analysis",
+        "confidence_label": "reported",
+        "drivers": [
+          "Valtteri Bottas",
+          "Colton Herta"
+        ],
+        "headline": "Bottas \u2018needs to do\u2019 more weekends like Austin to keep Cadillac seat \u2013 Budkowski \u2013 RaceFans",
+        "id": "story-382dd3dc4cccba4ffc26",
+        "published_at": "2026-10-30T20:50:22Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Cadillac team principal Marcin Budkowski explained what Valtteri Bottas needs to do to keep his seat at the team as test driver Colton Herta becomes eligible for a superlicence.",
+            "evidence_excerpts": [
+              "Cadillac team principal Marcin Budkowski explained what Valtteri Bottas needs to do to keep his seat at the team as test driver Colton Herta becomes eligible for a superlicence.",
+              "He said Bottas needs to consistently perform at the level he demonstrated in Austin last weekend. \u201cHe\u2019s done a really good race in Austin,\u201d Budkowski told Sky.",
+              "\u201cHe was strong in qualifying, he was strong at the race. That\u2019s what he needs to do, race in, race out.\u201d"
+            ],
+            "published_at": "2026-10-30T20:50:22Z",
+            "source_id": "racefans_f1",
+            "source_name": "RaceFans Formula 1",
+            "url": "https://www.racefans.net/2026/10/30/bottas-needs-to-do-more-weekends-like-austin-to-keep-cadillac-seat-says-budkowski/"
+          }
+        ],
+        "summary": "RaceFans Formula 1: \u201cCadillac team principal Marcin Budkowski explained what Valtteri Bottas needs to do to keep his seat at the team as test driver Colton Herta becomes eligible for a superlicence.\u201d\n\n\u201cHe said Bottas needs to consistently perform at the level he demonstrated in Austin last weekend. \u201cHe\u2019s done a really good race in Austin,\u201d Budkowski told Sky.\u201d\n\n\u201c\u201cHe was strong in qualifying, he was strong at the race. That\u2019s what he needs to do, race in, race out.\u201d\u201d",
+        "teams": [
+          "Cadillac"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-10-30T22:15:48Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      }
+    ],
+    "next_check_at": "2026-11-01T22:15:48Z",
+    "provider": "deepseek",
+    "schema_version": "2.0",
+    "sources_checked": 7,
+    "status": "published",
+    "summary": "8 sourced F1 updates. Open each report for evidence and context.",
+    "updated_at": "2026-10-30T22:15:48Z"
+  },
+  {
     "brief_id": "news-9123c1025a2b6e77247b",
     "checked_at": "2026-10-28T12:47:48Z",
     "coverage_note": "Some sources could not be checked. These reports reflect the linked evidence that was available.",
