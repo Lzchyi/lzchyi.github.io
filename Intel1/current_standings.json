@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-31T21:30:18Z",
+  "checked_at": "2026-11-01T05:57:41Z",
   "constructor_standings": [
     {
       "driver_id": null,
@@ -410,11 +410,23 @@
       "team_id": "cadillac",
       "team_label": "Cadillac F1 Team",
       "wins": 0
+    },
+    {
+      "driver_id": "ryo_hirakawa",
+      "id": "ryo_hirakawa",
+      "points": 0.0,
+      "position": 24,
+      "primary_label": "Ryo Hirakawa",
+      "secondary_label": "Haas F1 Team",
+      "short_name": null,
+      "team_id": "haas",
+      "team_label": "Haas F1 Team",
+      "wins": 0
     }
   ],
   "is_reference": false,
-  "round": 18,
+  "round": 19,
   "season": 2026,
   "source": "jolpica",
-  "updated_at": "2026-10-26T04:42:00Z"
+  "updated_at": "2026-11-01T05:57:41Z"
 }
