@@ -1,6 +1,6 @@
 {
-  "brief_id": "news-4fb17182f80fcf5ef235",
-  "checked_at": "2026-10-30T22:15:48Z",
+  "brief_id": "news-a4293770e6927d246dca",
+  "checked_at": "2026-11-03T14:06:58Z",
   "coverage_note": "Some sources could not be checked. These reports reflect the linked evidence that was available.",
   "coverage_status": "partial",
   "failed_sources": [
@@ -45,168 +45,41 @@
       "source_name": "Reuters Formula 1"
     }
   ],
-  "headline": "Laurent Mekies claps back at Christian Horner\u2019s Red Bull \u201clost its mojo\u201d claim | Crash.net",
+  "headline": "Fred Vasseur told to act before Ferrari situation 'gets really bad' | RacingNews365",
   "is_preview": false,
   "items": [
     {
-      "attribution": "Conflicting account",
-      "claim_type": "conflicting",
-      "confidence_label": "conflicting",
-      "drivers": [],
-      "headline": "Laurent Mekies claps back at Christian Horner\u2019s Red Bull \u201clost its mojo\u201d claim | Crash.net",
-      "id": "story-00ea755865546545d1e5",
-      "published_at": "2026-10-30T21:57:18Z",
-      "sources": [
-        {
-          "evidence_excerpt": "Laurent Mekies hit back at Christian Horner's claims Red Bull Formula 1 team principal Laurent Mekies has hit back at Christian Horner\u2019s claim that his former side has \u201clost its mojo\u201d since",
-          "evidence_excerpts": [
-            "Laurent Mekies hit back at Christian Horner's claims Red Bull Formula 1 team principal Laurent Mekies has hit back at Christian Horner\u2019s claim that his former side has \u201clost its mojo\u201d since",
-            "But during a recent interview with The Times, Horner took a swipe at his former team and claimed it had \u201clost its mojo, its presence, it\u2019s vibe\u201d in the aftermath of his",
-            "He obviously has spent a lot of time in this team and I respect his point of view,\u201d the Frenchman said. \"We certainly feel extremely differently about the vibe in the team."
-          ],
-          "published_at": "2026-10-30T21:57:18Z",
-          "source_id": "crash_f1",
-          "source_name": "Crash.net Formula 1",
-          "url": "https://www.crash.net/f1/news/1108791/1/laurent-mekies-claps-back-christian-horners-red-bull-lost-its-mojo-claim"
-        }
-      ],
-      "summary": "Crash.net Formula 1: \u201cLaurent Mekies hit back at Christian Horner's claims Red Bull Formula 1 team principal Laurent Mekies has hit back at Christian Horner\u2019s claim that his former side has \u201clost its mojo\u201d since\u201d\n\n\u201cBut during a recent interview with The Times, Horner took a swipe at his former team and claimed it had \u201clost its mojo, its presence, it\u2019s vibe\u201d in the aftermath of his\u201d\n\n\u201cHe obviously has spent a lot of time in this team and I respect his point of view,\u201d the Frenchman said. \"We certainly feel extremely differently about the vibe in the team.\u201d",
-      "teams": [
-        "Red Bull"
-      ],
-      "topic": "general",
-      "updated_at": "2026-10-30T22:15:48Z",
-      "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
-    },
-    {
-      "attribution": "Unconfirmed claim",
-      "claim_type": "unconfirmed",
-      "confidence_label": "unconfirmed",
-      "drivers": [
-        "Ollie Bearman"
-      ],
-      "headline": "Haas boss on Ollie Bearman wage demand stories: \u201cI don\u2019t know who smoked up \u20ac6m\u201d | Crash.net",
-      "id": "story-380147f33e596f577d9a",
-      "published_at": "2026-10-30T21:34:33Z",
-      "sources": [
-        {
-          "evidence_excerpt": "Ollie Bearman still hasn't signed a new deal with Haas Haas Formula 1 team principal Ayao Komatsu says stories claiming excessive wage demands are behind the delay of Ollie Bearman's contract renewal",
-          "evidence_excerpts": [
-            "Ollie Bearman still hasn't signed a new deal with Haas Haas Formula 1 team principal Ayao Komatsu says stories claiming excessive wage demands are behind the delay of Ollie Bearman's contract renewal",
-            "Komatsu outlined his annoyance at the rumours \u201cI have no idea where that\u2019s come from,\u201d Komatsu said. \u201cI've experienced this sometimes this season as well.",
-            "And even those people claiming that they had some insider information, absolute total nonsense. \u201cAnd this this one, again, I don't know who smoked up this \u20ac6 million number."
-          ],
-          "published_at": "2026-10-30T21:34:33Z",
-          "source_id": "crash_f1",
-          "source_name": "Crash.net Formula 1",
-          "url": "https://www.crash.net/f1/news/1108784/1/haas-boss-ollie-bearman-salary-demand-stories-i-dont-know-who-smoked-eu6m"
-        }
-      ],
-      "summary": "Crash.net Formula 1: \u201cOllie Bearman still hasn't signed a new deal with Haas Haas Formula 1 team principal Ayao Komatsu says stories claiming excessive wage demands are behind the delay of Ollie Bearman's contract renewal\u201d\n\n\u201cKomatsu outlined his annoyance at the rumours \u201cI have no idea where that\u2019s come from,\u201d Komatsu said. \u201cI've experienced this sometimes this season as well.\u201d\n\n\u201cAnd even those people claiming that they had some insider information, absolute total nonsense. \u201cAnd this this one, again, I don't know who smoked up this \u20ac6 million number.\u201d",
-      "teams": [
-        "Haas"
-      ],
-      "topic": "driver_market",
-      "updated_at": "2026-10-30T22:15:48Z",
-      "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
-    },
-    {
-      "attribution": "Unconfirmed claim",
-      "claim_type": "unconfirmed",
-      "confidence_label": "unconfirmed",
-      "drivers": [
-        "Oliver Bearman"
-      ],
-      "headline": "Oliver Bearman: Haas boss Ayao Komatsu furiously dismisses reports claiming British driver is demanding \u00a35m annual salary | F1 News | Sky Sports",
-      "id": "story-9f4700d8c9f9aa26908a",
-      "published_at": "2026-10-30T21:30:00Z",
-      "sources": [
-        {
-          "evidence_excerpt": "speculation suggesting Oliver Bearman will be leaving the team Haas boss Ayao Komatsu has furiously dismissed reports claiming that contract extension talks with Oliver Bearman are being held up by the British",
-          "evidence_excerpts": [
-            "speculation suggesting Oliver Bearman will be leaving the team Haas boss Ayao Komatsu has furiously dismissed reports claiming that contract extension talks with Oliver Bearman are being held up by the British",
-            "said: \"I have no idea where that comes from. \"I've experienced this sometimes this season as well. People say there's no smoke without fire but really some people will invent a story.",
-            "\"This one again I don't know who smoked up this six-million euros number."
-          ],
-          "published_at": "2026-10-30T21:30:00Z",
-          "source_id": "sky_sports_f1",
-          "source_name": "Sky Sports Formula 1",
-          "url": "https://www.skysports.com/f1/news/13605833/oliver-bearman-haas-boss-ayao-komatsu-furiously-dismisses-reports-claiming-british-driver-is-demanding-lb5m-annual-salary"
-        }
-      ],
-      "summary": "Sky Sports Formula 1: \u201cspeculation suggesting Oliver Bearman will be leaving the team Haas boss Ayao Komatsu has furiously dismissed reports claiming that contract extension talks with Oliver Bearman are being held up by the British\u201d\n\n\u201csaid: \"I have no idea where that comes from. \"I've experienced this sometimes this season as well. People say there's no smoke without fire but really some people will invent a story.\u201d\n\n\u201c\"This one again I don't know who smoked up this six-million euros number.\u201d",
-      "teams": [
-        "Haas"
-      ],
-      "topic": "driver_market",
-      "updated_at": "2026-10-30T22:15:48Z",
-      "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
-    },
-    {
-      "attribution": "Unconfirmed claim",
-      "claim_type": "unconfirmed",
-      "confidence_label": "unconfirmed",
-      "drivers": [
-        "Valtteri Bottas",
-        "Frederik Vesti",
-        "Colton Herta"
-      ],
-      "headline": "Mercedes reserve enters Cadillac F1 seat battle with Valtteri Bottas",
-      "id": "story-ef1860e4520fa3b47954",
-      "published_at": "2026-10-30T21:29:01Z",
-      "sources": [
-        {
-          "evidence_excerpt": "Another name has been linked with Valtteri Bottas' seat at Cadillac for F1 2027.",
-          "evidence_excerpts": [
-            "Another name has been linked with Valtteri Bottas' seat at Cadillac for F1 2027.",
-            "Mercedes \u2019 reserve driver Frederik Vesti is also a contender for the potentially vacant cockpit at Cadillac, should the team opt to part with Valtteri Bottas , PlanetF1.com has learned.",
-            "Mercedes\u2019 reserve, Danish driver Frederik Vesti, is also on the shortlist for the team\u2019s potential vacancy, PlanetF1.com understands, with Vesti having raced with Whelen Cadillac Racing in IMSA over the past two"
-          ],
-          "published_at": "2026-10-30T21:29:01Z",
-          "source_id": "planetf1",
-          "source_name": "PlanetF1",
-          "url": "https://www.planetf1.com/news/frederik-vesti-cadillac-f1-2027-valtteri-bottas"
-        }
-      ],
-      "summary": "PlanetF1: \u201cAnother name has been linked with Valtteri Bottas' seat at Cadillac for F1 2027.\u201d\n\n\u201cMercedes \u2019 reserve driver Frederik Vesti is also a contender for the potentially vacant cockpit at Cadillac, should the team opt to part with Valtteri Bottas , PlanetF1.com has learned.\u201d\n\n\u201cMercedes\u2019 reserve, Danish driver Frederik Vesti, is also on the shortlist for the team\u2019s potential vacancy, PlanetF1.com understands, with Vesti having raced with Whelen Cadillac Racing in IMSA over the past two\u201d",
-      "teams": [
-        "Cadillac",
-        "Mercedes"
-      ],
-      "topic": "driver_market",
-      "updated_at": "2026-10-30T22:15:48Z",
-      "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
-    },
-    {
       "attribution": "Reported claim",
-      "claim_type": "fact",
+      "claim_type": "analysis",
       "confidence_label": "reported",
       "drivers": [
-        "Isack Hadjar"
+        "Lewis Hamilton",
+        "Charles Leclerc",
+        "Nico Rosberg"
       ],
-      "headline": "Red Bull provide power unit-at-altitude update after Isack Hadjar issues | RacingNews365",
-      "id": "story-e24236120f96af91a91c",
-      "published_at": "2026-10-30T21:28:00Z",
+      "headline": "Fred Vasseur told to act before Ferrari situation 'gets really bad' | RacingNews365",
+      "id": "story-73bdf4e1550b1f6113f2",
+      "published_at": "2026-11-03T14:00:00Z",
       "sources": [
         {
-          "evidence_excerpt": "Article To news overview \u00a9 XPB Images Red Bull team principal Laurent Mekies has confirmed Isack Hadjar's power unit issues in first practice for the Mexico City Grand Prix were not altitude-related,",
+          "evidence_excerpt": "Article To news overview \u00a9 XPB Images Nico Rosberg has implored Ferrari team principal Fred Vasseur to \"act\" and implement clear racing guidelines for Lewis Hamilton and Charles Leclerc to adhere to.",
           "evidence_excerpts": [
-            "Article To news overview \u00a9 XPB Images Red Bull team principal Laurent Mekies has confirmed Isack Hadjar's power unit issues in first practice for the Mexico City Grand Prix were not altitude-related,",
-            "Dismissing any concerns, speaking to the media, including RacingNews365 , Mekies said: \"There have been no unfortunate issues so far related to the altitude.",
-            "\"In many respects, everybody will not be operating at their optimum this weekend,\" said Mekies."
+            "Article To news overview \u00a9 XPB Images Nico Rosberg has implored Ferrari team principal Fred Vasseur to \"act\" and implement clear racing guidelines for Lewis Hamilton and Charles Leclerc to adhere to.",
+            "\"It's really Fred Vasseur; he needs to start to act,\" he told Sky Sports F1 .",
+            "\"Because, as Lewis said, before the race, there was no discussion \u2014 like clear racing guidelines between the two, and it needs to happen."
           ],
-          "published_at": "2026-10-30T21:28:00Z",
+          "published_at": "2026-11-03T14:00:00Z",
           "source_id": "racingnews365_f1",
           "source_name": "RacingNews365 Formula 1",
-          "url": "https://racingnews365.com/red-bull-provide-power-unit-at-altitude-update-after-isack-hadjar-issues"
+          "url": "https://racingnews365.com/fred-vasseur-told-to-act-before-ferrari-situation-gets-really-bad"
         }
       ],
-      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Red Bull team principal Laurent Mekies has confirmed Isack Hadjar's power unit issues in first practice for the Mexico City Grand Prix were not altitude-related,\u201d\n\n\u201cDismissing any concerns, speaking to the media, including RacingNews365 , Mekies said: \"There have been no unfortunate issues so far related to the altitude.\u201d\n\n\u201c\"In many respects, everybody will not be operating at their optimum this weekend,\" said Mekies.\u201d",
+      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Nico Rosberg has implored Ferrari team principal Fred Vasseur to \"act\" and implement clear racing guidelines for Lewis Hamilton and Charles Leclerc to adhere to.\u201d\n\n\u201c\"It's really Fred Vasseur; he needs to start to act,\" he told Sky Sports F1 .\u201d\n\n\u201c\"Because, as Lewis said, before the race, there was no discussion \u2014 like clear racing guidelines between the two, and it needs to happen.\u201d",
       "teams": [
-        "Red Bull"
+        "Ferrari"
       ],
       "topic": "technical",
-      "updated_at": "2026-10-30T22:15:48Z",
+      "updated_at": "2026-11-03T14:06:58Z",
       "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
     },
     {
@@ -214,104 +87,362 @@
       "claim_type": "fact",
       "confidence_label": "reported",
       "drivers": [
-        "Valtteri Bottas"
+        "Max Verstappen"
       ],
-      "headline": "FIA confirms massive 50-place grid penalty for the Mexican GP",
-      "id": "story-d1f977bd3c292dee5e63",
-      "published_at": "2026-10-30T21:14:48Z",
+      "headline": "Max Verstappen unveils striking tribute helmet for Sao Paulo GP | RacingNews365",
+      "id": "story-00eefb5b8b58cb1cae37",
+      "published_at": "2026-11-03T13:35:00Z",
       "sources": [
         {
-          "evidence_excerpt": "The stadium section at the Autodromo Hermanos Rodriguez Valtteri Bottas will drop to the back of the Mexican Grand Prix grid after taking various power unit components beyond the season limit.",
+          "evidence_excerpt": "To honour his close ties with Brazil, the colours of the Brazilian flag will adorn the Dutchman\u2019s helmet this coming weekend in Sao Paulo.",
           "evidence_excerpts": [
-            "The stadium section at the Autodromo Hermanos Rodriguez Valtteri Bottas will drop to the back of the Mexican Grand Prix grid after taking various power unit components beyond the season limit.",
-            "Bottas\u2019 penalties add up to 50 places in total, meaning that he will start the race in Mexico City from the back.",
-            "Bottas has taken a fifth internal combustion engine and turbocharger, plus a fourth energy store, control electronics and MGU-K for his Ferrari-powered Cadillac."
+            "To honour his close ties with Brazil, the colours of the Brazilian flag will adorn the Dutchman\u2019s helmet this coming weekend in Sao Paulo."
           ],
-          "published_at": "2026-10-30T21:14:48Z",
-          "source_id": "planetf1",
-          "source_name": "PlanetF1",
-          "url": "https://www.planetf1.com/news/valtteri-bottas-f1-2026-mexican-grand-prix-grid-penalty"
+          "published_at": "2026-11-03T13:35:00Z",
+          "source_id": "racingnews365_f1",
+          "source_name": "RacingNews365 Formula 1",
+          "url": "https://racingnews365.com/max-verstappen-unveils-a-fresh-new-brazil-helmet"
         }
       ],
-      "summary": "PlanetF1: \u201cThe stadium section at the Autodromo Hermanos Rodriguez Valtteri Bottas will drop to the back of the Mexican Grand Prix grid after taking various power unit components beyond the season limit.\u201d\n\n\u201cBottas\u2019 penalties add up to 50 places in total, meaning that he will start the race in Mexico City from the back.\u201d\n\n\u201cBottas has taken a fifth internal combustion engine and turbocharger, plus a fourth energy store, control electronics and MGU-K for his Ferrari-powered Cadillac.\u201d",
+      "summary": "RacingNews365 Formula 1: \u201cTo honour his close ties with Brazil, the colours of the Brazilian flag will adorn the Dutchman\u2019s helmet this coming weekend in Sao Paulo.\u201d",
       "teams": [
-        "Cadillac"
+        "Red Bull Racing"
       ],
-      "topic": "penalty",
-      "updated_at": "2026-10-30T22:15:48Z",
-      "why_it_matters": "Official decisions can affect eligibility, classification or the starting grid. Check the cited decision and subsequent amendments."
+      "topic": "general",
+      "updated_at": "2026-11-03T14:06:58Z",
+      "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
     },
     {
       "attribution": "Reported claim",
       "claim_type": "fact",
       "confidence_label": "reported",
       "drivers": [
-        "Oliver Bearman"
+        "Kimi Antonelli"
       ],
-      "headline": "Haas reveals reason behind Oliver Bearman 2027 announcement delay",
-      "id": "story-b29bb561a7f0822b840c",
-      "published_at": "2026-10-30T21:03:19Z",
+      "headline": "Sky F1 presenter reduced to tears after Kimi Antonelli is crowned champion | Crash.net",
+      "id": "story-29246f8203e2a891548f",
+      "published_at": "2026-11-03T13:30:00Z",
       "sources": [
         {
-          "evidence_excerpt": "Haas boss Ayao Komatsu has expressed certainty that Oliver Bearman will remain with the team in 2027, despite the continued delay over a new contract being agreed.",
+          "evidence_excerpt": "Kimi Antonelli \u00a9 XPB Images Sky Sports F1 presenter Natalie Pinkham was overcome with emotion as she congratulated Kimi Antonelli on becoming the 2026 Formula 1 world champion.",
           "evidence_excerpts": [
-            "Haas boss Ayao Komatsu has expressed certainty that Oliver Bearman will remain with the team in 2027, despite the continued delay over a new contract being agreed.",
-            "Komatsu has since revealed that undisclosed contractual details have prompted the hold-up, but he doesn\u2019t envisage that preventing an agreement from being reached.",
-            "\u201cIt\u2019s all on the contractual side,\u201d Komatsu told Sky Sports F1 during the opening practice session at the Autodromo Hermanos Rodriguez. \u201cHonestly, I don\u2019t see any issues."
+            "Kimi Antonelli \u00a9 XPB Images Sky Sports F1 presenter Natalie Pinkham was overcome with emotion as she congratulated Kimi Antonelli on becoming the 2026 Formula 1 world champion.",
+            "The Mercedes driver secured his maiden Formula 1 title at the Mexico Grand Prix, becoming the youngest world champion in the sport's history at just 20 years old.",
+            "Antonelli broke the record previously held by Sebastian Vettel, who was 23 years old when he claimed his maiden championship with Red Bull in 2010."
           ],
-          "published_at": "2026-10-30T21:03:19Z",
-          "source_id": "planetf1",
-          "source_name": "PlanetF1",
-          "url": "https://www.planetf1.com/news/haas-explains-oliver-bearman-2027-announcement-delay"
+          "published_at": "2026-11-03T13:30:00Z",
+          "source_id": "crash_f1",
+          "source_name": "Crash.net Formula 1",
+          "url": "https://www.crash.net/f1/news/1109294/1/sky-f1-presenter-reduced-tears-after-kimi-antonelli-crowned-champion"
         }
       ],
-      "summary": "PlanetF1: \u201cHaas boss Ayao Komatsu has expressed certainty that Oliver Bearman will remain with the team in 2027, despite the continued delay over a new contract being agreed.\u201d\n\n\u201cKomatsu has since revealed that undisclosed contractual details have prompted the hold-up, but he doesn\u2019t envisage that preventing an agreement from being reached.\u201d\n\n\u201c\u201cIt\u2019s all on the contractual side,\u201d Komatsu told Sky Sports F1 during the opening practice session at the Autodromo Hermanos Rodriguez. \u201cHonestly, I don\u2019t see any issues.\u201d",
+      "summary": "Crash.net Formula 1: \u201cKimi Antonelli \u00a9 XPB Images Sky Sports F1 presenter Natalie Pinkham was overcome with emotion as she congratulated Kimi Antonelli on becoming the 2026 Formula 1 world champion.\u201d\n\n\u201cThe Mercedes driver secured his maiden Formula 1 title at the Mexico Grand Prix, becoming the youngest world champion in the sport's history at just 20 years old.\u201d\n\n\u201cAntonelli broke the record previously held by Sebastian Vettel, who was 23 years old when he claimed his maiden championship with Red Bull in 2010.\u201d",
       "teams": [
-        "Haas"
+        "Mercedes"
       ],
-      "topic": "driver_market",
-      "updated_at": "2026-10-30T22:15:48Z",
-      "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      "topic": "race",
+      "updated_at": "2026-11-03T14:06:58Z",
+      "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
     },
     {
       "attribution": "Reported claim",
       "claim_type": "analysis",
       "confidence_label": "reported",
       "drivers": [
-        "Valtteri Bottas",
-        "Colton Herta"
+        "Kimi Antonelli",
+        "George Russell"
       ],
-      "headline": "Bottas \u2018needs to do\u2019 more weekends like Austin to keep Cadillac seat \u2013 Budkowski \u2013 RaceFans",
-      "id": "story-382dd3dc4cccba4ffc26",
-      "published_at": "2026-10-30T20:50:22Z",
+      "headline": "How Antonelli demolished Russell in the same car",
+      "id": "story-4c4b7d2da3b3674ee932",
+      "published_at": "2026-11-03T13:05:16Z",
       "sources": [
         {
-          "evidence_excerpt": "Cadillac team principal Marcin Budkowski explained what Valtteri Bottas needs to do to keep his seat at the team as test driver Colton Herta becomes eligible for a superlicence.",
+          "evidence_excerpt": "Kimi Antonelli's historic Formula 1 title run is complete and so too is his crushing of team-mate George Russell in 2026's major script-flip.",
           "evidence_excerpts": [
-            "Cadillac team principal Marcin Budkowski explained what Valtteri Bottas needs to do to keep his seat at the team as test driver Colton Herta becomes eligible for a superlicence.",
-            "He said Bottas needs to consistently perform at the level he demonstrated in Austin last weekend. \u201cHe\u2019s done a really good race in Austin,\u201d Budkowski told Sky.",
-            "\u201cHe was strong in qualifying, he was strong at the race. That\u2019s what he needs to do, race in, race out.\u201d"
+            "Kimi Antonelli's historic Formula 1 title run is complete and so too is his crushing of team-mate George Russell in 2026's major script-flip.",
+            "Antonelli's won nine races to Russell's three, is 130 points ahead, and has wrapped it all up four rounds early.",
+            "The headline stats are already damning. Antonelli is winning 9-3 on victories, 16-8 on podiums, and has clinched the title early with that 130-point advantage over his team-mate."
           ],
-          "published_at": "2026-10-30T20:50:22Z",
-          "source_id": "racefans_f1",
-          "source_name": "RaceFans Formula 1",
-          "url": "https://www.racefans.net/2026/10/30/bottas-needs-to-do-more-weekends-like-austin-to-keep-cadillac-seat-says-budkowski/"
+          "published_at": "2026-11-03T13:05:16Z",
+          "source_id": "the_race_f1",
+          "source_name": "The Race Formula 1",
+          "url": "https://www.the-race.com/formula-1/mercedes-f1-how-antonelli-demolished-russell-same-car/"
         }
       ],
-      "summary": "RaceFans Formula 1: \u201cCadillac team principal Marcin Budkowski explained what Valtteri Bottas needs to do to keep his seat at the team as test driver Colton Herta becomes eligible for a superlicence.\u201d\n\n\u201cHe said Bottas needs to consistently perform at the level he demonstrated in Austin last weekend. \u201cHe\u2019s done a really good race in Austin,\u201d Budkowski told Sky.\u201d\n\n\u201c\u201cHe was strong in qualifying, he was strong at the race. That\u2019s what he needs to do, race in, race out.\u201d\u201d",
+      "summary": "The Race Formula 1: \u201cKimi Antonelli's historic Formula 1 title run is complete and so too is his crushing of team-mate George Russell in 2026's major script-flip.\u201d\n\n\u201cAntonelli's won nine races to Russell's three, is 130 points ahead, and has wrapped it all up four rounds early.\u201d\n\n\u201cThe headline stats are already damning. Antonelli is winning 9-3 on victories, 16-8 on podiums, and has clinched the title early with that 130-point advantage over his team-mate.\u201d",
+      "teams": [
+        "Mercedes"
+      ],
+      "topic": "technical",
+      "updated_at": "2026-11-03T14:06:58Z",
+      "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+    },
+    {
+      "attribution": "Reported claim",
+      "claim_type": "analysis",
+      "confidence_label": "reported",
+      "drivers": [
+        "George Russell",
+        "Kimi Antonelli"
+      ],
+      "headline": "Remarkable George Russell statistic highlights extreme misfortune and underperformance | RacingNews365",
+      "id": "story-d538436201783ed1dde2",
+      "published_at": "2026-11-03T13:00:00Z",
+      "sources": [
+        {
+          "evidence_excerpt": "Article To news overview \u00a9 XPB Images George Russell has endured a bruising F1 season. Coming into the campaign, he was widely expected to clinch his first drivers' championship.",
+          "evidence_excerpts": [
+            "Article To news overview \u00a9 XPB Images George Russell has endured a bruising F1 season. Coming into the campaign, he was widely expected to clinch his first drivers' championship.",
+            "Through 19 rounds, Antonelli has amassed a now-insurmountable 380 points, 119 clear of Max Verstappen in second and 130 ahead of Russell.",
+            "Given how much stronger the W17 is, in terms of pace, than its predecessor, it underlines the bad luck and inconsistency that has characterised the eight-time grand prix winner's year."
+          ],
+          "published_at": "2026-11-03T13:00:00Z",
+          "source_id": "racingnews365_f1",
+          "source_name": "RacingNews365 Formula 1",
+          "url": "https://racingnews365.com/remarkable-george-russell-statistic-highlights-extreme-misfortune-and-underperformance"
+        }
+      ],
+      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images George Russell has endured a bruising F1 season. Coming into the campaign, he was widely expected to clinch his first drivers' championship.\u201d\n\n\u201cThrough 19 rounds, Antonelli has amassed a now-insurmountable 380 points, 119 clear of Max Verstappen in second and 130 ahead of Russell.\u201d\n\n\u201cGiven how much stronger the W17 is, in terms of pace, than its predecessor, it underlines the bad luck and inconsistency that has characterised the eight-time grand prix winner's year.\u201d",
+      "teams": [
+        "Mercedes"
+      ],
+      "topic": "technical",
+      "updated_at": "2026-11-03T14:06:58Z",
+      "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+    },
+    {
+      "attribution": "Unconfirmed claim",
+      "claim_type": "unconfirmed",
+      "confidence_label": "unconfirmed",
+      "drivers": [
+        "Liam Lawson",
+        "Nikola Tsolov"
+      ],
+      "headline": "Liam Lawson admits 'no assurance' given to him of retaining Racing Bulls seat for 2027 Formula 1 season | F1 News | Sky Sports",
+      "id": "story-01b8793a267869c02ed5",
+      "published_at": "2026-11-03T13:00:00Z",
+      "sources": [
+        {
+          "evidence_excerpt": "assurance' of his future in F1 beyond 2026 Liam Lawson has admitted he has been given \"no assurance\" about retaining his seat at Racing Bulls for 2027.",
+          "evidence_excerpts": [
+            "assurance' of his future in F1 beyond 2026 Liam Lawson has admitted he has been given \"no assurance\" about retaining his seat at Racing Bulls for 2027.",
+            "understood Lawson's seat is under threat from Red Bull junior and Formula 2 title protagonist Nikola Tsolov. \"I'm trying my best.",
+            "Every weekend I'm trying to maximise,\" Lawson timidly told Sky Sports F1 . \"In Mexico I gave it everything. There's definitely no assurance at the moment [for next year]."
+          ],
+          "published_at": "2026-11-03T13:00:00Z",
+          "source_id": "sky_sports_f1",
+          "source_name": "Sky Sports Formula 1",
+          "url": "https://www.skysports.com/f1/news/13607228/liam-lawson-admits-no-assurance-given-to-him-of-retaining-racing-bulls-seat-for-2027-formula-1-season"
+        }
+      ],
+      "summary": "Sky Sports Formula 1: \u201cassurance' of his future in F1 beyond 2026 Liam Lawson has admitted he has been given \"no assurance\" about retaining his seat at Racing Bulls for 2027.\u201d\n\n\u201cunderstood Lawson's seat is under threat from Red Bull junior and Formula 2 title protagonist Nikola Tsolov. \"I'm trying my best.\u201d\n\n\u201cEvery weekend I'm trying to maximise,\" Lawson timidly told Sky Sports F1 . \"In Mexico I gave it everything. There's definitely no assurance at the moment [for next year].\u201d",
+      "teams": [
+        "Racing Bulls"
+      ],
+      "topic": "driver_market",
+      "updated_at": "2026-11-03T14:06:58Z",
+      "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+    },
+    {
+      "attribution": "Reported claim",
+      "claim_type": "fact",
+      "confidence_label": "reported",
+      "drivers": [
+        "Kimi Antonelli"
+      ],
+      "headline": "Kimi Antonelli confirms 2027 F1 race number following maiden title win | Crash.net",
+      "id": "story-07d9d99625f09c1d2e3c",
+      "published_at": "2026-11-03T12:55:00Z",
+      "sources": [
+        {
+          "evidence_excerpt": "Kimi Antonelli \u00a9 XPB Images Kimi Antonelli has confirmed which number he will use for the 2027 Formula 1 season, after clinching his maiden title during the 2026 Mexico Grand Prix.",
+          "evidence_excerpts": [
+            "Kimi Antonelli \u00a9 XPB Images Kimi Antonelli has confirmed which number he will use for the 2027 Formula 1 season, after clinching his maiden title during the 2026 Mexico Grand Prix.",
+            "\"I think I'll stay with number 12,\" he said. \"I'll stay with number 12 because, obviously, it's a very special number for me.",
+            "\"And also, to be honest, I'm very superstitious, and number 1 has never been a good number for me. Whenever I put it, it went extremely badly."
+          ],
+          "published_at": "2026-11-03T12:55:00Z",
+          "source_id": "crash_f1",
+          "source_name": "Crash.net Formula 1",
+          "url": "https://www.crash.net/f1/news/1109293/1/kimi-antonelli-confirms-2027-f1-race-number-following-maiden-title-win"
+        }
+      ],
+      "summary": "Crash.net Formula 1: \u201cKimi Antonelli \u00a9 XPB Images Kimi Antonelli has confirmed which number he will use for the 2027 Formula 1 season, after clinching his maiden title during the 2026 Mexico Grand Prix.\u201d\n\n\u201c\"I think I'll stay with number 12,\" he said. \"I'll stay with number 12 because, obviously, it's a very special number for me.\u201d\n\n\u201c\"And also, to be honest, I'm very superstitious, and number 1 has never been a good number for me. Whenever I put it, it went extremely badly.\u201d",
+      "teams": [
+        "Mercedes"
+      ],
+      "topic": "general",
+      "updated_at": "2026-11-03T14:06:58Z",
+      "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+    },
+    {
+      "attribution": "Official source statement",
+      "claim_type": "fact",
+      "confidence_label": "official",
+      "drivers": [
+        "Kimi Antonelli"
+      ],
+      "headline": "F1\u2019s youngest World Champions as Kimi Antonelli smashes the record",
+      "id": "story-7fec673015a57285e9e9",
+      "published_at": "2026-11-03T12:28:59Z",
+      "sources": [
+        {
+          "evidence_excerpt": "Kimi Antonelli Emerson Fittipaldi Max Verstappen Show more tags F1\u2019s youngest World Champions as Antonelli smashes the record Aged just 20, Kimi Antonelli has joined an exclusive club of F1 World Champions",
+          "evidence_excerpts": [
+            "Kimi Antonelli Emerson Fittipaldi Max Verstappen Show more tags F1\u2019s youngest World Champions as Antonelli smashes the record Aged just 20, Kimi Antonelli has joined an exclusive club of F1 World Champions",
+            "by clinching the 2026 world title. Nov 03, 2026 12:28pm UTC Kimi Antonelli is champion of the world, and the youngest ever to do it in F1 history.",
+            "The Italian has rewritten the record books, in what is only his second season in the sport, after his third place finish in Mexico City sealed the deal."
+          ],
+          "published_at": "2026-11-03T12:28:59Z",
+          "source_id": "formula1_official_latest",
+          "source_name": "Formula 1 Official Latest",
+          "url": "https://www.formula1.com/en/latest/article/f1s-youngest-world-champions-as-antonelli-smashes-the-record.4otUr4h4wmWd6VmIEaNjzV"
+        }
+      ],
+      "summary": "Formula 1 Official Latest: \u201cKimi Antonelli Emerson Fittipaldi Max Verstappen Show more tags F1\u2019s youngest World Champions as Antonelli smashes the record Aged just 20, Kimi Antonelli has joined an exclusive club of F1 World Champions\u201d\n\n\u201cby clinching the 2026 world title. Nov 03, 2026 12:28pm UTC Kimi Antonelli is champion of the world, and the youngest ever to do it in F1 history.\u201d\n\n\u201cThe Italian has rewritten the record books, in what is only his second season in the sport, after his third place finish in Mexico City sealed the deal.\u201d",
+      "teams": [],
+      "topic": "race",
+      "updated_at": "2026-11-03T14:06:58Z",
+      "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
+    },
+    {
+      "attribution": "Reported claim",
+      "claim_type": "analysis",
+      "confidence_label": "reported",
+      "drivers": [
+        "Lewis Hamilton",
+        "Max Verstappen"
+      ],
+      "headline": "Lewis Hamilton calls for FIA action as Max Verstappen exchange emerges",
+      "id": "story-705e62cc7c10956dbe11",
+      "published_at": "2026-11-03T12:16:26Z",
+      "sources": [
+        {
+          "evidence_excerpt": "Lewis Hamilton and Max Verstappen: the best of enemies Untelevised team radio from the Mexican Grand Prix has revealed the moment Lewis Hamilton admitted he had no hope of passing Max Verstappen",
+          "evidence_excerpts": [
+            "Lewis Hamilton and Max Verstappen: the best of enemies Untelevised team radio from the Mexican Grand Prix has revealed the moment Lewis Hamilton admitted he had no hope of passing Max Verstappen",
+            "Hamilton: \u201cHow am I supposed to overtake the Red Bull engine?\u201d",
+            "Appearing in the post-race press conference, Hamilton called for the FIA to address \u201cthese silly clips\u201d as well as suggesting a change to the final corner in Mexico to improve overtaking on"
+          ],
+          "published_at": "2026-11-03T12:16:26Z",
+          "source_id": "planetf1",
+          "source_name": "PlanetF1",
+          "url": "https://www.planetf1.com/news/lewis-hamilton-fia-max-verstappen-mexican-grand-prix-2026-footage"
+        }
+      ],
+      "summary": "PlanetF1: \u201cLewis Hamilton and Max Verstappen: the best of enemies Untelevised team radio from the Mexican Grand Prix has revealed the moment Lewis Hamilton admitted he had no hope of passing Max Verstappen\u201d\n\n\u201cHamilton: \u201cHow am I supposed to overtake the Red Bull engine?\u201d\u201d\n\n\u201cAppearing in the post-race press conference, Hamilton called for the FIA to address \u201cthese silly clips\u201d as well as suggesting a change to the final corner in Mexico to improve overtaking on\u201d",
+      "teams": [
+        "Ferrari",
+        "Red Bull"
+      ],
+      "topic": "technical",
+      "updated_at": "2026-11-03T14:06:58Z",
+      "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+    },
+    {
+      "attribution": "Reported claim",
+      "claim_type": "fact",
+      "confidence_label": "reported",
+      "drivers": [
+        "Kimi Antonelli"
+      ],
+      "headline": "FIA president makes Kimi Antonelli request in touching tribute to F1 champion | RacingNews365",
+      "id": "story-1590642c86c56f66f66b",
+      "published_at": "2026-11-03T12:15:00Z",
+      "sources": [
+        {
+          "evidence_excerpt": "Article To news overview \u00a9 XPB Images FIA president Mohammed Ben Sulayem has asked Kimi Antonelli to \"never change\" in a social media congratulation to the new F1 drivers' champion.",
+          "evidence_excerpts": [
+            "Article To news overview \u00a9 XPB Images FIA president Mohammed Ben Sulayem has asked Kimi Antonelli to \"never change\" in a social media congratulation to the new F1 drivers' champion.",
+            "the championship's second campaign, in 1951. \"I am emotional. Congratulations, Kimi,\" Ben Sulayem said in a social media post from the FIA.",
+            "\"But in the meanwhile, I'll just ask you for something: Never change. Keep this Kimi,\" he added."
+          ],
+          "published_at": "2026-11-03T12:15:00Z",
+          "source_id": "racingnews365_f1",
+          "source_name": "RacingNews365 Formula 1",
+          "url": "https://racingnews365.com/fia-president-makes-kimi-antonelli-request-in-touching-tribute-to-f1-champion"
+        }
+      ],
+      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images FIA president Mohammed Ben Sulayem has asked Kimi Antonelli to \"never change\" in a social media congratulation to the new F1 drivers' champion.\u201d\n\n\u201cthe championship's second campaign, in 1951. \"I am emotional. Congratulations, Kimi,\" Ben Sulayem said in a social media post from the FIA.\u201d\n\n\u201c\"But in the meanwhile, I'll just ask you for something: Never change. Keep this Kimi,\" he added.\u201d",
+      "teams": [
+        "Mercedes"
+      ],
+      "topic": "general",
+      "updated_at": "2026-11-03T14:06:58Z",
+      "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+    },
+    {
+      "attribution": "Unconfirmed claim",
+      "claim_type": "unconfirmed",
+      "confidence_label": "unconfirmed",
+      "drivers": [
+        "Valtteri Bottas",
+        "Colton Herta",
+        "Fred Vesti"
+      ],
+      "headline": "Valtteri Bottas issues Cadillac update as Colton Herta rumours hit overdrive",
+      "id": "story-d9d89566957c74af3c31",
+      "published_at": "2026-11-03T12:03:47Z",
+      "sources": [
+        {
+          "evidence_excerpt": "Valtteri Bottas regained an F1 seat with Cadillac for the 2026 season Valtteri Bottas believes Cadillac meetings with the \u201cbig bosses in the USA\u201d will decide his future, with at least two",
+          "evidence_excerpts": [
+            "Valtteri Bottas regained an F1 seat with Cadillac for the 2026 season Valtteri Bottas believes Cadillac meetings with the \u201cbig bosses in the USA\u201d will decide his future, with at least two",
+            "Cadillac reserve Colton Herta sits one point away from eligibility for his FIA Super Licence, while Mercedes reserve Fred Vesti confirmed he has \u201call my eyes\u201d on joining Cadillac next season.",
+            "with the team until at least 2029. Bottas remains confident he will be staying in Formula 1 at this stage, however. \u201cI don\u2019t really have much to say,\u201d Bottas replied in Mexico."
+          ],
+          "published_at": "2026-11-03T12:03:47Z",
+          "source_id": "planetf1",
+          "source_name": "PlanetF1",
+          "url": "https://www.planetf1.com/news/valtteri-bottas-cadillac-rumours-f1-future"
+        }
+      ],
+      "summary": "PlanetF1: \u201cValtteri Bottas regained an F1 seat with Cadillac for the 2026 season Valtteri Bottas believes Cadillac meetings with the \u201cbig bosses in the USA\u201d will decide his future, with at least two\u201d\n\n\u201cCadillac reserve Colton Herta sits one point away from eligibility for his FIA Super Licence, while Mercedes reserve Fred Vesti confirmed he has \u201call my eyes\u201d on joining Cadillac next season.\u201d\n\n\u201cwith the team until at least 2029. Bottas remains confident he will be staying in Formula 1 at this stage, however. \u201cI don\u2019t really have much to say,\u201d Bottas replied in Mexico.\u201d",
       "teams": [
         "Cadillac"
       ],
       "topic": "driver_market",
-      "updated_at": "2026-10-30T22:15:48Z",
+      "updated_at": "2026-11-03T14:06:58Z",
+      "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+    },
+    {
+      "attribution": "Unconfirmed claim",
+      "claim_type": "unconfirmed",
+      "confidence_label": "unconfirmed",
+      "drivers": [
+        "Daniel Ricciardo"
+      ],
+      "headline": "Daniel Ricciardo eyed for surprise Formula E opportunity | Crash.net",
+      "id": "story-69b89a35134adb570e5f",
+      "published_at": "2026-11-03T12:00:00Z",
+      "sources": [
+        {
+          "evidence_excerpt": "According to a report published by Formula E Notebook, incoming Australian team Fortescue Zero made a secret approach to eight-time Formula 1 Grand Prix winner Daniel Ricciardo regarding a potential seat.",
+          "evidence_excerpts": [
+            "According to a report published by Formula E Notebook, incoming Australian team Fortescue Zero made a secret approach to eight-time Formula 1 Grand Prix winner Daniel Ricciardo regarding a potential seat.",
+            "the world stage. Daniel Ricciardo \u00a9 XPB Images However, the secret inquiries remained purely informal and ultimately did not progress into formal contract negotiations or official driver offers.",
+            "While a high-profile switch to the electric championship is off the table for now, Ricciardo\u2019s long-term future plans remain the subject of intense paddock speculation, after he left Formula 1 after his"
+          ],
+          "published_at": "2026-11-03T12:00:00Z",
+          "source_id": "crash_f1",
+          "source_name": "Crash.net Formula 1",
+          "url": "https://www.crash.net/f1/news/1109292/1/daniel-ricciardo-eyed-surprise-formula-e-opportunity"
+        }
+      ],
+      "summary": "Crash.net Formula 1: \u201cAccording to a report published by Formula E Notebook, incoming Australian team Fortescue Zero made a secret approach to eight-time Formula 1 Grand Prix winner Daniel Ricciardo regarding a potential seat.\u201d\n\n\u201cthe world stage. Daniel Ricciardo \u00a9 XPB Images However, the secret inquiries remained purely informal and ultimately did not progress into formal contract negotiations or official driver offers.\u201d\n\n\u201cWhile a high-profile switch to the electric championship is off the table for now, Ricciardo\u2019s long-term future plans remain the subject of intense paddock speculation, after he left Formula 1 after his\u201d",
+      "teams": [
+        "Fortescue Zero"
+      ],
+      "topic": "driver_market",
+      "updated_at": "2026-11-03T14:06:58Z",
       "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
     }
   ],
-  "next_check_at": "2026-11-01T22:15:48Z",
+  "next_check_at": "2026-11-05T14:06:58Z",
   "provider": "deepseek",
   "schema_version": "2.0",
   "sources_checked": 7,
   "status": "published",
-  "summary": "8 sourced F1 updates. Open each report for evidence and context.",
-  "updated_at": "2026-10-30T22:15:48Z"
+  "summary": "12 sourced F1 updates. Open each report for evidence and context.",
+  "updated_at": "2026-11-03T14:06:58Z"
 }
