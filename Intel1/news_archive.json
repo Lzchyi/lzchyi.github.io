@@ -1,5 +1,458 @@
 [
   {
+    "brief_id": "news-34d898e6ac0e0beb9db6",
+    "checked_at": "2026-11-05T19:54:43Z",
+    "coverage_note": "Some sources could not be checked. These reports reflect the linked evidence that was available.",
+    "coverage_status": "partial",
+    "failed_sources": [
+      {
+        "source_id": "autosport_f1",
+        "source_name": "Autosport Formula 1"
+      },
+      {
+        "source_id": "bbc_sport_f1",
+        "source_name": "BBC Sport Formula 1"
+      },
+      {
+        "source_id": "espn_f1",
+        "source_name": "ESPN Formula 1"
+      },
+      {
+        "source_id": "fia_f1_2026_documents",
+        "source_name": "FIA Formula One 2026 Decision Documents"
+      },
+      {
+        "source_id": "formula1_official_latest",
+        "source_name": "Formula 1 Official Latest"
+      },
+      {
+        "source_id": "guardian_formula_one",
+        "source_name": "The Guardian Formula One"
+      },
+      {
+        "source_id": "motorsport_f1",
+        "source_name": "Motorsport.com Formula 1"
+      },
+      {
+        "source_id": "pirelli_formula1_tag",
+        "source_name": "Pirelli Formula 1 Tag"
+      },
+      {
+        "source_id": "racer_f1",
+        "source_name": "RACER Formula 1"
+      },
+      {
+        "source_id": "reuters_formula1",
+        "source_name": "Reuters Formula 1"
+      }
+    ],
+    "headline": "'I don\u2019t know what else they want me to do' \u2013 Liam Lawson elaborates on uncertainty around his F1 future",
+    "is_preview": false,
+    "items": [
+      {
+        "attribution": "Official source statement",
+        "claim_type": "fact",
+        "confidence_label": "official",
+        "drivers": [
+          "Liam Lawson"
+        ],
+        "headline": "'I don\u2019t know what else they want me to do' \u2013 Liam Lawson elaborates on uncertainty around his F1 future",
+        "id": "story-a1d770d7a9980fb062e2",
+        "published_at": "2026-11-05T19:49:03Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Liam Lawson Racing Bulls Brazil Show more tags 'I don\u2019t know what else they want me to do' \u2013 Lawson elaborates on uncertainty around his F1 future Liam Lawson has explained how",
+            "evidence_excerpts": [
+              "Liam Lawson Racing Bulls Brazil Show more tags 'I don\u2019t know what else they want me to do' \u2013 Lawson elaborates on uncertainty around his F1 future Liam Lawson has explained how",
+              "he\u2019s doing everything he can in order to retain his seat at Racing Bulls.",
+              "Nov 05, 2026 7:49pm UTC Liam Lawson has admitted that he doesn\u2019t \u201cknow what else they want me to do\u201d as his future at Racing Bulls remains uncertain, with the New Zealander"
+            ],
+            "published_at": "2026-11-05T19:49:03Z",
+            "source_id": "formula1_official_latest",
+            "source_name": "Formula 1 Official Latest",
+            "url": "https://www.formula1.com/en/latest/article/i-dont-know-what-else-they-want-me-to-do-lawson-elaborates-on-uncertainty-around-his-f1-future.4raO0TJB58aCxyWdLRkOYv"
+          }
+        ],
+        "summary": "Formula 1 Official Latest: \u201cLiam Lawson Racing Bulls Brazil Show more tags 'I don\u2019t know what else they want me to do' \u2013 Lawson elaborates on uncertainty around his F1 future Liam Lawson has explained how\u201d\n\n\u201che\u2019s doing everything he can in order to retain his seat at Racing Bulls.\u201d\n\n\u201cNov 05, 2026 7:49pm UTC Liam Lawson has admitted that he doesn\u2019t \u201cknow what else they want me to do\u201d as his future at Racing Bulls remains uncertain, with the New Zealander\u201d",
+        "teams": [
+          "Racing Bulls"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-11-05T19:54:43Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "analysis",
+        "confidence_label": "reported",
+        "drivers": [
+          "Lewis Hamilton",
+          "Charles Leclerc"
+        ],
+        "headline": "Lewis Hamilton comes out swinging after Charles Leclerc clash: \u201cI\u2019m not going to be silenced\u201d | Crash.net",
+        "id": "story-d323889b86fa2cd50ad2",
+        "published_at": "2026-11-05T19:48:49Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Lewis Hamilton has responded to criticism amid tension at Ferrari Lewis Hamilton says he agrees with claims that Ferrari team-mate Charles Leclerc races him harder than other Formula 1 drivers following their",
+            "evidence_excerpts": [
+              "Lewis Hamilton has responded to criticism amid tension at Ferrari Lewis Hamilton says he agrees with claims that Ferrari team-mate Charles Leclerc races him harder than other Formula 1 drivers following their",
+              "clash at the Mexico City Grand Prix. Seven-time world champion Hamilton called out Leclerc\u2019s \u201cdo or die\u201d approach after the Monegasque overtook his team-mate by cutting a chicane during a feisty opening-lap",
+              "battle at the Autodromo Hermanos Rodriguez. Hamilton dropped behind Red Bull\u2019s Max Verstappen, who went on to win the race, while Leclerc finished fourth after being handed a five-second time penalty for"
+            ],
+            "published_at": "2026-11-05T19:48:49Z",
+            "source_id": "crash_f1",
+            "source_name": "Crash.net Formula 1",
+            "url": "https://www.crash.net/f1/news/1109342/1/lewis-hamilton-comes-out-swinging-after-charles-leclerc-clash-im-not-going-be"
+          }
+        ],
+        "summary": "Crash.net Formula 1: \u201cLewis Hamilton has responded to criticism amid tension at Ferrari Lewis Hamilton says he agrees with claims that Ferrari team-mate Charles Leclerc races him harder than other Formula 1 drivers following their\u201d\n\n\u201cclash at the Mexico City Grand Prix. Seven-time world champion Hamilton called out Leclerc\u2019s \u201cdo or die\u201d approach after the Monegasque overtook his team-mate by cutting a chicane during a feisty opening-lap\u201d\n\n\u201cbattle at the Autodromo Hermanos Rodriguez. Hamilton dropped behind Red Bull\u2019s Max Verstappen, who went on to win the race, while Leclerc finished fourth after being handed a five-second time penalty for\u201d",
+        "teams": [
+          "Ferrari"
+        ],
+        "topic": "general",
+        "updated_at": "2026-11-05T19:54:43Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Lewis Hamilton",
+          "Charles Leclerc"
+        ],
+        "headline": "Ferrari drivers set for crunch meeting in Brazil",
+        "id": "story-99e9b6a47ea20b0a9a9c",
+        "published_at": "2026-11-05T19:48:42Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Ferrari team boss Fred Vasseur will get his Formula 1 drivers together in Brazil to discuss their costly opening-lap dice in Mexico, as Lewis Hamilton vows \"I'll never be silenced\".",
+            "evidence_excerpts": [
+              "Ferrari team boss Fred Vasseur will get his Formula 1 drivers together in Brazil to discuss their costly opening-lap dice in Mexico, as Lewis Hamilton vows \"I'll never be silenced\".",
+              "Charles Leclerc and Hamilton fought each other hard on the opening lap in Mexico, allowing Max Verstappen to steal away what Ferrari believed was a likely victory.",
+              "Hamilton called into question Leclerc's racecraft after the race, saying he has a \"do or die\" mentality and a long history of fighting his team-mates too hard."
+            ],
+            "published_at": "2026-11-05T19:48:42Z",
+            "source_id": "the_race_f1",
+            "source_name": "The Race Formula 1",
+            "url": "https://www.the-race.com/formula-1/ferrari-drivers-set-for-crunch-meeting-in-brazil/"
+          }
+        ],
+        "summary": "The Race Formula 1: \u201cFerrari team boss Fred Vasseur will get his Formula 1 drivers together in Brazil to discuss their costly opening-lap dice in Mexico, as Lewis Hamilton vows \"I'll never be silenced\".\u201d\n\n\u201cCharles Leclerc and Hamilton fought each other hard on the opening lap in Mexico, allowing Max Verstappen to steal away what Ferrari believed was a likely victory.\u201d\n\n\u201cHamilton called into question Leclerc's racecraft after the race, saying he has a \"do or die\" mentality and a long history of fighting his team-mates too hard.\u201d",
+        "teams": [
+          "Ferrari"
+        ],
+        "topic": "general",
+        "updated_at": "2026-11-05T19:54:43Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "analysis",
+        "confidence_label": "reported",
+        "drivers": [
+          "Max Verstappen",
+          "Kimi Antonelli"
+        ],
+        "headline": "Max Verstappen hands Kimi Antonelli key advice on being F1 champion | RacingNews365",
+        "id": "story-dc44c42a4b0e934844b7",
+        "published_at": "2026-11-05T19:15:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images Max Verstappen has offered Kimi Antonelli a dose of reality about life as a newly crowned F1 champion, warning the Mercedes driver that the demands",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images Max Verstappen has offered Kimi Antonelli a dose of reality about life as a newly crowned F1 champion, warning the Mercedes driver that the demands",
+              "waiting for him off track are \"not nice\". Antonelli became the youngest champion in F1 history on Sunday after finishing third behind two of the greats in Verstappen and Lewis Hamilton.",
+              "The 20-year-old has already spoken about the sheer volume of off-track duties and attention that followed, a workload Verstappen knows intimately from his own four championship wins with Red Bull."
+            ],
+            "published_at": "2026-11-05T19:15:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/max-verstappen-hands-kimi-antonelli-key-advice-on-being-f1-champion"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Max Verstappen has offered Kimi Antonelli a dose of reality about life as a newly crowned F1 champion, warning the Mercedes driver that the demands\u201d\n\n\u201cwaiting for him off track are \"not nice\". Antonelli became the youngest champion in F1 history on Sunday after finishing third behind two of the greats in Verstappen and Lewis Hamilton.\u201d\n\n\u201cThe 20-year-old has already spoken about the sheer volume of off-track duties and attention that followed, a workload Verstappen knows intimately from his own four championship wins with Red Bull.\u201d",
+        "teams": [
+          "Red Bull",
+          "Mercedes"
+        ],
+        "topic": "general",
+        "updated_at": "2026-11-05T19:54:43Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Oscar Piastri",
+          "Leo Fornaroli"
+        ],
+        "headline": "Oscar Piastri to miss Brazil GP FP1 as McLaren junior steps in",
+        "id": "story-29eb595b2032d092ad99",
+        "published_at": "2026-11-05T19:02:58Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Oscar Piastri will step down for FP1 in Brazil Leo Fornaroli will be back in action for McLaren in FP1 at the S\u00e3o Paulo Grand Prix as he completes the team\u2019s mandatory",
+            "evidence_excerpts": [
+              "Oscar Piastri will step down for FP1 in Brazil Leo Fornaroli will be back in action for McLaren in FP1 at the S\u00e3o Paulo Grand Prix as he completes the team\u2019s mandatory",
+              "rookie sessions for this season. He will replace Oscar Piastri in Interlagos, having driven Lando Norris\u2019 MCL40 in Mexico.",
+              "Leo Fornaroli to drive Oscar Piastri\u2019s McLaren in Brazilian GP practice Reigning Formula 2 champion Fornaroli joined McLaren last year as a development driver and was promoted to reserve driver a month"
+            ],
+            "published_at": "2026-11-05T19:02:58Z",
+            "source_id": "planetf1",
+            "source_name": "PlanetF1",
+            "url": "https://www.planetf1.com/news/oscar-piastri-f1-2026-brazil-gp-fp1-mclaren-junior"
+          }
+        ],
+        "summary": "PlanetF1: \u201cOscar Piastri will step down for FP1 in Brazil Leo Fornaroli will be back in action for McLaren in FP1 at the S\u00e3o Paulo Grand Prix as he completes the team\u2019s mandatory\u201d\n\n\u201crookie sessions for this season. He will replace Oscar Piastri in Interlagos, having driven Lando Norris\u2019 MCL40 in Mexico.\u201d\n\n\u201cLeo Fornaroli to drive Oscar Piastri\u2019s McLaren in Brazilian GP practice Reigning Formula 2 champion Fornaroli joined McLaren last year as a development driver and was promoted to reserve driver a month\u201d",
+        "teams": [
+          "McLaren"
+        ],
+        "topic": "technical",
+        "updated_at": "2026-11-05T19:54:43Z",
+        "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "analysis",
+        "confidence_label": "reported",
+        "drivers": [
+          "Lewis Hamilton",
+          "Charles Leclerc"
+        ],
+        "headline": "Lewis Hamilton addresses explosive Ferrari 'lack of respect' comments | RacingNews365",
+        "id": "story-4805d0296c3762a4057a",
+        "published_at": "2026-11-05T18:48:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images Lewis Hamilton has responded to Ferrari team principal Fred Vasseur's remark that his first-lap clash with Charles Leclerc at the Mexico City Grand Prix represented",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images Lewis Hamilton has responded to Ferrari team principal Fred Vasseur's remark that his first-lap clash with Charles Leclerc at the Mexico City Grand Prix represented",
+              "a \"lack of respect\" for Ferrari and all those the Scuderia employs.",
+              "Hamilton insists that he has always held his team in the utmost regard, after the incendiary interview from his boss to French broadcaster Canal+ at the Aut\u00f3dromo Hermanos Rodr\u00edguez."
+            ],
+            "published_at": "2026-11-05T18:48:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/lewis-hamilton-addresses-explosive-ferrari-lack-of-respect-comments"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Lewis Hamilton has responded to Ferrari team principal Fred Vasseur's remark that his first-lap clash with Charles Leclerc at the Mexico City Grand Prix represented\u201d\n\n\u201ca \"lack of respect\" for Ferrari and all those the Scuderia employs.\u201d\n\n\u201cHamilton insists that he has always held his team in the utmost regard, after the incendiary interview from his boss to French broadcaster Canal+ at the Aut\u00f3dromo Hermanos Rodr\u00edguez.\u201d",
+        "teams": [
+          "Ferrari"
+        ],
+        "topic": "general",
+        "updated_at": "2026-11-05T19:54:43Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "analysis",
+        "confidence_label": "reported",
+        "drivers": [
+          "Max Verstappen"
+        ],
+        "headline": "Max Verstappen addresses 24-race F1 calendar: \u2018I wish it was less\u2019 | Crash.net",
+        "id": "story-3a48f3e1db5fef1f1233",
+        "published_at": "2026-11-05T18:42:37Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Max Verstappen says there are too many F1 races Max Verstappen has admitted he wishes there were fewer races on the Formula 1 calendar amid a brutal end to the 2026 season.",
+            "evidence_excerpts": [
+              "Max Verstappen says there are too many F1 races Max Verstappen has admitted he wishes there were fewer races on the Formula 1 calendar amid a brutal end to the 2026 season.",
+              "This weekend\u2019s Sao Paulo Grand Prix is the third race of a triple header after the United States Grand Prix and the Mexico City Grand Prix last weekend.",
+              "It forms the second of three triple-headers with one-week breaks in between them."
+            ],
+            "published_at": "2026-11-05T18:42:37Z",
+            "source_id": "crash_f1",
+            "source_name": "Crash.net Formula 1",
+            "url": "https://www.crash.net/f1/news/1109339/1/max-verstappen-addresses-24-race-f1-calendar-i-wish-it-was-less"
+          }
+        ],
+        "summary": "Crash.net Formula 1: \u201cMax Verstappen says there are too many F1 races Max Verstappen has admitted he wishes there were fewer races on the Formula 1 calendar amid a brutal end to the 2026 season.\u201d\n\n\u201cThis weekend\u2019s Sao Paulo Grand Prix is the third race of a triple header after the United States Grand Prix and the Mexico City Grand Prix last weekend.\u201d\n\n\u201cIt forms the second of three triple-headers with one-week breaks in between them.\u201d",
+        "teams": [
+          "Red Bull"
+        ],
+        "topic": "calendar",
+        "updated_at": "2026-11-05T19:54:43Z",
+        "why_it_matters": "Calendar and event changes can affect weekend planning. Check official event information for the applicable schedule."
+      },
+      {
+        "attribution": "Unconfirmed claim",
+        "claim_type": "fact",
+        "confidence_label": "unconfirmed",
+        "drivers": [
+          "Valtteri Bottas"
+        ],
+        "headline": "Valtteri Bottas reveals Cadillac board decision that could secure his F1 future",
+        "id": "story-6f7af801d485d5810418",
+        "published_at": "2026-11-05T18:35:32Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Valtteri Bottas has explained why he believes his Cadillac future remains secure, despite the speculation surrounding his seat for 2027.",
+            "evidence_excerpts": [
+              "Valtteri Bottas has explained why he believes his Cadillac future remains secure, despite the speculation surrounding his seat for 2027.",
+              "Valtteri Bottas has revealed that any driver changes at Cadillac need to be approved by the board, and why he\u2019s confident he\u2019ll stay for F1 2027.",
+              "The Finn\u2019s seat has come under scrutiny in recent weeks, due to the perception of a big performance gap between himself and Sergio Perez in the other Cadillac."
+            ],
+            "published_at": "2026-11-05T18:35:32Z",
+            "source_id": "planetf1",
+            "source_name": "PlanetF1",
+            "url": "https://www.planetf1.com/news/valtteri-bottas-cadillac-f1-2027-future-decision"
+          }
+        ],
+        "summary": "PlanetF1: \u201cValtteri Bottas has explained why he believes his Cadillac future remains secure, despite the speculation surrounding his seat for 2027.\u201d\n\n\u201cValtteri Bottas has revealed that any driver changes at Cadillac need to be approved by the board, and why he\u2019s confident he\u2019ll stay for F1 2027.\u201d\n\n\u201cThe Finn\u2019s seat has come under scrutiny in recent weeks, due to the perception of a big performance gap between himself and Sergio Perez in the other Cadillac.\u201d",
+        "teams": [
+          "Cadillac"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-11-05T19:54:43Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Kimi Antonelli"
+        ],
+        "headline": "Kimi Antonelli: New F1 world champion reveals details of title celebrations and special messages received from fellow sports stars | F1 News | Sky Sports",
+        "id": "story-3676c83530a57c8f41e1",
+        "published_at": "2026-11-05T18:30:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Exclusive Kimi Antonelli: New F1 world champion reveals details of title celebrations and special messages received from fellow sports stars Kimi Antonelli became Formula 1's youngest-ever world champion as he sealed the",
+            "evidence_excerpts": [
+              "Exclusive Kimi Antonelli: New F1 world champion reveals details of title celebrations and special messages received from fellow sports stars Kimi Antonelli became Formula 1's youngest-ever world champion as he sealed the",
+              "title in Mexico on Sunday; the 20-year-old has been congratulated by many sports stars; watch Friday's practice sessions from the Sao Paulo Grand Prix at 3.30pm and 7pm live on Sky Sports",
+              "F1 Thursday 5 November 2026 18:32, UK Please use Chrome browser for a more accessible video player Kimi Antonelli wore a GoPro during his celebrations at the Mexico City Grand Prix Kimi"
+            ],
+            "published_at": "2026-11-05T18:30:00Z",
+            "source_id": "sky_sports_f1",
+            "source_name": "Sky Sports Formula 1",
+            "url": "https://www.skysports.com/f1/news/13608312/kimi-antonelli-new-f1-world-champion-reveals-details-of-title-celebrations-and-special-messages-received-from-fellow-sports-stars"
+          }
+        ],
+        "summary": "Sky Sports Formula 1: \u201cExclusive Kimi Antonelli: New F1 world champion reveals details of title celebrations and special messages received from fellow sports stars Kimi Antonelli became Formula 1's youngest-ever world champion as he sealed the\u201d\n\n\u201ctitle in Mexico on Sunday; the 20-year-old has been congratulated by many sports stars; watch Friday's practice sessions from the Sao Paulo Grand Prix at 3.30pm and 7pm live on Sky Sports\u201d\n\n\u201cF1 Thursday 5 November 2026 18:32, UK Please use Chrome browser for a more accessible video player Kimi Antonelli wore a GoPro during his celebrations at the Mexico City Grand Prix Kimi\u201d",
+        "teams": [
+          "Mercedes"
+        ],
+        "topic": "general",
+        "updated_at": "2026-11-05T19:54:43Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Oliver Bearman",
+          "Esteban Ocon"
+        ],
+        "headline": "Haas plan revealed following Esteban Ocon axe",
+        "id": "story-f52ce3febeaf78e6ee49",
+        "published_at": "2026-11-05T18:22:02Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Haas feels 'strange' without Esteban Ocon says Oliver Bearman.",
+            "evidence_excerpts": [
+              "Haas feels 'strange' without Esteban Ocon says Oliver Bearman.",
+              "Oliver Bearman has explained why Esteban Ocon\u2019s sudden departure will not change his approach at Haas , despite admitting that it is \u201cstrange\u201d without his ex-teammate.",
+              "Haas announced earlier this week that Ocon will not complete the remainder of the campaign after he was stood down midway through the Mexico City Grand Prix."
+            ],
+            "published_at": "2026-11-05T18:22:02Z",
+            "source_id": "planetf1",
+            "source_name": "PlanetF1",
+            "url": "https://www.planetf1.com/news/haas-plan-revealed-following-esteban-ocon-axe"
+          }
+        ],
+        "summary": "PlanetF1: \u201cHaas feels 'strange' without Esteban Ocon says Oliver Bearman.\u201d\n\n\u201cOliver Bearman has explained why Esteban Ocon\u2019s sudden departure will not change his approach at Haas , despite admitting that it is \u201cstrange\u201d without his ex-teammate.\u201d\n\n\u201cHaas announced earlier this week that Ocon will not complete the remainder of the campaign after he was stood down midway through the Mexico City Grand Prix.\u201d",
+        "teams": [
+          "Haas"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-11-05T19:54:43Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "analysis",
+        "confidence_label": "reported",
+        "drivers": [
+          "Liam Lawson",
+          "Nikola Tsolov"
+        ],
+        "headline": "Liam Lawson handed double-down verdict in F1 future fight: 'It makes no sense' | RacingNews365",
+        "id": "story-f0b3e4211177ffc562e5",
+        "published_at": "2026-11-05T18:15:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 Red Bull Content Pool Karun Chandhok has doubled down on his assessment that Racing Bulls would be making a mistake by replacing Liam Lawson with Nikola Tsolov",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 Red Bull Content Pool Karun Chandhok has doubled down on his assessment that Racing Bulls would be making a mistake by replacing Liam Lawson with Nikola Tsolov",
+              "for the 2027 season. The Sky Sports F1 pundit first raised the issue last week and has now reiterated his position, insisting there is no statistical or performance-based justification for such a",
+              "switch. Outside the main four teams, Lawson has been F1's standout performer, sitting comfortably in ninth in the drivers' standings, and the mainstay behind his team now on the brink of securing"
+            ],
+            "published_at": "2026-11-05T18:15:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/liam-lawson-handed-double-down-verdict-in-f1-future-fight-it-makes-no-sense"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 Red Bull Content Pool Karun Chandhok has doubled down on his assessment that Racing Bulls would be making a mistake by replacing Liam Lawson with Nikola Tsolov\u201d\n\n\u201cfor the 2027 season. The Sky Sports F1 pundit first raised the issue last week and has now reiterated his position, insisting there is no statistical or performance-based justification for such a\u201d\n\n\u201cswitch. Outside the main four teams, Lawson has been F1's standout performer, sitting comfortably in ninth in the drivers' standings, and the mainstay behind his team now on the brink of securing\u201d",
+        "teams": [
+          "Racing Bulls"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-11-05T19:54:43Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Fernando Alonso",
+          "Lewis Hamilton"
+        ],
+        "headline": "Fernando Alonso reacts as Lewis Hamilton joins his exclusive F1 club | Crash.net",
+        "id": "story-f35ac80981f3714cdd34",
+        "published_at": "2026-11-05T18:07:05Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Fernando Alonso has the most F1 starts of all time Fernando Alonso has responded to former title rival Lewis Hamilton joining him in an exclusive Formula 1 club.",
+            "evidence_excerpts": [
+              "Fernando Alonso has the most F1 starts of all time Fernando Alonso has responded to former title rival Lewis Hamilton joining him in an exclusive Formula 1 club.",
+              "Seven-time world champion Hamilton is set to reach a major F1 milestone at this weekend\u2019s Sao Paulo Grand Prix, which will mark his 400th race entry and start.",
+              "Hamilton has some way to go to catch F1\u2019s record holder when it comes to race starts, with 45-year-old Alonso sitting on 444 starts from 447 entries heading to Brazil."
+            ],
+            "published_at": "2026-11-05T18:07:05Z",
+            "source_id": "crash_f1",
+            "source_name": "Crash.net Formula 1",
+            "url": "https://www.crash.net/f1/news/1109337/1/fernando-alonso-reacts-lewis-hamilton-joins-his-exclusive-f1-club"
+          }
+        ],
+        "summary": "Crash.net Formula 1: \u201cFernando Alonso has the most F1 starts of all time Fernando Alonso has responded to former title rival Lewis Hamilton joining him in an exclusive Formula 1 club.\u201d\n\n\u201cSeven-time world champion Hamilton is set to reach a major F1 milestone at this weekend\u2019s Sao Paulo Grand Prix, which will mark his 400th race entry and start.\u201d\n\n\u201cHamilton has some way to go to catch F1\u2019s record holder when it comes to race starts, with 45-year-old Alonso sitting on 444 starts from 447 entries heading to Brazil.\u201d",
+        "teams": [
+          "Aston Martin",
+          "Ferrari"
+        ],
+        "topic": "general",
+        "updated_at": "2026-11-05T19:54:43Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      }
+    ],
+    "next_check_at": "2026-11-07T19:54:43Z",
+    "provider": "deepseek",
+    "schema_version": "2.0",
+    "sources_checked": 7,
+    "status": "published",
+    "summary": "12 sourced F1 updates. Open each report for evidence and context.",
+    "updated_at": "2026-11-05T19:54:43Z"
+  },
+  {
     "brief_id": "news-a4293770e6927d246dca",
     "checked_at": "2026-11-03T14:06:58Z",
     "coverage_note": "Some sources could not be checked. These reports reflect the linked evidence that was available.",
