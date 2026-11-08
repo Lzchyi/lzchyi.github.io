@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-11-08T13:17:46Z",
+  "checked_at": "2026-11-08T22:00:28Z",
   "constructor_standings": [
     {
       "driver_id": null,
       "id": "mercedes",
-      "points": 630.0,
+      "points": 652.0,
       "position": 1,
       "primary_label": "Mercedes",
       "secondary_label": null,
@@ -16,7 +16,7 @@
     {
       "driver_id": null,
       "id": "ferrari",
-      "points": 504.0,
+      "points": 512.0,
       "position": 2,
       "primary_label": "Ferrari",
       "secondary_label": null,
@@ -28,7 +28,7 @@
     {
       "driver_id": null,
       "id": "red_bull",
-      "points": 382.0,
+      "points": 415.0,
       "position": 3,
       "primary_label": "Red Bull",
       "secondary_label": null,
@@ -40,19 +40,19 @@
     {
       "driver_id": null,
       "id": "mclaren",
-      "points": 365.0,
+      "points": 398.0,
       "position": 4,
       "primary_label": "McLaren",
       "secondary_label": null,
       "short_name": null,
       "team_id": "mclaren",
       "team_label": "McLaren",
-      "wins": 2
+      "wins": 3
     },
     {
       "driver_id": null,
       "id": "rb",
-      "points": 108.0,
+      "points": 112.0,
       "position": 5,
       "primary_label": "RB F1 Team",
       "secondary_label": null,
@@ -88,7 +88,7 @@
     {
       "driver_id": null,
       "id": "audi",
-      "points": 27.0,
+      "points": 28.0,
       "position": 8,
       "primary_label": "Audi",
       "secondary_label": null,
@@ -138,7 +138,7 @@
     {
       "driver_id": "antonelli",
       "id": "antonelli",
-      "points": 380.0,
+      "points": 390.0,
       "position": 1,
       "primary_label": "Andrea Kimi Antonelli",
       "secondary_label": "Mercedes",
@@ -150,7 +150,7 @@
     {
       "driver_id": "max_verstappen",
       "id": "max_verstappen",
-      "points": 261.0,
+      "points": 279.0,
       "position": 2,
       "primary_label": "Max Verstappen",
       "secondary_label": "Red Bull",
@@ -160,22 +160,10 @@
       "wins": 3
     },
     {
-      "driver_id": "hamilton",
-      "id": "hamilton",
-      "points": 259.0,
-      "position": 3,
-      "primary_label": "Lewis Hamilton",
-      "secondary_label": "Ferrari",
-      "short_name": null,
-      "team_id": "ferrari",
-      "team_label": "Ferrari",
-      "wins": 1
-    },
-    {
       "driver_id": "russell",
       "id": "russell",
-      "points": 250.0,
-      "position": 4,
+      "points": 262.0,
+      "position": 3,
       "primary_label": "George Russell",
       "secondary_label": "Mercedes",
       "short_name": null,
@@ -184,9 +172,21 @@
       "wins": 3
     },
     {
+      "driver_id": "hamilton",
+      "id": "hamilton",
+      "points": 261.0,
+      "position": 4,
+      "primary_label": "Lewis Hamilton",
+      "secondary_label": "Ferrari",
+      "short_name": null,
+      "team_id": "ferrari",
+      "team_label": "Ferrari",
+      "wins": 1
+    },
+    {
       "driver_id": "leclerc",
       "id": "leclerc",
-      "points": 245.0,
+      "points": 251.0,
       "position": 5,
       "primary_label": "Charles Leclerc",
       "secondary_label": "Ferrari",
@@ -198,19 +198,19 @@
     {
       "driver_id": "norris",
       "id": "norris",
-      "points": 221.0,
+      "points": 246.0,
       "position": 6,
       "primary_label": "Lando Norris",
       "secondary_label": "McLaren",
       "short_name": null,
       "team_id": "mclaren",
       "team_label": "McLaren",
-      "wins": 2
+      "wins": 3
     },
     {
       "driver_id": "piastri",
       "id": "piastri",
-      "points": 144.0,
+      "points": 152.0,
       "position": 7,
       "primary_label": "Oscar Piastri",
       "secondary_label": "McLaren",
@@ -222,7 +222,7 @@
     {
       "driver_id": "hadjar",
       "id": "hadjar",
-      "points": 107.0,
+      "points": 122.0,
       "position": 8,
       "primary_label": "Isack Hadjar",
       "secondary_label": "Red Bull",
@@ -234,7 +234,7 @@
     {
       "driver_id": "lawson",
       "id": "lawson",
-      "points": 83.0,
+      "points": 87.0,
       "position": 9,
       "primary_label": "Liam Lawson",
       "secondary_label": "RB F1 Team",
@@ -306,7 +306,7 @@
     {
       "driver_id": "hulkenberg",
       "id": "hulkenberg",
-      "points": 13.0,
+      "points": 14.0,
       "position": 15,
       "primary_label": "Nico H\u00fclkenberg",
       "secondary_label": "Audi",
@@ -440,5 +440,5 @@
   "round": 20,
   "season": 2026,
   "source": "jolpica",
-  "updated_at": "2026-11-08T05:56:40Z"
+  "updated_at": "2026-11-08T22:00:28Z"
 }
