@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-07T21:46:41Z",
+  "checked_at": "2026-11-08T05:56:40Z",
   "constructor_standings": [
     {
       "driver_id": null,
@@ -422,11 +422,23 @@
       "team_id": "cadillac",
       "team_label": "Cadillac F1 Team",
       "wins": 0
+    },
+    {
+      "driver_id": "rafael_camara",
+      "id": "rafael_camara",
+      "points": 0.0,
+      "position": 25,
+      "primary_label": "Rafael Camara",
+      "secondary_label": "Haas F1 Team",
+      "short_name": null,
+      "team_id": "haas",
+      "team_label": "Haas F1 Team",
+      "wins": 0
     }
   ],
   "is_reference": false,
-  "round": 19,
+  "round": 20,
   "season": 2026,
   "source": "jolpica",
-  "updated_at": "2026-11-03T00:56:04Z"
+  "updated_at": "2026-11-08T05:56:40Z"
 }
