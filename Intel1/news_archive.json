@@ -1,5 +1,468 @@
 [
   {
+    "brief_id": "news-7a98416df21f6b0866e4",
+    "checked_at": "2026-11-09T22:18:13Z",
+    "coverage_note": "Some sources could not be checked. These reports reflect the linked evidence that was available.",
+    "coverage_status": "partial",
+    "failed_sources": [
+      {
+        "source_id": "autosport_f1",
+        "source_name": "Autosport Formula 1"
+      },
+      {
+        "source_id": "bbc_sport_f1",
+        "source_name": "BBC Sport Formula 1"
+      },
+      {
+        "source_id": "espn_f1",
+        "source_name": "ESPN Formula 1"
+      },
+      {
+        "source_id": "fia_f1_2026_documents",
+        "source_name": "FIA Formula One 2026 Decision Documents"
+      },
+      {
+        "source_id": "formula1_official_latest",
+        "source_name": "Formula 1 Official Latest"
+      },
+      {
+        "source_id": "guardian_formula_one",
+        "source_name": "The Guardian Formula One"
+      },
+      {
+        "source_id": "motorsport_f1",
+        "source_name": "Motorsport.com Formula 1"
+      },
+      {
+        "source_id": "pirelli_formula1_tag",
+        "source_name": "Pirelli Formula 1 Tag"
+      },
+      {
+        "source_id": "racer_f1",
+        "source_name": "RACER Formula 1"
+      },
+      {
+        "source_id": "reuters_formula1",
+        "source_name": "Reuters Formula 1"
+      }
+    ],
+    "headline": "Red Bull Max Verstappen plan revealed as major Oscar Piastri announcement made - RacingNews365 | RacingNews365",
+    "is_preview": false,
+    "items": [
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Max Verstappen",
+          "Oscar Piastri"
+        ],
+        "headline": "Red Bull Max Verstappen plan revealed as major Oscar Piastri announcement made - RacingNews365 | RacingNews365",
+        "id": "story-9cbadf7323bdd38e38c4",
+        "published_at": "2026-11-09T21:30:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images Red Bull reveal plan to impose team orders on Max Verstappen Red Bull was going to make Max Verstappen hand back second place to Isack",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images Red Bull reveal plan to impose team orders on Max Verstappen Red Bull was going to make Max Verstappen hand back second place to Isack",
+              "Hadjar during the S\u00e3o Paulo Grand Prix, team principal Laurent Mekies has confirmed.",
+              "READ MORE: Red Bull reveal plan to impose team orders on Max Verstappen Oscar Piastri ends management agreement with Mark Webber Oscar Piastri has split ways with long-time manager Mark Webber."
+            ],
+            "published_at": "2026-11-09T21:30:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/red-bull-max-verstappen-plan-revealed-as-major-oscar-piastri-announcement-made-racingnews365"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Red Bull reveal plan to impose team orders on Max Verstappen Red Bull was going to make Max Verstappen hand back second place to Isack\u201d\n\n\u201cHadjar during the S\u00e3o Paulo Grand Prix, team principal Laurent Mekies has confirmed.\u201d\n\n\u201cREAD MORE: Red Bull reveal plan to impose team orders on Max Verstappen Oscar Piastri ends management agreement with Mark Webber Oscar Piastri has split ways with long-time manager Mark Webber.\u201d",
+        "teams": [
+          "Red Bull"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-11-09T22:18:13Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "analysis",
+        "confidence_label": "reported",
+        "drivers": [
+          "Liam Lawson"
+        ],
+        "headline": "Liam Lawson explains major Sao Paulo dilemma after tricky F1 test | RacingNews365",
+        "id": "story-9d05b6c5c84d1d46aa0f",
+        "published_at": "2026-11-09T20:00:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images Liam Lawson has explained the dilemma faced by F1 drivers in the Sao Paulo Grand Prix in managing their intermediate tyres in the opening phase",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images Liam Lawson has explained the dilemma faced by F1 drivers in the Sao Paulo Grand Prix in managing their intermediate tyres in the opening phase",
+              "\"The problem is that you never know whether to push through the graining and wear it off, or try to look after the tyre and stop the graining,\" Lawson told media, including",
+              "RacingNews365. \"And when it is dry, you can't really do too much. \"For us, the graining started halfway through Lap 1."
+            ],
+            "published_at": "2026-11-09T20:00:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/liam-lawson-explains-major-sao-paulo-dilemma-after-tricky-f1-test"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Liam Lawson has explained the dilemma faced by F1 drivers in the Sao Paulo Grand Prix in managing their intermediate tyres in the opening phase\u201d\n\n\u201c\"The problem is that you never know whether to push through the graining and wear it off, or try to look after the tyre and stop the graining,\" Lawson told media, including\u201d\n\n\u201cRacingNews365. \"And when it is dry, you can't really do too much. \"For us, the graining started halfway through Lap 1.\u201d",
+        "teams": [
+          "Racing Bulls"
+        ],
+        "topic": "race",
+        "updated_at": "2026-11-09T22:18:13Z",
+        "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
+      },
+      {
+        "attribution": "Unconfirmed claim",
+        "claim_type": "unconfirmed",
+        "confidence_label": "unconfirmed",
+        "drivers": [
+          "Max Verstappen"
+        ],
+        "headline": "Did Red Bull car problems cost Verstappen Brazilian GP victory?",
+        "id": "story-d05f0a755685d1e62af7",
+        "published_at": "2026-11-09T19:01:33Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Given that a flying Max Verstappen suddenly struggled with \"an extreme amount of oversteer\" after switching to slicks, did Red Bull car problems cost him the win at Formula 1's Brazilian Grand",
+            "evidence_excerpts": [
+              "Given that a flying Max Verstappen suddenly struggled with \"an extreme amount of oversteer\" after switching to slicks, did Red Bull car problems cost him the win at Formula 1's Brazilian Grand",
+              "\"Unfortunately, after that, I don't know if we picked up some kind of damage because the car felt like the complete opposite to anything that I felt the whole weekend, with some",
+              "Verstappen said he suddenly had \"An extreme amount of oversteer in the car in the high-speed corners, which made it super difficult to drive."
+            ],
+            "published_at": "2026-11-09T19:01:33Z",
+            "source_id": "the_race_f1",
+            "source_name": "The Race Formula 1",
+            "url": "https://www.the-race.com/formula-1/did-red-bull-car-problems-cost-verstappen-brazilian-gp-victory/"
+          }
+        ],
+        "summary": "The Race Formula 1: \u201cGiven that a flying Max Verstappen suddenly struggled with \"an extreme amount of oversteer\" after switching to slicks, did Red Bull car problems cost him the win at Formula 1's Brazilian Grand\u201d\n\n\u201c\"Unfortunately, after that, I don't know if we picked up some kind of damage because the car felt like the complete opposite to anything that I felt the whole weekend, with some\u201d\n\n\u201cVerstappen said he suddenly had \"An extreme amount of oversteer in the car in the high-speed corners, which made it super difficult to drive.\u201d",
+        "teams": [
+          "Red Bull"
+        ],
+        "topic": "technical",
+        "updated_at": "2026-11-09T22:18:13Z",
+        "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Daniel Ricciardo",
+          "Max Verstappen"
+        ],
+        "headline": "Daniel Ricciardo reveals Max Verstappen message after historic Red Bull victory | RacingNews365",
+        "id": "story-f9c4cf6e825391fd4cf4",
+        "published_at": "2026-11-09T19:00:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPBimages Daniel Ricciardo has explained that he messaged Max Verstappen and other people at Red Bull to congratulate them on their landmark victory in the Bahrain Grand",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPBimages Daniel Ricciardo has explained that he messaged Max Verstappen and other people at Red Bull to congratulate them on their landmark victory in the Bahrain Grand",
+              "I sent Max and quite a few others in the team that I still talk with a message after, to share my congrats and happiness.",
+              "\"It was received well; there are a lot of good people in that team.\""
+            ],
+            "published_at": "2026-11-09T19:00:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/daniel-ricciardo-reveals-max-verstappen-message-after-historic-red-bull-victory"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPBimages Daniel Ricciardo has explained that he messaged Max Verstappen and other people at Red Bull to congratulate them on their landmark victory in the Bahrain Grand\u201d\n\n\u201cI sent Max and quite a few others in the team that I still talk with a message after, to share my congrats and happiness.\u201d\n\n\u201c\"It was received well; there are a lot of good people in that team.\"\u201d",
+        "teams": [
+          "Red Bull"
+        ],
+        "topic": "general",
+        "updated_at": "2026-11-09T22:18:13Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Unconfirmed claim",
+        "claim_type": "analysis",
+        "confidence_label": "unconfirmed",
+        "drivers": [
+          "Liam Lawson"
+        ],
+        "headline": "Red Bull hail Liam Lawson performance as Racing Bulls stall on contract decision",
+        "id": "story-ad95efb2150b6c45116e",
+        "published_at": "2026-11-09T18:55:56Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Red Bull team principal Laurent Mekies has praised Liam Lawson for another impressive drive in Brazil as the New Zealander continues to battle to secure his seat for the 2027 season.",
+            "evidence_excerpts": [
+              "Red Bull team principal Laurent Mekies has praised Liam Lawson for another impressive drive in Brazil as the New Zealander continues to battle to secure his seat for the 2027 season.",
+              "Asked how Racing Bulls could justify casting out a driver that is performing at such a high level, Mekies said: \u201cI\u2019ve said it several times, the Racing Bulls driver decisions are done",
+              "Pressed for his opinion on the topic of Lawson\u2019s future, Mekies added: \u201cI\u2019ve just spent three minutes trying to tell you that it\u2019s a Racing Bulls decision."
+            ],
+            "published_at": "2026-11-09T18:55:56Z",
+            "source_id": "planetf1",
+            "source_name": "PlanetF1",
+            "url": "https://www.planetf1.com/news/red-bull-liam-lawson-racing-bulls-stall-contract-decision"
+          }
+        ],
+        "summary": "PlanetF1: \u201cRed Bull team principal Laurent Mekies has praised Liam Lawson for another impressive drive in Brazil as the New Zealander continues to battle to secure his seat for the 2027 season.\u201d\n\n\u201cAsked how Racing Bulls could justify casting out a driver that is performing at such a high level, Mekies said: \u201cI\u2019ve said it several times, the Racing Bulls driver decisions are done\u201d\n\n\u201cPressed for his opinion on the topic of Lawson\u2019s future, Mekies added: \u201cI\u2019ve just spent three minutes trying to tell you that it\u2019s a Racing Bulls decision.\u201d",
+        "teams": [
+          "Red Bull",
+          "Racing Bulls"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-11-09T22:18:13Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "analysis",
+        "confidence_label": "reported",
+        "drivers": [
+          "Lando Norris",
+          "Max Verstappen",
+          "Lewis Hamilton",
+          "Charles Leclerc"
+        ],
+        "headline": "Liam Lawson 'hypocrisy' warning to Racing Bulls as Max Verstappen shows 'true colours' - International Media reacts | RacingNews365",
+        "id": "story-4be5b2d775c0ea07c4df",
+        "published_at": "2026-11-09T18:05:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images Lando Norris mastered the treacherous conditions at Interlagos to claim victory in a dramatic S\u00e3o Paulo Grand Prix, as Mercedes secured the constructors' championship and",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images Lando Norris mastered the treacherous conditions at Interlagos to claim victory in a dramatic S\u00e3o Paulo Grand Prix, as Mercedes secured the constructors' championship and",
+              "\ud83c\uddec\ud83c\udde7 The Times \u2013 Lando Norris issues timely reminder of talent as he sets sights on 2027 The Times focuses on Norris' impressive victory at Interlagos, arguing that the McLaren driver has",
+              "\ud83c\uddf3\ud83c\uddf1 De Telegraaf \u2013 Not only during, but also after a sensational race in Brazil, Max Verstappen showed his true colours De Telegraaf focuses on Verstappen's remarkable recovery drive at Interlagos, where"
+            ],
+            "published_at": "2026-11-09T18:05:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/liam-lawson-hypocrisy-warning-to-racing-bulls-as-max-verstappen-shows-true-colours---international-media-reacts"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Lando Norris mastered the treacherous conditions at Interlagos to claim victory in a dramatic S\u00e3o Paulo Grand Prix, as Mercedes secured the constructors' championship and\u201d\n\n\u201c\ud83c\uddec\ud83c\udde7 The Times \u2013 Lando Norris issues timely reminder of talent as he sets sights on 2027 The Times focuses on Norris' impressive victory at Interlagos, arguing that the McLaren driver has\u201d\n\n\u201c\ud83c\uddf3\ud83c\uddf1 De Telegraaf \u2013 Not only during, but also after a sensational race in Brazil, Max Verstappen showed his true colours De Telegraaf focuses on Verstappen's remarkable recovery drive at Interlagos, where\u201d",
+        "teams": [
+          "McLaren",
+          "Red Bull",
+          "Ferrari"
+        ],
+        "topic": "race",
+        "updated_at": "2026-11-09T22:18:13Z",
+        "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
+      },
+      {
+        "attribution": "Official source statement",
+        "claim_type": "fact",
+        "confidence_label": "official",
+        "drivers": [
+          "Kimi Antonelli",
+          "George Russell"
+        ],
+        "headline": "GALLERY: The best images from Mercedes' Constructors' Championship title celebrations in Sao Paulo",
+        "id": "story-65a4f711927141e9504b",
+        "published_at": "2026-11-09T17:20:40Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Mercedes Kimi Antonelli George Russell Show more tags GALLERY: The best images from Mercedes' title celebrations Enjoy some of the best images from Mercedes' title-winning celebrations at Interlagos as the Silver Arrows",
+            "evidence_excerpts": [
+              "Mercedes Kimi Antonelli George Russell Show more tags GALLERY: The best images from Mercedes' title celebrations Enjoy some of the best images from Mercedes' title-winning celebrations at Interlagos as the Silver Arrows",
+              "race longer for Mercedes to claim their ninth Constructors' Championship title. The Silver Arrows won the teams' title in Sao Paulo, courtesy of George Russell 's fourth-place finish, with Antonelli in fifth.",
+              "As such, Mercedes took their first constructors' title since 2021, and the celebrations at track were special."
+            ],
+            "published_at": "2026-11-09T17:20:40Z",
+            "source_id": "formula1_official_latest",
+            "source_name": "Formula 1 Official Latest",
+            "url": "https://www.formula1.com/en/latest/article/gallery-the-best-images-from-mercedes-title-celebrations-2026.1GRUyTDIodPm4vvlVEydw5"
+          }
+        ],
+        "summary": "Formula 1 Official Latest: \u201cMercedes Kimi Antonelli George Russell Show more tags GALLERY: The best images from Mercedes' title celebrations Enjoy some of the best images from Mercedes' title-winning celebrations at Interlagos as the Silver Arrows\u201d\n\n\u201crace longer for Mercedes to claim their ninth Constructors' Championship title. The Silver Arrows won the teams' title in Sao Paulo, courtesy of George Russell 's fourth-place finish, with Antonelli in fifth.\u201d\n\n\u201cAs such, Mercedes took their first constructors' title since 2021, and the celebrations at track were special.\u201d",
+        "teams": [
+          "Mercedes"
+        ],
+        "topic": "race",
+        "updated_at": "2026-11-09T22:18:13Z",
+        "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Lando Norris"
+        ],
+        "headline": "McLaren react to Lando Norris champagne and 'pyrotechnics' issues | RacingNews365",
+        "id": "story-2f533812ae00409883b3",
+        "published_at": "2026-11-09T17:10:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images Andrea Stella has explained that Lando Norris was caught out by pyrotechnics during the podium celebrations after his S\u00e3o Paulo Grand Prix win, rather than",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images Andrea Stella has explained that Lando Norris was caught out by pyrotechnics during the podium celebrations after his S\u00e3o Paulo Grand Prix win, rather than",
+              "Later clarifying what had happened once Norris was back in the paddock, McLaren team principal Stella, speaking to media, including RacingNews365 , said: \"I understand that he had an incident with the",
+              "pyrotechnics, not with the bottle,\" said Stella. \"Okay, I think the bottle didn't go well either because he seemed like he had only the upper part."
+            ],
+            "published_at": "2026-11-09T17:10:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/mclaren-react-to-lando-norris-champagne-and-pyrotechnics-issues"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Andrea Stella has explained that Lando Norris was caught out by pyrotechnics during the podium celebrations after his S\u00e3o Paulo Grand Prix win, rather than\u201d\n\n\u201cLater clarifying what had happened once Norris was back in the paddock, McLaren team principal Stella, speaking to media, including RacingNews365 , said: \"I understand that he had an incident with the\u201d\n\n\u201cpyrotechnics, not with the bottle,\" said Stella. \"Okay, I think the bottle didn't go well either because he seemed like he had only the upper part.\u201d",
+        "teams": [
+          "McLaren"
+        ],
+        "topic": "race",
+        "updated_at": "2026-11-09T22:18:13Z",
+        "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
+      },
+      {
+        "attribution": "Unconfirmed claim",
+        "claim_type": "unconfirmed",
+        "confidence_label": "unconfirmed",
+        "drivers": [
+          "Andrea Kimi Antonelli"
+        ],
+        "headline": "\u201cThe car is steering by itself, don\u2019t you see it?\u201d: How handling trouble baffled Antonelli \u2013 RaceFans",
+        "id": "story-155499449ea67a21dac4",
+        "published_at": "2026-11-09T17:05:55Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Andrea Kimi Antonelli looked on course to win his first race as the new world champion as he pulled out an eight-second lead over his pursuers over the opening 12 laps at",
+            "evidence_excerpts": [
+              "Andrea Kimi Antonelli looked on course to win his first race as the new world champion as he pulled out an eight-second lead over his pursuers over the opening 12 laps at",
+              "\u201cOnce we switched to the soft tyre, I was getting into a good rhythm, but I started to feel something strange with the rear of the car,\u201d he said after the race.",
+              "\u201cIt was very unstable, particularly in some of the high-speed corners, and I then had the spin.\u201d Lap: 19/71 ANT: 1\u201919.448 Antonelli Something is weird with the car!"
+            ],
+            "published_at": "2026-11-09T17:05:55Z",
+            "source_id": "racefans_f1",
+            "source_name": "RaceFans Formula 1",
+            "url": "https://www.racefans.net/2026/11/09/the-car-is-steering-by-itself-dont-you-see-it-how-handling-trouble-baffled-antonelli/"
+          }
+        ],
+        "summary": "RaceFans Formula 1: \u201cAndrea Kimi Antonelli looked on course to win his first race as the new world champion as he pulled out an eight-second lead over his pursuers over the opening 12 laps at\u201d\n\n\u201c\u201cOnce we switched to the soft tyre, I was getting into a good rhythm, but I started to feel something strange with the rear of the car,\u201d he said after the race.\u201d\n\n\u201c\u201cIt was very unstable, particularly in some of the high-speed corners, and I then had the spin.\u201d Lap: 19/71 ANT: 1\u201919.448 Antonelli Something is weird with the car!\u201d",
+        "teams": [
+          "Mercedes"
+        ],
+        "topic": "technical",
+        "updated_at": "2026-11-09T22:18:13Z",
+        "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+      },
+      {
+        "attribution": "Unconfirmed claim",
+        "claim_type": "analysis",
+        "confidence_label": "unconfirmed",
+        "drivers": [
+          "George Russell",
+          "Max Verstappen"
+        ],
+        "headline": "Mercedes considers plan to help George Russell beat Max Verstappen in F1 runner-up battle | Crash.net",
+        "id": "story-63aaad4da5b323a78958",
+        "published_at": "2026-11-09T16:47:55Z",
+        "sources": [
+          {
+            "evidence_excerpt": "George Russell has slipped to third in the standings Mercedes will go \u201cfull blast\u201d to help George Russell secure runner-up spot in the 2026 Formula 1 world championship.",
+            "evidence_excerpts": [
+              "George Russell has slipped to third in the standings Mercedes will go \u201cfull blast\u201d to help George Russell secure runner-up spot in the 2026 Formula 1 world championship.",
+              "Verstappen and lock out the top two spots in the drivers\u2019 standings. \u201cI haven't thought about the drivers' championship yet,\u201d Mercedes team principal Toto Wolff said after Sunday\u2019s race in Brazil.",
+              "\u201cWe absolutely want him to score the maximum and hopefully finish second, and we need to think about what we're going to do about it, but it could be a possibility that"
+            ],
+            "published_at": "2026-11-09T16:47:55Z",
+            "source_id": "crash_f1",
+            "source_name": "Crash.net Formula 1",
+            "url": "https://www.crash.net/f1/news/1110051/1/mercedes-considers-plan-help-george-russell-beat-max-verstappen-f1-runner-battle"
+          }
+        ],
+        "summary": "Crash.net Formula 1: \u201cGeorge Russell has slipped to third in the standings Mercedes will go \u201cfull blast\u201d to help George Russell secure runner-up spot in the 2026 Formula 1 world championship.\u201d\n\n\u201cVerstappen and lock out the top two spots in the drivers\u2019 standings. \u201cI haven't thought about the drivers' championship yet,\u201d Mercedes team principal Toto Wolff said after Sunday\u2019s race in Brazil.\u201d\n\n\u201c\u201cWe absolutely want him to score the maximum and hopefully finish second, and we need to think about what we're going to do about it, but it could be a possibility that\u201d",
+        "teams": [
+          "Mercedes"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-11-09T22:18:13Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Unconfirmed claim",
+        "claim_type": "fact",
+        "confidence_label": "unconfirmed",
+        "drivers": [
+          "Lewis Hamilton"
+        ],
+        "headline": "Lewis Hamilton 'devastated' as Ferrari launches SF-26 investigation",
+        "id": "story-f297285d70b9ce32d6cf",
+        "published_at": "2026-11-09T16:23:18Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Lewis Hamilton in action for Ferrari Lewis Hamilton admitted that he was \u201cdevastated\u201d by the outcome of the Brazilian Grand Prix for Ferrari .",
+            "evidence_excerpts": [
+              "Lewis Hamilton in action for Ferrari Lewis Hamilton admitted that he was \u201cdevastated\u201d by the outcome of the Brazilian Grand Prix for Ferrari .",
+              "\u201cDevastated by yesterday\u2019s race, especially with how it ended,\u201d Hamilton began. \u201cIt started so well, but we struggled with the tyres and massive oversteer. In those conditions, it made things incredibly difficult.",
+              "\u201cI pushed as hard as I could, but we just didn\u2019t have the pace this weekend. \u201cWe\u2019ll work to understand why and come back fighting at the next race."
+            ],
+            "published_at": "2026-11-09T16:23:18Z",
+            "source_id": "planetf1",
+            "source_name": "PlanetF1",
+            "url": "https://www.planetf1.com/news/lewis-hamilton-ferrari-sf-26-investigation-f1-2026-brazilian-grand-prix"
+          }
+        ],
+        "summary": "PlanetF1: \u201cLewis Hamilton in action for Ferrari Lewis Hamilton admitted that he was \u201cdevastated\u201d by the outcome of the Brazilian Grand Prix for Ferrari .\u201d\n\n\u201c\u201cDevastated by yesterday\u2019s race, especially with how it ended,\u201d Hamilton began. \u201cIt started so well, but we struggled with the tyres and massive oversteer. In those conditions, it made things incredibly difficult.\u201d\n\n\u201c\u201cI pushed as hard as I could, but we just didn\u2019t have the pace this weekend. \u201cWe\u2019ll work to understand why and come back fighting at the next race.\u201d",
+        "teams": [
+          "Ferrari"
+        ],
+        "topic": "technical",
+        "updated_at": "2026-11-09T22:18:13Z",
+        "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+      },
+      {
+        "attribution": "Unconfirmed claim",
+        "claim_type": "analysis",
+        "confidence_label": "unconfirmed",
+        "drivers": [
+          "Lando Norris",
+          "Max Verstappen",
+          "Lewis Hamilton",
+          "Liam Lawson",
+          "Valtteri Bottas",
+          "Gabriel Bortoleto"
+        ],
+        "headline": "Max Verstappen jaw-dropping as Lewis Hamilton suffers - Sao Paulo GP Winners and Losers | RacingNews365",
+        "id": "story-8281be02633d6441bcc0",
+        "published_at": "2026-11-09T16:20:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Analysis To news overview Lando Norris converted pole position into victory at Interlagos, while a sensational recovery drive from Max Verstappen and a brief flash of brilliance from Liam Lawson lit up",
+            "evidence_excerpts": [
+              "Analysis To news overview Lando Norris converted pole position into victory at Interlagos, while a sensational recovery drive from Max Verstappen and a brief flash of brilliance from Liam Lawson lit up",
+              "Winner: Lando Norris Norris did exactly what he needed to do, turning pole position into a comfortable, points-maximising victory.",
+              "\u00a9 XPB Images Loser: Lewis Hamilton Hamilton produced one of the laps of the season on the opening lap, surging from 20th to ninth in his 400th grand prix start, before it"
+            ],
+            "published_at": "2026-11-09T16:20:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/max-verstappen-jaw-dropping-as-lewis-hamilton-suffers-sao-paulo-gp-winners-and-losers"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cAnalysis To news overview Lando Norris converted pole position into victory at Interlagos, while a sensational recovery drive from Max Verstappen and a brief flash of brilliance from Liam Lawson lit up\u201d\n\n\u201cWinner: Lando Norris Norris did exactly what he needed to do, turning pole position into a comfortable, points-maximising victory.\u201d\n\n\u201c\u00a9 XPB Images Loser: Lewis Hamilton Hamilton produced one of the laps of the season on the opening lap, surging from 20th to ninth in his 400th grand prix start, before it\u201d",
+        "teams": [
+          "McLaren",
+          "Red Bull",
+          "Ferrari",
+          "Racing Bulls",
+          "Cadillac",
+          "Audi"
+        ],
+        "topic": "race",
+        "updated_at": "2026-11-09T22:18:13Z",
+        "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
+      }
+    ],
+    "next_check_at": "2026-11-11T22:18:13Z",
+    "provider": "deepseek",
+    "schema_version": "2.0",
+    "sources_checked": 7,
+    "status": "published",
+    "summary": "12 sourced F1 updates. Open each report for evidence and context.",
+    "updated_at": "2026-11-09T22:18:13Z"
+  },
+  {
     "brief_id": "news-34d898e6ac0e0beb9db6",
     "checked_at": "2026-11-05T19:54:43Z",
     "coverage_note": "Some sources could not be checked. These reports reflect the linked evidence that was available.",
