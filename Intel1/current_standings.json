@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-08T22:00:28Z",
+  "checked_at": "2026-11-09T06:18:16Z",
   "constructor_standings": [
     {
       "driver_id": null,
@@ -16,7 +16,7 @@
     {
       "driver_id": null,
       "id": "ferrari",
-      "points": 512.0,
+      "points": 510.0,
       "position": 2,
       "primary_label": "Ferrari",
       "secondary_label": null,
@@ -52,7 +52,7 @@
     {
       "driver_id": null,
       "id": "rb",
-      "points": 112.0,
+      "points": 114.0,
       "position": 5,
       "primary_label": "RB F1 Team",
       "secondary_label": null,
@@ -186,7 +186,7 @@
     {
       "driver_id": "leclerc",
       "id": "leclerc",
-      "points": 251.0,
+      "points": 249.0,
       "position": 5,
       "primary_label": "Charles Leclerc",
       "secondary_label": "Ferrari",
@@ -234,7 +234,7 @@
     {
       "driver_id": "lawson",
       "id": "lawson",
-      "points": 87.0,
+      "points": 89.0,
       "position": 9,
       "primary_label": "Liam Lawson",
       "secondary_label": "RB F1 Team",
@@ -440,5 +440,5 @@
   "round": 20,
   "season": 2026,
   "source": "jolpica",
-  "updated_at": "2026-11-08T22:00:28Z"
+  "updated_at": "2026-11-09T06:18:16Z"
 }
