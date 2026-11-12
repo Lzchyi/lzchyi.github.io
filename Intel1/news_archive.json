@@ -1,5 +1,458 @@
 [
   {
+    "brief_id": "news-76ca7742b9cdf4144fa0",
+    "checked_at": "2026-11-12T00:38:24Z",
+    "coverage_note": "Some sources could not be checked. These reports reflect the linked evidence that was available.",
+    "coverage_status": "partial",
+    "failed_sources": [
+      {
+        "source_id": "autosport_f1",
+        "source_name": "Autosport Formula 1"
+      },
+      {
+        "source_id": "bbc_sport_f1",
+        "source_name": "BBC Sport Formula 1"
+      },
+      {
+        "source_id": "espn_f1",
+        "source_name": "ESPN Formula 1"
+      },
+      {
+        "source_id": "fia_f1_2026_documents",
+        "source_name": "FIA Formula One 2026 Decision Documents"
+      },
+      {
+        "source_id": "formula1_official_latest",
+        "source_name": "Formula 1 Official Latest"
+      },
+      {
+        "source_id": "guardian_formula_one",
+        "source_name": "The Guardian Formula One"
+      },
+      {
+        "source_id": "motorsport_f1",
+        "source_name": "Motorsport.com Formula 1"
+      },
+      {
+        "source_id": "pirelli_formula1_tag",
+        "source_name": "Pirelli Formula 1 Tag"
+      },
+      {
+        "source_id": "racer_f1",
+        "source_name": "RACER Formula 1"
+      },
+      {
+        "source_id": "reuters_formula1",
+        "source_name": "Reuters Formula 1"
+      }
+    ],
+    "headline": "Liam Lawson FIA penalty demand in untelevised Brazilian GP team radio",
+    "is_preview": false,
+    "items": [
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Liam Lawson",
+          "Charles Leclerc"
+        ],
+        "headline": "Liam Lawson FIA penalty demand in untelevised Brazilian GP team radio",
+        "id": "story-33ddb38cf252b1500c3b",
+        "published_at": "2026-11-12T00:02:36Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Charles Leclerc was penalised for causing a collision with Liam Lawson in Brazil Untelevised team radio footage from the Brazilian Grand Prix has revealed the moment Liam Lawson argued that Charles Leclerc",
+            "evidence_excerpts": [
+              "Charles Leclerc was penalised for causing a collision with Liam Lawson in Brazil Untelevised team radio footage from the Brazilian Grand Prix has revealed the moment Liam Lawson argued that Charles Leclerc",
+              "had to be penalised by the FIA for causing a collision. Lawson finished eighth on the road in Brazil after losing a position to Leclerc in the closing stages.",
+              "towards the main straight. The Ferrari driver crossed the line in seventh, but was handed a five-second time penalty by the FIA stewards after the race, restoring Lawson to P7 in the"
+            ],
+            "published_at": "2026-11-12T00:02:36Z",
+            "source_id": "planetf1",
+            "source_name": "PlanetF1",
+            "url": "https://www.planetf1.com/news/liam-lawson-fia-charles-leclerc-brazilian-grand-prix-2026-team-radio"
+          }
+        ],
+        "summary": "PlanetF1: \u201cCharles Leclerc was penalised for causing a collision with Liam Lawson in Brazil Untelevised team radio footage from the Brazilian Grand Prix has revealed the moment Liam Lawson argued that Charles Leclerc\u201d\n\n\u201chad to be penalised by the FIA for causing a collision. Lawson finished eighth on the road in Brazil after losing a position to Leclerc in the closing stages.\u201d\n\n\u201ctowards the main straight. The Ferrari driver crossed the line in seventh, but was handed a five-second time penalty by the FIA stewards after the race, restoring Lawson to P7 in the\u201d",
+        "teams": [
+          "Racing Bulls",
+          "Ferrari"
+        ],
+        "topic": "penalty",
+        "updated_at": "2026-11-12T00:38:24Z",
+        "why_it_matters": "Official decisions can affect eligibility, classification or the starting grid. Check the cited decision and subsequent amendments."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "analysis",
+        "confidence_label": "reported",
+        "drivers": [
+          "Lando Norris",
+          "Kimi Antonelli"
+        ],
+        "headline": "FIA podium intervention called for as Kimi Antonelli makes crazy decision \u2013 RacingNews365 Review | RacingNews365",
+        "id": "story-d8f0eb9f0da615fd006f",
+        "published_at": "2026-11-11T21:00:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images David Coulthard has called on the FIA to review its podium safety procedures after Lando Norris once again smashed a champagne bottle against the floor",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images David Coulthard has called on the FIA to review its podium safety procedures after Lando Norris once again smashed a champagne bottle against the floor",
+              "during his S\u00e3o Paulo Grand Prix celebrations, warning that the McLaren driver was \"very lucky\" to escape injury.",
+              "READ MORE: FIA called to intervene after Lando Norris injury near-miss: 'He's very lucky' Kimi Antonelli hilariously makes radical hair change to celebrate F1 title Kimi Antonelli sprayed his hair in the"
+            ],
+            "published_at": "2026-11-11T21:00:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/fia-podium-intervention-called-for-as-kimi-antonelli-makes-crazy-decision-racingnews365-review"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images David Coulthard has called on the FIA to review its podium safety procedures after Lando Norris once again smashed a champagne bottle against the floor\u201d\n\n\u201cduring his S\u00e3o Paulo Grand Prix celebrations, warning that the McLaren driver was \"very lucky\" to escape injury.\u201d\n\n\u201cREAD MORE: FIA called to intervene after Lando Norris injury near-miss: 'He's very lucky' Kimi Antonelli hilariously makes radical hair change to celebrate F1 title Kimi Antonelli sprayed his hair in the\u201d",
+        "teams": [],
+        "topic": "general",
+        "updated_at": "2026-11-12T00:38:24Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Lewis Hamilton"
+        ],
+        "headline": "Lewis Hamilton: Ferrari's seven-time F1 world champion urges Israel to 'let the aid trucks in' to Gaza after visit to Rafah border | F1 News | Sky Sports",
+        "id": "story-45f5e00726a5f13a87c9",
+        "published_at": "2026-11-11T20:48:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Lewis Hamilton: Ferrari's seven-time F1 world champion urges Israel to 'let the aid trucks in' to Gaza after visit to Rafah border Lewis Hamilton visited the Rafah border on Tuesday to witness",
+            "evidence_excerpts": [
+              "Lewis Hamilton: Ferrari's seven-time F1 world champion urges Israel to 'let the aid trucks in' to Gaza after visit to Rafah border Lewis Hamilton visited the Rafah border on Tuesday to witness",
+              "visited the Rafah border on Tuesday Lewis Hamilton urged Israel to \"let the aid trucks in\" to Gaza after visiting the Rafah border.",
+              "Sleeping bags, first-aid kits, medical equipment, wheelchairs, even footballs for kids. \"Israel needs to fulfil its obligations under the ceasefire and let the aid trucks in. No excuse."
+            ],
+            "published_at": "2026-11-11T20:48:00Z",
+            "source_id": "sky_sports_f1",
+            "source_name": "Sky Sports Formula 1",
+            "url": "https://www.skysports.com/f1/news/13611222/lewis-hamilton-ferraris-seven-time-f1-world-champion-urges-israel-to-let-the-aid-trucks-in-to-gaza-after-visit-to-rafah-border"
+          }
+        ],
+        "summary": "Sky Sports Formula 1: \u201cLewis Hamilton: Ferrari's seven-time F1 world champion urges Israel to 'let the aid trucks in' to Gaza after visit to Rafah border Lewis Hamilton visited the Rafah border on Tuesday to witness\u201d\n\n\u201cvisited the Rafah border on Tuesday Lewis Hamilton urged Israel to \"let the aid trucks in\" to Gaza after visiting the Rafah border.\u201d\n\n\u201cSleeping bags, first-aid kits, medical equipment, wheelchairs, even footballs for kids. \"Israel needs to fulfil its obligations under the ceasefire and let the aid trucks in. No excuse.\u201d",
+        "teams": [
+          "Ferrari"
+        ],
+        "topic": "general",
+        "updated_at": "2026-11-12T00:38:24Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Unconfirmed claim",
+        "claim_type": "unconfirmed",
+        "confidence_label": "unconfirmed",
+        "drivers": [
+          "Liam Lawson",
+          "Arvid Lindblad",
+          "Nikola Tsolov"
+        ],
+        "headline": "Final Liam Lawson decision 'soon' as Racing Bulls issues update",
+        "id": "story-00d1051238b2cfc9e018",
+        "published_at": "2026-11-11T19:30:14Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Liam Lawson in a Racing Bulls debrief Alan Permane wants to announce his F1 2027 Racing Bulls line-up soon as he\u2019s tired of being asked the same question \u201cmultiple times\u201d every week.",
+            "evidence_excerpts": [
+              "Liam Lawson in a Racing Bulls debrief Alan Permane wants to announce his F1 2027 Racing Bulls line-up soon as he\u2019s tired of being asked the same question \u201cmultiple times\u201d every week.",
+              "Racing Bulls is the only team still to confirm either of its two drivers for next year\u2019s championship amid doubts over the future of Liam Lawson.",
+              "Alan Permane sends blunt message as Racing Bulls face Liam Lawson decision While the team is expected to continue with Arvid Lindblad, it remains to be seen whether Lawson will hold onto"
+            ],
+            "published_at": "2026-11-11T19:30:14Z",
+            "source_id": "planetf1",
+            "source_name": "PlanetF1",
+            "url": "https://www.planetf1.com/news/liam-lawson-racing-bulls-future-message"
+          }
+        ],
+        "summary": "PlanetF1: \u201cLiam Lawson in a Racing Bulls debrief Alan Permane wants to announce his F1 2027 Racing Bulls line-up soon as he\u2019s tired of being asked the same question \u201cmultiple times\u201d every week.\u201d\n\n\u201cRacing Bulls is the only team still to confirm either of its two drivers for next year\u2019s championship amid doubts over the future of Liam Lawson.\u201d\n\n\u201cAlan Permane sends blunt message as Racing Bulls face Liam Lawson decision While the team is expected to continue with Arvid Lindblad, it remains to be seen whether Lawson will hold onto\u201d",
+        "teams": [
+          "Racing Bulls"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-11-12T00:38:24Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Unconfirmed claim",
+        "claim_type": "unconfirmed",
+        "confidence_label": "unconfirmed",
+        "drivers": [
+          "Liam Lawson",
+          "Nikola Tsolov",
+          "Arvid Lindblad"
+        ],
+        "headline": "Liam Lawson reason for F1 future decision delay addressed by Red Bull | RacingNews365",
+        "id": "story-d0fff83b4da49d8b8549",
+        "published_at": "2026-11-11T19:00:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images Red Bull team principal Laurent Mekies insists that the Racing Bulls leadership \"are taking their time\" making the final call over Liam Lawson's F1 future,",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images Red Bull team principal Laurent Mekies insists that the Racing Bulls leadership \"are taking their time\" making the final call over Liam Lawson's F1 future,",
+              "as there is \"no reason to rush\" the decision.",
+              "Mekies reiterated that the call sits solely with Racing Bulls boss Alan Permane, and the team's CEO Peter Bayer has also voiced his support for the Briton in delivering that choice."
+            ],
+            "published_at": "2026-11-11T19:00:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/liam-lawson-reason-for-f1-future-decision-delay-addressed-by-red-bull"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Red Bull team principal Laurent Mekies insists that the Racing Bulls leadership \"are taking their time\" making the final call over Liam Lawson's F1 future,\u201d\n\n\u201cas there is \"no reason to rush\" the decision.\u201d\n\n\u201cMekies reiterated that the call sits solely with Racing Bulls boss Alan Permane, and the team's CEO Peter Bayer has also voiced his support for the Briton in delivering that choice.\u201d",
+        "teams": [
+          "Red Bull",
+          "Racing Bulls"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-11-12T00:38:24Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Daniel Ricciardo"
+        ],
+        "headline": "Daniel Ricciardo recalls hilarious \u2018crash\u2019 after Red Bull \u2018ruckus\u2019 | RacingNews365",
+        "id": "story-66e2cbda29913a945cf9",
+        "published_at": "2026-11-11T18:05:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPBimages Daniel Ricciardo has described his maiden Formula 1 victory at the 2014 Canadian Grand Prix as \"the highest high in the sport\", recalling the chaos of",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPBimages Daniel Ricciardo has described his maiden Formula 1 victory at the 2014 Canadian Grand Prix as \"the highest high in the sport\", recalling the chaos of",
+              "the podium and the all-night celebrations that followed in Montreal.",
+              "Ricciardo's win at Circuit Gilles Villeneuve came after both Mercedes drivers suffered power unit failures that handed Red Bull an unlikely route to victory."
+            ],
+            "published_at": "2026-11-11T18:05:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/daniel-ricciardo-recalls-hilarious-crash-after-red-bull-ruckus"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPBimages Daniel Ricciardo has described his maiden Formula 1 victory at the 2014 Canadian Grand Prix as \"the highest high in the sport\", recalling the chaos of\u201d\n\n\u201cthe podium and the all-night celebrations that followed in Montreal.\u201d\n\n\u201cRicciardo's win at Circuit Gilles Villeneuve came after both Mercedes drivers suffered power unit failures that handed Red Bull an unlikely route to victory.\u201d",
+        "teams": [
+          "Red Bull"
+        ],
+        "topic": "race",
+        "updated_at": "2026-11-12T00:38:24Z",
+        "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "analysis",
+        "confidence_label": "reported",
+        "drivers": [
+          "Alisha Palmowski",
+          "Max Verstappen"
+        ],
+        "headline": "Red Bull champion hails 'open and welcoming' Max Verstappen support | RacingNews365",
+        "id": "story-b5898f79544058b2c585",
+        "published_at": "2026-11-11T17:10:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 Red Bull Content Pool Alisha Palmowski has opened up on what it has been like to receive guidance from Max Verstappen, revealing the four-time world champion's genuine",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 Red Bull Content Pool Alisha Palmowski has opened up on what it has been like to receive guidance from Max Verstappen, revealing the four-time world champion's genuine",
+              "willingness to help has stood out most during her time around Red Bull.",
+              "\"He is so open and welcoming that if I have any concern or question, he's really hands-on and just really genuinely wants to help.\""
+            ],
+            "published_at": "2026-11-11T17:10:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/red-bull-champion-hails-open-and-welcoming-max-verstappen-support"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 Red Bull Content Pool Alisha Palmowski has opened up on what it has been like to receive guidance from Max Verstappen, revealing the four-time world champion's genuine\u201d\n\n\u201cwillingness to help has stood out most during her time around Red Bull.\u201d\n\n\u201c\"He is so open and welcoming that if I have any concern or question, he's really hands-on and just really genuinely wants to help.\"\u201d",
+        "teams": [
+          "Red Bull"
+        ],
+        "topic": "general",
+        "updated_at": "2026-11-12T00:38:24Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Official source statement",
+        "claim_type": "fact",
+        "confidence_label": "official",
+        "drivers": [
+          "Daniel Ricciardo"
+        ],
+        "headline": "\u2018I know F1 is serious, but we can still make it fun\u2019 \u2013 Daniel Ricciardo reacts to his best career moments",
+        "id": "story-9b520e0f8d5617b83338",
+        "published_at": "2026-11-11T17:01:46Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Daniel Ricciardo Red Bull Racing McLaren Show more tags \u2018I know F1 is serious, but we can still make it fun\u2019 \u2013 Ricciardo reacts to his best career moments Former Red Bull",
+            "evidence_excerpts": [
+              "Daniel Ricciardo Red Bull Racing McLaren Show more tags \u2018I know F1 is serious, but we can still make it fun\u2019 \u2013 Ricciardo reacts to his best career moments Former Red Bull",
+              "and McLaren racer Daniel Ricciardo sat down with F1 to take a look back at his career highlights, from his sublime Monaco victory to unforgettable 'shoey' celebration.",
+              "Ricciardo\u2019s first victory In his first season with Red Bul l, Ricciardo had stood on the podium twice before securing his maiden victory at the 2014 Canadian Grand Prix."
+            ],
+            "published_at": "2026-11-11T17:01:46Z",
+            "source_id": "formula1_official_latest",
+            "source_name": "Formula 1 Official Latest",
+            "url": "https://www.formula1.com/en/latest/article/i-know-f1-is-serious-but-we-can-still-make-it-fun-ricciardo-reacts-to-his-best-career-moments.NaM7kMUTZmxIzbRrJPoHY"
+          }
+        ],
+        "summary": "Formula 1 Official Latest: \u201cDaniel Ricciardo Red Bull Racing McLaren Show more tags \u2018I know F1 is serious, but we can still make it fun\u2019 \u2013 Ricciardo reacts to his best career moments Former Red Bull\u201d\n\n\u201cand McLaren racer Daniel Ricciardo sat down with F1 to take a look back at his career highlights, from his sublime Monaco victory to unforgettable 'shoey' celebration.\u201d\n\n\u201cRicciardo\u2019s first victory In his first season with Red Bul l, Ricciardo had stood on the podium twice before securing his maiden victory at the 2014 Canadian Grand Prix.\u201d",
+        "teams": [
+          "Red Bull",
+          "McLaren"
+        ],
+        "topic": "race",
+        "updated_at": "2026-11-12T00:38:24Z",
+        "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "analysis",
+        "confidence_label": "reported",
+        "drivers": [
+          "David Coulthard"
+        ],
+        "headline": "David Coulthard critiques F1 for not \u2018fully respecting history\u2019 with cautious stance on rain | Crash.net",
+        "id": "story-2d2af32730af68f8c05c",
+        "published_at": "2026-11-11T16:28:26Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Wet weather hit Interlagos in qualifying and the race David Coulthard believes Formula 1 does not \u201cfully respect the history\u201d of the sport by taking a cautious approach to racing in wet",
+            "evidence_excerpts": [
+              "Wet weather hit Interlagos in qualifying and the race David Coulthard believes Formula 1 does not \u201cfully respect the history\u201d of the sport by taking a cautious approach to racing in wet",
+              "weather conditions. F1 got a first proper taste of the new 2026 cars running in the wet at the Sao Paulo Grand Prix, with qualifying taking place in treacherous conditions, before Sunday\u2019s",
+              "\"I don't want to see anyone getting hurt, of course not, but I do think sometimes we don't fully respect the history by we err on the side of caution rather than,"
+            ],
+            "published_at": "2026-11-11T16:28:26Z",
+            "source_id": "crash_f1",
+            "source_name": "Crash.net Formula 1",
+            "url": "https://www.crash.net/f1/news/1110084/1/david-coulthard-critiques-f1-not-fully-respecting-history-cautious-stance-rain"
+          }
+        ],
+        "summary": "Crash.net Formula 1: \u201cWet weather hit Interlagos in qualifying and the race David Coulthard believes Formula 1 does not \u201cfully respect the history\u201d of the sport by taking a cautious approach to racing in wet\u201d\n\n\u201cweather conditions. F1 got a first proper taste of the new 2026 cars running in the wet at the Sao Paulo Grand Prix, with qualifying taking place in treacherous conditions, before Sunday\u2019s\u201d\n\n\u201c\"I don't want to see anyone getting hurt, of course not, but I do think sometimes we don't fully respect the history by we err on the side of caution rather than,\u201d",
+        "teams": [],
+        "topic": "regulations",
+        "updated_at": "2026-11-12T00:38:24Z",
+        "why_it_matters": "Sporting or technical rule changes can affect team decisions. Check the cited document for scope and implementation dates."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Kimi Antonelli",
+          "George Russell"
+        ],
+        "headline": "Mercedes finds culprit after Brazilian GP struggle sparks investigation",
+        "id": "story-0d91cf7dcf6bc73cba89",
+        "published_at": "2026-11-11T16:21:41Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Mercedes has explained why both Kimi Antonelli and George Russell complained that their cars felt \u201cbroken\u201d during the Brazilian Grand Prix.",
+            "evidence_excerpts": [
+              "Mercedes has explained why both Kimi Antonelli and George Russell complained that their cars felt \u201cbroken\u201d during the Brazilian Grand Prix.",
+              "The team says the W17 was \u201cjust below the tyre temperature window\u201d, resulting in \u201cvery strange and unusual car beahviour.\u201d",
+              "\u201cBut looking at it, it looked like we were just below the tyre temperature window."
+            ],
+            "published_at": "2026-11-11T16:21:41Z",
+            "source_id": "planetf1",
+            "source_name": "PlanetF1",
+            "url": "https://www.planetf1.com/news/mercedes-brazilian-grand-prix-2026-investigation"
+          }
+        ],
+        "summary": "PlanetF1: \u201cMercedes has explained why both Kimi Antonelli and George Russell complained that their cars felt \u201cbroken\u201d during the Brazilian Grand Prix.\u201d\n\n\u201cThe team says the W17 was \u201cjust below the tyre temperature window\u201d, resulting in \u201cvery strange and unusual car beahviour.\u201d\u201d\n\n\u201c\u201cBut looking at it, it looked like we were just below the tyre temperature window.\u201d",
+        "teams": [
+          "Mercedes"
+        ],
+        "topic": "technical",
+        "updated_at": "2026-11-12T00:38:24Z",
+        "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "analysis",
+        "confidence_label": "reported",
+        "drivers": [
+          "Claire Williams",
+          "Carlos Sainz",
+          "Alex Albon"
+        ],
+        "headline": "Former senior Williams figure issues 'safe hands' confidence amid painful season | RacingNews365",
+        "id": "story-d2154196230c58dbf715",
+        "published_at": "2026-11-11T16:20:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Interview To news overview \u00a9 XPB Images Claire Williams has backed Williams to recover from a troubled 2026 campaign, insisting the team remains in \"safe hands\" under owner Dorilton Capital and team",
+            "evidence_excerpts": [
+              "Interview To news overview \u00a9 XPB Images Claire Williams has backed Williams to recover from a troubled 2026 campaign, insisting the team remains in \"safe hands\" under owner Dorilton Capital and team",
+              "principal James Vowles. Williams sits ninth in the constructors' championship with just 12 points after 20 rounds, a sharp fall from the progress the Grove squad had shown in recent seasons.",
+              "\"I've always said that Williams has been in really safe hands with Dorilton and in James Vowles' hands as team principal,\" Williams told RacingNews365."
+            ],
+            "published_at": "2026-11-11T16:20:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/former-senior-williams-figure-issues-safe-hands-confidence-amid-painful-season"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cInterview To news overview \u00a9 XPB Images Claire Williams has backed Williams to recover from a troubled 2026 campaign, insisting the team remains in \"safe hands\" under owner Dorilton Capital and team\u201d\n\n\u201cprincipal James Vowles. Williams sits ninth in the constructors' championship with just 12 points after 20 rounds, a sharp fall from the progress the Grove squad had shown in recent seasons.\u201d\n\n\u201c\"I've always said that Williams has been in really safe hands with Dorilton and in James Vowles' hands as team principal,\" Williams told RacingNews365.\u201d",
+        "teams": [
+          "Williams"
+        ],
+        "topic": "general",
+        "updated_at": "2026-11-12T00:38:24Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Lewis Hamilton",
+          "Charles Leclerc"
+        ],
+        "headline": "Hamilton loses 'most marketable athlete' status in 2026",
+        "id": "story-e4ce3c3c3a1f19d1a960",
+        "published_at": "2026-11-11T15:33:14Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Lewis Hamilton is no longer sport\u2019s most marketable athlete - or even the most marketable Formula 1 driver, having fallen behind Ferrari team-mate Charles Leclerc - in the latest rankings created by",
+            "evidence_excerpts": [
+              "Lewis Hamilton is no longer sport\u2019s most marketable athlete - or even the most marketable Formula 1 driver, having fallen behind Ferrari team-mate Charles Leclerc - in the latest rankings created by",
+              "media and events business SportsPro. Hamilton was top of the 2025 SportsPro marketability rankings for athletes, with a total marketability score of 96.03 out of 100. In 2026, Hamilton is ranked 22nd.",
+              "Hamilton\u2019s team-mate Leclerc is ahead in ninth on the list with a marketability score of 71.12, up from 25th in the 2025 list with a score of 75.03."
+            ],
+            "published_at": "2026-11-11T15:33:14Z",
+            "source_id": "the_race_f1",
+            "source_name": "The Race Formula 1",
+            "url": "https://www.the-race.com/extra/hamilton-loses-most-marketable-athlete-status-in-2026/"
+          }
+        ],
+        "summary": "The Race Formula 1: \u201cLewis Hamilton is no longer sport\u2019s most marketable athlete - or even the most marketable Formula 1 driver, having fallen behind Ferrari team-mate Charles Leclerc - in the latest rankings created by\u201d\n\n\u201cmedia and events business SportsPro. Hamilton was top of the 2025 SportsPro marketability rankings for athletes, with a total marketability score of 96.03 out of 100. In 2026, Hamilton is ranked 22nd.\u201d\n\n\u201cHamilton\u2019s team-mate Leclerc is ahead in ninth on the list with a marketability score of 71.12, up from 25th in the 2025 list with a score of 75.03.\u201d",
+        "teams": [
+          "Ferrari"
+        ],
+        "topic": "general",
+        "updated_at": "2026-11-12T00:38:24Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      }
+    ],
+    "next_check_at": "2026-11-14T00:38:24Z",
+    "provider": "deepseek",
+    "schema_version": "2.0",
+    "sources_checked": 7,
+    "status": "published",
+    "summary": "12 sourced F1 updates. Open each report for evidence and context.",
+    "updated_at": "2026-11-12T00:38:24Z"
+  },
+  {
     "brief_id": "news-7a98416df21f6b0866e4",
     "checked_at": "2026-11-09T22:18:13Z",
     "coverage_note": "Some sources could not be checked. These reports reflect the linked evidence that was available.",
