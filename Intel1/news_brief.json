@@ -1,6 +1,6 @@
 {
-  "brief_id": "news-a3486ee1862e7445a4af",
-  "checked_at": "2026-11-14T13:30:22Z",
+  "brief_id": "news-23a2f650e552de6adb4f",
+  "checked_at": "2026-11-16T21:58:21Z",
   "coverage_note": "Some sources could not be checked. These reports reflect the linked evidence that was available.",
   "coverage_status": "partial",
   "failed_sources": [
@@ -45,7 +45,7 @@
       "source_name": "Reuters Formula 1"
     }
   ],
-  "headline": "Adrian Newey sees echoes of Red Bull's troubled past in Aston Martin | RacingNews365",
+  "headline": "Ferrari handed team order advice as Kimi Antonelli earns extraordinary achievement - RacingNews365 Review | RacingNews365",
   "is_preview": false,
   "items": [
     {
@@ -53,67 +53,104 @@
       "claim_type": "analysis",
       "confidence_label": "reported",
       "drivers": [
-        "Fernando Alonso",
-        "Lance Stroll"
+        "Lewis Hamilton",
+        "Charles Leclerc",
+        "Kimi Antonelli",
+        "Toto Wolff",
+        "Christian Horner"
       ],
-      "headline": "Adrian Newey sees echoes of Red Bull's troubled past in Aston Martin | RacingNews365",
-      "id": "story-846511e3c69922528719",
-      "published_at": "2026-11-14T13:00:00Z",
+      "headline": "Ferrari handed team order advice as Kimi Antonelli earns extraordinary achievement - RacingNews365 Review | RacingNews365",
+      "id": "story-66b234cd7700def1a94e",
+      "published_at": "2026-11-16T21:00:00Z",
       "sources": [
         {
-          "evidence_excerpt": "\"I think there are actually a lot of parallels between when I started at Red Bull and when I started at Aston Martin,\" said Newey.",
+          "evidence_excerpt": "Article To news overview \u00a9 XPB Images RacingNews365 readers have delivered a clear verdict on Ferrari's driver policy, with 45 per cent rejecting the idea of a designated number one entirely in",
           "evidence_excerpts": [
-            "\"I think there are actually a lot of parallels between when I started at Red Bull and when I started at Aston Martin,\" said Newey.",
-            "\"Both teams, through their history, had had quite a lot of turmoil, with changes of owners, changes of senior managers, etcetera.",
-            "\"And it's then really trying to get everybody working together, trying to break down silos, improve the culture, and that's been the same again.\""
+            "Article To news overview \u00a9 XPB Images RacingNews365 readers have delivered a clear verdict on Ferrari's driver policy, with 45 per cent rejecting the idea of a designated number one entirely in",
+            "rare achivement Kimi Antonelli has become the first F1 champion since Keke Rosberg in 1982 to claim the drivers' championship in the same year as his first grand prix win.",
+            "has revealed that Christian Horner congratulated him after Mercedes secured both Formula 1 world championships, insisting the message came as no surprise despite their long-standing rivalry."
           ],
-          "published_at": "2026-11-14T13:00:00Z",
+          "published_at": "2026-11-16T21:00:00Z",
           "source_id": "racingnews365_f1",
           "source_name": "RacingNews365 Formula 1",
-          "url": "https://racingnews365.com/adrian-newey-sees-echoes-of-red-bulls-troubled-past-in-aston-martin"
+          "url": "https://racingnews365.com/ferrari-handed-team-order-advice-as-kimi-antonelli-earns-extraordinary-achievement-racingnews365-review"
         }
       ],
-      "summary": "RacingNews365 Formula 1: \u201c\"I think there are actually a lot of parallels between when I started at Red Bull and when I started at Aston Martin,\" said Newey.\u201d\n\n\u201c\"Both teams, through their history, had had quite a lot of turmoil, with changes of owners, changes of senior managers, etcetera.\u201d\n\n\u201c\"And it's then really trying to get everybody working together, trying to break down silos, improve the culture, and that's been the same again.\"\u201d",
+      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images RacingNews365 readers have delivered a clear verdict on Ferrari's driver policy, with 45 per cent rejecting the idea of a designated number one entirely in\u201d\n\n\u201crare achivement Kimi Antonelli has become the first F1 champion since Keke Rosberg in 1982 to claim the drivers' championship in the same year as his first grand prix win.\u201d\n\n\u201chas revealed that Christian Horner congratulated him after Mercedes secured both Formula 1 world championships, insisting the message came as no surprise despite their long-standing rivalry.\u201d",
       "teams": [
-        "Aston Martin",
-        "Red Bull"
+        "Ferrari",
+        "Mercedes",
+        "Aston Martin"
       ],
       "topic": "general",
-      "updated_at": "2026-11-14T13:30:22Z",
+      "updated_at": "2026-11-16T21:58:21Z",
       "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
     },
     {
-      "attribution": "Reported claim",
-      "claim_type": "analysis",
-      "confidence_label": "reported",
+      "attribution": "Unconfirmed claim",
+      "claim_type": "fact",
+      "confidence_label": "unconfirmed",
       "drivers": [
-        "George Russell",
-        "Lewis Hamilton",
-        "Kimi Antonelli"
+        "Daniel Ricciardo",
+        "Lewis Hamilton"
       ],
-      "headline": "George Russell points to Lewis Hamilton example in F1 2027 recovery bid",
-      "id": "story-72e48e591bc77e35462b",
-      "published_at": "2026-11-14T12:10:04Z",
+      "headline": "Daniel Ricciardo reveals F1 moment he 'just wanted to be over'",
+      "id": "story-f1904ca7b8b2a693362d",
+      "published_at": "2026-11-16T20:02:35Z",
       "sources": [
         {
-          "evidence_excerpt": "George Russell is aiming to have a resurgence like Lewis Hamilton's in 2026 George Russell has pointed to Lewis Hamilton\u2019s resurgence in 2026 as evidence that he can bounce back from the",
+          "evidence_excerpt": "Daniel Ricciardo has revealed a career highlight that he \u201cjust wanted to be over\u201d as he struggled to find enjoyment from the weekend.",
           "evidence_excerpts": [
-            "George Russell is aiming to have a resurgence like Lewis Hamilton's in 2026 George Russell has pointed to Lewis Hamilton\u2019s resurgence in 2026 as evidence that he can bounce back from the",
-            "However, Russell is not downhearted, citing that it is not uncommon for athletes to go through lean spells in their careers, highlighting that it even happened to Hamilton, the sport\u2019s most successful",
-            "I think that for me is what I have, what this year has taught me. I still believe in myself and believe next year we fight again.\u201d"
+            "Daniel Ricciardo has revealed a career highlight that he \u201cjust wanted to be over\u201d as he struggled to find enjoyment from the weekend.",
+            "While it could be assumed that it was the 2016 instance that provided the thought that he wanted it to be over, it was in fact the second, 2018, as he sought",
+            "of the race. \u201cMore was on that than 2016,\u201d Ricciardo told F1.com of his 2018 success. \u201cI think getting another chance to win Monaco made the pressure even higher."
           ],
-          "published_at": "2026-11-14T12:10:04Z",
+          "published_at": "2026-11-16T20:02:35Z",
           "source_id": "planetf1",
           "source_name": "PlanetF1",
-          "url": "https://www.planetf1.com/news/george-russell-lewis-hamilton-recovery-f1-2027"
+          "url": "https://www.planetf1.com/news/daniel-ricciardo-monaco-moment"
         }
       ],
-      "summary": "PlanetF1: \u201cGeorge Russell is aiming to have a resurgence like Lewis Hamilton's in 2026 George Russell has pointed to Lewis Hamilton\u2019s resurgence in 2026 as evidence that he can bounce back from the\u201d\n\n\u201cHowever, Russell is not downhearted, citing that it is not uncommon for athletes to go through lean spells in their careers, highlighting that it even happened to Hamilton, the sport\u2019s most successful\u201d\n\n\u201cI think that for me is what I have, what this year has taught me. I still believe in myself and believe next year we fight again.\u201d\u201d",
+      "summary": "PlanetF1: \u201cDaniel Ricciardo has revealed a career highlight that he \u201cjust wanted to be over\u201d as he struggled to find enjoyment from the weekend.\u201d\n\n\u201cWhile it could be assumed that it was the 2016 instance that provided the thought that he wanted it to be over, it was in fact the second, 2018, as he sought\u201d\n\n\u201cof the race. \u201cMore was on that than 2016,\u201d Ricciardo told F1.com of his 2018 success. \u201cI think getting another chance to win Monaco made the pressure even higher.\u201d",
       "teams": [
-        "Mercedes"
+        "Red Bull"
+      ],
+      "topic": "race",
+      "updated_at": "2026-11-16T21:58:21Z",
+      "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
+    },
+    {
+      "attribution": "Unconfirmed claim",
+      "claim_type": "unconfirmed",
+      "confidence_label": "unconfirmed",
+      "drivers": [
+        "Sergio Perez",
+        "Valtteri Bottas",
+        "Colton Herta"
+      ],
+      "headline": "Sergio Perez weighs in on Cadillac F1 driver decision ahead of 'crucial' period | RacingNews365",
+      "id": "story-b40078a4ab2e510f230e",
+      "published_at": "2026-11-16T19:00:00Z",
+      "sources": [
+        {
+          "evidence_excerpt": "Article To news overview \u00a9 XPBimages Sergio Perez has stated there is not an \"easy decision\" for Cadillac to make over its driver line-up for the 2027 season.",
+          "evidence_excerpts": [
+            "Article To news overview \u00a9 XPBimages Sergio Perez has stated there is not an \"easy decision\" for Cadillac to make over its driver line-up for the 2027 season.",
+            "Obviously, it's not my decision, but I think it will be down to Marcin to decide who they want in the car. \"I'm also working really well with Valtteri.",
+            "However, the 36-year-old denied that he will assist in the choice of who occupies the second seat for 2027. \"No, not at all."
+          ],
+          "published_at": "2026-11-16T19:00:00Z",
+          "source_id": "racingnews365_f1",
+          "source_name": "RacingNews365 Formula 1",
+          "url": "https://racingnews365.com/sergio-perez-weighs-in-on-cadillac-f1-driver-decision-ahead-of-crucial-period"
+        }
+      ],
+      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPBimages Sergio Perez has stated there is not an \"easy decision\" for Cadillac to make over its driver line-up for the 2027 season.\u201d\n\n\u201cObviously, it's not my decision, but I think it will be down to Marcin to decide who they want in the car. \"I'm also working really well with Valtteri.\u201d\n\n\u201cHowever, the 36-year-old denied that he will assist in the choice of who occupies the second seat for 2027. \"No, not at all.\u201d",
+      "teams": [
+        "Cadillac F1 Team"
       ],
       "topic": "driver_market",
-      "updated_at": "2026-11-14T13:30:22Z",
+      "updated_at": "2026-11-16T21:58:21Z",
       "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
     },
     {
@@ -121,60 +158,157 @@
       "claim_type": "fact",
       "confidence_label": "reported",
       "drivers": [
-        "Kimi Antonelli",
-        "George Russell"
+        "Liam Lawson",
+        "Arvid Lindblad",
+        "Nikola Tsolov"
       ],
-      "headline": "Mercedes continue march up F1 ladder as painful five-year wait ends | RacingNews365",
-      "id": "story-a30e83b9a5d2a0c561f8",
-      "published_at": "2026-11-14T12:10:00Z",
+      "headline": "Liam Lawson handed crushing verdict over delayed Racing Bulls decision | RacingNews365",
+      "id": "story-6d57b1be9839dfbe2815",
+      "published_at": "2026-11-16T18:05:00Z",
       "sources": [
         {
-          "evidence_excerpt": "Article To news overview \u00a9 XPB Images Mercedes now has just two F1 rivals ahead of it in terms of holding the most constructors' titles after regaining its crown for the first",
+          "evidence_excerpt": "Article To news overview \u00a9 XPB Images Liam Lawson will continue with Racing Bulls for the 2027 F1 season, after the Faenza-based squad confirmed the New Zealander and Arvid Lindblad last week.",
           "evidence_excerpts": [
-            "Article To news overview \u00a9 XPB Images Mercedes now has just two F1 rivals ahead of it in terms of holding the most constructors' titles after regaining its crown for the first",
-            "time since 2021. After its fourth and fifth in the S\u00e3o Paulo GP, the team regained its crown for the first time since its record-breaking run came to an end in 2021,",
-            "with Kimi Antonelli and George Russell combining to bring a ninth star to Brackley."
+            "Article To news overview \u00a9 XPB Images Liam Lawson will continue with Racing Bulls for the 2027 F1 season, after the Faenza-based squad confirmed the New Zealander and Arvid Lindblad last week.",
+            "However, Racing Bulls left it late to announce both would stay put, with Red Bull junior and F2 drivers' title hopeful Nikola Tsolov also under consideration.",
+            "As such, Lawson was given emphatic backing after Racing Bulls finally confirmed his future, with 95 per cent of fans who voted in a recent poll by RacingNews365 voicing their support for"
           ],
-          "published_at": "2026-11-14T12:10:00Z",
+          "published_at": "2026-11-16T18:05:00Z",
           "source_id": "racingnews365_f1",
           "source_name": "RacingNews365 Formula 1",
-          "url": "https://racingnews365.com/mercedes-continue-march-up-f1-ladder-as-painful-five-year-wait-ends"
+          "url": "https://racingnews365.com/liam-lawson-handed-crushing-verdict-over-delayed-racing-bulls-decision"
         }
       ],
-      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Mercedes now has just two F1 rivals ahead of it in terms of holding the most constructors' titles after regaining its crown for the first\u201d\n\n\u201ctime since 2021. After its fourth and fifth in the S\u00e3o Paulo GP, the team regained its crown for the first time since its record-breaking run came to an end in 2021,\u201d\n\n\u201cwith Kimi Antonelli and George Russell combining to bring a ninth star to Brackley.\u201d",
+      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Liam Lawson will continue with Racing Bulls for the 2027 F1 season, after the Faenza-based squad confirmed the New Zealander and Arvid Lindblad last week.\u201d\n\n\u201cHowever, Racing Bulls left it late to announce both would stay put, with Red Bull junior and F2 drivers' title hopeful Nikola Tsolov also under consideration.\u201d\n\n\u201cAs such, Lawson was given emphatic backing after Racing Bulls finally confirmed his future, with 95 per cent of fans who voted in a recent poll by RacingNews365 voicing their support for\u201d",
       "teams": [
-        "Mercedes"
+        "Racing Bulls",
+        "Red Bull"
       ],
-      "topic": "race",
-      "updated_at": "2026-11-14T13:30:22Z",
-      "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
+      "topic": "driver_market",
+      "updated_at": "2026-11-16T21:58:21Z",
+      "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
     },
     {
-      "attribution": "Unconfirmed claim",
-      "claim_type": "unconfirmed",
-      "confidence_label": "unconfirmed",
-      "drivers": [],
-      "headline": "FIA boss looking to make controversial change to presidency rule | Crash.net",
-      "id": "story-2a39160797e9b7b1d7d8",
-      "published_at": "2026-11-14T12:00:00Z",
+      "attribution": "Reported claim",
+      "claim_type": "analysis",
+      "confidence_label": "reported",
+      "drivers": [
+        "Terry Crews"
+      ],
+      "headline": "Terry Crews on F1's growing US popularity ahead of the 2026 Las Vegas Grand Prix",
+      "id": "story-8516ea415a4a53624104",
+      "published_at": "2026-11-16T17:51:08Z",
       "sources": [
         {
-          "evidence_excerpt": "Mohammed Ben Sulayem wants to change a key rule FIA president Mohammed Ben Sulayem is reportedly wanting to end the age limits for office holders in motorsport\u2019s governing body.",
+          "evidence_excerpt": "Lifestyle & Culture Las Vegas 2026 'Americans are becoming more Formula 1' - Terry Crews on why F1 is winning over the US As Formula 1 returns to Las Vegas, actor Terry",
           "evidence_excerpts": [
-            "Mohammed Ben Sulayem wants to change a key rule FIA president Mohammed Ben Sulayem is reportedly wanting to end the age limits for office holders in motorsport\u2019s governing body.",
-            "Now, Ben Sulayem is pushing to scrap the rule that prevents anyone over the age of 75 from standing as part of a presidential team, according to a report by BBC Sport.",
-            "The move has been proposed for approval at next month\u2019s FIA General Assembly."
+            "Lifestyle & Culture Las Vegas 2026 'Americans are becoming more Formula 1' - Terry Crews on why F1 is winning over the US As Formula 1 returns to Las Vegas, actor Terry",
+            "\"I wouldn't say [Formula 1] is becoming more American. In fact, what I would say is that Americans are becoming more Formula 1.",
+            "But because of Formula 1, there's now Americans saying, 'I'm going to Hungary, I'm going to Singapore, I'm going to Monaco.'"
           ],
-          "published_at": "2026-11-14T12:00:00Z",
-          "source_id": "crash_f1",
-          "source_name": "Crash.net Formula 1",
-          "url": "https://www.crash.net/f1/news/1110114/1/fia-boss-looking-make-controversial-change-presidency-rule"
+          "published_at": "2026-11-16T17:51:08Z",
+          "source_id": "formula1_official_latest",
+          "source_name": "Formula 1 Official Latest",
+          "url": "https://www.formula1.com/en/latest/article/americans-are-becoming-more-formula-1-terry-crews-on-why-f1-is-winning-over-the-us.6Uqdsu4AlrP8Y3fxNUMesa"
         }
       ],
-      "summary": "Crash.net Formula 1: \u201cMohammed Ben Sulayem wants to change a key rule FIA president Mohammed Ben Sulayem is reportedly wanting to end the age limits for office holders in motorsport\u2019s governing body.\u201d\n\n\u201cNow, Ben Sulayem is pushing to scrap the rule that prevents anyone over the age of 75 from standing as part of a presidential team, according to a report by BBC Sport.\u201d\n\n\u201cThe move has been proposed for approval at next month\u2019s FIA General Assembly.\u201d",
+      "summary": "Formula 1 Official Latest: \u201cLifestyle & Culture Las Vegas 2026 'Americans are becoming more Formula 1' - Terry Crews on why F1 is winning over the US As Formula 1 returns to Las Vegas, actor Terry\u201d\n\n\u201c\"I wouldn't say [Formula 1] is becoming more American. In fact, what I would say is that Americans are becoming more Formula 1.\u201d\n\n\u201cBut because of Formula 1, there's now Americans saying, 'I'm going to Hungary, I'm going to Singapore, I'm going to Monaco.'\u201d",
+      "teams": [],
+      "topic": "general",
+      "updated_at": "2026-11-16T21:58:21Z",
+      "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+    },
+    {
+      "attribution": "Reported claim",
+      "claim_type": "fact",
+      "confidence_label": "reported",
+      "drivers": [
+        "Lance Stroll",
+        "Fernando Alonso"
+      ],
+      "headline": "New Aston Martin announcement as Las Vegas GP livery uncovered",
+      "id": "story-357c112052a3b6130366",
+      "published_at": "2026-11-16T17:19:12Z",
+      "sources": [
+        {
+          "evidence_excerpt": "Aston Martin has revealed its special livery for Las Vegas The Aston Martin F1 team has announced that it will compete with a special livery, produced in collaboration with team partner CoreWeave,",
+          "evidence_excerpts": [
+            "Aston Martin has revealed its special livery for Las Vegas The Aston Martin F1 team has announced that it will compete with a special livery, produced in collaboration with team partner CoreWeave,",
+            "Aston Martin presents special livery for Las Vegas Grand Prix In a statement issued to PlanetF1.com, Aston Martin said \u2018the design celebrates CoreWeave\u2019s integration into the team, from the AMR Technology Campus",
+            "Jefferson Slack, the managing director of commercial and marketing at the Aston Martin team, said: \u201cThe Las Vegas Grand Prix gives us a fantastic opportunity to showcase the strength of our collaboration"
+          ],
+          "published_at": "2026-11-16T17:19:12Z",
+          "source_id": "planetf1",
+          "source_name": "PlanetF1",
+          "url": "https://www.planetf1.com/news/aston-martin-las-vegas-grand-prix-2026-livery"
+        }
+      ],
+      "summary": "PlanetF1: \u201cAston Martin has revealed its special livery for Las Vegas The Aston Martin F1 team has announced that it will compete with a special livery, produced in collaboration with team partner CoreWeave,\u201d\n\n\u201cAston Martin presents special livery for Las Vegas Grand Prix In a statement issued to PlanetF1.com, Aston Martin said \u2018the design celebrates CoreWeave\u2019s integration into the team, from the AMR Technology Campus\u201d\n\n\u201cJefferson Slack, the managing director of commercial and marketing at the Aston Martin team, said: \u201cThe Las Vegas Grand Prix gives us a fantastic opportunity to showcase the strength of our collaboration\u201d",
+      "teams": [
+        "Aston Martin"
+      ],
+      "topic": "technical",
+      "updated_at": "2026-11-16T21:58:21Z",
+      "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+    },
+    {
+      "attribution": "Reported claim",
+      "claim_type": "fact",
+      "confidence_label": "reported",
+      "drivers": [],
+      "headline": "Williams unveil 'chrome' livery tweak for Las Vegas Grand Prix | RacingNews365",
+      "id": "story-570bb492e327e4cf83ff",
+      "published_at": "2026-11-16T17:14:00Z",
+      "sources": [
+        {
+          "evidence_excerpt": "Article To news overview Williams will run a bespoke one-off livery at the Las Vegas Grand Prix, developed alongside title partner Atlassian.",
+          "evidence_excerpts": [
+            "Article To news overview Williams will run a bespoke one-off livery at the Las Vegas Grand Prix, developed alongside title partner Atlassian.",
+            "The chrome design features rainbow accents and navy detailing running across the bodywork and engine cover.",
+            "\u201cOur next step forward isn\u2019t a matter of reinvention; it\u2019s about evolving from where we\u2019ve been, using the knowledge, context and information our team shares,\u201d said team boss James Vowles."
+          ],
+          "published_at": "2026-11-16T17:14:00Z",
+          "source_id": "racingnews365_f1",
+          "source_name": "RacingNews365 Formula 1",
+          "url": "https://racingnews365.com/williams-unveil-chrome-livery-tweak-for-las-vegas-grand-prix"
+        }
+      ],
+      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview Williams will run a bespoke one-off livery at the Las Vegas Grand Prix, developed alongside title partner Atlassian.\u201d\n\n\u201cThe chrome design features rainbow accents and navy detailing running across the bodywork and engine cover.\u201d\n\n\u201c\u201cOur next step forward isn\u2019t a matter of reinvention; it\u2019s about evolving from where we\u2019ve been, using the knowledge, context and information our team shares,\u201d said team boss James Vowles.\u201d",
+      "teams": [
+        "Williams"
+      ],
+      "topic": "technical",
+      "updated_at": "2026-11-16T21:58:21Z",
+      "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+    },
+    {
+      "attribution": "Reported claim",
+      "claim_type": "analysis",
+      "confidence_label": "reported",
+      "drivers": [
+        "Lewis Hamilton"
+      ],
+      "headline": "Hamilton tells F1 to spend \u00a350 million in promoting under-represented talent \u2013 RaceFans",
+      "id": "story-21a07a555d3e8bed7c8c",
+      "published_at": "2026-11-16T17:10:16Z",
+      "sources": [
+        {
+          "evidence_excerpt": "Lewis Hamilton has called on Formula 1 to publish data revealing how far the championship is representative of people from different backgrounds.",
+          "evidence_excerpts": [
+            "Lewis Hamilton has called on Formula 1 to publish data revealing how far the championship is representative of people from different backgrounds.",
+            "delivers\u201d. In order to promote new talent in the championship, Hamilton\u2019s review made three recommendations . These include a commitment to invest \u00a350 million over five years promoting new talent.",
+            "\u201cFormula 1 is inspiring millions of young people around the world,\u201d said Hamilton. \u201cBut inspiration means nothing without opportunity."
+          ],
+          "published_at": "2026-11-16T17:10:16Z",
+          "source_id": "racefans_f1",
+          "source_name": "RaceFans Formula 1",
+          "url": "https://www.racefans.net/2026/11/16/hamilton-tells-f1-to-spend-50-million-in-promoting-under-represented-talent/"
+        }
+      ],
+      "summary": "RaceFans Formula 1: \u201cLewis Hamilton has called on Formula 1 to publish data revealing how far the championship is representative of people from different backgrounds.\u201d\n\n\u201cdelivers\u201d. In order to promote new talent in the championship, Hamilton\u2019s review made three recommendations . These include a commitment to invest \u00a350 million over five years promoting new talent.\u201d\n\n\u201c\u201cFormula 1 is inspiring millions of young people around the world,\u201d said Hamilton. \u201cBut inspiration means nothing without opportunity.\u201d",
       "teams": [],
       "topic": "regulations",
-      "updated_at": "2026-11-14T13:30:22Z",
+      "updated_at": "2026-11-16T21:58:21Z",
       "why_it_matters": "Sporting or technical rule changes can affect team decisions. Check the cited document for scope and implementation dates."
     },
     {
@@ -182,199 +316,32 @@
       "claim_type": "analysis",
       "confidence_label": "reported",
       "drivers": [
-        "Isack Hadjar",
-        "Lewis Hamilton",
-        "Fernando Alonso"
+        "Max Verstappen",
+        "Isack Hadjar"
       ],
-      "headline": "Isack Hadjar uses Lewis Hamilton to dismantle contentious F1 myth | RacingNews365",
-      "id": "story-d031a846dfe87a6088eb",
-      "published_at": "2026-11-14T11:20:00Z",
+      "headline": "Is Max Verstappen 2027 title favourite already after Red Bull recovery? | RacingNews365",
+      "id": "story-6e8f7a581c8068832c64",
+      "published_at": "2026-11-16T17:10:00Z",
       "sources": [
         {
-          "evidence_excerpt": "Article To news overview \u00a9 XPB Images Isack Hadjar has pushed back against the idea that modern F1 machinery and simulator technology make it easier for rookies to adapt to the championship,",
+          "evidence_excerpt": "Article To news overview \u00a9 Red Bull Content Pool Red Bull's late-season climb has sparked debate over whether Max Verstappen should now be considered the favourite heading into 2027, and RacingNews365 wants",
           "evidence_excerpts": [
-            "Article To news overview \u00a9 XPB Images Isack Hadjar has pushed back against the idea that modern F1 machinery and simulator technology make it easier for rookies to adapt to the championship,",
-            "\"I believe that if you're good, you're good,\" the Red Bull driver told media, including RacingNews365 . \"You take Fernando [Alonso], Lewis [Hamilton]...",
-            "\"You saw what Lewis did in his rookie year,\" Hadjar added. \"I think if you have the ability, it doesn't really matter the car."
+            "Article To news overview \u00a9 Red Bull Content Pool Red Bull's late-season climb has sparked debate over whether Max Verstappen should now be considered the favourite heading into 2027, and RacingNews365 wants",
+            "Red Bull Ford Powertrains has also been confirmed again as the benchmark internal combustion engine under the FIA's latest evaluation process, a status that leaves it as the only manufacturer not entitled",
+            "admission, a system that may yet be revised. Red Bull has moved to lock in its guarantee for that era, extending Verstappen's contract through 2030."
           ],
-          "published_at": "2026-11-14T11:20:00Z",
+          "published_at": "2026-11-16T17:10:00Z",
           "source_id": "racingnews365_f1",
           "source_name": "RacingNews365 Formula 1",
-          "url": "https://racingnews365.com/isack-hadjar-uses-lewis-hamilton-to-dismantle-contentious-f1-myth"
+          "url": "https://racingnews365.com/is-max-verstappen-2027-title-favourite-already-after-red-bull-recovery"
         }
       ],
-      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Isack Hadjar has pushed back against the idea that modern F1 machinery and simulator technology make it easier for rookies to adapt to the championship,\u201d\n\n\u201c\"I believe that if you're good, you're good,\" the Red Bull driver told media, including RacingNews365 . \"You take Fernando [Alonso], Lewis [Hamilton]...\u201d\n\n\u201c\"You saw what Lewis did in his rookie year,\" Hadjar added. \"I think if you have the ability, it doesn't really matter the car.\u201d",
+      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 Red Bull Content Pool Red Bull's late-season climb has sparked debate over whether Max Verstappen should now be considered the favourite heading into 2027, and RacingNews365 wants\u201d\n\n\u201cRed Bull Ford Powertrains has also been confirmed again as the benchmark internal combustion engine under the FIA's latest evaluation process, a status that leaves it as the only manufacturer not entitled\u201d\n\n\u201cadmission, a system that may yet be revised. Red Bull has moved to lock in its guarantee for that era, extending Verstappen's contract through 2030.\u201d",
       "teams": [
         "Red Bull"
       ],
-      "topic": "general",
-      "updated_at": "2026-11-14T13:30:22Z",
-      "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
-    },
-    {
-      "attribution": "Reported claim",
-      "claim_type": "fact",
-      "confidence_label": "reported",
-      "drivers": [
-        "Kimi Antonelli"
-      ],
-      "headline": "Imola reveals future F1 return plan after FIA announcement",
-      "id": "story-f511980c281f99473557",
-      "published_at": "2026-11-14T10:46:22Z",
-      "sources": [
-        {
-          "evidence_excerpt": "Imola dropped off the F1 calendar after 2025 The Mayor of Imola has revealed that he is working on bringing Formula 1 back to the city, after being notified that the circuit",
-          "evidence_excerpts": [
-            "Imola dropped off the F1 calendar after 2025 The Mayor of Imola has revealed that he is working on bringing Formula 1 back to the city, after being notified that the circuit",
-            "season finale instead. But while Imola\u2019s services will not be called upon this year, the city\u2019s Mayor, Marco Panieri, divulged that there is a desire to see F1 race at the Italian",
-            "A shared dream that today becomes a source of renewed energy for the future. \u201cOur journey to bring the \u2018Made in Italy\u2019 and Emilia-Romagna Grand Prix back to Imola continues."
-          ],
-          "published_at": "2026-11-14T10:46:22Z",
-          "source_id": "planetf1",
-          "source_name": "PlanetF1",
-          "url": "https://www.planetf1.com/news/imola-reveals-future-f1-return-plan"
-        }
-      ],
-      "summary": "PlanetF1: \u201cImola dropped off the F1 calendar after 2025 The Mayor of Imola has revealed that he is working on bringing Formula 1 back to the city, after being notified that the circuit\u201d\n\n\u201cseason finale instead. But while Imola\u2019s services will not be called upon this year, the city\u2019s Mayor, Marco Panieri, divulged that there is a desire to see F1 race at the Italian\u201d\n\n\u201cA shared dream that today becomes a source of renewed energy for the future. \u201cOur journey to bring the \u2018Made in Italy\u2019 and Emilia-Romagna Grand Prix back to Imola continues.\u201d",
-      "teams": [],
-      "topic": "calendar",
-      "updated_at": "2026-11-14T13:30:22Z",
-      "why_it_matters": "Calendar and event changes can affect weekend planning. Check official event information for the applicable schedule."
-    },
-    {
-      "attribution": "Reported claim",
-      "claim_type": "fact",
-      "confidence_label": "reported",
-      "drivers": [
-        "Sebastian Vettel",
-        "Kimi Antonelli",
-        "Lewis Hamilton",
-        "Jenson Button",
-        "Lando Norris",
-        "Fernando Alonso",
-        "Felipe Massa",
-        "Kimi Raikkonen",
-        "Charles Leclerc",
-        "Carlos Sainz"
-      ],
-      "headline": "10 things that have happened in F1 before we got GTA 6 | RacingNews365",
-      "id": "story-be6589c007c5ca87aa9d",
-      "published_at": "2026-11-14T10:30:00Z",
-      "sources": [
-        {
-          "evidence_excerpt": "McLaren's rise from the nadir McLaren went from title contenders to rock bottom, then back to winning titles with the 2024 and 2025 constructors' and 2025 drivers' titles for Norris After Lewis",
-          "evidence_excerpts": [
-            "McLaren's rise from the nadir McLaren went from title contenders to rock bottom, then back to winning titles with the 2024 and 2025 constructors' and 2025 drivers' titles for Norris After Lewis",
-            "kind since Hamilton's 2008 crown. The Mercedes era begins In 2013, Mercedes was in its fourth season back as a works team, and Hamilton's win in Hungary was just the team's fourth",
-            "\u00a9 XPB Images Ferrari's wait goes on Since September 2013, Ferrari has gone through five team bosses, seven drivers and won nothing."
-          ],
-          "published_at": "2026-11-14T10:30:00Z",
-          "source_id": "racingnews365_f1",
-          "source_name": "RacingNews365 Formula 1",
-          "url": "https://racingnews365.com/10-things-that-have-happened-in-f1-before-we-got-gta-6"
-        }
-      ],
-      "summary": "RacingNews365 Formula 1: \u201cMcLaren's rise from the nadir McLaren went from title contenders to rock bottom, then back to winning titles with the 2024 and 2025 constructors' and 2025 drivers' titles for Norris After Lewis\u201d\n\n\u201ckind since Hamilton's 2008 crown. The Mercedes era begins In 2013, Mercedes was in its fourth season back as a works team, and Hamilton's win in Hungary was just the team's fourth\u201d\n\n\u201c\u00a9 XPB Images Ferrari's wait goes on Since September 2013, Ferrari has gone through five team bosses, seven drivers and won nothing.\u201d",
-      "teams": [
-        "McLaren",
-        "Mercedes",
-        "Ferrari",
-        "Aston Martin"
-      ],
-      "topic": "general",
-      "updated_at": "2026-11-14T13:30:22Z",
-      "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
-    },
-    {
-      "attribution": "Reported claim",
-      "claim_type": "analysis",
-      "confidence_label": "reported",
-      "drivers": [],
-      "headline": "Ignore social media echo chamber and trust F1 over Middle East races \u2013 Wolff \u2013 RaceFans",
-      "id": "story-3abc8c83830156f4f686",
-      "published_at": "2026-11-14T10:00:10Z",
-      "sources": [
-        {
-          "evidence_excerpt": "Mercedes team principal Toto Wolff says Formula 1 is right to go ahead with its plans to race in the Middle East.",
-          "evidence_excerpts": [
-            "Mercedes team principal Toto Wolff says Formula 1 is right to go ahead with its plans to race in the Middle East.",
-            "\u201cFor me, with our social media feed, we are always at risk of seeing what we want to see,\u201d he told the BBC.",
-            "\u201cI believe you need to trust what the authorities say. You need to rely on the commercial rights holder, that\u2019s F1, and the FIA as our governing body.\u201d"
-          ],
-          "published_at": "2026-11-14T10:00:10Z",
-          "source_id": "racefans_f1",
-          "source_name": "RaceFans Formula 1",
-          "url": "https://www.racefans.net/2026/11/14/ignore-social-media-echo-chamber-trust-f1-over-middle-east-races-wolff/"
-        }
-      ],
-      "summary": "RaceFans Formula 1: \u201cMercedes team principal Toto Wolff says Formula 1 is right to go ahead with its plans to race in the Middle East.\u201d\n\n\u201c\u201cFor me, with our social media feed, we are always at risk of seeing what we want to see,\u201d he told the BBC.\u201d\n\n\u201c\u201cI believe you need to trust what the authorities say. You need to rely on the commercial rights holder, that\u2019s F1, and the FIA as our governing body.\u201d\u201d",
-      "teams": [
-        "Mercedes"
-      ],
-      "topic": "calendar",
-      "updated_at": "2026-11-14T13:30:22Z",
-      "why_it_matters": "Calendar and event changes can affect weekend planning. Check official event information for the applicable schedule."
-    },
-    {
-      "attribution": "Reported claim",
-      "claim_type": "fact",
-      "confidence_label": "reported",
-      "drivers": [
-        "Franco Colapinto",
-        "Gabriel Bortoleto",
-        "Pierre Gasly"
-      ],
-      "headline": "F1 drivers react to online abuse change: 'They wouldn't have the balls' | RacingNews365",
-      "id": "story-89e9778cad4f2e87bd85",
-      "published_at": "2026-11-14T09:40:00Z",
-      "sources": [
-        {
-          "evidence_excerpt": "Article To news overview \u00a9 XPB Images Franco Colapinto and Gabriel Bortoleto have welcomed the FIA's revised online abuse guidelines, insisting the governing body has been \"proactive\" in tackling a growing problem.",
-          "evidence_excerpts": [
-            "Article To news overview \u00a9 XPB Images Franco Colapinto and Gabriel Bortoleto have welcomed the FIA's revised online abuse guidelines, insisting the governing body has been \"proactive\" in tackling a growing problem.",
-            "Asked for his reaction to the revised guidelines, Colapinto, speaking to the media, including RacingNews365 , said: \"It's great.",
-            "year, before offering his own assessment of the FIA's efforts and the nature of the abuse drivers face. \"The FIA has been doing a very good job on that,\" said Bortoleto."
-          ],
-          "published_at": "2026-11-14T09:40:00Z",
-          "source_id": "racingnews365_f1",
-          "source_name": "RacingNews365 Formula 1",
-          "url": "https://racingnews365.com/f1-drivers-react-to-online-abuse-change-they-wouldnt-have-the-balls"
-        }
-      ],
-      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Franco Colapinto and Gabriel Bortoleto have welcomed the FIA's revised online abuse guidelines, insisting the governing body has been \"proactive\" in tackling a growing problem.\u201d\n\n\u201cAsked for his reaction to the revised guidelines, Colapinto, speaking to the media, including RacingNews365 , said: \"It's great.\u201d\n\n\u201cyear, before offering his own assessment of the FIA's efforts and the nature of the abuse drivers face. \"The FIA has been doing a very good job on that,\" said Bortoleto.\u201d",
-      "teams": [
-        "Alpine F1 Team"
-      ],
-      "topic": "regulations",
-      "updated_at": "2026-11-14T13:30:22Z",
-      "why_it_matters": "Sporting or technical rule changes can affect team decisions. Check the cited document for scope and implementation dates."
-    },
-    {
-      "attribution": "Reported claim",
-      "claim_type": "analysis",
-      "confidence_label": "reported",
-      "drivers": [],
-      "headline": "Why is Formula E\u2019s new GEN4 regulatory cycle a real F1 scare? | RacingNews365",
-      "id": "story-3d1cd9abdec07c3885c8",
-      "published_at": "2026-11-14T09:20:00Z",
-      "sources": [
-        {
-          "evidence_excerpt": "Article To news overview \u00a9 2026 Getty Images As Formula E pre-season testing prepares to get underway on Monday in Madrid, Formula E's new Gen4 car is offering a timely reminder of",
-          "evidence_excerpts": [
-            "Article To news overview \u00a9 2026 Getty Images As Formula E pre-season testing prepares to get underway on Monday in Madrid, Formula E's new Gen4 car is offering a timely reminder of",
-            "The Gen4 car produces a standard race output of 450 kW, around 603 bhp, rising to 600 kW, or roughly 816 bhp, in qualifying trim and when Attack Mode is deployed.",
-            "now, holds every performance card that counts. \"I think Gen4 is such a material step up from where we were with the Gen3 and Gen3 Evo car that perhaps it's the first"
-          ],
-          "published_at": "2026-11-14T09:20:00Z",
-          "source_id": "racingnews365_f1",
-          "source_name": "RacingNews365 Formula 1",
-          "url": "https://racingnews365.com/why-is-formula-es-new-gen4-regulatory-cycle-a-real-f1-scare"
-        }
-      ],
-      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 2026 Getty Images As Formula E pre-season testing prepares to get underway on Monday in Madrid, Formula E's new Gen4 car is offering a timely reminder of\u201d\n\n\u201cThe Gen4 car produces a standard race output of 450 kW, around 603 bhp, rising to 600 kW, or roughly 816 bhp, in qualifying trim and when Attack Mode is deployed.\u201d\n\n\u201cnow, holds every performance card that counts. \"I think Gen4 is such a material step up from where we were with the Gen3 and Gen3 Evo car that perhaps it's the first\u201d",
-      "teams": [],
       "topic": "technical",
-      "updated_at": "2026-11-14T13:30:22Z",
+      "updated_at": "2026-11-16T21:58:21Z",
       "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
     },
     {
@@ -382,33 +349,37 @@
       "claim_type": "fact",
       "confidence_label": "reported",
       "drivers": [
-        "Charles Leclerc",
-        "Lewis Hamilton"
+        "Carlos Sainz",
+        "Esteban Ocon",
+        "Zhou Guanyu",
+        "Max Verstappen"
       ],
-      "headline": "F1 journalist receives FIA ban in Ferrari dispute as boycott announced",
-      "id": "story-665bc59f1902432bbee1",
-      "published_at": "2026-11-14T09:15:49Z",
+      "headline": "F1 fans left outraged as disastrous Las Vegas debut sparks $3 million payout - On This Day | RacingNews365",
+      "id": "story-c15d630da96e04429ed1",
+      "published_at": "2026-11-16T16:30:00Z",
       "sources": [
         {
-          "evidence_excerpt": "The FIA is Formula 1's governing body Veteran Formula 1 journalist Jonathan McEvoy states that he has banned from the Formula 1 paddock for the final triple-header which brings F1 2026 to",
+          "evidence_excerpt": "Throwback To news overview \u00a9 XPBimages On this day three years ago, Formula 1's first practice session for the 2023 Las Vegas Grand Prix was abandoned just minutes after it began, after",
           "evidence_excerpts": [
-            "The FIA is Formula 1's governing body Veteran Formula 1 journalist Jonathan McEvoy states that he has banned from the Formula 1 paddock for the final triple-header which brings F1 2026 to",
-            "Formula 1 journalist receives FIA paddock ban McEvoy noted that his accreditation has been revoked for the remainder of the season, to be restarted from the start of 2027.",
-            "discussion which squashed the beef. In a statement, an FIA spokesperson said: \u201cAs set out in the 2026 FIA Formula One World Championship Guidelines, media accreditation is granted at the sole discretion"
+            "Throwback To news overview \u00a9 XPBimages On this day three years ago, Formula 1's first practice session for the 2023 Las Vegas Grand Prix was abandoned just minutes after it began, after",
+            "Carlos Sainz struck the dislodged water valve cover at high speed, destroying his Ferrari's monocoque, internal combustion engine and energy store in one impact.",
+            "Liberty Media and Las Vegas Grand Prix, Inc. eventually agreed a settlement fund of $3,047,986 for ticket holders, without admitting any wrongdoing."
           ],
-          "published_at": "2026-11-14T09:15:49Z",
-          "source_id": "planetf1",
-          "source_name": "PlanetF1",
-          "url": "https://www.planetf1.com/news/jonathan-mcevoy-fia-ban-ferrari"
+          "published_at": "2026-11-16T16:30:00Z",
+          "source_id": "racingnews365_f1",
+          "source_name": "RacingNews365 Formula 1",
+          "url": "https://racingnews365.com/f1-fans-left-outraged-as-disastrous-las-vegas-debut-sparks-3-million-payout-on-this-day"
         }
       ],
-      "summary": "PlanetF1: \u201cThe FIA is Formula 1's governing body Veteran Formula 1 journalist Jonathan McEvoy states that he has banned from the Formula 1 paddock for the final triple-header which brings F1 2026 to\u201d\n\n\u201cFormula 1 journalist receives FIA paddock ban McEvoy noted that his accreditation has been revoked for the remainder of the season, to be restarted from the start of 2027.\u201d\n\n\u201cdiscussion which squashed the beef. In a statement, an FIA spokesperson said: \u201cAs set out in the 2026 FIA Formula One World Championship Guidelines, media accreditation is granted at the sole discretion\u201d",
+      "summary": "RacingNews365 Formula 1: \u201cThrowback To news overview \u00a9 XPBimages On this day three years ago, Formula 1's first practice session for the 2023 Las Vegas Grand Prix was abandoned just minutes after it began, after\u201d\n\n\u201cCarlos Sainz struck the dislodged water valve cover at high speed, destroying his Ferrari's monocoque, internal combustion engine and energy store in one impact.\u201d\n\n\u201cLiberty Media and Las Vegas Grand Prix, Inc. eventually agreed a settlement fund of $3,047,986 for ticket holders, without admitting any wrongdoing.\u201d",
       "teams": [
-        "Ferrari"
+        "Ferrari",
+        "Alpine",
+        "Alfa Romeo"
       ],
-      "topic": "regulations",
-      "updated_at": "2026-11-14T13:30:22Z",
-      "why_it_matters": "Sporting or technical rule changes can affect team decisions. Check the cited document for scope and implementation dates."
+      "topic": "race",
+      "updated_at": "2026-11-16T21:58:21Z",
+      "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
     },
     {
       "attribution": "Reported claim",
@@ -416,39 +387,74 @@
       "confidence_label": "reported",
       "drivers": [
         "Toto Wolff",
+        "Christian Horner",
         "Kimi Antonelli"
       ],
-      "headline": "Toto Wolff reveals he offered to resign from Mercedes \u201cseveral times\u201d | Crash.net",
-      "id": "story-4352e97f46fe75fec4ee",
-      "published_at": "2026-11-14T09:00:00Z",
+      "headline": "Christian Horner sends Antonelli message in new Toto Wolff reveal",
+      "id": "story-94bd52ac1e6e05ddd82e",
+      "published_at": "2026-11-16T16:21:18Z",
       "sources": [
         {
-          "evidence_excerpt": "Toto Wolff offered to resign from Mercedes \u00a9 XPB Images Toto Wolff has revealed he offered to resign from his position during Mercedes\u2019 recent Formula 1 struggles but was blocked from doing",
+          "evidence_excerpt": "Toto Wolff and Christian Horner Toto Wolff and Christian Horner may have been the pantomime villains in each other\u2019s F1 careers, but such is the respect that Horner messaged the Mercedes team",
           "evidence_excerpts": [
-            "Toto Wolff offered to resign from Mercedes \u00a9 XPB Images Toto Wolff has revealed he offered to resign from his position during Mercedes\u2019 recent Formula 1 struggles but was blocked from doing",
-            "Wolff claims he was prepared to resign as team principal several times during this period but said that his boss, Mercedes-Benz chairman Ola K\u00e4llenius, refused his attempts.",
-            "\u201cI\u2019ve offered Ola [K\u00e4llenius] my resignation several times over the past few years, but he\u2019s always said: \u2018You\u2019ll keep doing this,\u2019\u201d Wolff revealed when speaking at the 2026 Golden Steering Wheel awards"
+            "Toto Wolff and Christian Horner Toto Wolff and Christian Horner may have been the pantomime villains in each other\u2019s F1 careers, but such is the respect that Horner messaged the Mercedes team",
+            "His Mercedes team principal Wolff was inundated with messages of congratulations \u2013 \u201c577\u201d to be exact. One of those was from former Red Bull team principal Horner.",
+            "\u201cChristian and I maintain a respectful relationship. That was already the case back then.\u201d Quizzed on the message, the Austrian revealed that it said: \u201cCongratulations."
           ],
-          "published_at": "2026-11-14T09:00:00Z",
-          "source_id": "crash_f1",
-          "source_name": "Crash.net Formula 1",
-          "url": "https://www.crash.net/f1/news/1110112/1/toto-wolff-reveals-he-offered-resign-mercedes-several-times"
+          "published_at": "2026-11-16T16:21:18Z",
+          "source_id": "planetf1",
+          "source_name": "PlanetF1",
+          "url": "https://www.planetf1.com/news/christian-horner-toto-wolff-kimi-antonelli-text-message"
         }
       ],
-      "summary": "Crash.net Formula 1: \u201cToto Wolff offered to resign from Mercedes \u00a9 XPB Images Toto Wolff has revealed he offered to resign from his position during Mercedes\u2019 recent Formula 1 struggles but was blocked from doing\u201d\n\n\u201cWolff claims he was prepared to resign as team principal several times during this period but said that his boss, Mercedes-Benz chairman Ola K\u00e4llenius, refused his attempts.\u201d\n\n\u201c\u201cI\u2019ve offered Ola [K\u00e4llenius] my resignation several times over the past few years, but he\u2019s always said: \u2018You\u2019ll keep doing this,\u2019\u201d Wolff revealed when speaking at the 2026 Golden Steering Wheel awards\u201d",
+      "summary": "PlanetF1: \u201cToto Wolff and Christian Horner Toto Wolff and Christian Horner may have been the pantomime villains in each other\u2019s F1 careers, but such is the respect that Horner messaged the Mercedes team\u201d\n\n\u201cHis Mercedes team principal Wolff was inundated with messages of congratulations \u2013 \u201c577\u201d to be exact. One of those was from former Red Bull team principal Horner.\u201d\n\n\u201c\u201cChristian and I maintain a respectful relationship. That was already the case back then.\u201d Quizzed on the message, the Austrian revealed that it said: \u201cCongratulations.\u201d",
       "teams": [
-        "Mercedes"
+        "Mercedes",
+        "Red Bull"
       ],
       "topic": "general",
-      "updated_at": "2026-11-14T13:30:22Z",
+      "updated_at": "2026-11-16T21:58:21Z",
       "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+    },
+    {
+      "attribution": "Reported claim",
+      "claim_type": "fact",
+      "confidence_label": "reported",
+      "drivers": [
+        "Fernando Alonso",
+        "Lance Stroll"
+      ],
+      "headline": "Aston Martin unveil major F1 livery change for Las Vegas Grand Prix | RacingNews365",
+      "id": "story-c21b26e8297ff9f5d813",
+      "published_at": "2026-11-16T16:13:00Z",
+      "sources": [
+        {
+          "evidence_excerpt": "Article To news overview Aston Martin will run a special one-off livery for this weekend's Las Vegas Grand Prix, created in partnership with CoreWeave.",
+          "evidence_excerpts": [
+            "Article To news overview Aston Martin will run a special one-off livery for this weekend's Las Vegas Grand Prix, created in partnership with CoreWeave.",
+            "Aston Martin said the scheme is intended to visually represent airflow dynamics, tying the car's appearance to the aeromodelling work CoreWeave's cloud infrastructure supports behind the scenes.",
+            "\u201cThe Las Vegas Grand Prix gives us a fantastic opportunity to showcase the strength of our collaboration with CoreWeave through this unique livery takeover,\u201d said Aston Martin managing director, commerical and marketing."
+          ],
+          "published_at": "2026-11-16T16:13:00Z",
+          "source_id": "racingnews365_f1",
+          "source_name": "RacingNews365 Formula 1",
+          "url": "https://racingnews365.com/aston-martin-unveil-major-f1-livery-change-for-las-vegas-grand-prix"
+        }
+      ],
+      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview Aston Martin will run a special one-off livery for this weekend's Las Vegas Grand Prix, created in partnership with CoreWeave.\u201d\n\n\u201cAston Martin said the scheme is intended to visually represent airflow dynamics, tying the car's appearance to the aeromodelling work CoreWeave's cloud infrastructure supports behind the scenes.\u201d\n\n\u201c\u201cThe Las Vegas Grand Prix gives us a fantastic opportunity to showcase the strength of our collaboration with CoreWeave through this unique livery takeover,\u201d said Aston Martin managing director, commerical and marketing.\u201d",
+      "teams": [
+        "Aston Martin"
+      ],
+      "topic": "technical",
+      "updated_at": "2026-11-16T21:58:21Z",
+      "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
     }
   ],
-  "next_check_at": "2026-11-16T13:30:22Z",
+  "next_check_at": "2026-11-18T21:58:21Z",
   "provider": "deepseek",
   "schema_version": "2.0",
   "sources_checked": 7,
   "status": "published",
   "summary": "12 sourced F1 updates. Open each report for evidence and context.",
-  "updated_at": "2026-11-14T13:30:22Z"
+  "updated_at": "2026-11-16T21:58:21Z"
 }
