@@ -1,6 +1,6 @@
 {
-  "brief_id": "news-23a2f650e552de6adb4f",
-  "checked_at": "2026-11-16T21:58:21Z",
+  "brief_id": "news-b0a56457633b55663ff3",
+  "checked_at": "2026-11-19T07:18:53Z",
   "coverage_note": "Some sources could not be checked. These reports reflect the linked evidence that was available.",
   "coverage_status": "partial",
   "failed_sources": [
@@ -45,147 +45,176 @@
       "source_name": "Reuters Formula 1"
     }
   ],
-  "headline": "Ferrari handed team order advice as Kimi Antonelli earns extraordinary achievement - RacingNews365 Review | RacingNews365",
+  "headline": "Everything we learned from day one at F1's Las Vegas GP",
   "is_preview": false,
   "items": [
-    {
-      "attribution": "Reported claim",
-      "claim_type": "analysis",
-      "confidence_label": "reported",
-      "drivers": [
-        "Lewis Hamilton",
-        "Charles Leclerc",
-        "Kimi Antonelli",
-        "Toto Wolff",
-        "Christian Horner"
-      ],
-      "headline": "Ferrari handed team order advice as Kimi Antonelli earns extraordinary achievement - RacingNews365 Review | RacingNews365",
-      "id": "story-66b234cd7700def1a94e",
-      "published_at": "2026-11-16T21:00:00Z",
-      "sources": [
-        {
-          "evidence_excerpt": "Article To news overview \u00a9 XPB Images RacingNews365 readers have delivered a clear verdict on Ferrari's driver policy, with 45 per cent rejecting the idea of a designated number one entirely in",
-          "evidence_excerpts": [
-            "Article To news overview \u00a9 XPB Images RacingNews365 readers have delivered a clear verdict on Ferrari's driver policy, with 45 per cent rejecting the idea of a designated number one entirely in",
-            "rare achivement Kimi Antonelli has become the first F1 champion since Keke Rosberg in 1982 to claim the drivers' championship in the same year as his first grand prix win.",
-            "has revealed that Christian Horner congratulated him after Mercedes secured both Formula 1 world championships, insisting the message came as no surprise despite their long-standing rivalry."
-          ],
-          "published_at": "2026-11-16T21:00:00Z",
-          "source_id": "racingnews365_f1",
-          "source_name": "RacingNews365 Formula 1",
-          "url": "https://racingnews365.com/ferrari-handed-team-order-advice-as-kimi-antonelli-earns-extraordinary-achievement-racingnews365-review"
-        }
-      ],
-      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images RacingNews365 readers have delivered a clear verdict on Ferrari's driver policy, with 45 per cent rejecting the idea of a designated number one entirely in\u201d\n\n\u201crare achivement Kimi Antonelli has become the first F1 champion since Keke Rosberg in 1982 to claim the drivers' championship in the same year as his first grand prix win.\u201d\n\n\u201chas revealed that Christian Horner congratulated him after Mercedes secured both Formula 1 world championships, insisting the message came as no surprise despite their long-standing rivalry.\u201d",
-      "teams": [
-        "Ferrari",
-        "Mercedes",
-        "Aston Martin"
-      ],
-      "topic": "general",
-      "updated_at": "2026-11-16T21:58:21Z",
-      "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
-    },
     {
       "attribution": "Unconfirmed claim",
       "claim_type": "fact",
       "confidence_label": "unconfirmed",
       "drivers": [
-        "Daniel Ricciardo",
-        "Lewis Hamilton"
+        "Fernando Alonso",
+        "Perez",
+        "Max Verstappen",
+        "George Russell",
+        "Charles Leclerc"
       ],
-      "headline": "Daniel Ricciardo reveals F1 moment he 'just wanted to be over'",
-      "id": "story-f1904ca7b8b2a693362d",
-      "published_at": "2026-11-16T20:02:35Z",
+      "headline": "Everything we learned from day one at F1's Las Vegas GP",
+      "id": "story-d637ab534ef0bf13437c",
+      "published_at": "2026-11-19T07:09:32Z",
       "sources": [
         {
-          "evidence_excerpt": "Daniel Ricciardo has revealed a career highlight that he \u201cjust wanted to be over\u201d as he struggled to find enjoyment from the weekend.",
+          "evidence_excerpt": "Alonso and Perez won't join Hamilton in F1's new V8 era Three weeks after seven-time champion Lewis Hamilton, 41, declared \"I'm built differently\" and could see himself continuing in F1 into the",
           "evidence_excerpts": [
-            "Daniel Ricciardo has revealed a career highlight that he \u201cjust wanted to be over\u201d as he struggled to find enjoyment from the weekend.",
-            "While it could be assumed that it was the 2016 instance that provided the thought that he wanted it to be over, it was in fact the second, 2018, as he sought",
-            "of the race. \u201cMore was on that than 2016,\u201d Ricciardo told F1.com of his 2018 success. \u201cI think getting another chance to win Monaco made the pressure even higher."
+            "Alonso and Perez won't join Hamilton in F1's new V8 era Three weeks after seven-time champion Lewis Hamilton, 41, declared \"I'm built differently\" and could see himself continuing in F1 into the",
+            "Fernando Alonso, 45, says he \"will not be around for the new V8, 100%\" and in so doing couldn't resist taking yet another dig at F1's current engine rules, declaring the entire",
+            "- Ben Anderson F1's biometric plan gets a mixed response \"I won't be involved. I don't use any device. Like, if drivers want to have that, sure."
           ],
-          "published_at": "2026-11-16T20:02:35Z",
-          "source_id": "planetf1",
-          "source_name": "PlanetF1",
-          "url": "https://www.planetf1.com/news/daniel-ricciardo-monaco-moment"
+          "published_at": "2026-11-19T07:09:32Z",
+          "source_id": "the_race_f1",
+          "source_name": "The Race Formula 1",
+          "url": "https://www.the-race.com/formula-1/everything-we-learned-from-day-one-at-f1s-las-vegas-gp/"
         }
       ],
-      "summary": "PlanetF1: \u201cDaniel Ricciardo has revealed a career highlight that he \u201cjust wanted to be over\u201d as he struggled to find enjoyment from the weekend.\u201d\n\n\u201cWhile it could be assumed that it was the 2016 instance that provided the thought that he wanted it to be over, it was in fact the second, 2018, as he sought\u201d\n\n\u201cof the race. \u201cMore was on that than 2016,\u201d Ricciardo told F1.com of his 2018 success. \u201cI think getting another chance to win Monaco made the pressure even higher.\u201d",
-      "teams": [
-        "Red Bull"
+      "summary": "The Race Formula 1: \u201cAlonso and Perez won't join Hamilton in F1's new V8 era Three weeks after seven-time champion Lewis Hamilton, 41, declared \"I'm built differently\" and could see himself continuing in F1 into the\u201d\n\n\u201cFernando Alonso, 45, says he \"will not be around for the new V8, 100%\" and in so doing couldn't resist taking yet another dig at F1's current engine rules, declaring the entire\u201d\n\n\u201c- Ben Anderson F1's biometric plan gets a mixed response \"I won't be involved. I don't use any device. Like, if drivers want to have that, sure.\u201d",
+      "teams": [],
+      "topic": "technical",
+      "updated_at": "2026-11-19T07:18:53Z",
+      "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+    },
+    {
+      "attribution": "Reported claim",
+      "claim_type": "fact",
+      "confidence_label": "reported",
+      "drivers": [
+        "Lewis Hamilton",
+        "Charles Leclerc"
       ],
-      "topic": "race",
-      "updated_at": "2026-11-16T21:58:21Z",
-      "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
+      "headline": "Lewis Hamilton denies broken trust with Ferrari despite twice overruling strategy | Crash.net",
+      "id": "story-f63275ed5b565fea25f0",
+      "published_at": "2026-11-19T07:01:03Z",
+      "sources": [
+        {
+          "evidence_excerpt": "Lewis Hamilton insists he trusts Ferrari Lewis Hamilton has denied there is a lack of trust with his Ferrari team despite overruling strategy calls from the pit wall in recent Formula 1",
+          "evidence_excerpts": [
+            "Lewis Hamilton insists he trusts Ferrari Lewis Hamilton has denied there is a lack of trust with his Ferrari team despite overruling strategy calls from the pit wall in recent Formula 1",
+            "Hamilton maintains the trust is not broken at Ferrari But Hamilton insisted the recent incidents do not show there is a lack of trust between himself and Ferrari.",
+            "\"No, it's definitely not trusting. I think it's just we're constantly working on our communication."
+          ],
+          "published_at": "2026-11-19T07:01:03Z",
+          "source_id": "crash_f1",
+          "source_name": "Crash.net Formula 1",
+          "url": "https://www.crash.net/f1/news/1110181/1/lewis-hamilton-denies-broken-trust-ferrari-despite-twice-overruling-strategy"
+        }
+      ],
+      "summary": "Crash.net Formula 1: \u201cLewis Hamilton insists he trusts Ferrari Lewis Hamilton has denied there is a lack of trust with his Ferrari team despite overruling strategy calls from the pit wall in recent Formula 1\u201d\n\n\u201cHamilton maintains the trust is not broken at Ferrari But Hamilton insisted the recent incidents do not show there is a lack of trust between himself and Ferrari.\u201d\n\n\u201c\"No, it's definitely not trusting. I think it's just we're constantly working on our communication.\u201d",
+      "teams": [
+        "Ferrari"
+      ],
+      "topic": "general",
+      "updated_at": "2026-11-19T07:18:53Z",
+      "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+    },
+    {
+      "attribution": "Official source statement",
+      "claim_type": "fact",
+      "confidence_label": "official",
+      "drivers": [
+        "Oscar Piastri",
+        "Mark Webber",
+        "Ann Webber"
+      ],
+      "headline": "\u2018It felt like the time was right for something new\u2019 \u2013 Oscar Piastri opens up on decision to split with Mark and Ann Webber-led management team",
+      "id": "story-a4503b683e61c973327d",
+      "published_at": "2026-11-19T06:58:20Z",
+      "sources": [
+        {
+          "evidence_excerpt": "Nov 19, 2026 6:58am UTC Oscar Piastri has explained why he and his management team, led by Mark and Ann Webber, mutually agreed to part ways, with the Australian believing the time",
+          "evidence_excerpts": [
+            "Nov 19, 2026 6:58am UTC Oscar Piastri has explained why he and his management team, led by Mark and Ann Webber, mutually agreed to part ways, with the Australian believing the time",
+            "felt like the right decision. \"We were just getting to a stage in our collaboration where it was better for us to go on our separate paths,\" he said.",
+            "\"Mark and Ann contributed so much to my career, both in placing me where I am today and the management of everything behind the scenes that nobody ever really sees."
+          ],
+          "published_at": "2026-11-19T06:58:20Z",
+          "source_id": "formula1_official_latest",
+          "source_name": "Formula 1 Official Latest",
+          "url": "https://www.formula1.com/en/latest/article/it-felt-like-the-time-was-right-for-something-new-piastri-opens-up-on-decision-to-split-with-management-team.4v3F2IJjTzAoRC9OIkyLgG"
+        }
+      ],
+      "summary": "Formula 1 Official Latest: \u201cNov 19, 2026 6:58am UTC Oscar Piastri has explained why he and his management team, led by Mark and Ann Webber, mutually agreed to part ways, with the Australian believing the time\u201d\n\n\u201cfelt like the right decision. \"We were just getting to a stage in our collaboration where it was better for us to go on our separate paths,\" he said.\u201d\n\n\u201c\"Mark and Ann contributed so much to my career, both in placing me where I am today and the management of everything behind the scenes that nobody ever really sees.\u201d",
+      "teams": [
+        "McLaren"
+      ],
+      "topic": "driver_market",
+      "updated_at": "2026-11-19T07:18:53Z",
+      "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+    },
+    {
+      "attribution": "Reported claim",
+      "claim_type": "fact",
+      "confidence_label": "reported",
+      "drivers": [
+        "Valtteri Bottas",
+        "Colton Herta"
+      ],
+      "headline": "Valtteri Bottas makes feelings clear on Colton Herta rumours after Cadillac announcement",
+      "id": "story-df1fdb8afe019bf7e696",
+      "published_at": "2026-11-19T06:50:33Z",
+      "sources": [
+        {
+          "evidence_excerpt": "Cadillac announced on Wednesday in Las Vegas that Bottas will remain with the team for the F1 2027 campaign.",
+          "evidence_excerpts": [
+            "Cadillac announced on Wednesday in Las Vegas that Bottas will remain with the team for the F1 2027 campaign.",
+            "ahead of this weekend\u2019s Las Vegas Grand Prix, Bottas argued that it was \u201calways the plan\u201d for Herta to qualify for an F1 super licence in 2026.",
+            "There are several years that it will stay valid, so that was always the plan, so that\u2019s all good. \u201cThere\u2019s been a bit too much noise in the last weeks."
+          ],
+          "published_at": "2026-11-19T06:50:33Z",
+          "source_id": "planetf1",
+          "source_name": "PlanetF1",
+          "url": "https://www.planetf1.com/news/valtteri-bottas-colton-herta-cadillac-f1-2027-announcement"
+        }
+      ],
+      "summary": "PlanetF1: \u201cCadillac announced on Wednesday in Las Vegas that Bottas will remain with the team for the F1 2027 campaign.\u201d\n\n\u201cahead of this weekend\u2019s Las Vegas Grand Prix, Bottas argued that it was \u201calways the plan\u201d for Herta to qualify for an F1 super licence in 2026.\u201d\n\n\u201cThere are several years that it will stay valid, so that was always the plan, so that\u2019s all good. \u201cThere\u2019s been a bit too much noise in the last weeks.\u201d",
+      "teams": [
+        "Cadillac"
+      ],
+      "topic": "driver_market",
+      "updated_at": "2026-11-19T07:18:53Z",
+      "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
     },
     {
       "attribution": "Unconfirmed claim",
       "claim_type": "unconfirmed",
       "confidence_label": "unconfirmed",
       "drivers": [
-        "Sergio Perez",
-        "Valtteri Bottas",
-        "Colton Herta"
+        "Esteban Ocon",
+        "Fernando Alonso",
+        "Lance Stroll"
       ],
-      "headline": "Sergio Perez weighs in on Cadillac F1 driver decision ahead of 'crucial' period | RacingNews365",
-      "id": "story-b40078a4ab2e510f230e",
-      "published_at": "2026-11-16T19:00:00Z",
+      "headline": "Aston Martin set to confirm comeback for axed F1 driver | RacingNews365",
+      "id": "story-255ef71bfe8b86d6c1e2",
+      "published_at": "2026-11-19T06:50:00Z",
       "sources": [
         {
-          "evidence_excerpt": "Article To news overview \u00a9 XPBimages Sergio Perez has stated there is not an \"easy decision\" for Cadillac to make over its driver line-up for the 2027 season.",
+          "evidence_excerpt": "Article To news overview \u00a9 XPBimages Esteban Ocon, who left the Haas team over the Mexico City Grand Prix weekend, could drive an F1 car again, potentially before the end of 2026,",
           "evidence_excerpts": [
-            "Article To news overview \u00a9 XPBimages Sergio Perez has stated there is not an \"easy decision\" for Cadillac to make over its driver line-up for the 2027 season.",
-            "Obviously, it's not my decision, but I think it will be down to Marcin to decide who they want in the car. \"I'm also working really well with Valtteri.",
-            "However, the 36-year-old denied that he will assist in the choice of who occupies the second seat for 2027. \"No, not at all."
+            "Article To news overview \u00a9 XPBimages Esteban Ocon, who left the Haas team over the Mexico City Grand Prix weekend, could drive an F1 car again, potentially before the end of 2026,",
+            "RacingNews365 has learned. According to our sources, Ocon is understood to have reached an agreement with Aston Martin to take on the role of third driver to Fernando Alonso and Lance Stroll.",
+            "\"We are regularly approached by drivers who wish to join Aston Martin, but in keeping with our policy, we do not comment on rumour and speculation.\""
           ],
-          "published_at": "2026-11-16T19:00:00Z",
+          "published_at": "2026-11-19T06:50:00Z",
           "source_id": "racingnews365_f1",
           "source_name": "RacingNews365 Formula 1",
-          "url": "https://racingnews365.com/sergio-perez-weighs-in-on-cadillac-f1-driver-decision-ahead-of-crucial-period"
+          "url": "https://racingnews365.com/aston-martin-set-to-confirm-comeback-for-axed-f1-driver"
         }
       ],
-      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPBimages Sergio Perez has stated there is not an \"easy decision\" for Cadillac to make over its driver line-up for the 2027 season.\u201d\n\n\u201cObviously, it's not my decision, but I think it will be down to Marcin to decide who they want in the car. \"I'm also working really well with Valtteri.\u201d\n\n\u201cHowever, the 36-year-old denied that he will assist in the choice of who occupies the second seat for 2027. \"No, not at all.\u201d",
+      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPBimages Esteban Ocon, who left the Haas team over the Mexico City Grand Prix weekend, could drive an F1 car again, potentially before the end of 2026,\u201d\n\n\u201cRacingNews365 has learned. According to our sources, Ocon is understood to have reached an agreement with Aston Martin to take on the role of third driver to Fernando Alonso and Lance Stroll.\u201d\n\n\u201c\"We are regularly approached by drivers who wish to join Aston Martin, but in keeping with our policy, we do not comment on rumour and speculation.\"\u201d",
       "teams": [
-        "Cadillac F1 Team"
+        "Aston Martin",
+        "Haas"
       ],
       "topic": "driver_market",
-      "updated_at": "2026-11-16T21:58:21Z",
-      "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
-    },
-    {
-      "attribution": "Reported claim",
-      "claim_type": "fact",
-      "confidence_label": "reported",
-      "drivers": [
-        "Liam Lawson",
-        "Arvid Lindblad",
-        "Nikola Tsolov"
-      ],
-      "headline": "Liam Lawson handed crushing verdict over delayed Racing Bulls decision | RacingNews365",
-      "id": "story-6d57b1be9839dfbe2815",
-      "published_at": "2026-11-16T18:05:00Z",
-      "sources": [
-        {
-          "evidence_excerpt": "Article To news overview \u00a9 XPB Images Liam Lawson will continue with Racing Bulls for the 2027 F1 season, after the Faenza-based squad confirmed the New Zealander and Arvid Lindblad last week.",
-          "evidence_excerpts": [
-            "Article To news overview \u00a9 XPB Images Liam Lawson will continue with Racing Bulls for the 2027 F1 season, after the Faenza-based squad confirmed the New Zealander and Arvid Lindblad last week.",
-            "However, Racing Bulls left it late to announce both would stay put, with Red Bull junior and F2 drivers' title hopeful Nikola Tsolov also under consideration.",
-            "As such, Lawson was given emphatic backing after Racing Bulls finally confirmed his future, with 95 per cent of fans who voted in a recent poll by RacingNews365 voicing their support for"
-          ],
-          "published_at": "2026-11-16T18:05:00Z",
-          "source_id": "racingnews365_f1",
-          "source_name": "RacingNews365 Formula 1",
-          "url": "https://racingnews365.com/liam-lawson-handed-crushing-verdict-over-delayed-racing-bulls-decision"
-        }
-      ],
-      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Liam Lawson will continue with Racing Bulls for the 2027 F1 season, after the Faenza-based squad confirmed the New Zealander and Arvid Lindblad last week.\u201d\n\n\u201cHowever, Racing Bulls left it late to announce both would stay put, with Red Bull junior and F2 drivers' title hopeful Nikola Tsolov also under consideration.\u201d\n\n\u201cAs such, Lawson was given emphatic backing after Racing Bulls finally confirmed his future, with 95 per cent of fans who voted in a recent poll by RacingNews365 voicing their support for\u201d",
-      "teams": [
-        "Racing Bulls",
-        "Red Bull"
-      ],
-      "topic": "driver_market",
-      "updated_at": "2026-11-16T21:58:21Z",
+      "updated_at": "2026-11-19T07:18:53Z",
       "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
     },
     {
@@ -193,29 +222,31 @@
       "claim_type": "analysis",
       "confidence_label": "reported",
       "drivers": [
-        "Terry Crews"
+        "Carlos Sainz Jnr"
       ],
-      "headline": "Terry Crews on F1's growing US popularity ahead of the 2026 Las Vegas Grand Prix",
-      "id": "story-8516ea415a4a53624104",
-      "published_at": "2026-11-16T17:51:08Z",
+      "headline": "Sainz won\u2019t tolerate \u201cbeing a test driver on grand prix weekends\u201d for long \u2013 RaceFans",
+      "id": "story-f928c3ff7888e5e82eba",
+      "published_at": "2026-11-19T06:35:51Z",
       "sources": [
         {
-          "evidence_excerpt": "Lifestyle & Culture Las Vegas 2026 'Americans are becoming more Formula 1' - Terry Crews on why F1 is winning over the US As Formula 1 returns to Las Vegas, actor Terry",
+          "evidence_excerpt": "Carlos Sainz Jnr is experiencing a dissatisfying end to his second season at Williams as the team focuses on testing developments for next season.",
           "evidence_excerpts": [
-            "Lifestyle & Culture Las Vegas 2026 'Americans are becoming more Formula 1' - Terry Crews on why F1 is winning over the US As Formula 1 returns to Las Vegas, actor Terry",
-            "\"I wouldn't say [Formula 1] is becoming more American. In fact, what I would say is that Americans are becoming more Formula 1.",
-            "But because of Formula 1, there's now Americans saying, 'I'm going to Hungary, I'm going to Singapore, I'm going to Monaco.'"
+            "Carlos Sainz Jnr is experiencing a dissatisfying end to his second season at Williams as the team focuses on testing developments for next season.",
+            "\u201cThis track maybe offers a little bit more hope, but the reality is that we\u2019d rather invest that time in becoming a test driver and testing for the team than actually doing",
+            "\u201cI don\u2019t like being a test driver on race weekends,\u201d said Sainz. \u201cI honestly enjoy going testing. Probably not many drivers enjoy testing, but I actually enjoy testing."
           ],
-          "published_at": "2026-11-16T17:51:08Z",
-          "source_id": "formula1_official_latest",
-          "source_name": "Formula 1 Official Latest",
-          "url": "https://www.formula1.com/en/latest/article/americans-are-becoming-more-formula-1-terry-crews-on-why-f1-is-winning-over-the-us.6Uqdsu4AlrP8Y3fxNUMesa"
+          "published_at": "2026-11-19T06:35:51Z",
+          "source_id": "racefans_f1",
+          "source_name": "RaceFans Formula 1",
+          "url": "https://www.racefans.net/2026/11/19/sainz-wont-tolerate-being-a-test-driver-on-grand-prix-weekends-for-long/"
         }
       ],
-      "summary": "Formula 1 Official Latest: \u201cLifestyle & Culture Las Vegas 2026 'Americans are becoming more Formula 1' - Terry Crews on why F1 is winning over the US As Formula 1 returns to Las Vegas, actor Terry\u201d\n\n\u201c\"I wouldn't say [Formula 1] is becoming more American. In fact, what I would say is that Americans are becoming more Formula 1.\u201d\n\n\u201cBut because of Formula 1, there's now Americans saying, 'I'm going to Hungary, I'm going to Singapore, I'm going to Monaco.'\u201d",
-      "teams": [],
+      "summary": "RaceFans Formula 1: \u201cCarlos Sainz Jnr is experiencing a dissatisfying end to his second season at Williams as the team focuses on testing developments for next season.\u201d\n\n\u201c\u201cThis track maybe offers a little bit more hope, but the reality is that we\u2019d rather invest that time in becoming a test driver and testing for the team than actually doing\u201d\n\n\u201c\u201cI don\u2019t like being a test driver on race weekends,\u201d said Sainz. \u201cI honestly enjoy going testing. Probably not many drivers enjoy testing, but I actually enjoy testing.\u201d",
+      "teams": [
+        "Williams"
+      ],
       "topic": "general",
-      "updated_at": "2026-11-16T21:58:21Z",
+      "updated_at": "2026-11-19T07:18:53Z",
       "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
     },
     {
@@ -223,125 +254,99 @@
       "claim_type": "fact",
       "confidence_label": "reported",
       "drivers": [
-        "Lance Stroll",
-        "Fernando Alonso"
+        "Charles Leclerc",
+        "Jonathan McEvoy",
+        "Fred Vasseur"
       ],
-      "headline": "New Aston Martin announcement as Las Vegas GP livery uncovered",
-      "id": "story-357c112052a3b6130366",
-      "published_at": "2026-11-16T17:19:12Z",
+      "headline": "Charles Leclerc speaks out on F1 journalist ban controversy after article criticism | Crash.net",
+      "id": "story-799b3a6c38abcb484dfc",
+      "published_at": "2026-11-19T06:34:24Z",
       "sources": [
         {
-          "evidence_excerpt": "Aston Martin has revealed its special livery for Las Vegas The Aston Martin F1 team has announced that it will compete with a special livery, produced in collaboration with team partner CoreWeave,",
+          "evidence_excerpt": "Charles Leclerc has responded to a journalist being banned from the F1 paddock Charles Leclerc has spoken out about the FIA\u2019s decision to ban a journalist for a column he wrote criticising",
           "evidence_excerpts": [
-            "Aston Martin has revealed its special livery for Las Vegas The Aston Martin F1 team has announced that it will compete with a special livery, produced in collaboration with team partner CoreWeave,",
-            "Aston Martin presents special livery for Las Vegas Grand Prix In a statement issued to PlanetF1.com, Aston Martin said \u2018the design celebrates CoreWeave\u2019s integration into the team, from the AMR Technology Campus",
-            "Jefferson Slack, the managing director of commercial and marketing at the Aston Martin team, said: \u201cThe Las Vegas Grand Prix gives us a fantastic opportunity to showcase the strength of our collaboration"
+            "Charles Leclerc has responded to a journalist being banned from the F1 paddock Charles Leclerc has spoken out about the FIA\u2019s decision to ban a journalist for a column he wrote criticising",
+            "the Ferrari Formula 1 driver. The Daily Mail \u2019s F1 correspondent Jonathan McEvoy has had his media pass revoked , meaning he will not be able to attend the final three races",
+            "\"I was quite surprised by the choice of words when I saw the article."
           ],
-          "published_at": "2026-11-16T17:19:12Z",
-          "source_id": "planetf1",
-          "source_name": "PlanetF1",
-          "url": "https://www.planetf1.com/news/aston-martin-las-vegas-grand-prix-2026-livery"
+          "published_at": "2026-11-19T06:34:24Z",
+          "source_id": "crash_f1",
+          "source_name": "Crash.net Formula 1",
+          "url": "https://www.crash.net/f1/news/1110180/1/charles-leclerc-speaks-out-f1-journalist-ban-controversy-after-article-criticism"
         }
       ],
-      "summary": "PlanetF1: \u201cAston Martin has revealed its special livery for Las Vegas The Aston Martin F1 team has announced that it will compete with a special livery, produced in collaboration with team partner CoreWeave,\u201d\n\n\u201cAston Martin presents special livery for Las Vegas Grand Prix In a statement issued to PlanetF1.com, Aston Martin said \u2018the design celebrates CoreWeave\u2019s integration into the team, from the AMR Technology Campus\u201d\n\n\u201cJefferson Slack, the managing director of commercial and marketing at the Aston Martin team, said: \u201cThe Las Vegas Grand Prix gives us a fantastic opportunity to showcase the strength of our collaboration\u201d",
+      "summary": "Crash.net Formula 1: \u201cCharles Leclerc has responded to a journalist being banned from the F1 paddock Charles Leclerc has spoken out about the FIA\u2019s decision to ban a journalist for a column he wrote criticising\u201d\n\n\u201cthe Ferrari Formula 1 driver. The Daily Mail \u2019s F1 correspondent Jonathan McEvoy has had his media pass revoked , meaning he will not be able to attend the final three races\u201d\n\n\u201c\"I was quite surprised by the choice of words when I saw the article.\u201d",
       "teams": [
-        "Aston Martin"
+        "Ferrari"
       ],
-      "topic": "technical",
-      "updated_at": "2026-11-16T21:58:21Z",
-      "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+      "topic": "regulations",
+      "updated_at": "2026-11-19T07:18:53Z",
+      "why_it_matters": "Sporting or technical rule changes can affect team decisions. Check the cited document for scope and implementation dates."
     },
     {
       "attribution": "Reported claim",
       "claim_type": "fact",
       "confidence_label": "reported",
-      "drivers": [],
-      "headline": "Williams unveil 'chrome' livery tweak for Las Vegas Grand Prix | RacingNews365",
-      "id": "story-570bb492e327e4cf83ff",
-      "published_at": "2026-11-16T17:14:00Z",
+      "drivers": [
+        "George Russell",
+        "Kimi Antonelli",
+        "Max Verstappen"
+      ],
+      "headline": "Formula 1 drivers back return of 'very cool' V8 engines in the future ahead of Las Vegas Grand Prix | F1 News | Sky Sports",
+      "id": "story-d22db0d3469270f7c4a9",
+      "published_at": "2026-11-19T06:30:00Z",
       "sources": [
         {
-          "evidence_excerpt": "Article To news overview Williams will run a bespoke one-off livery at the Las Vegas Grand Prix, developed alongside title partner Atlassian.",
+          "evidence_excerpt": "Formula 1 drivers back return of 'very cool' V8 engines in the future ahead of Las Vegas Grand Prix Several Formula 1 drivers have backed the possibility of V8 engines returning to",
           "evidence_excerpts": [
-            "Article To news overview Williams will run a bespoke one-off livery at the Las Vegas Grand Prix, developed alongside title partner Atlassian.",
-            "The chrome design features rainbow accents and navy detailing running across the bodywork and engine cover.",
-            "\u201cOur next step forward isn\u2019t a matter of reinvention; it\u2019s about evolving from where we\u2019ve been, using the knowledge, context and information our team shares,\u201d said team boss James Vowles."
+            "Formula 1 drivers back return of 'very cool' V8 engines in the future ahead of Las Vegas Grand Prix Several Formula 1 drivers have backed the possibility of V8 engines returning to",
+            "of the overall power unit, including whether an electrical element and a turbo will remain, need to be finalised. \"I'd love to see it.",
+            "claims \"many people would look forward\" to the return of V8 engines. \"It's going be very cool to go back to more old style."
           ],
-          "published_at": "2026-11-16T17:14:00Z",
-          "source_id": "racingnews365_f1",
-          "source_name": "RacingNews365 Formula 1",
-          "url": "https://racingnews365.com/williams-unveil-chrome-livery-tweak-for-las-vegas-grand-prix"
+          "published_at": "2026-11-19T06:30:00Z",
+          "source_id": "sky_sports_f1",
+          "source_name": "Sky Sports Formula 1",
+          "url": "https://www.skysports.com/f1/news/13613632/formula-1-drivers-back-return-of-very-cool-v8-engines-in-the-future-ahead-of-las-vegas-grand-prix"
         }
       ],
-      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview Williams will run a bespoke one-off livery at the Las Vegas Grand Prix, developed alongside title partner Atlassian.\u201d\n\n\u201cThe chrome design features rainbow accents and navy detailing running across the bodywork and engine cover.\u201d\n\n\u201c\u201cOur next step forward isn\u2019t a matter of reinvention; it\u2019s about evolving from where we\u2019ve been, using the knowledge, context and information our team shares,\u201d said team boss James Vowles.\u201d",
-      "teams": [
-        "Williams"
-      ],
+      "summary": "Sky Sports Formula 1: \u201cFormula 1 drivers back return of 'very cool' V8 engines in the future ahead of Las Vegas Grand Prix Several Formula 1 drivers have backed the possibility of V8 engines returning to\u201d\n\n\u201cof the overall power unit, including whether an electrical element and a turbo will remain, need to be finalised. \"I'd love to see it.\u201d\n\n\u201cclaims \"many people would look forward\" to the return of V8 engines. \"It's going be very cool to go back to more old style.\u201d",
+      "teams": [],
       "topic": "technical",
-      "updated_at": "2026-11-16T21:58:21Z",
+      "updated_at": "2026-11-19T07:18:53Z",
       "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
     },
     {
       "attribution": "Reported claim",
-      "claim_type": "analysis",
-      "confidence_label": "reported",
-      "drivers": [
-        "Lewis Hamilton"
-      ],
-      "headline": "Hamilton tells F1 to spend \u00a350 million in promoting under-represented talent \u2013 RaceFans",
-      "id": "story-21a07a555d3e8bed7c8c",
-      "published_at": "2026-11-16T17:10:16Z",
-      "sources": [
-        {
-          "evidence_excerpt": "Lewis Hamilton has called on Formula 1 to publish data revealing how far the championship is representative of people from different backgrounds.",
-          "evidence_excerpts": [
-            "Lewis Hamilton has called on Formula 1 to publish data revealing how far the championship is representative of people from different backgrounds.",
-            "delivers\u201d. In order to promote new talent in the championship, Hamilton\u2019s review made three recommendations . These include a commitment to invest \u00a350 million over five years promoting new talent.",
-            "\u201cFormula 1 is inspiring millions of young people around the world,\u201d said Hamilton. \u201cBut inspiration means nothing without opportunity."
-          ],
-          "published_at": "2026-11-16T17:10:16Z",
-          "source_id": "racefans_f1",
-          "source_name": "RaceFans Formula 1",
-          "url": "https://www.racefans.net/2026/11/16/hamilton-tells-f1-to-spend-50-million-in-promoting-under-represented-talent/"
-        }
-      ],
-      "summary": "RaceFans Formula 1: \u201cLewis Hamilton has called on Formula 1 to publish data revealing how far the championship is representative of people from different backgrounds.\u201d\n\n\u201cdelivers\u201d. In order to promote new talent in the championship, Hamilton\u2019s review made three recommendations . These include a commitment to invest \u00a350 million over five years promoting new talent.\u201d\n\n\u201c\u201cFormula 1 is inspiring millions of young people around the world,\u201d said Hamilton. \u201cBut inspiration means nothing without opportunity.\u201d",
-      "teams": [],
-      "topic": "regulations",
-      "updated_at": "2026-11-16T21:58:21Z",
-      "why_it_matters": "Sporting or technical rule changes can affect team decisions. Check the cited document for scope and implementation dates."
-    },
-    {
-      "attribution": "Reported claim",
-      "claim_type": "analysis",
+      "claim_type": "fact",
       "confidence_label": "reported",
       "drivers": [
         "Max Verstappen",
         "Isack Hadjar"
       ],
-      "headline": "Is Max Verstappen 2027 title favourite already after Red Bull recovery? | RacingNews365",
-      "id": "story-6e8f7a581c8068832c64",
-      "published_at": "2026-11-16T17:10:00Z",
+      "headline": "Max Verstappen reveals painful Las Vegas GP energy problem ahead of race",
+      "id": "story-a4534bb52d87f05fba54",
+      "published_at": "2026-11-19T06:24:43Z",
       "sources": [
         {
-          "evidence_excerpt": "Article To news overview \u00a9 Red Bull Content Pool Red Bull's late-season climb has sparked debate over whether Max Verstappen should now be considered the favourite heading into 2027, and RacingNews365 wants",
+          "evidence_excerpt": "Max Verstappen has revealed that the Las Vegas GP circuit proved \u201cpainful\u201d in his pre-race sim sessions, due to energy starvation down the long straights.",
           "evidence_excerpts": [
-            "Article To news overview \u00a9 Red Bull Content Pool Red Bull's late-season climb has sparked debate over whether Max Verstappen should now be considered the favourite heading into 2027, and RacingNews365 wants",
-            "Red Bull Ford Powertrains has also been confirmed again as the benchmark internal combustion engine under the FIA's latest evaluation process, a status that leaves it as the only manufacturer not entitled",
-            "admission, a system that may yet be revised. Red Bull has moved to lock in its guarantee for that era, extending Verstappen's contract through 2030."
+            "Max Verstappen has revealed that the Las Vegas GP circuit proved \u201cpainful\u201d in his pre-race sim sessions, due to energy starvation down the long straights.",
+            "by the regulations. \u201cPainful!\u201d he smiled, when asked about how the circuit played out in terms of energy management in the sim. \u201cYeah. It\u2019s just how it is.",
+            "\u201cI hope that here it will be a little bit better, but for sure, I think Mercedes on that side is normally the strongest, maximising that."
           ],
-          "published_at": "2026-11-16T17:10:00Z",
-          "source_id": "racingnews365_f1",
-          "source_name": "RacingNews365 Formula 1",
-          "url": "https://racingnews365.com/is-max-verstappen-2027-title-favourite-already-after-red-bull-recovery"
+          "published_at": "2026-11-19T06:24:43Z",
+          "source_id": "planetf1",
+          "source_name": "PlanetF1",
+          "url": "https://www.planetf1.com/news/max-verstappen-las-vegas-gp-energy-problem"
         }
       ],
-      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 Red Bull Content Pool Red Bull's late-season climb has sparked debate over whether Max Verstappen should now be considered the favourite heading into 2027, and RacingNews365 wants\u201d\n\n\u201cRed Bull Ford Powertrains has also been confirmed again as the benchmark internal combustion engine under the FIA's latest evaluation process, a status that leaves it as the only manufacturer not entitled\u201d\n\n\u201cadmission, a system that may yet be revised. Red Bull has moved to lock in its guarantee for that era, extending Verstappen's contract through 2030.\u201d",
+      "summary": "PlanetF1: \u201cMax Verstappen has revealed that the Las Vegas GP circuit proved \u201cpainful\u201d in his pre-race sim sessions, due to energy starvation down the long straights.\u201d\n\n\u201cby the regulations. \u201cPainful!\u201d he smiled, when asked about how the circuit played out in terms of energy management in the sim. \u201cYeah. It\u2019s just how it is.\u201d\n\n\u201c\u201cI hope that here it will be a little bit better, but for sure, I think Mercedes on that side is normally the strongest, maximising that.\u201d",
       "teams": [
-        "Red Bull"
+        "Red Bull",
+        "Mercedes"
       ],
       "topic": "technical",
-      "updated_at": "2026-11-16T21:58:21Z",
+      "updated_at": "2026-11-19T07:18:53Z",
       "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
     },
     {
@@ -349,112 +354,106 @@
       "claim_type": "fact",
       "confidence_label": "reported",
       "drivers": [
-        "Carlos Sainz",
-        "Esteban Ocon",
-        "Zhou Guanyu",
-        "Max Verstappen"
+        "George Russell",
+        "Andrea Kimi Antonelli"
       ],
-      "headline": "F1 fans left outraged as disastrous Las Vegas debut sparks $3 million payout - On This Day | RacingNews365",
-      "id": "story-c15d630da96e04429ed1",
-      "published_at": "2026-11-16T16:30:00Z",
+      "headline": "Russell explains why he chose not to use Mercedes\u2019 turbo upgrade in Las Vegas \u2013 RaceFans",
+      "id": "story-791f0d87ccb13638d3f4",
+      "published_at": "2026-11-19T06:21:26Z",
       "sources": [
         {
-          "evidence_excerpt": "Throwback To news overview \u00a9 XPBimages On this day three years ago, Formula 1's first practice session for the 2023 Las Vegas Grand Prix was abandoned just minutes after it began, after",
+          "evidence_excerpt": "George Russell said he was involved in the decision not to use the power unit upgrade his team mate will have this weekend.",
           "evidence_excerpts": [
-            "Throwback To news overview \u00a9 XPBimages On this day three years ago, Formula 1's first practice session for the 2023 Las Vegas Grand Prix was abandoned just minutes after it began, after",
-            "Carlos Sainz struck the dislodged water valve cover at high speed, destroying his Ferrari's monocoque, internal combustion engine and energy store in one impact.",
-            "Liberty Media and Las Vegas Grand Prix, Inc. eventually agreed a settlement fund of $3,047,986 for ticket holders, without admitting any wrongdoing."
+            "George Russell said he was involved in the decision not to use the power unit upgrade his team mate will have this weekend.",
+            "Russell said the team gave him the chance to influence the decision and he felt avoiding a penalty was more beneficial than gaining the performance benefit from the new part.",
+            "\u201cThe performance benefit it brings is not huge, it is just a step in the direction as a team we want to take,\u201d he said."
           ],
-          "published_at": "2026-11-16T16:30:00Z",
-          "source_id": "racingnews365_f1",
-          "source_name": "RacingNews365 Formula 1",
-          "url": "https://racingnews365.com/f1-fans-left-outraged-as-disastrous-las-vegas-debut-sparks-3-million-payout-on-this-day"
+          "published_at": "2026-11-19T06:21:26Z",
+          "source_id": "racefans_f1",
+          "source_name": "RaceFans Formula 1",
+          "url": "https://www.racefans.net/2026/11/19/russell-explains-why-he-chose-not-to-use-mercedes-turbo-upgrade-in-las-vegas/"
         }
       ],
-      "summary": "RacingNews365 Formula 1: \u201cThrowback To news overview \u00a9 XPBimages On this day three years ago, Formula 1's first practice session for the 2023 Las Vegas Grand Prix was abandoned just minutes after it began, after\u201d\n\n\u201cCarlos Sainz struck the dislodged water valve cover at high speed, destroying his Ferrari's monocoque, internal combustion engine and energy store in one impact.\u201d\n\n\u201cLiberty Media and Las Vegas Grand Prix, Inc. eventually agreed a settlement fund of $3,047,986 for ticket holders, without admitting any wrongdoing.\u201d",
+      "summary": "RaceFans Formula 1: \u201cGeorge Russell said he was involved in the decision not to use the power unit upgrade his team mate will have this weekend.\u201d\n\n\u201cRussell said the team gave him the chance to influence the decision and he felt avoiding a penalty was more beneficial than gaining the performance benefit from the new part.\u201d\n\n\u201c\u201cThe performance benefit it brings is not huge, it is just a step in the direction as a team we want to take,\u201d he said.\u201d",
       "teams": [
-        "Ferrari",
-        "Alpine",
-        "Alfa Romeo"
-      ],
-      "topic": "race",
-      "updated_at": "2026-11-16T21:58:21Z",
-      "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
-    },
-    {
-      "attribution": "Reported claim",
-      "claim_type": "fact",
-      "confidence_label": "reported",
-      "drivers": [
-        "Toto Wolff",
-        "Christian Horner",
-        "Kimi Antonelli"
-      ],
-      "headline": "Christian Horner sends Antonelli message in new Toto Wolff reveal",
-      "id": "story-94bd52ac1e6e05ddd82e",
-      "published_at": "2026-11-16T16:21:18Z",
-      "sources": [
-        {
-          "evidence_excerpt": "Toto Wolff and Christian Horner Toto Wolff and Christian Horner may have been the pantomime villains in each other\u2019s F1 careers, but such is the respect that Horner messaged the Mercedes team",
-          "evidence_excerpts": [
-            "Toto Wolff and Christian Horner Toto Wolff and Christian Horner may have been the pantomime villains in each other\u2019s F1 careers, but such is the respect that Horner messaged the Mercedes team",
-            "His Mercedes team principal Wolff was inundated with messages of congratulations \u2013 \u201c577\u201d to be exact. One of those was from former Red Bull team principal Horner.",
-            "\u201cChristian and I maintain a respectful relationship. That was already the case back then.\u201d Quizzed on the message, the Austrian revealed that it said: \u201cCongratulations."
-          ],
-          "published_at": "2026-11-16T16:21:18Z",
-          "source_id": "planetf1",
-          "source_name": "PlanetF1",
-          "url": "https://www.planetf1.com/news/christian-horner-toto-wolff-kimi-antonelli-text-message"
-        }
-      ],
-      "summary": "PlanetF1: \u201cToto Wolff and Christian Horner Toto Wolff and Christian Horner may have been the pantomime villains in each other\u2019s F1 careers, but such is the respect that Horner messaged the Mercedes team\u201d\n\n\u201cHis Mercedes team principal Wolff was inundated with messages of congratulations \u2013 \u201c577\u201d to be exact. One of those was from former Red Bull team principal Horner.\u201d\n\n\u201c\u201cChristian and I maintain a respectful relationship. That was already the case back then.\u201d Quizzed on the message, the Austrian revealed that it said: \u201cCongratulations.\u201d",
-      "teams": [
-        "Mercedes",
-        "Red Bull"
-      ],
-      "topic": "general",
-      "updated_at": "2026-11-16T21:58:21Z",
-      "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
-    },
-    {
-      "attribution": "Reported claim",
-      "claim_type": "fact",
-      "confidence_label": "reported",
-      "drivers": [
-        "Fernando Alonso",
-        "Lance Stroll"
-      ],
-      "headline": "Aston Martin unveil major F1 livery change for Las Vegas Grand Prix | RacingNews365",
-      "id": "story-c21b26e8297ff9f5d813",
-      "published_at": "2026-11-16T16:13:00Z",
-      "sources": [
-        {
-          "evidence_excerpt": "Article To news overview Aston Martin will run a special one-off livery for this weekend's Las Vegas Grand Prix, created in partnership with CoreWeave.",
-          "evidence_excerpts": [
-            "Article To news overview Aston Martin will run a special one-off livery for this weekend's Las Vegas Grand Prix, created in partnership with CoreWeave.",
-            "Aston Martin said the scheme is intended to visually represent airflow dynamics, tying the car's appearance to the aeromodelling work CoreWeave's cloud infrastructure supports behind the scenes.",
-            "\u201cThe Las Vegas Grand Prix gives us a fantastic opportunity to showcase the strength of our collaboration with CoreWeave through this unique livery takeover,\u201d said Aston Martin managing director, commerical and marketing."
-          ],
-          "published_at": "2026-11-16T16:13:00Z",
-          "source_id": "racingnews365_f1",
-          "source_name": "RacingNews365 Formula 1",
-          "url": "https://racingnews365.com/aston-martin-unveil-major-f1-livery-change-for-las-vegas-grand-prix"
-        }
-      ],
-      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview Aston Martin will run a special one-off livery for this weekend's Las Vegas Grand Prix, created in partnership with CoreWeave.\u201d\n\n\u201cAston Martin said the scheme is intended to visually represent airflow dynamics, tying the car's appearance to the aeromodelling work CoreWeave's cloud infrastructure supports behind the scenes.\u201d\n\n\u201c\u201cThe Las Vegas Grand Prix gives us a fantastic opportunity to showcase the strength of our collaboration with CoreWeave through this unique livery takeover,\u201d said Aston Martin managing director, commerical and marketing.\u201d",
-      "teams": [
-        "Aston Martin"
+        "Mercedes"
       ],
       "topic": "technical",
-      "updated_at": "2026-11-16T21:58:21Z",
+      "updated_at": "2026-11-19T07:18:53Z",
+      "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+    },
+    {
+      "attribution": "Reported claim",
+      "claim_type": "fact",
+      "confidence_label": "reported",
+      "drivers": [
+        "Charles Leclerc",
+        "Jonathan McEvoy",
+        "Fred Vasseur"
+      ],
+      "headline": "Charles Leclerc expresses surprise at explosive article which got F1 journalist banned | RacingNews365",
+      "id": "story-48f37d431d804c013786",
+      "published_at": "2026-11-19T06:20:00Z",
+      "sources": [
+        {
+          "evidence_excerpt": "Article To news overview \u00a9 XPB Images Charles Leclerc has responded to the recent article from the Daily Mail that led to journalist Jonathan McEvoy having his media pass revoked.",
+          "evidence_excerpts": [
+            "Article To news overview \u00a9 XPB Images Charles Leclerc has responded to the recent article from the Daily Mail that led to journalist Jonathan McEvoy having his media pass revoked.",
+            "The FIA elected to pull McEvoy's credentials for the final three rounds of the 2026 season after an article in which he described Leclerc as a \"sneaky little b*****d\" following his fight",
+            "\"I saw the article, and I was quite surprised by the choice of words, but apart from that, I don't have much to say,\" Leclerc told media, including RacingNews365."
+          ],
+          "published_at": "2026-11-19T06:20:00Z",
+          "source_id": "racingnews365_f1",
+          "source_name": "RacingNews365 Formula 1",
+          "url": "https://racingnews365.com/charles-leclerc-expresses-surprise-at-explosive-article-which-got-f1-journalist-banned"
+        }
+      ],
+      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Charles Leclerc has responded to the recent article from the Daily Mail that led to journalist Jonathan McEvoy having his media pass revoked.\u201d\n\n\u201cThe FIA elected to pull McEvoy's credentials for the final three rounds of the 2026 season after an article in which he described Leclerc as a \"sneaky little b*****d\" following his fight\u201d\n\n\u201c\"I saw the article, and I was quite surprised by the choice of words, but apart from that, I don't have much to say,\" Leclerc told media, including RacingNews365.\u201d",
+      "teams": [
+        "Ferrari"
+      ],
+      "topic": "regulations",
+      "updated_at": "2026-11-19T07:18:53Z",
+      "why_it_matters": "Sporting or technical rule changes can affect team decisions. Check the cited document for scope and implementation dates."
+    },
+    {
+      "attribution": "Reported claim",
+      "claim_type": "fact",
+      "confidence_label": "reported",
+      "drivers": [
+        "Max Verstappen",
+        "George Russell",
+        "Charles Leclerc"
+      ],
+      "headline": "Verstappen isn't a fan of F1's 2027 biometric data plan",
+      "id": "story-8348e039597ac3c6db59",
+      "published_at": "2026-11-19T06:13:10Z",
+      "sources": [
+        {
+          "evidence_excerpt": "Formula 1's newly announced partnership with health and fitness wearable technology specialist Whoop will utilise driver biometric data in broadcast coverage, although Max Verstappen says he will not be involved.",
+          "evidence_excerpts": [
+            "Formula 1's newly announced partnership with health and fitness wearable technology specialist Whoop will utilise driver biometric data in broadcast coverage, although Max Verstappen says he will not be involved.",
+            "\"I won't be involved,\" said Verstappen. \"I don't use any device.",
+            "Mercedes driver George Russell accepted this being run and is \"not going to say no\" to it, but he cast doubt on how beneficial it would be for the coverage."
+          ],
+          "published_at": "2026-11-19T06:13:10Z",
+          "source_id": "the_race_f1",
+          "source_name": "The Race Formula 1",
+          "url": "https://www.the-race.com/formula-1/f1-2027-biometric-data-plan-whoop-max-verstappen-not-a-fan/"
+        }
+      ],
+      "summary": "The Race Formula 1: \u201cFormula 1's newly announced partnership with health and fitness wearable technology specialist Whoop will utilise driver biometric data in broadcast coverage, although Max Verstappen says he will not be involved.\u201d\n\n\u201c\"I won't be involved,\" said Verstappen. \"I don't use any device.\u201d\n\n\u201cMercedes driver George Russell accepted this being run and is \"not going to say no\" to it, but he cast doubt on how beneficial it would be for the coverage.\u201d",
+      "teams": [],
+      "topic": "technical",
+      "updated_at": "2026-11-19T07:18:53Z",
       "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
     }
   ],
-  "next_check_at": "2026-11-18T21:58:21Z",
+  "next_check_at": "2026-11-21T07:18:53Z",
   "provider": "deepseek",
   "schema_version": "2.0",
   "sources_checked": 7,
   "status": "published",
   "summary": "12 sourced F1 updates. Open each report for evidence and context.",
-  "updated_at": "2026-11-16T21:58:21Z"
+  "updated_at": "2026-11-19T07:18:53Z"
 }
