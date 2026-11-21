@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-21T06:59:58Z",
+  "checked_at": "2026-11-21T19:10:34Z",
   "constructor_standings": [
     {
       "driver_id": null,
@@ -437,8 +437,8 @@
     }
   ],
   "is_reference": false,
-  "round": 20,
+  "round": 21,
   "season": 2026,
   "source": "jolpica",
-  "updated_at": "2026-11-09T06:18:16Z"
+  "updated_at": "2026-11-21T19:10:34Z"
 }
