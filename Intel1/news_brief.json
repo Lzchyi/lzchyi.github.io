@@ -1,6 +1,6 @@
 {
-  "brief_id": "news-b0a56457633b55663ff3",
-  "checked_at": "2026-11-19T07:18:53Z",
+  "brief_id": "news-06c338391cd70c89942a",
+  "checked_at": "2026-11-22T19:32:25Z",
   "coverage_note": "Some sources could not be checked. These reports reflect the linked evidence that was available.",
   "coverage_status": "partial",
   "failed_sources": [
@@ -45,108 +45,145 @@
       "source_name": "Reuters Formula 1"
     }
   ],
-  "headline": "Everything we learned from day one at F1's Las Vegas GP",
+  "headline": "Oscar Piastri ends long F1 podium drought after bizarre Las Vegas chaos | RacingNews365",
   "is_preview": false,
   "items": [
     {
-      "attribution": "Unconfirmed claim",
+      "attribution": "Reported claim",
       "claim_type": "fact",
-      "confidence_label": "unconfirmed",
+      "confidence_label": "reported",
       "drivers": [
-        "Fernando Alonso",
-        "Perez",
-        "Max Verstappen",
-        "George Russell",
-        "Charles Leclerc"
+        "Oscar Piastri",
+        "Lando Norris"
       ],
-      "headline": "Everything we learned from day one at F1's Las Vegas GP",
-      "id": "story-d637ab534ef0bf13437c",
-      "published_at": "2026-11-19T07:09:32Z",
+      "headline": "Oscar Piastri ends long F1 podium drought after bizarre Las Vegas chaos | RacingNews365",
+      "id": "story-0907f25dce1f41dc0aa4",
+      "published_at": "2026-11-22T19:15:00Z",
       "sources": [
         {
-          "evidence_excerpt": "Alonso and Perez won't join Hamilton in F1's new V8 era Three weeks after seven-time champion Lewis Hamilton, 41, declared \"I'm built differently\" and could see himself continuing in F1 into the",
+          "evidence_excerpt": "Article To news overview \u00a9 XPB Images Oscar Piastri returned to the F1 podium for the first time in six months after a chaotic Las Vegas Grand Prix.",
           "evidence_excerpts": [
-            "Alonso and Perez won't join Hamilton in F1's new V8 era Three weeks after seven-time champion Lewis Hamilton, 41, declared \"I'm built differently\" and could see himself continuing in F1 into the",
-            "Fernando Alonso, 45, says he \"will not be around for the new V8, 100%\" and in so doing couldn't resist taking yet another dig at F1's current engine rules, declaring the entire",
-            "- Ben Anderson F1's biometric plan gets a mixed response \"I won't be involved. I don't use any device. Like, if drivers want to have that, sure."
+            "Article To news overview \u00a9 XPB Images Oscar Piastri returned to the F1 podium for the first time in six months after a chaotic Las Vegas Grand Prix.",
+            "In the end, Norris got ahead to finish second, but Piastri was third over the line for his first F1 podium finish since third in May's Miami Grand Prix, 18 races ago.",
+            "It is his best finish since fourth in the Austrian GP in June after a tough run for the Australian - who also ended the longest podium drought of his career."
           ],
-          "published_at": "2026-11-19T07:09:32Z",
-          "source_id": "the_race_f1",
-          "source_name": "The Race Formula 1",
-          "url": "https://www.the-race.com/formula-1/everything-we-learned-from-day-one-at-f1s-las-vegas-gp/"
+          "published_at": "2026-11-22T19:15:00Z",
+          "source_id": "racingnews365_f1",
+          "source_name": "RacingNews365 Formula 1",
+          "url": "https://racingnews365.com/oscar-piastri-ends-long-f1-podium-drought-after-bizarre-las-vegas-chaos"
         }
       ],
-      "summary": "The Race Formula 1: \u201cAlonso and Perez won't join Hamilton in F1's new V8 era Three weeks after seven-time champion Lewis Hamilton, 41, declared \"I'm built differently\" and could see himself continuing in F1 into the\u201d\n\n\u201cFernando Alonso, 45, says he \"will not be around for the new V8, 100%\" and in so doing couldn't resist taking yet another dig at F1's current engine rules, declaring the entire\u201d\n\n\u201c- Ben Anderson F1's biometric plan gets a mixed response \"I won't be involved. I don't use any device. Like, if drivers want to have that, sure.\u201d",
-      "teams": [],
-      "topic": "technical",
-      "updated_at": "2026-11-19T07:18:53Z",
-      "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Oscar Piastri returned to the F1 podium for the first time in six months after a chaotic Las Vegas Grand Prix.\u201d\n\n\u201cIn the end, Norris got ahead to finish second, but Piastri was third over the line for his first F1 podium finish since third in May's Miami Grand Prix, 18 races ago.\u201d\n\n\u201cIt is his best finish since fourth in the Austrian GP in June after a tough run for the Australian - who also ended the longest podium drought of his career.\u201d",
+      "teams": [
+        "McLaren"
+      ],
+      "topic": "race",
+      "updated_at": "2026-11-22T19:32:25Z",
+      "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
     },
     {
       "attribution": "Reported claim",
       "claim_type": "fact",
       "confidence_label": "reported",
       "drivers": [
-        "Lewis Hamilton",
-        "Charles Leclerc"
+        "Liam Lawson"
       ],
-      "headline": "Lewis Hamilton denies broken trust with Ferrari despite twice overruling strategy | Crash.net",
-      "id": "story-f63275ed5b565fea25f0",
-      "published_at": "2026-11-19T07:01:03Z",
+      "headline": "Liam Lawson ends 52-year F1 wait despite Las Vegas GP misery | RacingNews365",
+      "id": "story-692587752c634f9d9461",
+      "published_at": "2026-11-22T18:30:00Z",
       "sources": [
         {
-          "evidence_excerpt": "Lewis Hamilton insists he trusts Ferrari Lewis Hamilton has denied there is a lack of trust with his Ferrari team despite overruling strategy calls from the pit wall in recent Formula 1",
+          "evidence_excerpt": "Article To news overview \u00a9 XPB Images Liam Lawson set the first fastest lap by a New Zealander in F1 since 1974 in a Las Vegas Grand Prix he almost did not",
           "evidence_excerpts": [
-            "Lewis Hamilton insists he trusts Ferrari Lewis Hamilton has denied there is a lack of trust with his Ferrari team despite overruling strategy calls from the pit wall in recent Formula 1",
-            "Hamilton maintains the trust is not broken at Ferrari But Hamilton insisted the recent incidents do not show there is a lack of trust between himself and Ferrari.",
-            "\"No, it's definitely not trusting. I think it's just we're constantly working on our communication."
+            "Article To news overview \u00a9 XPB Images Liam Lawson set the first fastest lap by a New Zealander in F1 since 1974 in a Las Vegas Grand Prix he almost did not",
+            "1:35.591. It is the fastest lap of Lawson's career, as he became the 142nd driver to set one, and the first for a New Zealander since Denny Hulme at the 1974 Belgian",
+            "GP. Overall, it is the 16th fastest lap by a New Zealander, and the first for Racing Bulls as a constructor, as it became the 46th squad to do so."
           ],
-          "published_at": "2026-11-19T07:01:03Z",
-          "source_id": "crash_f1",
-          "source_name": "Crash.net Formula 1",
-          "url": "https://www.crash.net/f1/news/1110181/1/lewis-hamilton-denies-broken-trust-ferrari-despite-twice-overruling-strategy"
+          "published_at": "2026-11-22T18:30:00Z",
+          "source_id": "racingnews365_f1",
+          "source_name": "RacingNews365 Formula 1",
+          "url": "https://racingnews365.com/liam-lawson-ends-52-year-f1-wait-despite-las-vegas-gp-misery"
         }
       ],
-      "summary": "Crash.net Formula 1: \u201cLewis Hamilton insists he trusts Ferrari Lewis Hamilton has denied there is a lack of trust with his Ferrari team despite overruling strategy calls from the pit wall in recent Formula 1\u201d\n\n\u201cHamilton maintains the trust is not broken at Ferrari But Hamilton insisted the recent incidents do not show there is a lack of trust between himself and Ferrari.\u201d\n\n\u201c\"No, it's definitely not trusting. I think it's just we're constantly working on our communication.\u201d",
+      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Liam Lawson set the first fastest lap by a New Zealander in F1 since 1974 in a Las Vegas Grand Prix he almost did not\u201d\n\n\u201c1:35.591. It is the fastest lap of Lawson's career, as he became the 142nd driver to set one, and the first for a New Zealander since Denny Hulme at the 1974 Belgian\u201d\n\n\u201cGP. Overall, it is the 16th fastest lap by a New Zealander, and the first for Racing Bulls as a constructor, as it became the 46th squad to do so.\u201d",
       "teams": [
-        "Ferrari"
+        "Racing Bulls"
       ],
-      "topic": "general",
-      "updated_at": "2026-11-19T07:18:53Z",
-      "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      "topic": "race",
+      "updated_at": "2026-11-22T19:32:25Z",
+      "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
     },
     {
       "attribution": "Official source statement",
       "claim_type": "fact",
       "confidence_label": "official",
       "drivers": [
-        "Oscar Piastri",
-        "Mark Webber",
-        "Ann Webber"
+        "Max Verstappen",
+        "Lewis Hamilton",
+        "Charles Leclerc",
+        "George Russell",
+        "Kimi Antonelli",
+        "Lando Norris",
+        "Oscar Piastri"
       ],
-      "headline": "\u2018It felt like the time was right for something new\u2019 \u2013 Oscar Piastri opens up on decision to split with Mark and Ann Webber-led management team",
-      "id": "story-a4503b683e61c973327d",
-      "published_at": "2026-11-19T06:58:20Z",
+      "headline": "All the key moments from the 2026 Las Vegas Grand Prix as Max Verstappen wins remarkable race and Ferrari's drivers collide again",
+      "id": "story-3514b67086b521eecf6e",
+      "published_at": "2026-11-22T18:19:25Z",
       "sources": [
         {
-          "evidence_excerpt": "Nov 19, 2026 6:58am UTC Oscar Piastri has explained why he and his management team, led by Mark and Ann Webber, mutually agreed to part ways, with the Australian believing the time",
+          "evidence_excerpt": "Nov 22, 2026 6:19pm UTC Max Verstappen claimed his fourth win of the season in Las Vegas, having withstood immense pressure throughout in a thrilling race which featured 35 changes of lead.",
           "evidence_excerpts": [
-            "Nov 19, 2026 6:58am UTC Oscar Piastri has explained why he and his management team, led by Mark and Ann Webber, mutually agreed to part ways, with the Australian believing the time",
-            "felt like the right decision. \"We were just getting to a stage in our collaboration where it was better for us to go on our separate paths,\" he said.",
-            "\"Mark and Ann contributed so much to my career, both in placing me where I am today and the management of everything behind the scenes that nobody ever really sees."
+            "Nov 22, 2026 6:19pm UTC Max Verstappen claimed his fourth win of the season in Las Vegas, having withstood immense pressure throughout in a thrilling race which featured 35 changes of lead.",
+            "The frenetic pack racing produced several flashpoints, including George Russell finding the barrier late on, while Ferrari drivers Lewis Hamilton and Charles Leclerc once again made contact.",
+            "Hamilton and Leclerc went wheel-to-wheel again in Las Vegas, and once more collided The stewards deemed Leclerc to be at fault for the incident and handed him a 10-second time penalty, leaving"
           ],
-          "published_at": "2026-11-19T06:58:20Z",
+          "published_at": "2026-11-22T18:19:25Z",
           "source_id": "formula1_official_latest",
           "source_name": "Formula 1 Official Latest",
-          "url": "https://www.formula1.com/en/latest/article/it-felt-like-the-time-was-right-for-something-new-piastri-opens-up-on-decision-to-split-with-management-team.4v3F2IJjTzAoRC9OIkyLgG"
+          "url": "https://www.formula1.com/en/latest/article/las-vegas-lowdown-all-the-key-moments-as-verstappen-wins-remarkable-race-and-ferraris-drivers-collide-again.62D9SeuQXSboAspMm7N0pN"
         }
       ],
-      "summary": "Formula 1 Official Latest: \u201cNov 19, 2026 6:58am UTC Oscar Piastri has explained why he and his management team, led by Mark and Ann Webber, mutually agreed to part ways, with the Australian believing the time\u201d\n\n\u201cfelt like the right decision. \"We were just getting to a stage in our collaboration where it was better for us to go on our separate paths,\" he said.\u201d\n\n\u201c\"Mark and Ann contributed so much to my career, both in placing me where I am today and the management of everything behind the scenes that nobody ever really sees.\u201d",
+      "summary": "Formula 1 Official Latest: \u201cNov 22, 2026 6:19pm UTC Max Verstappen claimed his fourth win of the season in Las Vegas, having withstood immense pressure throughout in a thrilling race which featured 35 changes of lead.\u201d\n\n\u201cThe frenetic pack racing produced several flashpoints, including George Russell finding the barrier late on, while Ferrari drivers Lewis Hamilton and Charles Leclerc once again made contact.\u201d\n\n\u201cHamilton and Leclerc went wheel-to-wheel again in Las Vegas, and once more collided The stewards deemed Leclerc to be at fault for the incident and handed him a 10-second time penalty, leaving\u201d",
       "teams": [
+        "Red Bull",
+        "Ferrari",
+        "Mercedes",
         "McLaren"
       ],
+      "topic": "race",
+      "updated_at": "2026-11-22T19:32:25Z",
+      "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
+    },
+    {
+      "attribution": "Unconfirmed claim",
+      "claim_type": "fact",
+      "confidence_label": "unconfirmed",
+      "drivers": [
+        "Rafael Camara"
+      ],
+      "headline": "Camara to complete F1 season with Haas, sacrificing F2 title shot",
+      "id": "story-4d912a480d1260910017",
+      "published_at": "2026-11-22T18:12:46Z",
+      "sources": [
+        {
+          "evidence_excerpt": "Rafael Camara will complete the 2026 Formula 1 season with Haas, effectively sacrificing his Formula 2 championship shot to continue getting a headstart on his relationship with his 2027 F1 team.",
+          "evidence_excerpts": [
+            "Rafael Camara will complete the 2026 Formula 1 season with Haas, effectively sacrificing his Formula 2 championship shot to continue getting a headstart on his relationship with his 2027 F1 team.",
+            "Though Haas could have again called on Ryo Hirakawa, as it did for the remainder of the Mexico weekend after Ocon\u2019s exit, it announced on Sunday that Camara had got the nod",
+            "for Qatar and Abu Dhabi. Team principal Ayao Komatsu said: \u201cWe\u2019re excited to be able to finish the season with Rafa driving and build on his first two race starts with the"
+          ],
+          "published_at": "2026-11-22T18:12:46Z",
+          "source_id": "the_race_f1",
+          "source_name": "The Race Formula 1",
+          "url": "https://www.the-race.com/formula-1/camara-to-complete-f1-season-with-haas-sacrificing-f2-title-shot/"
+        }
+      ],
+      "summary": "The Race Formula 1: \u201cRafael Camara will complete the 2026 Formula 1 season with Haas, effectively sacrificing his Formula 2 championship shot to continue getting a headstart on his relationship with his 2027 F1 team.\u201d\n\n\u201cThough Haas could have again called on Ryo Hirakawa, as it did for the remainder of the Mexico weekend after Ocon\u2019s exit, it announced on Sunday that Camara had got the nod\u201d\n\n\u201cfor Qatar and Abu Dhabi. Team principal Ayao Komatsu said: \u201cWe\u2019re excited to be able to finish the season with Rafa driving and build on his first two race starts with the\u201d",
+      "teams": [
+        "Haas"
+      ],
       "topic": "driver_market",
-      "updated_at": "2026-11-19T07:18:53Z",
+      "updated_at": "2026-11-22T19:32:25Z",
       "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
     },
     {
@@ -154,165 +191,222 @@
       "claim_type": "fact",
       "confidence_label": "reported",
       "drivers": [
-        "Valtteri Bottas",
-        "Colton Herta"
+        "Rafael Camara"
       ],
-      "headline": "Valtteri Bottas makes feelings clear on Colton Herta rumours after Cadillac announcement",
-      "id": "story-df1fdb8afe019bf7e696",
-      "published_at": "2026-11-19T06:50:33Z",
+      "headline": "Rafael Camara: Haas confirm Brazilian will race in final two rounds of F1 season rather than chase F2 championship | F1 News | Sky Sports",
+      "id": "story-1d0600dc31e41c5b3a02",
+      "published_at": "2026-11-22T18:07:00Z",
       "sources": [
         {
-          "evidence_excerpt": "Cadillac announced on Wednesday in Las Vegas that Bottas will remain with the team for the F1 2027 campaign.",
+          "evidence_excerpt": "Rafael Camara: Haas confirm Brazilian will race in final two rounds of F1 season rather than chase F2 championship Rafael Camara will race again for Haas at the Qatar Grand Prix and",
           "evidence_excerpts": [
-            "Cadillac announced on Wednesday in Las Vegas that Bottas will remain with the team for the F1 2027 campaign.",
-            "ahead of this weekend\u2019s Las Vegas Grand Prix, Bottas argued that it was \u201calways the plan\u201d for Herta to qualify for an F1 super licence in 2026.",
-            "There are several years that it will stay valid, so that was always the plan, so that\u2019s all good. \u201cThere\u2019s been a bit too much noise in the last weeks."
+            "Rafael Camara: Haas confirm Brazilian will race in final two rounds of F1 season rather than chase F2 championship Rafael Camara will race again for Haas at the Qatar Grand Prix and",
+            "confirmed Rafael Camara will continue to feature for the team in the final two Formula 1 races of the season, rather than challenge for the Formula 2 championship.",
+            "\"We're excited to be able to finish the season with Rafa driving and building on his first two race starts with the team in Brazil and America,\" said Haas team principal Ayao"
           ],
-          "published_at": "2026-11-19T06:50:33Z",
-          "source_id": "planetf1",
-          "source_name": "PlanetF1",
-          "url": "https://www.planetf1.com/news/valtteri-bottas-colton-herta-cadillac-f1-2027-announcement"
+          "published_at": "2026-11-22T18:07:00Z",
+          "source_id": "sky_sports_f1",
+          "source_name": "Sky Sports Formula 1",
+          "url": "https://www.skysports.com/f1/news/13615376/rafael-camara-haas-confirm-brazilian-will-race-in-final-two-rounds-of-f1-season-rather-than-chase-f2-championship"
         }
       ],
-      "summary": "PlanetF1: \u201cCadillac announced on Wednesday in Las Vegas that Bottas will remain with the team for the F1 2027 campaign.\u201d\n\n\u201cahead of this weekend\u2019s Las Vegas Grand Prix, Bottas argued that it was \u201calways the plan\u201d for Herta to qualify for an F1 super licence in 2026.\u201d\n\n\u201cThere are several years that it will stay valid, so that was always the plan, so that\u2019s all good. \u201cThere\u2019s been a bit too much noise in the last weeks.\u201d",
+      "summary": "Sky Sports Formula 1: \u201cRafael Camara: Haas confirm Brazilian will race in final two rounds of F1 season rather than chase F2 championship Rafael Camara will race again for Haas at the Qatar Grand Prix and\u201d\n\n\u201cconfirmed Rafael Camara will continue to feature for the team in the final two Formula 1 races of the season, rather than challenge for the Formula 2 championship.\u201d\n\n\u201c\"We're excited to be able to finish the season with Rafa driving and building on his first two race starts with the team in Brazil and America,\" said Haas team principal Ayao\u201d",
       "teams": [
-        "Cadillac"
-      ],
-      "topic": "driver_market",
-      "updated_at": "2026-11-19T07:18:53Z",
-      "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
-    },
-    {
-      "attribution": "Unconfirmed claim",
-      "claim_type": "unconfirmed",
-      "confidence_label": "unconfirmed",
-      "drivers": [
-        "Esteban Ocon",
-        "Fernando Alonso",
-        "Lance Stroll"
-      ],
-      "headline": "Aston Martin set to confirm comeback for axed F1 driver | RacingNews365",
-      "id": "story-255ef71bfe8b86d6c1e2",
-      "published_at": "2026-11-19T06:50:00Z",
-      "sources": [
-        {
-          "evidence_excerpt": "Article To news overview \u00a9 XPBimages Esteban Ocon, who left the Haas team over the Mexico City Grand Prix weekend, could drive an F1 car again, potentially before the end of 2026,",
-          "evidence_excerpts": [
-            "Article To news overview \u00a9 XPBimages Esteban Ocon, who left the Haas team over the Mexico City Grand Prix weekend, could drive an F1 car again, potentially before the end of 2026,",
-            "RacingNews365 has learned. According to our sources, Ocon is understood to have reached an agreement with Aston Martin to take on the role of third driver to Fernando Alonso and Lance Stroll.",
-            "\"We are regularly approached by drivers who wish to join Aston Martin, but in keeping with our policy, we do not comment on rumour and speculation.\""
-          ],
-          "published_at": "2026-11-19T06:50:00Z",
-          "source_id": "racingnews365_f1",
-          "source_name": "RacingNews365 Formula 1",
-          "url": "https://racingnews365.com/aston-martin-set-to-confirm-comeback-for-axed-f1-driver"
-        }
-      ],
-      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPBimages Esteban Ocon, who left the Haas team over the Mexico City Grand Prix weekend, could drive an F1 car again, potentially before the end of 2026,\u201d\n\n\u201cRacingNews365 has learned. According to our sources, Ocon is understood to have reached an agreement with Aston Martin to take on the role of third driver to Fernando Alonso and Lance Stroll.\u201d\n\n\u201c\"We are regularly approached by drivers who wish to join Aston Martin, but in keeping with our policy, we do not comment on rumour and speculation.\"\u201d",
-      "teams": [
-        "Aston Martin",
         "Haas"
       ],
       "topic": "driver_market",
-      "updated_at": "2026-11-19T07:18:53Z",
+      "updated_at": "2026-11-22T19:32:25Z",
       "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+    },
+    {
+      "attribution": "Reported claim",
+      "claim_type": "fact",
+      "confidence_label": "reported",
+      "drivers": [
+        "Rafael Camara"
+      ],
+      "headline": "Camara confirmed at Haas for final two Formula 1 races of 2026 \u2013 RaceFans",
+      "id": "story-89bb4fece5aaef9c6bc5",
+      "published_at": "2026-11-22T18:05:03Z",
+      "sources": [
+        {
+          "evidence_excerpt": "Rafael Camara will contest the final two rounds of the season for Haas, the team has confirmed.",
+          "evidence_excerpts": [
+            "Rafael Camara will contest the final two rounds of the season for Haas, the team has confirmed.",
+            "Camara was due to return to Formula 2 to contest the final two rounds of the season. Instead he will compete in the Qatar and Abu Dhabi grands prix for Haas.",
+            "\u201cWe\u2019re excited to be able to finish the season with Rafa driving and build on his first two race starts with the team in Brazil and America,\u201d said team principal Ayao Komatsu."
+          ],
+          "published_at": "2026-11-22T18:05:03Z",
+          "source_id": "racefans_f1",
+          "source_name": "RaceFans Formula 1",
+          "url": "https://www.racefans.net/2026/11/22/camara-confirmed-at-haas-for-final-two-formula-1-races-of-2026/"
+        }
+      ],
+      "summary": "RaceFans Formula 1: \u201cRafael Camara will contest the final two rounds of the season for Haas, the team has confirmed.\u201d\n\n\u201cCamara was due to return to Formula 2 to contest the final two rounds of the season. Instead he will compete in the Qatar and Abu Dhabi grands prix for Haas.\u201d\n\n\u201c\u201cWe\u2019re excited to be able to finish the season with Rafa driving and build on his first two race starts with the team in Brazil and America,\u201d said team principal Ayao Komatsu.\u201d",
+      "teams": [
+        "Haas"
+      ],
+      "topic": "driver_market",
+      "updated_at": "2026-11-22T19:32:25Z",
+      "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+    },
+    {
+      "attribution": "Reported claim",
+      "claim_type": "fact",
+      "confidence_label": "reported",
+      "drivers": [
+        "Liam Lawson"
+      ],
+      "headline": "Liam Lawson vents FIA frustration after Las Vegas GP false start",
+      "id": "story-2c7689f44d2fe355b530",
+      "published_at": "2026-11-22T18:01:47Z",
+      "sources": [
+        {
+          "evidence_excerpt": "Liam Lawson shared his frustration at both starting the Las Vegas Grand Prix a lap down, and not receiving the chance to claw that lap back sooner under Safety Car conditions.",
+          "evidence_excerpts": [
+            "Liam Lawson shared his frustration at both starting the Las Vegas Grand Prix a lap down, and not receiving the chance to claw that lap back sooner under Safety Car conditions.",
+            "lap behind the rest of the pack. Liam Lawson bemoans \u2018so frustrating\u2019 Las Vegas GP unlapping delay The chance for the New Zealander to rejoin the back of the field came after",
+            "with Race Control having opted to take four laps before allowing him to unlap himself."
+          ],
+          "published_at": "2026-11-22T18:01:47Z",
+          "source_id": "planetf1",
+          "source_name": "PlanetF1",
+          "url": "https://www.planetf1.com/news/liam-lawson-safety-car-unlapping-delay-las-vegas-gp"
+        }
+      ],
+      "summary": "PlanetF1: \u201cLiam Lawson shared his frustration at both starting the Las Vegas Grand Prix a lap down, and not receiving the chance to claw that lap back sooner under Safety Car conditions.\u201d\n\n\u201clap behind the rest of the pack. Liam Lawson bemoans \u2018so frustrating\u2019 Las Vegas GP unlapping delay The chance for the New Zealander to rejoin the back of the field came after\u201d\n\n\u201cwith Race Control having opted to take four laps before allowing him to unlap himself.\u201d",
+      "teams": [
+        "Racing Bulls"
+      ],
+      "topic": "race",
+      "updated_at": "2026-11-22T19:32:25Z",
+      "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
+    },
+    {
+      "attribution": "Reported claim",
+      "claim_type": "fact",
+      "confidence_label": "reported",
+      "drivers": [
+        "Rafael Camara"
+      ],
+      "headline": "Breaking: Haas confirm driver line-up decision for final two F1 2026 races | RacingNews365",
+      "id": "story-7dabcd409631ab6f99e8",
+      "published_at": "2026-11-22T18:00:00Z",
+      "sources": [
+        {
+          "evidence_excerpt": "Article To news overview \u00a9 XPB Images The Haas F1 team has confirmed that Rafael Camara will race for the squad at the final two rounds in Qatar and Abu Dhabi.",
+          "evidence_excerpts": [
+            "Article To news overview \u00a9 XPB Images The Haas F1 team has confirmed that Rafael Camara will race for the squad at the final two rounds in Qatar and Abu Dhabi.",
+            "However, at the following two rounds in Brazil and Las Vegas, Rafael Camara, who is already confirmed at Haas for the 2027 campaign, stepped into the seat.",
+            "\"We're excited to be able to finish the season with Rafa driving and build on his first two race starts with the team in Brazil and America,\u201d Haas team boss Ayao Komatsu"
+          ],
+          "published_at": "2026-11-22T18:00:00Z",
+          "source_id": "racingnews365_f1",
+          "source_name": "RacingNews365 Formula 1",
+          "url": "https://racingnews365.com/haas-confirm-driver-line-up-decision-for-final-two-f1-2026-races"
+        }
+      ],
+      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images The Haas F1 team has confirmed that Rafael Camara will race for the squad at the final two rounds in Qatar and Abu Dhabi.\u201d\n\n\u201cHowever, at the following two rounds in Brazil and Las Vegas, Rafael Camara, who is already confirmed at Haas for the 2027 campaign, stepped into the seat.\u201d\n\n\u201c\"We're excited to be able to finish the season with Rafa driving and build on his first two race starts with the team in Brazil and America,\u201d Haas team boss Ayao Komatsu\u201d",
+      "teams": [
+        "Haas"
+      ],
+      "topic": "driver_market",
+      "updated_at": "2026-11-22T19:32:25Z",
+      "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+    },
+    {
+      "attribution": "Reported claim",
+      "claim_type": "fact",
+      "confidence_label": "reported",
+      "drivers": [
+        "Max Verstappen",
+        "Lando Norris"
+      ],
+      "headline": "Significant F1 record shattered during chaotic Las Vegas Grand Prix | RacingNews365",
+      "id": "story-f0a06b5c2776f00c19ca",
+      "published_at": "2026-11-22T17:20:00Z",
+      "sources": [
+        {
+          "evidence_excerpt": "Article To news overview \u00a9 XPB Images Formula 1's 2026 Las Vegas Grand Prix produced 352 overtakes, smashing the previous record of 186 set at the 2023 Dutch Grand Prix, as Max",
+          "evidence_excerpts": [
+            "Article To news overview \u00a9 XPB Images Formula 1's 2026 Las Vegas Grand Prix produced 352 overtakes, smashing the previous record of 186 set at the 2023 Dutch Grand Prix, as Max",
+            "Verstappen held off a chasing pack to win his 75th race. The surge in passing stemmed directly from this year's technical regulations overhaul.",
+            "Lando Norris, who finished second for McLaren, acknowledged afterwards that the scale of the electrical boost made some passes feel almost too easy and that they did not feel like true overtakes."
+          ],
+          "published_at": "2026-11-22T17:20:00Z",
+          "source_id": "racingnews365_f1",
+          "source_name": "RacingNews365 Formula 1",
+          "url": "https://racingnews365.com/significant-f1-record-shattered-during-chaotic-las-vegas-grand-prix"
+        }
+      ],
+      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Formula 1's 2026 Las Vegas Grand Prix produced 352 overtakes, smashing the previous record of 186 set at the 2023 Dutch Grand Prix, as Max\u201d\n\n\u201cVerstappen held off a chasing pack to win his 75th race. The surge in passing stemmed directly from this year's technical regulations overhaul.\u201d\n\n\u201cLando Norris, who finished second for McLaren, acknowledged afterwards that the scale of the electrical boost made some passes feel almost too easy and that they did not feel like true overtakes.\u201d",
+      "teams": [
+        "Red Bull",
+        "McLaren"
+      ],
+      "topic": "race",
+      "updated_at": "2026-11-22T19:32:25Z",
+      "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
+    },
+    {
+      "attribution": "Reported claim",
+      "claim_type": "fact",
+      "confidence_label": "reported",
+      "drivers": [
+        "Charles Leclerc",
+        "Lewis Hamilton"
+      ],
+      "headline": "Why latest Ferrari turmoil adds significant fuel to Leclerc-Hamilton soap opera | RacingNews365",
+      "id": "story-9487865c720056d51102",
+      "published_at": "2026-11-22T16:30:00Z",
+      "sources": [
+        {
+          "evidence_excerpt": "Charles Leclerc was been handed a 10-second time penalty after spinning team-mate Lewis Hamilton out of position during the Las Vegas Grand Prix, the third time this season the Ferrari pair have",
+          "evidence_excerpts": [
+            "Charles Leclerc was been handed a 10-second time penalty after spinning team-mate Lewis Hamilton out of position during the Las Vegas Grand Prix, the third time this season the Ferrari pair have",
+            "The incident occurred at Turn 7, when Leclerc attempted an inside move on Hamilton and made contact with the Briton's rear-left corner, sending him into a spin.",
+            "Team principal Fred Vasseur called the clash unprofessional and \"unacceptable\", pointing out that Leclerc had ignored direct pit-wall instructions to back off and prioritise the team."
+          ],
+          "published_at": "2026-11-22T16:30:00Z",
+          "source_id": "racingnews365_f1",
+          "source_name": "RacingNews365 Formula 1",
+          "url": "https://racingnews365.com/why-latest-ferrari-turmoil-adds-significant-fuel-to-leclerc-hamilton-soap-opera"
+        }
+      ],
+      "summary": "RacingNews365 Formula 1: \u201cCharles Leclerc was been handed a 10-second time penalty after spinning team-mate Lewis Hamilton out of position during the Las Vegas Grand Prix, the third time this season the Ferrari pair have\u201d\n\n\u201cThe incident occurred at Turn 7, when Leclerc attempted an inside move on Hamilton and made contact with the Briton's rear-left corner, sending him into a spin.\u201d\n\n\u201cTeam principal Fred Vasseur called the clash unprofessional and \"unacceptable\", pointing out that Leclerc had ignored direct pit-wall instructions to back off and prioritise the team.\u201d",
+      "teams": [
+        "Ferrari"
+      ],
+      "topic": "race",
+      "updated_at": "2026-11-22T19:32:25Z",
+      "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
     },
     {
       "attribution": "Reported claim",
       "claim_type": "analysis",
       "confidence_label": "reported",
-      "drivers": [
-        "Carlos Sainz Jnr"
-      ],
-      "headline": "Sainz won\u2019t tolerate \u201cbeing a test driver on grand prix weekends\u201d for long \u2013 RaceFans",
-      "id": "story-f928c3ff7888e5e82eba",
-      "published_at": "2026-11-19T06:35:51Z",
+      "drivers": [],
+      "headline": "Featured Comment: How F1\u2019s power units dictated when drivers overtook in Las Vegas \u2013 RaceFans",
+      "id": "story-2c8ffaf95576b42e0db2",
+      "published_at": "2026-11-22T16:24:32Z",
       "sources": [
         {
-          "evidence_excerpt": "Carlos Sainz Jnr is experiencing a dissatisfying end to his second season at Williams as the team focuses on testing developments for next season.",
+          "evidence_excerpt": "I can\u2019t say I enjoyed much of that and the fact I was sitting next to an engineer from Alpine and given how he understands the systems on these cars and knew",
           "evidence_excerpts": [
-            "Carlos Sainz Jnr is experiencing a dissatisfying end to his second season at Williams as the team focuses on testing developments for next season.",
-            "\u201cThis track maybe offers a little bit more hope, but the reality is that we\u2019d rather invest that time in becoming a test driver and testing for the team than actually doing",
-            "\u201cI don\u2019t like being a test driver on race weekends,\u201d said Sainz. \u201cI honestly enjoy going testing. Probably not many drivers enjoy testing, but I actually enjoy testing."
+            "I can\u2019t say I enjoyed much of that and the fact I was sitting next to an engineer from Alpine and given how he understands the systems on these cars and knew",
+            "what was going on with all of the harvesting, deployment and why the cars were passing and re-passing each other it just made me enjoy it less because he explained to me",
+            "in detail what was actually going on and how much of what was happening was down to the computer rather than the driver."
           ],
-          "published_at": "2026-11-19T06:35:51Z",
+          "published_at": "2026-11-22T16:24:32Z",
           "source_id": "racefans_f1",
           "source_name": "RaceFans Formula 1",
-          "url": "https://www.racefans.net/2026/11/19/sainz-wont-tolerate-being-a-test-driver-on-grand-prix-weekends-for-long/"
+          "url": "https://www.racefans.net/2026/11/22/featured-comment-how-f1s-power-units-dictated-when-drivers-overtook-in-las-vegas/"
         }
       ],
-      "summary": "RaceFans Formula 1: \u201cCarlos Sainz Jnr is experiencing a dissatisfying end to his second season at Williams as the team focuses on testing developments for next season.\u201d\n\n\u201c\u201cThis track maybe offers a little bit more hope, but the reality is that we\u2019d rather invest that time in becoming a test driver and testing for the team than actually doing\u201d\n\n\u201c\u201cI don\u2019t like being a test driver on race weekends,\u201d said Sainz. \u201cI honestly enjoy going testing. Probably not many drivers enjoy testing, but I actually enjoy testing.\u201d",
-      "teams": [
-        "Williams"
-      ],
-      "topic": "general",
-      "updated_at": "2026-11-19T07:18:53Z",
-      "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
-    },
-    {
-      "attribution": "Reported claim",
-      "claim_type": "fact",
-      "confidence_label": "reported",
-      "drivers": [
-        "Charles Leclerc",
-        "Jonathan McEvoy",
-        "Fred Vasseur"
-      ],
-      "headline": "Charles Leclerc speaks out on F1 journalist ban controversy after article criticism | Crash.net",
-      "id": "story-799b3a6c38abcb484dfc",
-      "published_at": "2026-11-19T06:34:24Z",
-      "sources": [
-        {
-          "evidence_excerpt": "Charles Leclerc has responded to a journalist being banned from the F1 paddock Charles Leclerc has spoken out about the FIA\u2019s decision to ban a journalist for a column he wrote criticising",
-          "evidence_excerpts": [
-            "Charles Leclerc has responded to a journalist being banned from the F1 paddock Charles Leclerc has spoken out about the FIA\u2019s decision to ban a journalist for a column he wrote criticising",
-            "the Ferrari Formula 1 driver. The Daily Mail \u2019s F1 correspondent Jonathan McEvoy has had his media pass revoked , meaning he will not be able to attend the final three races",
-            "\"I was quite surprised by the choice of words when I saw the article."
-          ],
-          "published_at": "2026-11-19T06:34:24Z",
-          "source_id": "crash_f1",
-          "source_name": "Crash.net Formula 1",
-          "url": "https://www.crash.net/f1/news/1110180/1/charles-leclerc-speaks-out-f1-journalist-ban-controversy-after-article-criticism"
-        }
-      ],
-      "summary": "Crash.net Formula 1: \u201cCharles Leclerc has responded to a journalist being banned from the F1 paddock Charles Leclerc has spoken out about the FIA\u2019s decision to ban a journalist for a column he wrote criticising\u201d\n\n\u201cthe Ferrari Formula 1 driver. The Daily Mail \u2019s F1 correspondent Jonathan McEvoy has had his media pass revoked , meaning he will not be able to attend the final three races\u201d\n\n\u201c\"I was quite surprised by the choice of words when I saw the article.\u201d",
-      "teams": [
-        "Ferrari"
-      ],
-      "topic": "regulations",
-      "updated_at": "2026-11-19T07:18:53Z",
-      "why_it_matters": "Sporting or technical rule changes can affect team decisions. Check the cited document for scope and implementation dates."
-    },
-    {
-      "attribution": "Reported claim",
-      "claim_type": "fact",
-      "confidence_label": "reported",
-      "drivers": [
-        "George Russell",
-        "Kimi Antonelli",
-        "Max Verstappen"
-      ],
-      "headline": "Formula 1 drivers back return of 'very cool' V8 engines in the future ahead of Las Vegas Grand Prix | F1 News | Sky Sports",
-      "id": "story-d22db0d3469270f7c4a9",
-      "published_at": "2026-11-19T06:30:00Z",
-      "sources": [
-        {
-          "evidence_excerpt": "Formula 1 drivers back return of 'very cool' V8 engines in the future ahead of Las Vegas Grand Prix Several Formula 1 drivers have backed the possibility of V8 engines returning to",
-          "evidence_excerpts": [
-            "Formula 1 drivers back return of 'very cool' V8 engines in the future ahead of Las Vegas Grand Prix Several Formula 1 drivers have backed the possibility of V8 engines returning to",
-            "of the overall power unit, including whether an electrical element and a turbo will remain, need to be finalised. \"I'd love to see it.",
-            "claims \"many people would look forward\" to the return of V8 engines. \"It's going be very cool to go back to more old style."
-          ],
-          "published_at": "2026-11-19T06:30:00Z",
-          "source_id": "sky_sports_f1",
-          "source_name": "Sky Sports Formula 1",
-          "url": "https://www.skysports.com/f1/news/13613632/formula-1-drivers-back-return-of-very-cool-v8-engines-in-the-future-ahead-of-las-vegas-grand-prix"
-        }
-      ],
-      "summary": "Sky Sports Formula 1: \u201cFormula 1 drivers back return of 'very cool' V8 engines in the future ahead of Las Vegas Grand Prix Several Formula 1 drivers have backed the possibility of V8 engines returning to\u201d\n\n\u201cof the overall power unit, including whether an electrical element and a turbo will remain, need to be finalised. \"I'd love to see it.\u201d\n\n\u201cclaims \"many people would look forward\" to the return of V8 engines. \"It's going be very cool to go back to more old style.\u201d",
+      "summary": "RaceFans Formula 1: \u201cI can\u2019t say I enjoyed much of that and the fact I was sitting next to an engineer from Alpine and given how he understands the systems on these cars and knew\u201d\n\n\u201cwhat was going on with all of the harvesting, deployment and why the cars were passing and re-passing each other it just made me enjoy it less because he explained to me\u201d\n\n\u201cin detail what was actually going on and how much of what was happening was down to the computer rather than the driver.\u201d",
       "teams": [],
       "topic": "technical",
-      "updated_at": "2026-11-19T07:18:53Z",
+      "updated_at": "2026-11-22T19:32:25Z",
       "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
     },
     {
@@ -320,140 +414,39 @@
       "claim_type": "fact",
       "confidence_label": "reported",
       "drivers": [
-        "Max Verstappen",
         "Isack Hadjar"
       ],
-      "headline": "Max Verstappen reveals painful Las Vegas GP energy problem ahead of race",
-      "id": "story-a4534bb52d87f05fba54",
-      "published_at": "2026-11-19T06:24:43Z",
+      "headline": "Isack Hadjar laments sudden Red Bull failure for 'ruining my motivation' | RacingNews365",
+      "id": "story-7b8766eb6b59f0edc083",
+      "published_at": "2026-11-22T15:40:00Z",
       "sources": [
         {
-          "evidence_excerpt": "Max Verstappen has revealed that the Las Vegas GP circuit proved \u201cpainful\u201d in his pre-race sim sessions, due to energy starvation down the long straights.",
+          "evidence_excerpt": "Article To news overview \u00a9 XPB Images Isack Hadjar has admitted his motivation at the Las Vegas Grand Prix was dampened after he suffered a front wing failure.",
           "evidence_excerpts": [
-            "Max Verstappen has revealed that the Las Vegas GP circuit proved \u201cpainful\u201d in his pre-race sim sessions, due to energy starvation down the long straights.",
-            "by the regulations. \u201cPainful!\u201d he smiled, when asked about how the circuit played out in terms of energy management in the sim. \u201cYeah. It\u2019s just how it is.",
-            "\u201cI hope that here it will be a little bit better, but for sure, I think Mercedes on that side is normally the strongest, maximising that."
+            "Article To news overview \u00a9 XPB Images Isack Hadjar has admitted his motivation at the Las Vegas Grand Prix was dampened after he suffered a front wing failure.",
+            "However, shortly after a safety car intervention, Hadjar's front wing suffered a spectacular failure, which forced him to make a second, unscheduled pit stop.",
+            "Reflecting on the setback, Hadjar told media including RacingNews365 : \"It\u2019s not even about the points or the podium. \u201cIt\u2019s just ruining my fun."
           ],
-          "published_at": "2026-11-19T06:24:43Z",
-          "source_id": "planetf1",
-          "source_name": "PlanetF1",
-          "url": "https://www.planetf1.com/news/max-verstappen-las-vegas-gp-energy-problem"
-        }
-      ],
-      "summary": "PlanetF1: \u201cMax Verstappen has revealed that the Las Vegas GP circuit proved \u201cpainful\u201d in his pre-race sim sessions, due to energy starvation down the long straights.\u201d\n\n\u201cby the regulations. \u201cPainful!\u201d he smiled, when asked about how the circuit played out in terms of energy management in the sim. \u201cYeah. It\u2019s just how it is.\u201d\n\n\u201c\u201cI hope that here it will be a little bit better, but for sure, I think Mercedes on that side is normally the strongest, maximising that.\u201d",
-      "teams": [
-        "Red Bull",
-        "Mercedes"
-      ],
-      "topic": "technical",
-      "updated_at": "2026-11-19T07:18:53Z",
-      "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
-    },
-    {
-      "attribution": "Reported claim",
-      "claim_type": "fact",
-      "confidence_label": "reported",
-      "drivers": [
-        "George Russell",
-        "Andrea Kimi Antonelli"
-      ],
-      "headline": "Russell explains why he chose not to use Mercedes\u2019 turbo upgrade in Las Vegas \u2013 RaceFans",
-      "id": "story-791f0d87ccb13638d3f4",
-      "published_at": "2026-11-19T06:21:26Z",
-      "sources": [
-        {
-          "evidence_excerpt": "George Russell said he was involved in the decision not to use the power unit upgrade his team mate will have this weekend.",
-          "evidence_excerpts": [
-            "George Russell said he was involved in the decision not to use the power unit upgrade his team mate will have this weekend.",
-            "Russell said the team gave him the chance to influence the decision and he felt avoiding a penalty was more beneficial than gaining the performance benefit from the new part.",
-            "\u201cThe performance benefit it brings is not huge, it is just a step in the direction as a team we want to take,\u201d he said."
-          ],
-          "published_at": "2026-11-19T06:21:26Z",
-          "source_id": "racefans_f1",
-          "source_name": "RaceFans Formula 1",
-          "url": "https://www.racefans.net/2026/11/19/russell-explains-why-he-chose-not-to-use-mercedes-turbo-upgrade-in-las-vegas/"
-        }
-      ],
-      "summary": "RaceFans Formula 1: \u201cGeorge Russell said he was involved in the decision not to use the power unit upgrade his team mate will have this weekend.\u201d\n\n\u201cRussell said the team gave him the chance to influence the decision and he felt avoiding a penalty was more beneficial than gaining the performance benefit from the new part.\u201d\n\n\u201c\u201cThe performance benefit it brings is not huge, it is just a step in the direction as a team we want to take,\u201d he said.\u201d",
-      "teams": [
-        "Mercedes"
-      ],
-      "topic": "technical",
-      "updated_at": "2026-11-19T07:18:53Z",
-      "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
-    },
-    {
-      "attribution": "Reported claim",
-      "claim_type": "fact",
-      "confidence_label": "reported",
-      "drivers": [
-        "Charles Leclerc",
-        "Jonathan McEvoy",
-        "Fred Vasseur"
-      ],
-      "headline": "Charles Leclerc expresses surprise at explosive article which got F1 journalist banned | RacingNews365",
-      "id": "story-48f37d431d804c013786",
-      "published_at": "2026-11-19T06:20:00Z",
-      "sources": [
-        {
-          "evidence_excerpt": "Article To news overview \u00a9 XPB Images Charles Leclerc has responded to the recent article from the Daily Mail that led to journalist Jonathan McEvoy having his media pass revoked.",
-          "evidence_excerpts": [
-            "Article To news overview \u00a9 XPB Images Charles Leclerc has responded to the recent article from the Daily Mail that led to journalist Jonathan McEvoy having his media pass revoked.",
-            "The FIA elected to pull McEvoy's credentials for the final three rounds of the 2026 season after an article in which he described Leclerc as a \"sneaky little b*****d\" following his fight",
-            "\"I saw the article, and I was quite surprised by the choice of words, but apart from that, I don't have much to say,\" Leclerc told media, including RacingNews365."
-          ],
-          "published_at": "2026-11-19T06:20:00Z",
+          "published_at": "2026-11-22T15:40:00Z",
           "source_id": "racingnews365_f1",
           "source_name": "RacingNews365 Formula 1",
-          "url": "https://racingnews365.com/charles-leclerc-expresses-surprise-at-explosive-article-which-got-f1-journalist-banned"
+          "url": "https://racingnews365.com/isack-hadjar-laments-sudden-red-bull-failure-for-ruining-my-motivation"
         }
       ],
-      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Charles Leclerc has responded to the recent article from the Daily Mail that led to journalist Jonathan McEvoy having his media pass revoked.\u201d\n\n\u201cThe FIA elected to pull McEvoy's credentials for the final three rounds of the 2026 season after an article in which he described Leclerc as a \"sneaky little b*****d\" following his fight\u201d\n\n\u201c\"I saw the article, and I was quite surprised by the choice of words, but apart from that, I don't have much to say,\" Leclerc told media, including RacingNews365.\u201d",
+      "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Isack Hadjar has admitted his motivation at the Las Vegas Grand Prix was dampened after he suffered a front wing failure.\u201d\n\n\u201cHowever, shortly after a safety car intervention, Hadjar's front wing suffered a spectacular failure, which forced him to make a second, unscheduled pit stop.\u201d\n\n\u201cReflecting on the setback, Hadjar told media including RacingNews365 : \"It\u2019s not even about the points or the podium. \u201cIt\u2019s just ruining my fun.\u201d",
       "teams": [
-        "Ferrari"
+        "Red Bull"
       ],
-      "topic": "regulations",
-      "updated_at": "2026-11-19T07:18:53Z",
-      "why_it_matters": "Sporting or technical rule changes can affect team decisions. Check the cited document for scope and implementation dates."
-    },
-    {
-      "attribution": "Reported claim",
-      "claim_type": "fact",
-      "confidence_label": "reported",
-      "drivers": [
-        "Max Verstappen",
-        "George Russell",
-        "Charles Leclerc"
-      ],
-      "headline": "Verstappen isn't a fan of F1's 2027 biometric data plan",
-      "id": "story-8348e039597ac3c6db59",
-      "published_at": "2026-11-19T06:13:10Z",
-      "sources": [
-        {
-          "evidence_excerpt": "Formula 1's newly announced partnership with health and fitness wearable technology specialist Whoop will utilise driver biometric data in broadcast coverage, although Max Verstappen says he will not be involved.",
-          "evidence_excerpts": [
-            "Formula 1's newly announced partnership with health and fitness wearable technology specialist Whoop will utilise driver biometric data in broadcast coverage, although Max Verstappen says he will not be involved.",
-            "\"I won't be involved,\" said Verstappen. \"I don't use any device.",
-            "Mercedes driver George Russell accepted this being run and is \"not going to say no\" to it, but he cast doubt on how beneficial it would be for the coverage."
-          ],
-          "published_at": "2026-11-19T06:13:10Z",
-          "source_id": "the_race_f1",
-          "source_name": "The Race Formula 1",
-          "url": "https://www.the-race.com/formula-1/f1-2027-biometric-data-plan-whoop-max-verstappen-not-a-fan/"
-        }
-      ],
-      "summary": "The Race Formula 1: \u201cFormula 1's newly announced partnership with health and fitness wearable technology specialist Whoop will utilise driver biometric data in broadcast coverage, although Max Verstappen says he will not be involved.\u201d\n\n\u201c\"I won't be involved,\" said Verstappen. \"I don't use any device.\u201d\n\n\u201cMercedes driver George Russell accepted this being run and is \"not going to say no\" to it, but he cast doubt on how beneficial it would be for the coverage.\u201d",
-      "teams": [],
-      "topic": "technical",
-      "updated_at": "2026-11-19T07:18:53Z",
-      "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+      "topic": "race",
+      "updated_at": "2026-11-22T19:32:25Z",
+      "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
     }
   ],
-  "next_check_at": "2026-11-21T07:18:53Z",
+  "next_check_at": "2026-11-24T19:32:25Z",
   "provider": "deepseek",
   "schema_version": "2.0",
   "sources_checked": 7,
   "status": "published",
   "summary": "12 sourced F1 updates. Open each report for evidence and context.",
-  "updated_at": "2026-11-19T07:18:53Z"
+  "updated_at": "2026-11-22T19:32:25Z"
 }
