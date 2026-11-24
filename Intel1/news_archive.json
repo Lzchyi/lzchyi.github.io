@@ -1,5 +1,437 @@
 [
   {
+    "brief_id": "news-7303b72bb4d5ee1c6e22",
+    "checked_at": "2026-11-24T22:22:34Z",
+    "coverage_note": "Some sources could not be checked. These reports reflect the linked evidence that was available.",
+    "coverage_status": "partial",
+    "failed_sources": [
+      {
+        "source_id": "autosport_f1",
+        "source_name": "Autosport Formula 1"
+      },
+      {
+        "source_id": "bbc_sport_f1",
+        "source_name": "BBC Sport Formula 1"
+      },
+      {
+        "source_id": "espn_f1",
+        "source_name": "ESPN Formula 1"
+      },
+      {
+        "source_id": "fia_f1_2026_documents",
+        "source_name": "FIA Formula One 2026 Decision Documents"
+      },
+      {
+        "source_id": "formula1_official_latest",
+        "source_name": "Formula 1 Official Latest"
+      },
+      {
+        "source_id": "guardian_formula_one",
+        "source_name": "The Guardian Formula One"
+      },
+      {
+        "source_id": "motorsport_f1",
+        "source_name": "Motorsport.com Formula 1"
+      },
+      {
+        "source_id": "pirelli_formula1_tag",
+        "source_name": "Pirelli Formula 1 Tag"
+      },
+      {
+        "source_id": "racer_f1",
+        "source_name": "RACER Formula 1"
+      },
+      {
+        "source_id": "reuters_formula1",
+        "source_name": "Reuters Formula 1"
+      }
+    ],
+    "headline": "What time is F1's 2026 Qatar Grand Prix? Full weekend schedule",
+    "is_preview": false,
+    "items": [
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [],
+        "headline": "What time is F1's 2026 Qatar Grand Prix? Full weekend schedule",
+        "id": "story-b698108712d1b99dd6d2",
+        "published_at": "2026-11-24T21:27:10Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Presented by Apple TV The Formula 1\u00ae Qatar Airways Qatar Grand Prix 2026 is the first of the pair of Middle East races that bring this epic season to a close, and",
+            "evidence_excerpts": [
+              "Presented by Apple TV The Formula 1\u00ae Qatar Airways Qatar Grand Prix 2026 is the first of the pair of Middle East races that bring this epic season to a close, and",
+              "Qatar GP schedule (US time) PT = Pacific time, ET = US Eastern time Friday November 27 Practice 1: 5.30am (PT), 8.30am (ET) Practice 2: 9am (PT), 12pm (ET) Saturday November 28",
+              "29 Qatar Grand Prix: 4pm How to watch the Qatar GP Apple TV is the new home of F1 in the US from 2026."
+            ],
+            "published_at": "2026-11-24T21:27:10Z",
+            "source_id": "the_race_f1",
+            "source_name": "The Race Formula 1",
+            "url": "https://www.the-race.com/promoted/what-time-is-f1s-2026-qatar-grand-prix-full-weekend-schedule/"
+          }
+        ],
+        "summary": "The Race Formula 1: \u201cPresented by Apple TV The Formula 1\u00ae Qatar Airways Qatar Grand Prix 2026 is the first of the pair of Middle East races that bring this epic season to a close, and\u201d\n\n\u201cQatar GP schedule (US time) PT = Pacific time, ET = US Eastern time Friday November 27 Practice 1: 5.30am (PT), 8.30am (ET) Practice 2: 9am (PT), 12pm (ET) Saturday November 28\u201d\n\n\u201c29 Qatar Grand Prix: 4pm How to watch the Qatar GP Apple TV is the new home of F1 in the US from 2026.\u201d",
+        "teams": [],
+        "topic": "calendar",
+        "updated_at": "2026-11-24T22:22:34Z",
+        "why_it_matters": "Calendar and event changes can affect weekend planning. Check official event information for the applicable schedule."
+      },
+      {
+        "attribution": "Unconfirmed claim",
+        "claim_type": "unconfirmed",
+        "confidence_label": "unconfirmed",
+        "drivers": [
+          "Charles Leclerc",
+          "Lewis Hamilton"
+        ],
+        "headline": "Ferrari told to hand out severe punishment as Charles Leclerc makes fresh demand - RacingNews365 Review | RacingNews365",
+        "id": "story-bee4537c7517b4dbdddf",
+        "published_at": "2026-11-24T21:00:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images Radical Charles Leclerc punishment proposed after Lewis Hamilton clash Following the dramatic collision between the two Ferrari drivers in Las Vegas last weekend, former Haas",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images Radical Charles Leclerc punishment proposed after Lewis Hamilton clash Following the dramatic collision between the two Ferrari drivers in Las Vegas last weekend, former Haas",
+              "boss Guenther Steiner has suggested a unique punishment.",
+              "READ MORE: Radical Charles Leclerc punishment proposed after Lewis Hamilton clash Charles Leclerc issues Ferrari demand after latest Lewis Hamilton tension Charles Leclerc and Lewis Hamilton were involved in another on-track incident"
+            ],
+            "published_at": "2026-11-24T21:00:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/ferrari-told-to-hand-out-severe-punishment-as-charles-leclerc-makes-fresh-demand---racingnews365-review"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Radical Charles Leclerc punishment proposed after Lewis Hamilton clash Following the dramatic collision between the two Ferrari drivers in Las Vegas last weekend, former Haas\u201d\n\n\u201cboss Guenther Steiner has suggested a unique punishment.\u201d\n\n\u201cREAD MORE: Radical Charles Leclerc punishment proposed after Lewis Hamilton clash Charles Leclerc issues Ferrari demand after latest Lewis Hamilton tension Charles Leclerc and Lewis Hamilton were involved in another on-track incident\u201d",
+        "teams": [
+          "Ferrari"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-11-24T22:22:34Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Colton Herta",
+          "Valtteri Bottas",
+          "Sergio Perez"
+        ],
+        "headline": "How Colton Herta's bold push to reach F1 dramatically fell apart | RacingNews365",
+        "id": "story-92e8d422732cd1afd94b",
+        "published_at": "2026-11-24T19:00:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images Colton Herta's bid to force his way into Formula 1 for 2027 has collapsed, with his difficult Formula 2 season brought to a premature close",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images Colton Herta's bid to force his way into Formula 1 for 2027 has collapsed, with his difficult Formula 2 season brought to a premature close",
+              "and Cadillac confirming Valtteri Bottas and Sergio Perez as its race drivers instead.",
+              "Herta departed Hitech by mutual agreement ahead of the final two rounds of the season in Qatar and Abu Dhabi."
+            ],
+            "published_at": "2026-11-24T19:00:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/how-colton-hertas-bold-push-to-reach-f1-dramatically-fell-apart"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Colton Herta's bid to force his way into Formula 1 for 2027 has collapsed, with his difficult Formula 2 season brought to a premature close\u201d\n\n\u201cand Cadillac confirming Valtteri Bottas and Sergio Perez as its race drivers instead.\u201d\n\n\u201cHerta departed Hitech by mutual agreement ahead of the final two rounds of the season in Qatar and Abu Dhabi.\u201d",
+        "teams": [
+          "Cadillac"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-11-24T22:22:34Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Liam Lawson"
+        ],
+        "headline": "Liam Lawson spies Racing Bulls opportunity despite grand prix disaster | RacingNews365",
+        "id": "story-15319c3b16644c0e270f",
+        "published_at": "2026-11-24T18:10:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images Liam Lawson is eager for Racing Bulls to learn and understand after a fuel leak impacted his Las Vegas Grand Prix.",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images Liam Lawson is eager for Racing Bulls to learn and understand after a fuel leak impacted his Las Vegas Grand Prix.",
+              "Due to start in seventh place, Lawson's machine was wheeled off the grid after developing a late fuel leak, with the mechanics working frantically to fix his car - which they eventually",
+              "did as he rejoined the race one lap down."
+            ],
+            "published_at": "2026-11-24T18:10:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/liam-lawson-spies-racing-bulls-opportunity-despite-grand-prix-disaster"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Liam Lawson is eager for Racing Bulls to learn and understand after a fuel leak impacted his Las Vegas Grand Prix.\u201d\n\n\u201cDue to start in seventh place, Lawson's machine was wheeled off the grid after developing a late fuel leak, with the mechanics working frantically to fix his car - which they eventually\u201d\n\n\u201cdid as he rejoined the race one lap down.\u201d",
+        "teams": [
+          "Racing Bulls"
+        ],
+        "topic": "technical",
+        "updated_at": "2026-11-24T22:22:34Z",
+        "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "analysis",
+        "confidence_label": "reported",
+        "drivers": [
+          "Oscar Piastri"
+        ],
+        "headline": "Oscar Piastri 'superpower' rediscovered as McLaren highlights Las Vegas gains",
+        "id": "story-7805076281a0dbbe4ab1",
+        "published_at": "2026-11-24T18:03:20Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Oscar Piastri celebrates on the Las Vegas podium McLaren boss Andrea Stella praised Oscar Piastri \u2019s podium-winning performance in the Las Vegas Grand Prix, highlighting a particular area of improvement that has",
+            "evidence_excerpts": [
+              "Oscar Piastri celebrates on the Las Vegas podium McLaren boss Andrea Stella praised Oscar Piastri \u2019s podium-winning performance in the Las Vegas Grand Prix, highlighting a particular area of improvement that has",
+              "energy deployment. Acknowledging the step forward taken in recent weeks, Stella said: \u201cThere are two factors on which we have invested from a technical car exploitation driving point of view, [and] working",
+              "\u201cHe can start using his superpower, which is this racing ability, this focus, and that\u2019s very promising for the end of the season and what we carry into the next one.\u201d"
+            ],
+            "published_at": "2026-11-24T18:03:20Z",
+            "source_id": "planetf1",
+            "source_name": "PlanetF1",
+            "url": "https://www.planetf1.com/news/oscar-piastri-mclaren-form-turnaround"
+          }
+        ],
+        "summary": "PlanetF1: \u201cOscar Piastri celebrates on the Las Vegas podium McLaren boss Andrea Stella praised Oscar Piastri \u2019s podium-winning performance in the Las Vegas Grand Prix, highlighting a particular area of improvement that has\u201d\n\n\u201cenergy deployment. Acknowledging the step forward taken in recent weeks, Stella said: \u201cThere are two factors on which we have invested from a technical car exploitation driving point of view, [and] working\u201d\n\n\u201c\u201cHe can start using his superpower, which is this racing ability, this focus, and that\u2019s very promising for the end of the season and what we carry into the next one.\u201d\u201d",
+        "teams": [
+          "McLaren"
+        ],
+        "topic": "technical",
+        "updated_at": "2026-11-24T22:22:34Z",
+        "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "analysis",
+        "confidence_label": "reported",
+        "drivers": [
+          "Colton Herta"
+        ],
+        "headline": "Colton Herta branded 'childish in the extreme' in Cadillac snub reaction",
+        "id": "story-924d7ffed4d9143c1bc3",
+        "published_at": "2026-11-24T17:17:06Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Herta has taken a beating after recent decisions Colton Herta has been described as \u2018childish in the extreme\u2019 after missing out on a Cadillac race seat and stepping away from the F2",
+            "evidence_excerpts": [
+              "Herta has taken a beating after recent decisions Colton Herta has been described as \u2018childish in the extreme\u2019 after missing out on a Cadillac race seat and stepping away from the F2",
+              "And I\u2019m honestly perplexed and disappointed in Colton\u2019s decision to just, I\u2019ll be honest, ultimately, throw his toys out of the pram. \u201cI think it\u2019s childish in the extreme.",
+              "\u201cHe was the best-paid driver in IndyCar because Dan Towriss and TWG, they love him, and they saw something in him and they believed in him."
+            ],
+            "published_at": "2026-11-24T17:17:06Z",
+            "source_id": "planetf1",
+            "source_name": "PlanetF1",
+            "url": "https://www.planetf1.com/news/colton-herta-will-buxton-childish-cadillac-f2"
+          }
+        ],
+        "summary": "PlanetF1: \u201cHerta has taken a beating after recent decisions Colton Herta has been described as \u2018childish in the extreme\u2019 after missing out on a Cadillac race seat and stepping away from the F2\u201d\n\n\u201cAnd I\u2019m honestly perplexed and disappointed in Colton\u2019s decision to just, I\u2019ll be honest, ultimately, throw his toys out of the pram. \u201cI think it\u2019s childish in the extreme.\u201d\n\n\u201c\u201cHe was the best-paid driver in IndyCar because Dan Towriss and TWG, they love him, and they saw something in him and they believed in him.\u201d",
+        "teams": [
+          "Cadillac"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-11-24T22:22:34Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Robert Wickens"
+        ],
+        "headline": "Former F1 tester who suffered life-changing injuries in full-time racing return | Crash.net",
+        "id": "story-66f6980d71a916cb14a3",
+        "published_at": "2026-11-24T17:10:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Robert Wickens \u00a9 XPB Images Former Formula 1 test driver Robert Wickens has secured a full-time seat in the IMSA WeatherTech SportsCar Championship for the 2027 season, more than eight years after",
+            "evidence_excerpts": [
+              "Robert Wickens \u00a9 XPB Images Former Formula 1 test driver Robert Wickens has secured a full-time seat in the IMSA WeatherTech SportsCar Championship for the 2027 season, more than eight years after",
+              "suffering life-changing injuries. The Canadian has been confirmed as part of Hanley Motorsports Incorporated's driver line-up for its maiden campaign in the championship next year.",
+              "Wickens will share the team's #42 BMW M4 GT3 EVO with Mason Filippi in the GTD class, with the pair having previously competed together in a Chevrolet Corvette for DXDT Racing."
+            ],
+            "published_at": "2026-11-24T17:10:00Z",
+            "source_id": "crash_f1",
+            "source_name": "Crash.net Formula 1",
+            "url": "https://www.crash.net/f1/news/1110872/1/former-f1-tester-who-suffered-life-changing-injuries-full-time-racing-return"
+          }
+        ],
+        "summary": "Crash.net Formula 1: \u201cRobert Wickens \u00a9 XPB Images Former Formula 1 test driver Robert Wickens has secured a full-time seat in the IMSA WeatherTech SportsCar Championship for the 2027 season, more than eight years after\u201d\n\n\u201csuffering life-changing injuries. The Canadian has been confirmed as part of Hanley Motorsports Incorporated's driver line-up for its maiden campaign in the championship next year.\u201d\n\n\u201cWickens will share the team's #42 BMW M4 GT3 EVO with Mason Filippi in the GTD class, with the pair having previously competed together in a Chevrolet Corvette for DXDT Racing.\u201d",
+        "teams": [],
+        "topic": "general",
+        "updated_at": "2026-11-24T22:22:34Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "analysis",
+        "confidence_label": "reported",
+        "drivers": [
+          "Oliver Bearman"
+        ],
+        "headline": "Oliver Bearman names 'a bit sh*t' problem facing Haas in battle worth millions | RacingNews365",
+        "id": "story-8838419d6e05f1994654",
+        "published_at": "2026-11-24T16:30:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images Oliver Bearman believes Haas can only \"drive around in circles\" and hold up others to try and defend its position against Audi in the constructors'",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images Oliver Bearman believes Haas can only \"drive around in circles\" and hold up others to try and defend its position against Audi in the constructors'",
+              "the pace, in a \"bit sh*t\" situation. \"Exactly, we have to keep doing that,\" Bearman told media, including RacingNews365 , when asked about his comments from media day regarding 'hoping for luck",
+              "\"So that normally means Audi would score as well, but yeah, [we] just drive around in circles and hope they don't score. \"It is a bit sh*t, but what can we do?\""
+            ],
+            "published_at": "2026-11-24T16:30:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/oliver-bearman-names-a-bit-sh-t-problem-facing-haas-in-battle-worth-millions"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Oliver Bearman believes Haas can only \"drive around in circles\" and hold up others to try and defend its position against Audi in the constructors'\u201d\n\n\u201cthe pace, in a \"bit sh*t\" situation. \"Exactly, we have to keep doing that,\" Bearman told media, including RacingNews365 , when asked about his comments from media day regarding 'hoping for luck\u201d\n\n\u201c\"So that normally means Audi would score as well, but yeah, [we] just drive around in circles and hope they don't score. \"It is a bit sh*t, but what can we do?\"\u201d",
+        "teams": [
+          "Haas",
+          "Audi"
+        ],
+        "topic": "race",
+        "updated_at": "2026-11-24T22:22:34Z",
+        "why_it_matters": "This report adds context for the next race or a completed session. The race forecast is published separately at its scheduled checkpoint."
+      },
+      {
+        "attribution": "Official source statement",
+        "claim_type": "fact",
+        "confidence_label": "official",
+        "drivers": [],
+        "headline": "What time is the Formula 1 2026 Qatar Grand Prix and how can I watch it?",
+        "id": "story-1ca94678eabe857b6250",
+        "published_at": "2026-11-24T16:15:52Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Qatar 2026 What time is the Formula 1 2026 Qatar Grand Prix and how can I watch it?",
+            "evidence_excerpts": [
+              "Qatar 2026 What time is the Formula 1 2026 Qatar Grand Prix and how can I watch it?",
+              "What time is the Qatar Grand Prix? The weekend will kick off with Free Practice 1 at 1630 local time on Friday, 27 November, followed by Free Practice 2 later that day",
+              "The Grand Prix itself will take place at 1900 on Sunday, 29 November. Check out the table below to find all the global start times for Sunday's race."
+            ],
+            "published_at": "2026-11-24T16:15:52Z",
+            "source_id": "formula1_official_latest",
+            "source_name": "Formula 1 Official Latest",
+            "url": "https://www.formula1.com/en/latest/article/what-time-is-the-formula-1-2026-qatar-grand-prix-and-how-can-i-watch-it.XirX9Qy8hRZnH3O1Qhcch"
+          }
+        ],
+        "summary": "Formula 1 Official Latest: \u201cQatar 2026 What time is the Formula 1 2026 Qatar Grand Prix and how can I watch it?\u201d\n\n\u201cWhat time is the Qatar Grand Prix? The weekend will kick off with Free Practice 1 at 1630 local time on Friday, 27 November, followed by Free Practice 2 later that day\u201d\n\n\u201cThe Grand Prix itself will take place at 1900 on Sunday, 29 November. Check out the table below to find all the global start times for Sunday's race.\u201d",
+        "teams": [],
+        "topic": "calendar",
+        "updated_at": "2026-11-24T22:22:34Z",
+        "why_it_matters": "Calendar and event changes can affect weekend planning. Check official event information for the applicable schedule."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Ayrton Senna"
+        ],
+        "headline": "Historic Ayrton Senna Williams F1 car fails to sell at multi-million-dollar auction | Crash.net",
+        "id": "story-ac2a5af0ecffcaef50f6",
+        "published_at": "2026-11-24T16:00:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Ayrton Senna \u00a9 XPB Images A rare Williams Formula 1 car driven by three-time world champion Ayrton Senna has failed to sell at auction despite being valued at up to $6 million.",
+            "evidence_excerpts": [
+              "Ayrton Senna \u00a9 XPB Images A rare Williams Formula 1 car driven by three-time world champion Ayrton Senna has failed to sell at auction despite being valued at up to $6 million.",
+              "The Williams FW16B-01 is one of just two surviving chassis driven by the legendary Brazilian during his final season in Formula 1 in 1994.",
+              "However, the historic Formula 1 car failed to sell after bidding fell short of the undisclosed reserve price."
+            ],
+            "published_at": "2026-11-24T16:00:00Z",
+            "source_id": "crash_f1",
+            "source_name": "Crash.net Formula 1",
+            "url": "https://www.crash.net/f1/news/1110870/1/historic-ayrton-senna-williams-f1-car-fails-sell-multi-million-dollar-auction"
+          }
+        ],
+        "summary": "Crash.net Formula 1: \u201cAyrton Senna \u00a9 XPB Images A rare Williams Formula 1 car driven by three-time world champion Ayrton Senna has failed to sell at auction despite being valued at up to $6 million.\u201d\n\n\u201cThe Williams FW16B-01 is one of just two surviving chassis driven by the legendary Brazilian during his final season in Formula 1 in 1994.\u201d\n\n\u201cHowever, the historic Formula 1 car failed to sell after bidding fell short of the undisclosed reserve price.\u201d",
+        "teams": [
+          "Williams"
+        ],
+        "topic": "general",
+        "updated_at": "2026-11-24T22:22:34Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Unconfirmed claim",
+        "claim_type": "unconfirmed",
+        "confidence_label": "unconfirmed",
+        "drivers": [
+          "Fernando Alonso",
+          "Alex Palou"
+        ],
+        "headline": "Fernando Alonso fuels rumours over surprising adventure outside of F1 | RacingNews365",
+        "id": "story-c3ef709b3424fa591830",
+        "published_at": "2026-11-24T15:35:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "As Alonso looks forward to the 2027 season, which will see him partake in the Dakar Rally in January, something else seems to be getting him excited.",
+            "evidence_excerpts": [
+              "As Alonso looks forward to the 2027 season, which will see him partake in the Dakar Rally in January, something else seems to be getting him excited.",
+              "The post immediately sparked hopeful rumours that Alonso could have some involvement during the IndyCar weekend from Barcelona.",
+              "Alonso himself responded with a GIF that suggests something like this is seriously on the table. Whether it will actually happen remains to be seen. Check out Alex Palou\u2019s Instagram post below!"
+            ],
+            "published_at": "2026-11-24T15:35:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/fernando-alonso-fuels-rumours-over-surprising-adventure-outside-of-f1"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cAs Alonso looks forward to the 2027 season, which will see him partake in the Dakar Rally in January, something else seems to be getting him excited.\u201d\n\n\u201cThe post immediately sparked hopeful rumours that Alonso could have some involvement during the IndyCar weekend from Barcelona.\u201d\n\n\u201cAlonso himself responded with a GIF that suggests something like this is seriously on the table. Whether it will actually happen remains to be seen. Check out Alex Palou\u2019s Instagram post below!\u201d",
+        "teams": [],
+        "topic": "driver_market",
+        "updated_at": "2026-11-24T22:22:34Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [],
+        "headline": "Motorsport UK announces new Chair as David Richards steps down | Crash.net",
+        "id": "story-2524bbe643e92ccff6e4",
+        "published_at": "2026-11-24T15:13:20Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Russell's GRandstand will have views of the first four corners at Silverstone \u00a9 XPB Images Motorsport UK has announced former Ford chief Steve Armstrong will replace David Richards CBE as its new",
+            "evidence_excerpts": [
+              "Russell's GRandstand will have views of the first four corners at Silverstone \u00a9 XPB Images Motorsport UK has announced former Ford chief Steve Armstrong will replace David Richards CBE as its new",
+              "Chair effective from 1 January. The UK\u2019s national governing body has brought in the highly experienced Armstrong to head the organisation, after his 40 years in the automotive industry.",
+              "David Richards has served as MSUK\u2019s Chair since 2018 and has remained in the post since, completing the maximum allowed term of three three-year periods."
+            ],
+            "published_at": "2026-11-24T15:13:20Z",
+            "source_id": "crash_f1",
+            "source_name": "Crash.net Formula 1",
+            "url": "https://www.crash.net/f1/news/1110868/1/motorsport-uk-announces-new-chair-david-richards-steps-down"
+          }
+        ],
+        "summary": "Crash.net Formula 1: \u201cRussell's GRandstand will have views of the first four corners at Silverstone \u00a9 XPB Images Motorsport UK has announced former Ford chief Steve Armstrong will replace David Richards CBE as its new\u201d\n\n\u201cChair effective from 1 January. The UK\u2019s national governing body has brought in the highly experienced Armstrong to head the organisation, after his 40 years in the automotive industry.\u201d\n\n\u201cDavid Richards has served as MSUK\u2019s Chair since 2018 and has remained in the post since, completing the maximum allowed term of three three-year periods.\u201d",
+        "teams": [],
+        "topic": "regulations",
+        "updated_at": "2026-11-24T22:22:34Z",
+        "why_it_matters": "Sporting or technical rule changes can affect team decisions. Check the cited document for scope and implementation dates."
+      }
+    ],
+    "next_check_at": "2026-11-26T22:22:34Z",
+    "provider": "deepseek",
+    "schema_version": "2.0",
+    "sources_checked": 7,
+    "status": "published",
+    "summary": "12 sourced F1 updates. Open each report for evidence and context.",
+    "updated_at": "2026-11-24T22:22:34Z"
+  },
+  {
     "brief_id": "news-06c338391cd70c89942a",
     "checked_at": "2026-11-22T19:32:25Z",
     "coverage_note": "Some sources could not be checked. These reports reflect the linked evidence that was available.",
