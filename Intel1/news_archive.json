@@ -1,5 +1,459 @@
 [
   {
+    "brief_id": "news-89caab80c2e32e038e71",
+    "checked_at": "2026-11-27T08:20:39Z",
+    "coverage_note": "Some sources could not be checked. These reports reflect the linked evidence that was available.",
+    "coverage_status": "partial",
+    "failed_sources": [
+      {
+        "source_id": "autosport_f1",
+        "source_name": "Autosport Formula 1"
+      },
+      {
+        "source_id": "bbc_sport_f1",
+        "source_name": "BBC Sport Formula 1"
+      },
+      {
+        "source_id": "espn_f1",
+        "source_name": "ESPN Formula 1"
+      },
+      {
+        "source_id": "fia_f1_2026_documents",
+        "source_name": "FIA Formula One 2026 Decision Documents"
+      },
+      {
+        "source_id": "formula1_official_latest",
+        "source_name": "Formula 1 Official Latest"
+      },
+      {
+        "source_id": "guardian_formula_one",
+        "source_name": "The Guardian Formula One"
+      },
+      {
+        "source_id": "motorsport_f1",
+        "source_name": "Motorsport.com Formula 1"
+      },
+      {
+        "source_id": "pirelli_formula1_tag",
+        "source_name": "Pirelli Formula 1 Tag"
+      },
+      {
+        "source_id": "racer_f1",
+        "source_name": "RACER Formula 1"
+      },
+      {
+        "source_id": "reuters_formula1",
+        "source_name": "Reuters Formula 1"
+      }
+    ],
+    "headline": "Kimi Antonelli voices desire to partner up with Max Verstappen | RacingNews365",
+    "is_preview": false,
+    "items": [
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Kimi Antonelli",
+          "Max Verstappen"
+        ],
+        "headline": "Kimi Antonelli voices desire to partner up with Max Verstappen | RacingNews365",
+        "id": "story-2867ab7e078d645d8c45",
+        "published_at": "2026-11-27T08:00:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images Kimi Antonelli has stated he would be keen to partner up with Max Verstappen and race alongside the Dutchman at a Nordschleife endurance race.",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images Kimi Antonelli has stated he would be keen to partner up with Max Verstappen and race alongside the Dutchman at a Nordschleife endurance race.",
+              "\u201cWe did talk about it,\u201c Antonelli told media including RacingNews365 . \u201cFirst we need to convince the big boss, Toto [Wolff].",
+              "\"So I would love to race there one day and definitely if it would be with Max together in the team, it would be even better."
+            ],
+            "published_at": "2026-11-27T08:00:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/kimi-antonelli-voices-desire-to-partner-up-with-max-verstappen"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Kimi Antonelli has stated he would be keen to partner up with Max Verstappen and race alongside the Dutchman at a Nordschleife endurance race.\u201d\n\n\u201c\u201cWe did talk about it,\u201c Antonelli told media including RacingNews365 . \u201cFirst we need to convince the big boss, Toto [Wolff].\u201d\n\n\u201c\"So I would love to race there one day and definitely if it would be with Max together in the team, it would be even better.\u201d",
+        "teams": [
+          "Mercedes",
+          "Red Bull Racing"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-11-27T08:20:39Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Ollie Bearman",
+          "Rafael Camara"
+        ],
+        "headline": "Ollie Bearman opens up about \"unnerving\" Haas renewal and Ferrari F1 'dream' | Crash.net",
+        "id": "story-6cdd9fe3af9f478bbf8c",
+        "published_at": "2026-11-27T08:00:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Ollie Bearman opens up about his drawn-out Haas renewal Ollie Bearman has admitted his drawn-out renewal with the Haas Formula 1 team was \u201ca bit unnerving\u201d.",
+            "evidence_excerpts": [
+              "Ollie Bearman opens up about his drawn-out Haas renewal Ollie Bearman has admitted his drawn-out renewal with the Haas Formula 1 team was \u201ca bit unnerving\u201d.",
+              "After protracted contract talks which dragged on for several months, Haas finally confirmed that Bearman would be retained for the 2027 season ahead of the Qatar Grand Prix on Thursday.",
+              "Bearman will continue with Haas in 2027 \u201cEven though it was very, very sure that I would continue with Haas since forever, it's always a little bit unnerving, especially when we got"
+            ],
+            "published_at": "2026-11-27T08:00:00Z",
+            "source_id": "crash_f1",
+            "source_name": "Crash.net Formula 1",
+            "url": "https://www.crash.net/f1/news/1110925/1/ollie-bearman-opens-about-unnerving-haas-renewal-and-ferrari-f1-dream"
+          }
+        ],
+        "summary": "Crash.net Formula 1: \u201cOllie Bearman opens up about his drawn-out Haas renewal Ollie Bearman has admitted his drawn-out renewal with the Haas Formula 1 team was \u201ca bit unnerving\u201d.\u201d\n\n\u201cAfter protracted contract talks which dragged on for several months, Haas finally confirmed that Bearman would be retained for the 2027 season ahead of the Qatar Grand Prix on Thursday.\u201d\n\n\u201cBearman will continue with Haas in 2027 \u201cEven though it was very, very sure that I would continue with Haas since forever, it's always a little bit unnerving, especially when we got\u201d",
+        "teams": [
+          "Haas",
+          "Ferrari"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-11-27T08:20:39Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "analysis",
+        "confidence_label": "reported",
+        "drivers": [
+          "Lewis Hamilton",
+          "Charles Leclerc"
+        ],
+        "headline": "Lewis Hamilton reveals plan to 'shoot the shit' with Leclerc over Ferrari differences",
+        "id": "story-8fc6908593d00cee1a20",
+        "published_at": "2026-11-27T07:51:10Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Lewis Hamilton plans to continue talks with Charles Leclerc into the winter Lewis Hamilton believes that the upcoming winter break will provide him and Ferrari teammate Charles Leclerc with the ideal window",
+            "evidence_excerpts": [
+              "Lewis Hamilton plans to continue talks with Charles Leclerc into the winter Lewis Hamilton believes that the upcoming winter break will provide him and Ferrari teammate Charles Leclerc with the ideal window",
+              "is certain the Italian marque will be better for this experience in the future. \u201cI like to think that we\u2019re stronger from these difficulties,\u201d Hamilton pondered.",
+              "\u201cAnd we\u2019d be out of competition, so it would be much easier to just shoot the shit."
+            ],
+            "published_at": "2026-11-27T07:51:10Z",
+            "source_id": "planetf1",
+            "source_name": "PlanetF1",
+            "url": "https://www.planetf1.com/news/lewis-hamilton-reveals-charles-leclerc-ferrari-differences-plan"
+          }
+        ],
+        "summary": "PlanetF1: \u201cLewis Hamilton plans to continue talks with Charles Leclerc into the winter Lewis Hamilton believes that the upcoming winter break will provide him and Ferrari teammate Charles Leclerc with the ideal window\u201d\n\n\u201cis certain the Italian marque will be better for this experience in the future. \u201cI like to think that we\u2019re stronger from these difficulties,\u201d Hamilton pondered.\u201d\n\n\u201c\u201cAnd we\u2019d be out of competition, so it would be much easier to just shoot the shit.\u201d",
+        "teams": [
+          "Ferrari"
+        ],
+        "topic": "general",
+        "updated_at": "2026-11-27T08:20:39Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "George Russell"
+        ],
+        "headline": "Russell says he\u2019s learned some in media will be \u201ccheeky\u201d with his quotes \u2013 RaceFans",
+        "id": "story-28308a214be0a1d87614",
+        "published_at": "2026-11-27T07:15:07Z",
+        "sources": [
+          {
+            "evidence_excerpt": "George Russell says he has learned to be more aware his words may not be used in the manner he intends to when speaking to the media.",
+            "evidence_excerpts": [
+              "George Russell says he has learned to be more aware his words may not be used in the manner he intends to when speaking to the media.",
+              "Russell said he knows from experience his words may not be taken as he intends and named two people he had dealt with in the paddock who had been \u201ca little bit",
+              "So, they asked me the question on camera, and then they go away and spin the truth into something slightly different."
+            ],
+            "published_at": "2026-11-27T07:15:07Z",
+            "source_id": "racefans_f1",
+            "source_name": "RaceFans Formula 1",
+            "url": "https://www.racefans.net/2026/11/27/russell-says-hes-learned-some-in-media-will-be-cheeky-with-his-quotes/"
+          }
+        ],
+        "summary": "RaceFans Formula 1: \u201cGeorge Russell says he has learned to be more aware his words may not be used in the manner he intends to when speaking to the media.\u201d\n\n\u201cRussell said he knows from experience his words may not be taken as he intends and named two people he had dealt with in the paddock who had been \u201ca little bit\u201d\n\n\u201cSo, they asked me the question on camera, and then they go away and spin the truth into something slightly different.\u201d",
+        "teams": [
+          "Mercedes"
+        ],
+        "topic": "general",
+        "updated_at": "2026-11-27T08:20:39Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Unconfirmed claim",
+        "claim_type": "fact",
+        "confidence_label": "unconfirmed",
+        "drivers": [
+          "Charles Leclerc",
+          "Lewis Hamilton"
+        ],
+        "headline": "Charles Leclerc makes rare contract declaration over Ferrari number one status | RacingNews365",
+        "id": "story-a8a7b766c320ab8d70fc",
+        "published_at": "2026-11-27T07:10:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images Charles Leclerc has taken the rare step of publicly talking about his F1 contract to dispel online speculation about his status at Ferrari.",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images Charles Leclerc has taken the rare step of publicly talking about his F1 contract to dispel online speculation about his status at Ferrari.",
+              "firmly deny the claim. \"I normally never disclose what I have in my contract, but I think this one is an important one to speak about,\" Leclerc told media, including RacingNews365.",
+              "\"I absolutely have zero clause that says that in my contract. It's never something that I was interested in and never something that I personally wanted. \"So, no, I don\u2019t.\""
+            ],
+            "published_at": "2026-11-27T07:10:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/charles-leclerc-makes-rare-contract-declaration-over-ferrari-number-one-status"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Charles Leclerc has taken the rare step of publicly talking about his F1 contract to dispel online speculation about his status at Ferrari.\u201d\n\n\u201cfirmly deny the claim. \"I normally never disclose what I have in my contract, but I think this one is an important one to speak about,\" Leclerc told media, including RacingNews365.\u201d\n\n\u201c\"I absolutely have zero clause that says that in my contract. It's never something that I was interested in and never something that I personally wanted. \"So, no, I don\u2019t.\"\u201d",
+        "teams": [
+          "Ferrari"
+        ],
+        "topic": "driver_market",
+        "updated_at": "2026-11-27T08:20:39Z",
+        "why_it_matters": "Driver and personnel developments can affect future team plans. Reported negotiations remain uncertain until announced."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [],
+        "headline": "F1 takes unprecedented action ahead of Qatar Grand Prix",
+        "id": "story-f4d2d7205f9df6f1fbe6",
+        "published_at": "2026-11-27T07:03:45Z",
+        "sources": [
+          {
+            "evidence_excerpt": "George Russell (Mercedes W16) leads a queue of cars at the start of the Qatar Grand Prix sprint race in 2025 The F1 2026 cars will be forced to run minimum front-tyre",
+            "evidence_excerpts": [
+              "George Russell (Mercedes W16) leads a queue of cars at the start of the Qatar Grand Prix sprint race in 2025 The F1 2026 cars will be forced to run minimum front-tyre",
+              "pressures of 29psi at this weekend\u2019s Qatar Grand Prix, the FIA has confirmed.",
+              "circuit. In a further move, the FIA\u2019s competition notes \u2013 distributed to teams by race director Rui Marques on Thursday \u2013 confirmed that the minimum front tyre pressures will be set at"
+            ],
+            "published_at": "2026-11-27T07:03:45Z",
+            "source_id": "planetf1",
+            "source_name": "PlanetF1",
+            "url": "https://www.planetf1.com/news/fia-qatar-grand-prix-2026-pirelli-tyres"
+          }
+        ],
+        "summary": "PlanetF1: \u201cGeorge Russell (Mercedes W16) leads a queue of cars at the start of the Qatar Grand Prix sprint race in 2025 The F1 2026 cars will be forced to run minimum front-tyre\u201d\n\n\u201cpressures of 29psi at this weekend\u2019s Qatar Grand Prix, the FIA has confirmed.\u201d\n\n\u201ccircuit. In a further move, the FIA\u2019s competition notes \u2013 distributed to teams by race director Rui Marques on Thursday \u2013 confirmed that the minimum front tyre pressures will be set at\u201d",
+        "teams": [],
+        "topic": "technical",
+        "updated_at": "2026-11-27T08:20:39Z",
+        "why_it_matters": "Technical changes can affect car performance and development priorities. Competitive gains require evidence from track running."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Max Verstappen",
+          "George Russell"
+        ],
+        "headline": "Max Verstappen issues final statement on simmering George Russell tensions | RacingNews365",
+        "id": "story-1d6b10da4f446bb225ae",
+        "published_at": "2026-11-27T06:20:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images Max Verstappen has drawn a final line under his tensions with George Russell after the Las Vegas Grand Prix.",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images Max Verstappen has drawn a final line under his tensions with George Russell after the Las Vegas Grand Prix.",
+              "Reflecting on it himself, Verstappen explained that he firmly considered the matter closed. \"I have nothing to say about that anymore,\" Verstappen began to tell media, including RacingNews365.",
+              "\"I said everything in Vegas. That\u2019s it. \"From my side, there is nothing more to it. \"I'm not bothered by it. I\u2019m just focused on this weekend."
+            ],
+            "published_at": "2026-11-27T06:20:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/max-verstappen-issues-final-statement-on-simmering-george-russell-tensions"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Max Verstappen has drawn a final line under his tensions with George Russell after the Las Vegas Grand Prix.\u201d\n\n\u201cReflecting on it himself, Verstappen explained that he firmly considered the matter closed. \"I have nothing to say about that anymore,\" Verstappen began to tell media, including RacingNews365.\u201d\n\n\u201c\"I said everything in Vegas. That\u2019s it. \"From my side, there is nothing more to it. \"I'm not bothered by it. I\u2019m just focused on this weekend.\u201d",
+        "teams": [
+          "Red Bull Racing",
+          "Mercedes"
+        ],
+        "topic": "general",
+        "updated_at": "2026-11-27T08:20:39Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "analysis",
+        "confidence_label": "reported",
+        "drivers": [
+          "George Russell",
+          "Kimi Antonelli"
+        ],
+        "headline": "Nico Rosberg doubts George Russell title chances with 'mental hole' verdict",
+        "id": "story-4d3188a460abb25799a4",
+        "published_at": "2026-11-27T05:52:55Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Nico Rosberg has predicted George Russell won\u2019t be in the running for next year\u2019s title, as he \u201cdug himself into a mental hole\u201d while he stared down defeat in this year\u2019s championship.",
+            "evidence_excerpts": [
+              "Nico Rosberg has predicted George Russell won\u2019t be in the running for next year\u2019s title, as he \u201cdug himself into a mental hole\u201d while he stared down defeat in this year\u2019s championship.",
+              "Rosberg has questioned whether Russell will even factor in next year\u2019s title fight, \u201cwhich is kind of crazy\u201d. \u201c[Russell has] dug himself into a mental hole,\u201d he told Sport Bild.",
+              "\u201cThe level he\u2019s raced at this year is truly extraordinary,\u201d said Rosberg. \u201cHe faced Max Verstappen in top form and gave him a full challenge, sometimes even dominating him. That\u2019s really gigantic."
+            ],
+            "published_at": "2026-11-27T05:52:55Z",
+            "source_id": "planetf1",
+            "source_name": "PlanetF1",
+            "url": "https://www.planetf1.com/news/nico-rosberg-george-russell-2027-title-prediction"
+          }
+        ],
+        "summary": "PlanetF1: \u201cNico Rosberg has predicted George Russell won\u2019t be in the running for next year\u2019s title, as he \u201cdug himself into a mental hole\u201d while he stared down defeat in this year\u2019s championship.\u201d\n\n\u201cRosberg has questioned whether Russell will even factor in next year\u2019s title fight, \u201cwhich is kind of crazy\u201d. \u201c[Russell has] dug himself into a mental hole,\u201d he told Sport Bild.\u201d\n\n\u201c\u201cThe level he\u2019s raced at this year is truly extraordinary,\u201d said Rosberg. \u201cHe faced Max Verstappen in top form and gave him a full challenge, sometimes even dominating him. That\u2019s really gigantic.\u201d",
+        "teams": [
+          "Mercedes"
+        ],
+        "topic": "general",
+        "updated_at": "2026-11-27T08:20:39Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Oscar Piastri",
+          "Lando Norris"
+        ],
+        "headline": "Oscar Piastri offers 'f***ing be careful' McLaren radio explanation | RacingNews365",
+        "id": "story-815166e0e36411f62537",
+        "published_at": "2026-11-27T05:30:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Article To news overview \u00a9 XPB Images Oscar Piastri has explained why he snapped back at his own team over the radio during the Las Vegas Grand Prix, telling race engineer Tom",
+            "evidence_excerpts": [
+              "Article To news overview \u00a9 XPB Images Oscar Piastri has explained why he snapped back at his own team over the radio during the Las Vegas Grand Prix, telling race engineer Tom",
+              "Asked what provoked his snappy response on the radio, Piastri explained to select media, including RacingNews365 : \"Well, I just wanted to make it clear that I know where we sit as",
+              "a team. \"I know what our objective is for the end of the season, to try and beat Red Bull, and yeah, I don't need to be told to be careful, essentially."
+            ],
+            "published_at": "2026-11-27T05:30:00Z",
+            "source_id": "racingnews365_f1",
+            "source_name": "RacingNews365 Formula 1",
+            "url": "https://racingnews365.com/oscar-piastri-offers-f-ing-be-careful-mclaren-radio-explanation"
+          }
+        ],
+        "summary": "RacingNews365 Formula 1: \u201cArticle To news overview \u00a9 XPB Images Oscar Piastri has explained why he snapped back at his own team over the radio during the Las Vegas Grand Prix, telling race engineer Tom\u201d\n\n\u201cAsked what provoked his snappy response on the radio, Piastri explained to select media, including RacingNews365 : \"Well, I just wanted to make it clear that I know where we sit as\u201d\n\n\u201ca team. \"I know what our objective is for the end of the season, to try and beat Red Bull, and yeah, I don't need to be told to be careful, essentially.\u201d",
+        "teams": [
+          "McLaren"
+        ],
+        "topic": "general",
+        "updated_at": "2026-11-27T08:20:39Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Max Verstappen",
+          "George Russell"
+        ],
+        "headline": "Max Verstappen gives emphatic response to George Russell Las Vegas drama",
+        "id": "story-56721b7dc2d971be66c0",
+        "published_at": "2026-11-27T04:35:23Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Max Verstappen has moved to put his latest spat with George Russell to bed.",
+            "evidence_excerpts": [
+              "Max Verstappen has moved to put his latest spat with George Russell to bed.",
+              "Asked by PlanetF1.com about what it would take to put their personal acrimony behind them after Las Vegas, Verstappen replied: \u201cI have nothing to say about that anymore.",
+              "\u201cI said everything in Vegas, and that\u2019s it. From my side, there is nothing more to it. \u201cI\u2019m not bothered by it, I\u2019m just focused on this weekend."
+            ],
+            "published_at": "2026-11-27T04:35:23Z",
+            "source_id": "planetf1",
+            "source_name": "PlanetF1",
+            "url": "https://www.planetf1.com/news/max-verstappen-george-russell-argument-response"
+          }
+        ],
+        "summary": "PlanetF1: \u201cMax Verstappen has moved to put his latest spat with George Russell to bed.\u201d\n\n\u201cAsked by PlanetF1.com about what it would take to put their personal acrimony behind them after Las Vegas, Verstappen replied: \u201cI have nothing to say about that anymore.\u201d\n\n\u201c\u201cI said everything in Vegas, and that\u2019s it. From my side, there is nothing more to it. \u201cI\u2019m not bothered by it, I\u2019m just focused on this weekend.\u201d",
+        "teams": [
+          "Red Bull",
+          "Mercedes"
+        ],
+        "topic": "general",
+        "updated_at": "2026-11-27T08:20:39Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Reported claim",
+        "claim_type": "fact",
+        "confidence_label": "reported",
+        "drivers": [
+          "Nico Rosberg",
+          "Lewis Hamilton"
+        ],
+        "headline": "On This Day: Hamilton\u2019s tactical slowdown can\u2019t stop Rosberg taking the title \u2013 RaceFans",
+        "id": "story-ecba490a0cd5d6309424",
+        "published_at": "2026-11-27T00:01:00Z",
+        "sources": [
+          {
+            "evidence_excerpt": "Nico Rosberg won the world championship 10 years ago today \u2013 in what turned out to be his final race.",
+            "evidence_excerpts": [
+              "Nico Rosberg won the world championship 10 years ago today \u2013 in what turned out to be his final race.",
+              "The Abu Dhabi finale was a peculiar race as Rosberg\u2019s and championship rival Lewis Hamilton needed to win with his team mate finishing outside the top three.",
+              "He therefore strived from the outset to hold on to the lead while compromising Rosberg\u2019s race. It was to no avail, however: Hamilton won the battle but Rosberg won the war."
+            ],
+            "published_at": "2026-11-27T00:01:00Z",
+            "source_id": "racefans_f1",
+            "source_name": "RaceFans Formula 1",
+            "url": "https://www.racefans.net/2026/11/27/on-this-day-abu-dhabi-grand-prix/"
+          }
+        ],
+        "summary": "RaceFans Formula 1: \u201cNico Rosberg won the world championship 10 years ago today \u2013 in what turned out to be his final race.\u201d\n\n\u201cThe Abu Dhabi finale was a peculiar race as Rosberg\u2019s and championship rival Lewis Hamilton needed to win with his team mate finishing outside the top three.\u201d\n\n\u201cHe therefore strived from the outset to hold on to the lead while compromising Rosberg\u2019s race. It was to no avail, however: Hamilton won the battle but Rosberg won the war.\u201d",
+        "teams": [
+          "Mercedes"
+        ],
+        "topic": "general",
+        "updated_at": "2026-11-27T08:20:39Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      },
+      {
+        "attribution": "Official source statement",
+        "claim_type": "fact",
+        "confidence_label": "official",
+        "drivers": [
+          "Max Verstappen",
+          "George Russell"
+        ],
+        "headline": "PADDOCK INSIDER: All the stories that got the Qatar Grand Prix paddock talking",
+        "id": "story-a95215bc39bc1fc97b25",
+        "published_at": "2026-11-26T23:45:08Z",
+        "sources": [
+          {
+            "evidence_excerpt": "And there was plenty to talk about as the drivers and teams arrived for Thursday\u2019s media duties\u2026 Verstappen vs Russell (again) Max Verstappen delivered a masterclass at the Las Vegas Strip Circuit",
+            "evidence_excerpts": [
+              "And there was plenty to talk about as the drivers and teams arrived for Thursday\u2019s media duties\u2026 Verstappen vs Russell (again) Max Verstappen delivered a masterclass at the Las Vegas Strip Circuit",
+              "some five days ago, coming out on top in a race that featured a whopping 35 lead changes and 352 overtakes \u2013 including plenty of wheel-to-wheel moments with George Russell .",
+              "This came after a clash between the Red Bull and Mercedes drivers during final practice, which reignited their on-and-off rivalry from the last few seasons."
+            ],
+            "published_at": "2026-11-26T23:45:08Z",
+            "source_id": "formula1_official_latest",
+            "source_name": "Formula 1 Official Latest",
+            "url": "https://www.formula1.com/en/latest/article/all-the-stories-that-got-the-qatar-paddock-talking.7oePpDkNxzG1j0359UuyOo"
+          }
+        ],
+        "summary": "Formula 1 Official Latest: \u201cAnd there was plenty to talk about as the drivers and teams arrived for Thursday\u2019s media duties\u2026 Verstappen vs Russell (again) Max Verstappen delivered a masterclass at the Las Vegas Strip Circuit\u201d\n\n\u201csome five days ago, coming out on top in a race that featured a whopping 35 lead changes and 352 overtakes \u2013 including plenty of wheel-to-wheel moments with George Russell .\u201d\n\n\u201cThis came after a clash between the Red Bull and Mercedes drivers during final practice, which reignited their on-and-off rivalry from the last few seasons.\u201d",
+        "teams": [
+          "Red Bull",
+          "Mercedes"
+        ],
+        "topic": "general",
+        "updated_at": "2026-11-27T08:20:39Z",
+        "why_it_matters": "This report provides season context. Its cited evidence should be read alongside subsequent updates."
+      }
+    ],
+    "next_check_at": "2026-11-29T08:20:39Z",
+    "provider": "deepseek",
+    "schema_version": "2.0",
+    "sources_checked": 7,
+    "status": "published",
+    "summary": "12 sourced F1 updates. Open each report for evidence and context.",
+    "updated_at": "2026-11-27T08:20:39Z"
+  },
+  {
     "brief_id": "news-7303b72bb4d5ee1c6e22",
     "checked_at": "2026-11-24T22:22:34Z",
     "coverage_note": "Some sources could not be checked. These reports reflect the linked evidence that was available.",
